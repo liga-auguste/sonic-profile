@@ -123,26 +123,30 @@ export default function ProfileSection({ data, isDemo }) {
       <div className="profile-grid">
         <div className="profile-card">
           <div className="avatar">
-            <svg viewBox="0 0 120 120" width="120" height="120">
-              <defs>
-                <linearGradient id="ag" x1="0" y1="0" x2="1" y2="1">
-                  <stop offset="0" stopColor="oklch(0.62 0.16 168)" />
-                  <stop offset="1" stopColor="oklch(0.42 0.12 320)" />
-                </linearGradient>
-              </defs>
-              <circle cx="60" cy="60" r="60" fill="url(#ag)" />
-              <text
-                x="60"
-                y="74"
-                textAnchor="middle"
-                fontFamily="'Bricolage Grotesque', serif"
-                fontWeight="600"
-                fontSize="48"
-                fill="oklch(0.98 0.02 168)"
-              >
-                {initials}
-              </text>
-            </svg>
+            {profile.image ? (
+              <img src={profile.image} alt={profile.display_name} className="avatar-img" />
+            ) : (
+              <svg viewBox="0 0 120 120" width="90" height="90">
+                <defs>
+                  <linearGradient id="ag" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0" stopColor="oklch(0.62 0.16 168)" />
+                    <stop offset="1" stopColor="oklch(0.42 0.12 320)" />
+                  </linearGradient>
+                </defs>
+                <circle cx="60" cy="60" r="60" fill="url(#ag)" />
+                <text
+                  x="60"
+                  y="74"
+                  textAnchor="middle"
+                  fontFamily="'Bricolage Grotesque', serif"
+                  fontWeight="600"
+                  fontSize="48"
+                  fill="oklch(0.98 0.02 168)"
+                >
+                  {initials}
+                </text>
+              </svg>
+            )}
             <div className="avatar-ring" />
           </div>
           <div className="profile-name">{profile.display_name}</div>
@@ -172,7 +176,16 @@ export default function ProfileSection({ data, isDemo }) {
           </div>
         </div>
 
-        <NowPlaying cp={cp} />
+        {isDemo ? (
+          <div className="now-playing now-playing-empty">
+            <div className="np-empty-inner">
+              <div className="np-empty-icon">♫</div>
+              <div className="np-empty-text">log in to see what's playing</div>
+            </div>
+          </div>
+        ) : (
+          <NowPlaying cp={cp} />
+        )}
       </div>
 
       <div className="profile-secondary">

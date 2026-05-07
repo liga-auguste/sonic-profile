@@ -59,6 +59,7 @@ export default function useSpotifyData(isDemo) {
             product: profile.product,
             followers: profile.followers?.total ?? 0,
             url: profile.external_urls?.spotify ?? "",
+            image: profile.images?.[0]?.url ?? null,
           },
           top_tracks,
           top_artists,

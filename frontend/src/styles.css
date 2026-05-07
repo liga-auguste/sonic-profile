@@ -344,7 +344,7 @@ button {
   background: linear-gradient(180deg, var(--panel-2), var(--panel));
   border: 1px solid var(--line);
   border-radius: 14px;
-  padding: 26px 24px;
+  padding: 20px 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -354,14 +354,18 @@ button {
 
 .avatar {
   position: relative;
-  width: 132px;
-  height: 132px;
-  margin: 6px auto 14px;
+  width: 96px;
+  height: 96px;
+  margin: 2px auto 10px;
 }
 
-.avatar svg {
+.avatar svg,
+.avatar-img {
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
   display: block;
+  object-fit: cover;
 }
 
 .avatar-ring {
@@ -402,8 +406,8 @@ button {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  margin-top: 22px;
-  padding-top: 18px;
+  margin-top: 14px;
+  padding-top: 14px;
   border-top: 1px solid var(--line);
 }
 
@@ -422,7 +426,7 @@ button {
 }
 
 .profile-quote {
-  margin-top: 22px;
+  margin-top: 14px;
   font-style: italic;
   color: var(--text-dim);
   font-size: 13.5px;
@@ -444,9 +448,34 @@ button {
   background: linear-gradient(135deg, oklch(0.24 0.04 168), oklch(0.2 0.02 280));
   border: 1px solid var(--line);
   border-radius: 14px;
-  padding: 24px 26px;
+  padding: 20px 26px;
   position: relative;
   overflow: hidden;
+}
+
+.now-playing-empty {
+  display: grid;
+  place-items: center;
+  min-height: 200px;
+}
+
+.np-empty-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  color: var(--text-faint);
+}
+
+.np-empty-icon {
+  font-size: 32px;
+  opacity: 0.4;
+}
+
+.np-empty-text {
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: 0.04em;
 }
 
 .now-playing::before {
