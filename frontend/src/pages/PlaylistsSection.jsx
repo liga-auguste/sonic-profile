@@ -1,57 +1,100 @@
-// Playlist Manager — core feature
-// Demo mode shows mock data; live mode uses authenticated Spotify API
-// owner.id === spotify → Spotify-generated
-// owner.id === user_id → own playlist
-// anything else        → followed foreign playlist
+import { useState, useEffect } from "react";
+import { fetchPlaylists, unfollowPlaylist } from "../api/spotify";
+import Cover from "../components/Cover";
+import { hashHue } from "../utils";
 
 const MOCK_OWN = [
-  { id: "1", name: "Lieblingssongs", tracks: 312, image: null, addedAt: "2019-04-01" },
-  { id: "2", name: "Morgen",         tracks: 47,  image: null, addedAt: "2022-08-15" },
-  { id: "3", name: "Abend",          tracks: 88,  image: null, addedAt: "2021-03-22" },
-  { id: "4", name: "work deep",      tracks: 64,  image: null, addedAt: "2023-01-10" },
-  { id: "5", name: "baroque favourites", tracks: 29, image: null, addedAt: "2020-11-05" },
+  { id: "1", name: "Lieblingssongs",      tracks: 312, image: null, addedAt: "2019-04-01" },
+  { id: "2", name: "Morgen",              tracks: 47,  image: null, addedAt: "2022-08-15" },
+  { id: "3", name: "Abend",              tracks: 88,  image: null, addedAt: "2021-03-22" },
+  { id: "4", name: "work deep",          tracks: 64,  image: null, addedAt: "2023-01-10" },
+  { id: "5", name: "baroque favourites", tracks: 29,  image: null, addedAt: "2020-11-05" },
 ];
 
 const MOCK_NOT_OWN = [
-  { id: "6",  name: "Für Liga: Indie Mix",      owner: "spotify",   tracks: 50,  image: null },
-  { id: "7",  name: "Für Liga: Chill Hits",     owner: "spotify",   tracks: 50,  image: null },
-  { id: "8",  name: "Release Radar",            owner: "spotify",   tracks: 30,  image: null },
-  { id: "9",  name: "Discover Weekly",          owner: "spotify",   tracks: 30,  image: null },
-  { id: "10", name: "tom misch mix",            owner: "friend",    tracks: 22,  image: null },
-  { id: "11", name: "indie coffeeshop vibes",   owner: "stranger",  tracks: 41,  image: null },
-  { id: "12", name: "classical study",          owner: "stranger",  tracks: 55,  image: null },
+  { id: "6",  name: "Für Liga: Indie Mix",    _category: "spotify", tracks: 50, image: null },
+  { id: "7",  name: "Für Liga: Chill Hits",   _category: "spotify", tracks: 50, image: null },
+  { id: "8",  name: "Release Radar",          _category: "spotify", tracks: 30, image: null },
+  { id: "9",  name: "Discover Weekly",        _category: "spotify", tracks: 30, image: null },
+  { id: "10", name: "tom misch mix",          _category: "foreign", tracks: 22, image: null },
+  { id: "11", name: "indie coffeeshop vibes", _category: "foreign", tracks: 41, image: null },
+  { id: "12", name: "classical study",        _category: "foreign", tracks: 55, image: null },
 ];
 
-function PlaylistRow({ p, action, actionLabel, danger }) {
+function PlaylistRow({ p, action, actionLabel, danger, disabled }) {
   return (
     <div className="pm-row">
-      <div
-        style={{
-          width: 48, height: 48, borderRadius: 6, flexShrink: 0,
-          background: `oklch(0.24 0.02 280)`,
-          border: "1px solid oklch(1 0 0 / 0.07)",
-          display: "grid", placeItems: "center",
-          fontFamily: "var(--mono)", fontSize: 18,
-        }}
-      >
-        ♪
-      </div>
+      <Cover
+        src={p.image}
+        alt={p.name}
+        hue={hashHue(p.name)}
+        size={48}
+        radius={6}
+      />
       <div className="pm-text">
         <div className="pm-name">{p.name}</div>
         <div className="pm-sub">
           {p.tracks} tracks
-          {p.owner === "spotify" && " · spotify-generated"}
+          {p._category === "spotify" && " · spotify-generated"}
           {p.addedAt && ` · added ${p.addedAt.slice(0, 4)}`}
         </div>
       </div>
-      <button className={`pm-action${danger ? " is-danger" : ""}`} onClick={() => action(p)}>
-        {actionLabel}
-      </button>
+      {action && (
+        <button
+          className={`pm-action${danger ? " is-danger" : ""}`}
+          onClick={() => action(p)}
+          disabled={disabled}
+        >
+          {actionLabel}
+        </button>
+      )}
     </div>
   );
 }
 
+function normalize(items) {
+  return items.map((p) => ({
+    id: p.id,
+    name: p.name,
+    tracks: p.items?.total ?? 0,
+    image: p.images?.[0]?.url ?? null,
+    _category: p._category,
+    owner: p.owner?.display_name ?? "",
+  }));
+}
+
 export default function PlaylistsSection({ isDemo = true }) {
+  const [own, setOwn]         = useState(isDemo ? MOCK_OWN : null);
+  const [notOwn, setNotOwn]   = useState(isDemo ? MOCK_NOT_OWN : null);
+  const [loading, setLoading] = useState(!isDemo);
+  const [removing, setRemoving] = useState(null);
+
+  useEffect(() => {
+    if (isDemo) return;
+
+    fetchPlaylists()
+      .then(({ items }) => {
+        const all = normalize(items);
+        setOwn(all.filter((p) => p._category === "own"));
+        setNotOwn(all.filter((p) => p._category !== "own"));
+      })
+      .catch(console.error)
+      .finally(() => setLoading(false));
+  }, [isDemo]);
+
+  const handleUnfollow = async (p) => {
+    if (!confirm(`Unfollow "${p.name}"?`)) return;
+    setRemoving(p.id);
+    try {
+      await unfollowPlaylist(p.id);
+      setNotOwn((prev) => prev.filter((x) => x.id !== p.id));
+    } catch (e) {
+      alert("Failed to unfollow playlist.");
+    } finally {
+      setRemoving(null);
+    }
+  };
+
   return (
     <section className="section" id="section-playlists">
       <div className="section-head">
@@ -75,42 +118,44 @@ export default function PlaylistsSection({ isDemo = true }) {
         </div>
       </div>
 
-      <div className="pm-grid">
-        <div>
-          <div className="pm-col-head">
-            <span className="pm-col-title">📁 Meine Playlists</span>
-            <span className="pm-col-count">{MOCK_OWN.length}</span>
-          </div>
-          <div className="pm-list">
-            {MOCK_OWN.map((p) => (
-              <PlaylistRow
-                key={p.id}
-                p={p}
-                actionLabel="öffnen →"
-                action={() => {}}
-              />
-            ))}
-          </div>
+      {loading ? (
+        <div style={{ fontFamily: "var(--mono)", fontSize: 13, color: "var(--text-faint)", padding: "40px 0" }}>
+          loading playlists…
         </div>
+      ) : (
+        <div className="pm-grid">
+          <div>
+            <div className="pm-col-head">
+              <span className="pm-col-title">📁 My playlists</span>
+              <span className="pm-col-count">{own?.length ?? 0}</span>
+            </div>
+            <div className="pm-list">
+              {own?.map((p) => (
+                <PlaylistRow key={p.id} p={p} actionLabel="open →" action={() => window.open(`https://open.spotify.com/playlist/${p.id}`, "_blank")} />
+              ))}
+            </div>
+          </div>
 
-        <div>
-          <div className="pm-col-head">
-            <span className="pm-col-title">📁 Nicht meine</span>
-            <span className="pm-col-count">{MOCK_NOT_OWN.length}</span>
-          </div>
-          <div className="pm-list">
-            {MOCK_NOT_OWN.map((p) => (
-              <PlaylistRow
-                key={p.id}
-                p={p}
-                actionLabel="entfolgen"
-                action={() => {}}
-                danger
-              />
-            ))}
+          <div>
+            <div className="pm-col-head">
+              <span className="pm-col-title">📁 Not mine</span>
+              <span className="pm-col-count">{notOwn?.length ?? 0}</span>
+            </div>
+            <div className="pm-list">
+              {notOwn?.map((p) => (
+                <PlaylistRow
+                  key={p.id}
+                  p={p}
+                  actionLabel={removing === p.id ? "…" : "unfollow"}
+                  action={isDemo ? null : handleUnfollow}
+                  danger
+                  disabled={removing === p.id}
+                />
+              ))}
+            </div>
           </div>
         </div>
-      </div>
+      )}
 
       {isDemo && (
         <div style={{
@@ -124,9 +169,9 @@ export default function PlaylistsSection({ isDemo = true }) {
           color: "var(--text-dim)",
           lineHeight: 1.6,
         }}>
-          <strong style={{ color: "var(--accent)" }}>Demo-Modus</strong> — das sind Ligaʼs echte Kategorie-Verhältnisse mit Mock-Daten.
-          Melde dich mit Spotify an, um deine eigenen Playlists wirklich aufzuräumen.
-          Änderungen gehen direkt in deinen Spotify-Account (max. 25 User im Dev Mode).
+          <strong style={{ color: "var(--accent)" }}>Demo mode</strong> — mock data showing Liga's real category ratios.
+          Log in with Spotify to manage your own playlists.
+          Changes go directly to your Spotify account.
         </div>
       )}
     </section>
