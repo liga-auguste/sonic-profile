@@ -7,7 +7,6 @@ urlpatterns = [
     path("auth/callback/", views.spotify_callback, name="spotify-callback"),
     path("auth/logout/",   views.spotify_logout,   name="spotify-logout"),
     path("auth/me/",       views.me,               name="me"),
-    path("auth/debug/",    views.debug_token,      name="debug-token"),
 
     # Spotify data
     path("top-tracks/",    views.top_tracks,       name="top-tracks"),

@@ -8,30 +8,19 @@ import requests as http_requests
 
 from .spotify_client import SpotifyClient, get_auth_url, exchange_code
 
+VALID_TIME_RANGES = {"short_term", "medium_term", "long_term"}
+
 
 # ── Auth helpers ─────────────────────────────────────────────────────────────
 
 def _get_client(request):
     """Return (SpotifyClient, None) or (None, 401 Response).
-    Accepts token via Authorization header (Bearer) or session cookie."""
+    Accepts token via Authorization header (Bearer)."""
     auth = request.headers.get("Authorization", "")
     token = auth.removeprefix("Bearer ").strip() if auth.startswith("Bearer ") else None
-    token = token or request.session.get("access_token")
     if not token:
         return None, Response({"error": "Not authenticated"}, status=status.HTTP_401_UNAUTHORIZED)
     return SpotifyClient(token), None
-
-
-@api_view(["GET"])
-def debug_token(request):
-    """Dev-only: show what token Django receives."""
-    auth = request.headers.get("Authorization", "")
-    token = auth.removeprefix("Bearer ").strip() if auth.startswith("Bearer ") else None
-    return Response({
-        "auth_header": auth[:40] + "..." if len(auth) > 40 else auth,
-        "token_length": len(token) if token else 0,
-        "token_prefix": token[:20] if token else None,
-    })
 
 
 # ── OAuth ─────────────────────────────────────────────────────────────────────
@@ -59,7 +48,6 @@ def spotify_callback(request):
     except Exception:
         return redirect(f"{frontend_url}/?auth=error")
 
-    # Pass token via URL hash — avoids cross-origin cookie issues in dev
     access_token = tokens["access_token"]
     return redirect(f"{frontend_url}/#token={access_token}")
 
@@ -95,7 +83,9 @@ def top_tracks(request):
     if err:
         return err
     time_range = request.GET.get("time_range", "medium_term")
-    limit = int(request.GET.get("limit", 10))
+    if time_range not in VALID_TIME_RANGES:
+        return Response({"error": "Invalid time_range"}, status=status.HTTP_400_BAD_REQUEST)
+    limit = min(max(1, int(request.GET.get("limit", 10))), 50)
     return Response(client.top_tracks(time_range=time_range, limit=limit))
 
 
@@ -105,7 +95,9 @@ def top_artists(request):
     if err:
         return err
     time_range = request.GET.get("time_range", "medium_term")
-    limit = int(request.GET.get("limit", 10))
+    if time_range not in VALID_TIME_RANGES:
+        return Response({"error": "Invalid time_range"}, status=status.HTTP_400_BAD_REQUEST)
+    limit = min(max(1, int(request.GET.get("limit", 10))), 50)
     return Response(client.top_artists(time_range=time_range, limit=limit))
 
 

@@ -141,7 +141,7 @@ export default function App() {
             </div>
           </div>
 
-          <ProfileSection data={data} />
+          <ProfileSection data={data} isDemo={isDemo} />
           <TracksSection data={data} />
           <ArtistsSection data={data} />
           <GenresSection />

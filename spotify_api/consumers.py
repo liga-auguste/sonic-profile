@@ -9,13 +9,27 @@ class NowPlayingConsumer(AsyncWebsocketConsumer):
     POLL_INTERVAL = 5  # seconds between Spotify API polls
 
     async def connect(self):
-        # Access token is passed as query param: ws://…/ws/now-playing/?token=…
-        self.token = self.scope["query_string"].decode().split("token=")[-1]
         await self.accept()
+        self.token = None
+        self._task = None
+
+    async def receive(self, text_data):
+        # First message must be {"token": "..."}
+        if self.token is not None:
+            return
+        try:
+            data = json.loads(text_data)
+            self.token = data.get("token")
+        except Exception:
+            pass
+        if not self.token:
+            await self.close(code=4001)
+            return
         self._task = asyncio.create_task(self._poll_loop())
 
     async def disconnect(self, code):
-        self._task.cancel()
+        if self._task:
+            self._task.cancel()
 
     async def _poll_loop(self):
         while True:

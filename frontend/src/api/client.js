@@ -11,11 +11,12 @@ export function setToken(token) {
   _token = token;
 }
 
-// Attach Bearer token to every request when available
+export function getToken() {
+  return _token;
+}
+
 client.interceptors.request.use((config) => {
-  if (_token) {
-    config.headers["Authorization"] = `Bearer ${_token}`;
-  }
+  if (_token) config.headers["Authorization"] = `Bearer ${_token}`;
   return config;
 });
 

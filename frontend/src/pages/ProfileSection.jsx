@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Cover from "../components/Cover";
 import Waveform from "../components/Waveform";
 import { fmtMs, fmtNum, hashHue } from "../utils";
+import useNowPlaying from "../hooks/useNowPlaying";
 
 const HOURS = [4, 2, 1, 0, 0, 0, 0, 1, 6, 12, 18, 22, 28, 32, 30, 26, 35, 48, 62, 78, 92, 88, 71, 28];
 
@@ -34,6 +35,7 @@ function HoursChart() {
 function NowPlaying({ cp }) {
   const [pos, setPos] = useState(cp.progress_ms);
   useEffect(() => {
+    setPos(cp.progress_ms);
     const id = setInterval(() => {
       setPos((p) => (p + 1000 > cp.duration_ms ? 0 : p + 1000));
     }, 1000);
@@ -93,8 +95,9 @@ function NowPlaying({ cp }) {
   );
 }
 
-export default function ProfileSection({ data }) {
+export default function ProfileSection({ data, isDemo }) {
   const { profile, stats, top_tracks, currently_playing } = data;
+  const cp = useNowPlaying(currently_playing, isDemo);
   const initials = (profile.display_name || "?")
     .split(" ")
     .filter(Boolean)
@@ -169,7 +172,7 @@ export default function ProfileSection({ data }) {
           </div>
         </div>
 
-        <NowPlaying cp={currently_playing} />
+        <NowPlaying cp={cp} />
       </div>
 
       <div className="profile-secondary">

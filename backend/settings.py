@@ -99,14 +99,15 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 # CORS — allow Vite dev server and future production domains
 CORS_ALLOWED_ORIGINS = os.environ.get(
     "CORS_ALLOWED_ORIGINS",
-    "http://localhost:5173,http://127.0.0.1:5173",
+    "http://localhost:5174,http://127.0.0.1:5174",
 ).split(",")
 CORS_ALLOW_CREDENTIALS = True
 
-# Session cookie — dev: no SameSite restriction so proxy can relay it
+# Session cookie
+SESSION_COOKIE_HTTPONLY = True   # not accessible via JS
 SESSION_COOKIE_SAMESITE = "Lax"
-SESSION_COOKIE_SECURE = False  # True in prod (HTTPS)
-FRONTEND_URL = os.environ.get("FRONTEND_URL", "http://localhost:5173")
+SESSION_COOKIE_SECURE = False    # set True in prod (HTTPS only)
+FRONTEND_URL = os.environ.get("FRONTEND_URL", "http://localhost:5174")
 
 # DRF — auth is handled manually via Bearer token in _get_client(); disable
 # DRF's own SessionAuthentication so it doesn't enforce CSRF on proxied requests
