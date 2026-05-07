@@ -15,3 +15,6 @@ frontend/dist/
 
 # macOS
 .DS_Store
+
+# Spotify data exports
+spotify_data_*.json
