@@ -112,6 +112,8 @@ def now_playing(request):
     return Response(data)
 
 
+
+
 # ── Playlist manager ──────────────────────────────────────────────────────────
 
 @api_view(["GET"])

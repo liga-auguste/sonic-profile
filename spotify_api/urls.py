@@ -11,7 +11,7 @@ urlpatterns = [
     # Spotify data
     path("top-tracks/",    views.top_tracks,       name="top-tracks"),
     path("top-artists/",   views.top_artists,      name="top-artists"),
-    path("now-playing/",   views.now_playing,       name="now-playing"),
+    path("now-playing/",    views.now_playing,       name="now-playing"),
 
     # Playlist manager
     path("playlists/",                          views.playlists,         name="playlists"),

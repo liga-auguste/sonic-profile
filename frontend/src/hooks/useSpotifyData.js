@@ -44,6 +44,7 @@ export default function useSpotifyData(isDemo) {
         const top_tracks  = { month: rangeResults[0], half: rangeResults[2], all: rangeResults[4] };
         const top_artists = { month: rangeResults[1], half: rangeResults[3], all: rangeResults[5] };
 
+
         const uniqueArtists = new Set([
           ...top_artists.month, ...top_artists.half, ...top_artists.all,
         ].map((a) => a.id)).size;

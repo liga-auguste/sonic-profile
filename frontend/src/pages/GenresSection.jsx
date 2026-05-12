@@ -1,4 +1,4 @@
-import { useState, useMemo } from "react";
+import { useState } from "react";
 
 const SOUND_DNA = [
   { name: "classical / baroque",       share: 50, hue: 42,  artists: ["Bach", "Duruflé", "Ton Koopman", "Amsterdam Baroque Orchestra"] },
@@ -31,7 +31,7 @@ function BubbleChart({ cloud, hovered, setHovered }) {
   const PAD = { l: 8, r: 6, t: 6, b: 14 };
   const place = (px, py) => ({
     left: `${PAD.l + px * (100 - PAD.l - PAD.r)}%`,
-    top: `${PAD.t + (1 - py) * (100 - PAD.t - PAD.b)}%`,
+    top:  `${PAD.t + (1 - py) * (100 - PAD.t - PAD.b)}%`,
   });
 
   return (
@@ -59,15 +59,15 @@ function BubbleChart({ cloud, hovered, setHovered }) {
         <div className="bq bq-br">canon · stays with you</div>
 
         {cloud.map((g) => {
-          const pos = place(g.x, g.y);
-          const r = 18 + g.size * 4.5;
-          const dim = hovered && hovered !== g.name;
-          const isHot = hovered === g.name;
-          const topPct = parseFloat(pos.top);
+          const pos    = place(g.x, g.y);
+          const r      = 18 + g.size * 4.5;
+          const dim    = hovered && hovered !== g.name;
+          const isHot  = hovered === g.name;
+          const topPct  = parseFloat(pos.top);
           const leftPct = parseFloat(pos.left);
           const tipBelow = topPct < 35;
           let tipHAlign = "center";
-          if (leftPct < 12) tipHAlign = "left";
+          if (leftPct < 12)      tipHAlign = "left";
           else if (leftPct > 88) tipHAlign = "right";
           const tipClass = `bubble-tooltip${tipBelow ? " bt-below" : ""}${tipHAlign !== "center" ? " bt-" + tipHAlign : ""}`;
 
@@ -76,14 +76,14 @@ function BubbleChart({ cloud, hovered, setHovered }) {
               key={g.name}
               className="bubble"
               style={{
-                left: pos.left,
-                top: pos.top,
-                width: `${r}px`,
-                height: `${r}px`,
+                left:       pos.left,
+                top:        pos.top,
+                width:      `${r}px`,
+                height:     `${r}px`,
                 background: `radial-gradient(circle at 30% 30%, oklch(0.78 0.18 ${g.hue} / 0.95), oklch(0.45 0.16 ${g.hue} / 0.55))`,
-                opacity: dim ? 0.22 : 1,
-                transform: `translate(-50%, -50%) scale(${isHot ? 1.08 : 1})`,
-                zIndex: isHot ? 5 : 2,
+                opacity:    dim ? 0.22 : 1,
+                transform:  `translate(-50%, -50%) scale(${isHot ? 1.08 : 1})`,
+                zIndex:     isHot ? 5 : 2,
               }}
               onMouseEnter={() => setHovered(g.name)}
               onMouseLeave={() => setHovered(null)}
@@ -141,7 +141,7 @@ export default function GenresSection() {
         <div className="genre-strip-card">
           <div className="card-head">
             <div className="card-title">Sound DNA · genres</div>
-            <div className="card-meta">% of top 150 tracks · curated buckets</div>
+            <div className="card-meta">% of top 150 tracks · curated from listening history</div>
           </div>
           <div className="genre-strip">
             {SOUND_DNA.map((g) => (
@@ -149,9 +149,9 @@ export default function GenresSection() {
                 key={g.name}
                 className="genre-stripe"
                 style={{
-                  width: `${(g.share / totalShare) * 100}%`,
+                  width:      `${(g.share / totalShare) * 100}%`,
                   background: `oklch(0.55 0.15 ${g.hue})`,
-                  opacity: hovered && hovered !== g.name ? 0.35 : 1,
+                  opacity:    hovered && hovered !== g.name ? 0.35 : 1,
                 }}
                 onMouseEnter={() => setHovered(g.name)}
                 onMouseLeave={() => setHovered(null)}
@@ -175,7 +175,7 @@ export default function GenresSection() {
                   <div
                     className="genre-row-fill"
                     style={{
-                      width: `${(g.share / SOUND_DNA[0].share) * 100}%`,
+                      width:      `${(g.share / SOUND_DNA[0].share) * 100}%`,
                       background: `oklch(0.55 0.14 ${g.hue})`,
                     }}
                   />
