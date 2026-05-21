@@ -18,3 +18,6 @@ frontend/dist/
 
 # Spotify data exports
 spotify_data_*.json
+
+# Listening history — commit intentionally when cron job is set up
+# listening_history.json

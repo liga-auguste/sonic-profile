@@ -106,7 +106,12 @@ def now_playing(request):
     client, err = _get_client(request)
     if err:
         return err
-    data = client.now_playing()
+    try:
+        data = client.now_playing()
+    except http_requests.HTTPError as e:
+        if e.response is not None and e.response.status_code == 401:
+            return Response({"is_playing": False})  # token expired — treat as not playing
+        return Response({"error": str(e)}, status=status.HTTP_502_BAD_GATEWAY)
     if data is None:
         return Response({"is_playing": False})
     return Response(data)
