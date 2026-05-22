@@ -1,0 +1,62 @@
+name: Update Spotify Data
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # daily at 06:00 UTC
+  workflow_dispatch:        # manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install python-dotenv
+
+      - name: Fetch Spotify data
+        env:
+          SPOTIFY_CLIENT_ID:     ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+        run: python spotify_fetch.py
+
+      - name: Enrich genres via Last.fm
+        env:
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+        run: |
+          SNAPSHOT=$(ls -t spotify_data_*.json | head -1)
+          echo "Enriching $SNAPSHOT"
+          python genre_resolver.py "$SNAPSHOT"
+
+      - name: Generate frontend data
+        env:
+          TZ: Europe/Berlin
+        run: python generate_data.py
+
+      - name: Commit and push updates
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add frontend/src/data/spotifyData.js \
+                  frontend/src/data/vennData.js \
+                  listening_history.json \
+                  cumulative_stats.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: daily Spotify data update $(date -u '+%Y-%m-%d')"
+            git push
+          fi

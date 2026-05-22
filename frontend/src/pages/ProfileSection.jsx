@@ -1,22 +1,23 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Cover from "../components/Cover";
-import Waveform from "../components/Waveform";
-import { fmtMs, fmtNum, hashHue } from "../utils";
-import useNowPlaying from "../hooks/useNowPlaying";
+import { fmtNum, hashHue } from "../utils";
 
-const HOURS = [4, 2, 1, 0, 0, 0, 0, 1, 6, 12, 18, 22, 28, 32, 30, 26, 35, 48, 62, 78, 92, 88, 71, 28];
-
-function HoursChart() {
-  const max = Math.max(...HOURS);
+function HoursChart({ hours }) {
+  const max = Math.max(...hours, 1);
+  const peakHour = hours.indexOf(max);
+  const peakLabel = peakHour === 0 ? "12a" : peakHour < 12 ? `${peakHour}a` : peakHour === 12 ? "12p" : `${peakHour - 12}p`;
   return (
     <>
+      <div className="hours-peak-label">
+        peak: <span>{peakLabel}</span> · {max} plays
+      </div>
       <div className="hours-chart">
-        {HOURS.map((h, i) => (
+        {hours.map((h, i) => (
           <div key={i} className="hours-col">
             <div
               className={`hours-bar ${h === max ? "is-peak" : ""}`}
               style={{ height: `${(h / max) * 100}%` }}
-              title={`${i}:00 — ${h} min`}
+              title={`${i}:00 — ${h} plays`}
             />
           </div>
         ))}
@@ -32,72 +33,14 @@ function HoursChart() {
   );
 }
 
-function NowPlaying({ cp }) {
-  const [pos, setPos] = useState(cp.progress_ms);
-  useEffect(() => {
-    setPos(cp.progress_ms);
-    const id = setInterval(() => {
-      setPos((p) => (p + 1000 > cp.duration_ms ? 0 : p + 1000));
-    }, 1000);
-    return () => clearInterval(id);
-  }, [cp]);
-  const pct = (pos / cp.duration_ms) * 100;
-  const hue = hashHue(cp.name + cp.artist);
-
-  return (
-    <div className="now-playing">
-      <div className="np-header">
-        <div className="np-status">
-          <span className="live-dot" />
-          <span>{cp.is_playing ? "now playing" : "paused"}</span>
-          <span className="np-divider">·</span>
-          <span>web playback sdk</span>
-        </div>
-        <div className="np-context">
-          {cp.context_type ? `from ${cp.context_type}` : "queued · 1 of 1"}
-        </div>
-      </div>
-
-      <div className="np-body">
-        <div className="np-art-wrap">
-          <Cover src={cp.album_image} alt={cp.name} hue={hue} size={168} radius={4} />
-          <div className="np-vinyl-shadow" />
-        </div>
-        <div className="np-meta">
-          <div className="np-track">{cp.name}</div>
-          <div className="np-artist">
-            {cp.artist} <span className="np-dim">·</span>{" "}
-            <span className="np-album">{cp.album}</span>
-          </div>
-          <div className="np-wave">
-            <Waveform seed={11} bars={64} height={22} color={`oklch(0.78 0.15 ${hue} / 0.5)`} />
-          </div>
-          <div className="np-progress">
-            <div className="np-time">{fmtMs(pos)}</div>
-            <div className="np-bar">
-              <div className="np-bar-fill" style={{ width: `${pct}%` }} />
-              <div className="np-bar-head" style={{ left: `${pct}%` }} />
-            </div>
-            <div className="np-time np-time-r">{fmtMs(cp.duration_ms)}</div>
-          </div>
-          <div className="np-controls">
-            <button className="np-ctl">⤺</button>
-            <button className="np-ctl np-ctl-prev">⏮</button>
-            <button className="np-ctl np-ctl-play">{cp.is_playing ? "❚❚" : "▶"}</button>
-            <button className="np-ctl np-ctl-next">⏭</button>
-            <button className="np-ctl">⤻</button>
-            <div className="np-controls-spacer" />
-            <div className="np-tag">live · synced via websocket</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-export default function ProfileSection({ data, isDemo }) {
-  const { profile, stats, top_tracks, currently_playing } = data;
-  const cp = useNowPlaying(currently_playing, isDemo);
+export default function ProfileSection({ data, onTrackSelect }) {
+  const { profile, stats, top_tracks } = data;
+  const [activeId, setActiveId] = useState(null);
+  const handleToggle = (t) => {
+    const next = activeId === t.id ? null : t.id;
+    setActiveId(next);
+    onTrackSelect(next ? t : null);
+  };
   const initials = (profile.display_name || "?")
     .split(" ")
     .filter(Boolean)
@@ -157,17 +100,19 @@ export default function ProfileSection({ data, isDemo }) {
             <span>{profile.product} member</span>
           </div>
           <div className="profile-stats">
+            {profile.followers > 0 && (
+              <div>
+                <div className="ps-num">{fmtNum(profile.followers)}</div>
+                <div className="ps-lab">followers</div>
+              </div>
+            )}
             <div>
-              <div className="ps-num">{fmtNum(profile.followers)}</div>
-              <div className="ps-lab">followers</div>
+              <div className="ps-num">{fmtNum(stats.cumulativeArtists)}</div>
+              <div className="ps-lab">artists seen</div>
             </div>
             <div>
-              <div className="ps-num">{fmtNum(stats.uniqueArtists)}</div>
-              <div className="ps-lab">artists</div>
-            </div>
-            <div>
-              <div className="ps-num">{fmtNum(stats.uniqueTracks)}</div>
-              <div className="ps-lab">tracks</div>
+              <div className="ps-num">{fmtNum(stats.cumulativeTracks)}</div>
+              <div className="ps-lab">tracks seen</div>
             </div>
           </div>
           <div className="profile-quote">
@@ -176,45 +121,36 @@ export default function ProfileSection({ data, isDemo }) {
           </div>
         </div>
 
-        {isDemo ? (
-          <div className="now-playing now-playing-empty">
-            <div className="np-empty-inner">
-              <div className="np-empty-icon">♫</div>
-              <div className="np-empty-text">log in to see what's playing</div>
+        <div className="recent-card">
+            <div className="card-head">
+              <div className="card-title">On heavy rotation · last 4 weeks</div>
+              <div className="card-meta">short_term top tracks</div>
+            </div>
+            <div className="recent-list">
+              {top_tracks.month.slice(0, 6).map((t) => (
+                <div
+                  key={t.id}
+                  className={`recent-row${activeId === t.id ? " is-active" : ""}`}
+                  onClick={() => handleToggle(t)}
+                >
+                  <Cover src={t.album_image} alt={t.name} hue={hashHue(t.name)} size={36} radius={3} />
+                  <div className="recent-text">
+                    <div className="recent-track">{t.name}</div>
+                    <div className="recent-artist">{t.artist}</div>
+                  </div>
+                  <div className="recent-time">#{t.rank}</div>
+                </div>
+              ))}
             </div>
           </div>
-        ) : (
-          <NowPlaying cp={cp} />
-        )}
-      </div>
 
-      <div className="profile-secondary">
-        <div className="recent-card">
-          <div className="card-head">
-            <div className="card-title">On heavy rotation · last 4 weeks</div>
-            <div className="card-meta">short_term top tracks</div>
+          <div className="hours-card">
+            <div className="card-head">
+              <div className="card-title">Tracks played by hour</div>
+              <div className="card-meta">{stats.hoursChart.reduce((a, b) => a + b, 0)} plays tracked</div>
+            </div>
+            <HoursChart hours={stats.hoursChart} />
           </div>
-          <div className="recent-list">
-            {top_tracks.month.slice(0, 6).map((t) => (
-              <div key={t.id} className="recent-row">
-                <Cover src={t.album_image} alt={t.name} hue={hashHue(t.name)} size={36} radius={3} />
-                <div className="recent-text">
-                  <div className="recent-track">{t.name}</div>
-                  <div className="recent-artist">{t.artist}</div>
-                </div>
-                <div className="recent-time">#{t.rank}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        <div className="hours-card">
-          <div className="card-head">
-            <div className="card-title">Today, by the hour</div>
-            <div className="card-meta">minutes listened · synthetic</div>
-          </div>
-          <HoursChart />
-        </div>
       </div>
     </section>
   );

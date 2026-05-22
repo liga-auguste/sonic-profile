@@ -1,139 +1,170 @@
-import { useState } from "react";
+import { useState, useMemo } from "react";
+import VennDiagram from "../components/VennDiagram";
 
-const SOUND_DNA = [
-  { name: "classical / baroque",       share: 50, hue: 42,  artists: ["Bach", "Duruflé", "Ton Koopman", "Amsterdam Baroque Orchestra"] },
-  { name: "indie / singer-songwriter", share: 31, hue: 168, artists: ["Tom Misch", "Tom Odell", "Common Saints", "Nick Mulvey"] },
-  { name: "funk / electronic",         share: 9,  hue: 332, artists: ["Franc Moody", "LEISURE", "RIO KOSTA", "Young Franco"] },
-  { name: "jazz / ambient",            share: 7,  hue: 198, artists: ["Jan Garbarek", "Svaneborg Kardyb", "Rhye"] },
-  { name: "hip-hop / R&B",             share: 3,  hue: 280, artists: ["Little Simz", "SAULT", "Malaki"] },
-];
 
-const ARTIST_UNIVERSE = [
-  { name: "Tom Misch",                   x: 0.92, y: 0.82, size: 13, era: "long-time favorite", hue: 168 },
-  { name: "Common Saints",               x: 0.55, y: 0.95, size: 15, era: "recent obsession",   hue: 332 },
-  { name: "Tom Odell",                   x: 0.78, y: 0.74, size: 10, era: "long-time favorite", hue: 168 },
-  { name: "Amsterdam Baroque Orchestra", x: 0.62, y: 0.42, size: 8,  era: "classical staple",   hue: 42  },
-  { name: "Ton Koopman",                 x: 0.55, y: 0.32, size: 6,  era: "classical staple",   hue: 42  },
-  { name: "Max Richter",                 x: 0.85, y: 0.45, size: 6,  era: "long-time favorite", hue: 168 },
-  { name: "The Smile",                   x: 0.42, y: 0.62, size: 4,  era: "recent obsession",   hue: 332 },
-  { name: "Víkingur Ólafsson",           x: 0.48, y: 0.28, size: 4,  era: "classical staple",   hue: 42  },
-  { name: "LEISURE",                     x: 0.30, y: 0.55, size: 3,  era: "recent obsession",   hue: 332 },
-  { name: "Angelo De Augustine",         x: 0.18, y: 0.68, size: 3,  era: "recent obsession",   hue: 332 },
-];
+const RANGE_KEYS   = ["month", "half", "all"];
+const RANGE_LABELS = ["4w", "6mo", "all-time"];
 
-const ERA_LEGEND = [
-  { key: "recent obsession",   hue: 332 },
-  { key: "long-time favorite", hue: 168 },
-  { key: "classical staple",   hue: 42  },
-];
+function buildArtistRanks(topArtists) {
+  const map = new Map();
+  for (const key of RANGE_KEYS) {
+    for (const a of topArtists[key] ?? []) {
+      if (!map.has(a.id)) map.set(a.id, { id: a.id, name: a.name, ranks: {} });
+      map.get(a.id).ranks[key] = a.rank;
+    }
+  }
+  return [...map.values()];
+}
 
-function BubbleChart({ cloud, hovered, setHovered }) {
-  const PAD = { l: 8, r: 6, t: 6, b: 14 };
-  const place = (px, py) => ({
-    left: `${PAD.l + px * (100 - PAD.l - PAD.r)}%`,
-    top:  `${PAD.t + (1 - py) * (100 - PAD.t - PAD.b)}%`,
-  });
+function BumpChart({ topArtists }) {
+  const [tip, setTip] = useState(null);
+  const artists = useMemo(() => {
+    const all = buildArtistRanks(topArtists);
+    return all
+      .filter((a) => Object.keys(a.ranks).length >= 2)
+      .sort((a, b) => Math.min(...Object.values(a.ranks)) - Math.min(...Object.values(b.ranks)))
+      .slice(0, 18);
+  }, [topArtists]);
+
+  const MAX_RANK = 20;
+  const W = 560; const H = 280;
+  const COL_X = [150, W / 2, W - 150];
+  const rankY = (r) => 24 + (Math.min(r, MAX_RANK) - 1) / (MAX_RANK - 1) * (H - 48);
+  const isLong = (a) => !!a.ranks.all;
 
   return (
-    <div className="bubble-card-wrap">
-      <div className="bubble-axis-y">
-        <span className="bax-top">tracks-heavy</span>
-        <span className="bax-bot">artist-only</span>
-      </div>
-
-      <div className="bubble-wrap">
-        <svg viewBox="0 0 100 100" preserveAspectRatio="none" className="bubble-grid">
-          {[20, 40, 60, 80].map((v) => (
-            <line key={`h${v}`} x1="0" y1={v} x2="100" y2={v} stroke="oklch(1 0 0 / 0.05)" strokeWidth="0.12" />
-          ))}
-          {[20, 40, 60, 80].map((v) => (
-            <line key={`v${v}`} x1={v} y1="0" x2={v} y2="100" stroke="oklch(1 0 0 / 0.05)" strokeWidth="0.12" />
-          ))}
-          <line x1="50" y1="0" x2="50" y2="100" stroke="oklch(1 0 0 / 0.09)" strokeDasharray="0.6 0.8" strokeWidth="0.12" />
-          <line x1="0" y1="50" x2="100" y2="50" stroke="oklch(1 0 0 / 0.09)" strokeDasharray="0.6 0.8" strokeWidth="0.12" />
-        </svg>
-
-        <div className="bq bq-tl">currently obsessed<br /><em>+ in your tracks</em></div>
-        <div className="bq bq-tr">forever in rotation<br /><em>+ in your tracks</em></div>
-        <div className="bq bq-bl">just discovered</div>
-        <div className="bq bq-br">canon · stays with you</div>
-
-        {cloud.map((g) => {
-          const pos    = place(g.x, g.y);
-          const r      = 18 + g.size * 4.5;
-          const dim    = hovered && hovered !== g.name;
-          const isHot  = hovered === g.name;
-          const topPct  = parseFloat(pos.top);
-          const leftPct = parseFloat(pos.left);
-          const tipBelow = topPct < 35;
-          let tipHAlign = "center";
-          if (leftPct < 12)      tipHAlign = "left";
-          else if (leftPct > 88) tipHAlign = "right";
-          const tipClass = `bubble-tooltip${tipBelow ? " bt-below" : ""}${tipHAlign !== "center" ? " bt-" + tipHAlign : ""}`;
-
+    <div className="bump-wrap">
+      <svg viewBox={`0 0 ${W} ${H}`} className="bump-svg">
+        {/* column headers */}
+        {RANGE_LABELS.map((l, i) => (
+          <text key={l} x={COL_X[i]} y={14} textAnchor="middle" className="bump-col-label">{l}</text>
+        ))}
+        {/* grid lines */}
+        {COL_X.map((x, i) => (
+          <line key={i} x1={x} y1={22} x2={x} y2={H - 8} stroke="oklch(1 0 0 / 0.07)" strokeWidth="1" />
+        ))}
+        {/* artist lines + dots */}
+        {artists.map((a) => {
+          const hue = isLong(a) ? 185 : 340;
+          const points = RANGE_KEYS
+            .filter((k) => a.ranks[k] != null && a.ranks[k] <= MAX_RANK)
+            .map((k, _, arr) => ({ k, x: COL_X[RANGE_KEYS.indexOf(k)], y: rankY(a.ranks[k]) }));
+          const isHot = tip === a.id;
           return (
-            <div
-              key={g.name}
-              className="bubble"
-              style={{
-                left:       pos.left,
-                top:        pos.top,
-                width:      `${r}px`,
-                height:     `${r}px`,
-                background: `radial-gradient(circle at 30% 30%, oklch(0.78 0.18 ${g.hue} / 0.95), oklch(0.45 0.16 ${g.hue} / 0.55))`,
-                opacity:    dim ? 0.22 : 1,
-                transform:  `translate(-50%, -50%) scale(${isHot ? 1.08 : 1})`,
-                zIndex:     isHot ? 5 : 2,
-              }}
-              onMouseEnter={() => setHovered(g.name)}
-              onMouseLeave={() => setHovered(null)}
-            >
-              {isHot && (
-                <div className={tipClass}>
-                  <div className="bt-name">{g.name}</div>
-                  <div className="bt-meta">{g.era} · {g.size} appearances</div>
-                </div>
+            <g key={a.id} onMouseEnter={() => setTip(a.id)} onMouseLeave={() => setTip(null)}
+               style={{ cursor: "default" }}>
+              {points.slice(0, -1).map((p, i) => {
+                const q = points[i + 1];
+                const mx = (p.x + q.x) / 2;
+                return (
+                  <path key={i}
+                    d={`M${p.x},${p.y} C${mx},${p.y} ${mx},${q.y} ${q.x},${q.y}`}
+                    fill="none"
+                    stroke={`oklch(0.7 0.18 ${hue})`}
+                    strokeWidth={isHot ? 2.5 : 1.2}
+                    opacity={tip && !isHot ? 0.15 : isHot ? 1 : 0.55}
+                  />
+                );
+              })}
+              {points.map((p) => (
+                <circle key={p.k} cx={p.x} cy={p.y} r={isHot ? 5 : 3.5}
+                  fill={`oklch(0.7 0.18 ${hue})`}
+                  opacity={tip && !isHot ? 0.15 : 1}
+                />
+              ))}
+              {isHot && points[0] && (
+                <text x={points[0].x - 12} y={points[0].y + 4}
+                  textAnchor="end" className="bump-name">{a.name}</text>
               )}
-            </div>
+            </g>
           );
         })}
-      </div>
-
-      <div className="bubble-axis-x">
-        <span>only short_term</span>
-        <span className="bax-mid">consistency over time →</span>
-        <span>all three ranges</span>
-      </div>
-
-      <div className="bubble-legend">
-        {ERA_LEGEND.map((e) => (
-          <div key={e.key} className="bleg-item">
-            <span className="bleg-dot" style={{ background: `oklch(0.7 0.18 ${e.hue})` }} />
-            <span>{e.key}</span>
-          </div>
-        ))}
-        <div className="bleg-spacer" />
-        <div className="bleg-note">size = total appearances across tops</div>
+      </svg>
+      <div className="bump-legend">
+        <span><span className="bleg-dot" style={{ background: "oklch(0.7 0.18 340)" }} />recent obsession</span>
+        <span><span className="bleg-dot" style={{ background: "oklch(0.7 0.18 185)" }} />long-time favorite</span>
+        <span className="bump-legend-note">hover to identify · rank 1–20 shown · lines = multi-range artists</span>
       </div>
     </div>
   );
 }
 
-export default function GenresSection() {
+function MatrixChart({ topArtists }) {
+  const [tip, setTip] = useState(null);
+  const artists = useMemo(() => {
+    const all = buildArtistRanks(topArtists);
+    return all
+      .sort((a, b) => {
+        const ac = Object.keys(a.ranks).length, bc = Object.keys(b.ranks).length;
+        if (ac !== bc) return bc - ac;
+        return Math.min(...Object.values(a.ranks)) - Math.min(...Object.values(b.ranks));
+      })
+      .slice(0, 30);
+  }, [topArtists]);
+
+  return (
+    <div className="matrix-wrap">
+      <div className="matrix-header">
+        <div className="matrix-name-col" />
+        {RANGE_LABELS.map((l) => (
+          <div key={l} className="matrix-range-label">{l}</div>
+        ))}
+      </div>
+      <div className="matrix-rows">
+        {artists.map((a) => {
+          const isLong = !!a.ranks.all;
+          const hue = isLong ? 185 : 340;
+          const isHot = tip === a.id;
+          return (
+            <div key={a.id}
+              className={`matrix-row${isHot ? " is-hot" : ""}`}
+              onMouseEnter={() => setTip(a.id)}
+              onMouseLeave={() => setTip(null)}
+            >
+              <div className="matrix-name">{a.name}</div>
+              {RANGE_KEYS.map((k) => (
+                <div key={k} className="matrix-cell">
+                  {a.ranks[k] != null ? (
+                    <span className="matrix-dot"
+                      style={{ background: `oklch(${0.45 + (1 - a.ranks[k] / 50) * 0.3} 0.16 ${hue})` }}>
+                      {a.ranks[k]}
+                    </span>
+                  ) : (
+                    <span className="matrix-dot is-absent">—</span>
+                  )}
+                </div>
+              ))}
+            </div>
+          );
+        })}
+      </div>
+      <div className="matrix-footer">
+        <span><span className="bleg-dot" style={{ background: "oklch(0.7 0.18 340)" }} />recent</span>
+        <span><span className="bleg-dot" style={{ background: "oklch(0.7 0.18 185)" }} />long-time</span>
+        <span className="bump-legend-note">brighter = higher rank · — = not in top 50 that period</span>
+      </div>
+    </div>
+  );
+}
+
+export default function GenresSection({ data, vennData }) {
   const [hovered, setHovered] = useState(null);
-  const totalShare = SOUND_DNA.reduce((s, b) => s + b.share, 0);
+  const [universeView, setUniverseView] = useState("bump");
+  const soundDna = data?.genres ?? [];
+  const totalShare = soundDna.reduce((s, b) => s + b.share, 0) || 100;
+  const artistUniverse = data?.artist_universe ?? [];
 
   return (
     <section className="section" id="section-genres">
       <div className="section-head">
         <div>
-          <div className="section-eyebrow">04 · genre dna</div>
+          <div className="section-eyebrow">01 · genre dna</div>
           <h1 className="section-title">A taste, in pigments.</h1>
         </div>
         <div className="section-meta">
-          <span>5 genre buckets · curated</span>
+          <span>{soundDna.length} genre buckets · computed</span>
           <span className="dot-sep">●</span>
-          <span>50 / 31 / 9 / 7 / 3</span>
+          <span>{soundDna.map((b) => `${b.share}%`).join(" / ")}</span>
         </div>
       </div>
 
@@ -141,16 +172,16 @@ export default function GenresSection() {
         <div className="genre-strip-card">
           <div className="card-head">
             <div className="card-title">Sound DNA · genres</div>
-            <div className="card-meta">% of top 150 tracks · curated from listening history</div>
+            <div className="card-meta">% of artists · weighted by rank · Last.fm tags</div>
           </div>
           <div className="genre-strip">
-            {SOUND_DNA.map((g) => (
+            {soundDna.map((g) => (
               <div
                 key={g.name}
                 className="genre-stripe"
                 style={{
                   width:      `${(g.share / totalShare) * 100}%`,
-                  background: `oklch(0.55 0.15 ${g.hue})`,
+                  background: `oklch(${g.chroma < 0.05 ? 0.82 : 0.6} ${g.chroma ?? 0.15} ${g.hue})`,
                   opacity:    hovered && hovered !== g.name ? 0.35 : 1,
                 }}
                 onMouseEnter={() => setHovered(g.name)}
@@ -160,7 +191,7 @@ export default function GenresSection() {
             ))}
           </div>
           <div className="genre-bars">
-            {SOUND_DNA.map((g) => (
+            {soundDna.map((g) => (
               <div
                 key={g.name}
                 className={`genre-row ${hovered === g.name ? "is-hot" : ""}`}
@@ -168,15 +199,15 @@ export default function GenresSection() {
                 onMouseLeave={() => setHovered(null)}
               >
                 <div className="genre-row-name">
-                  <span className="genre-swatch" style={{ background: `oklch(0.6 0.15 ${g.hue})` }} />
+                  <span className="genre-swatch" style={{ background: `oklch(${g.chroma < 0.05 ? 0.88 : 0.65} ${g.chroma ?? 0.15} ${g.hue})` }} />
                   <span>{g.name}</span>
                 </div>
                 <div className="genre-row-bar">
                   <div
                     className="genre-row-fill"
                     style={{
-                      width:      `${(g.share / SOUND_DNA[0].share) * 100}%`,
-                      background: `oklch(0.55 0.14 ${g.hue})`,
+                      width:      `${(g.share / soundDna[0].share) * 100}%`,
+                      background: `oklch(${g.chroma < 0.05 ? 0.85 : 0.6} ${g.chroma ?? 0.14} ${g.hue})`,
                     }}
                   />
                 </div>
@@ -190,8 +221,8 @@ export default function GenresSection() {
             <div className="genre-foot-list">
               {(
                 hovered
-                  ? SOUND_DNA.find((d) => d.name === hovered)?.artists
-                  : SOUND_DNA[0]?.artists
+                  ? soundDna.find((d) => d.name === hovered)?.artists
+                  : soundDna[0]?.artists
               )?.join(" · ") || "—"}
             </div>
           </div>
@@ -200,9 +231,16 @@ export default function GenresSection() {
         <div className="genre-bubble-card">
           <div className="card-head">
             <div className="card-title">Artist universe</div>
-            <div className="card-meta">x: consistency · y: track-vs-artist · size: presence</div>
+            <div className="universe-tabs">
+              {["bump", "venn", "matrix"].map((v) => (
+                <button key={v} className={`universe-tab${universeView === v ? " is-active" : ""}`}
+                  onClick={() => setUniverseView(v)}>{v}</button>
+              ))}
+            </div>
           </div>
-          <BubbleChart cloud={ARTIST_UNIVERSE} hovered={hovered} setHovered={setHovered} />
+          {universeView === "bump"    && <BumpChart topArtists={data.top_artists} />}
+          {universeView === "venn"    && <VennDiagram vennData={vennData} />}
+          {universeView === "matrix"  && <MatrixChart topArtists={data.top_artists} />}
         </div>
       </div>
     </section>

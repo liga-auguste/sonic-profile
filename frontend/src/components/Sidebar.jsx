@@ -1,15 +1,17 @@
 const NAV = [
-  { id: "profile", label: "Profile", glyph: "◐" },
-  { id: "tracks", label: "Top Tracks", glyph: "♪" },
-  { id: "artists", label: "Top Artists", glyph: "◇" },
-  { id: "genres", label: "Genre DNA", glyph: "≋" },
-  { id: "stats", label: "Listening Stats", glyph: "▤" },
-  { id: "playlists", label: "Playlists", glyph: "▦" },
+  { id: "genres",  label: "Genre DNA",      glyph: "≋" },
+  { id: "artists", label: "Top Artists",    glyph: "◇" },
+  { id: "tracks",  label: "Top Tracks",     glyph: "♪" },
+  { id: "stats",   label: "Listening Stats", glyph: "▤" },
 ];
 
 export { NAV };
 
-export default function Sidebar({ active, onNav, profile }) {
+export default function Sidebar({ active, onNav, profile, fetchedAt }) {
+  const initials = (profile?.display_name || "?")
+    .split(" ").filter(Boolean).slice(0, 2)
+    .map((w) => w[0]).join("").toUpperCase();
+
   return (
     <aside className="sidebar">
       <div className="brand">
@@ -23,8 +25,31 @@ export default function Sidebar({ active, onNav, profile }) {
         </div>
         <div className="brand-text">
           <div className="brand-title">My Sonic Profile</div>
-          <div className="brand-sub">v0.5 · personal build</div>
+          <div className="brand-sub">built May 2026</div>
         </div>
+      </div>
+
+      <div className="side-profile">
+        <div className="side-avatar">
+          {profile?.image ? (
+            <img src={profile.image} alt={profile.display_name} className="side-avatar-img" />
+          ) : (
+            <svg viewBox="0 0 60 60" width="52" height="52">
+              <defs>
+                <linearGradient id="sag" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stopColor="oklch(0.62 0.16 168)" />
+                  <stop offset="1" stopColor="oklch(0.42 0.12 320)" />
+                </linearGradient>
+              </defs>
+              <circle cx="30" cy="30" r="30" fill="url(#sag)" />
+              <text x="30" y="38" textAnchor="middle"
+                fontFamily="'Bricolage Grotesque', serif" fontWeight="600"
+                fontSize="24" fill="oklch(0.98 0.02 168)">{initials}</text>
+            </svg>
+          )}
+        </div>
+        <div className="side-profile-name">{profile?.display_name ?? "demo"}</div>
+        <div className="side-profile-sub">{profile?.country} · {profile?.product}</div>
       </div>
 
       <nav className="nav">
@@ -43,20 +68,14 @@ export default function Sidebar({ active, onNav, profile }) {
       <div className="side-foot">
         <div className="side-card">
           <div className="side-card-top">
-            <span className="live-dot" />
-            <span className="side-card-label">socket · live</span>
+            <span className="side-card-label">data snapshot · daily updated</span>
           </div>
           <div className="side-card-body">
-            connected to <span style={{ color: "var(--text)" }}>spotify-ws</span>
+            fetched <span style={{ color: "var(--text)" }}>
+              {fetchedAt ? new Date(fetchedAt).toLocaleDateString() : "—"}
+            </span>
             <br />
-            42ms · stable
-          </div>
-        </div>
-        <div className="side-meta">
-          <div>signed in as</div>
-          <div style={{ color: "var(--text)" }}>{profile?.display_name ?? "demo"}</div>
-          <div style={{ color: "var(--text-faint)" }}>
-            {profile?.country} · {profile?.product}
+            via spotify api · github actions
           </div>
         </div>
       </div>
