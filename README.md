@@ -21,7 +21,7 @@ One more thing worth noting: Spotify's genre data is notoriously sparse — the 
 - **Genre DNA** — genre distribution across top artists, with an artist universe chart tracking movement across time ranges
 - **Top Artists** — range tabs for last month, 6 months, and all time
 - **Top Tracks** — with a "diverse" mode that filters duplicate albums
-- **Listening Stats** — play counts, streak calendar, hourly patterns, and a Venn diagram of cross-range artists
+- **Listening Stats** — play counts, hourly patterns, and a Venn diagram of cross-range artists
 
 ## Stack
 
