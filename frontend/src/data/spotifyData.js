@@ -2791,6 +2791,20 @@ export const SPOTIFY_DATA = {
       },
       {
         "rank": 30,
+        "id": "3jzXlBF2157k4exx7idecs",
+        "name": "Leif Vollebekk",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebedcef0452e43256e0e32fbd3",
+        "genres": [
+          "folk",
+          "canadian",
+          "singer-songwriter",
+          "indie folk"
+        ],
+        "followers": 0,
+        "url": "https://open.spotify.com/artist/3jzXlBF2157k4exx7idecs"
+      },
+      {
+        "rank": 31,
         "id": "3lzTKwFsOqxtp5cLJ2qbSD",
         "name": "Tokyo Tea Room",
         "image": "https://i.scdn.co/image/ab6761610000e5ebe8d9e3554d20222bad969aa0",
@@ -2803,7 +2817,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/3lzTKwFsOqxtp5cLJ2qbSD"
       },
       {
-        "rank": 31,
+        "rank": 32,
         "id": "48IWhckCqdKLfS7hFw20x5",
         "name": "Moon Soul",
         "image": "https://i.scdn.co/image/ab6761610000e5eb1cd940b2a344ea0dedc1db36",
@@ -2814,7 +2828,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/48IWhckCqdKLfS7hFw20x5"
       },
       {
-        "rank": 32,
+        "rank": 33,
         "id": "4gzpq5DPGxSnKTe4SA8HAU",
         "name": "Coldplay",
         "image": "https://i.scdn.co/image/ab6761610000e5eb1ba8fc5f5c73e7e9313cc6eb",
@@ -2829,7 +2843,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/4gzpq5DPGxSnKTe4SA8HAU"
       },
       {
-        "rank": 33,
+        "rank": 34,
         "id": "64fPWMvR6IQ9w4sGrCmoQj",
         "name": "Montazona",
         "image": "https://i.scdn.co/image/ab6761610000e5ebc2f0440617795a1a7dd135c5",
@@ -2844,7 +2858,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/64fPWMvR6IQ9w4sGrCmoQj"
       },
       {
-        "rank": 34,
+        "rank": 35,
         "id": "6Ay4LTevVm24IfC05fZNZH",
         "name": "Patchwork Inc.",
         "image": "https://i.scdn.co/image/ab6761610000e5eb97295bd5fe05b97ac92edb68",
@@ -2856,7 +2870,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/6Ay4LTevVm24IfC05fZNZH"
       },
       {
-        "rank": 35,
+        "rank": 36,
         "id": "6IY1MxE4bpF80sEVxGJZ4M",
         "name": "Pastel Radio",
         "image": "https://i.scdn.co/image/ab6761610000e5eb034185de906e286049668a36",
@@ -2865,7 +2879,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/6IY1MxE4bpF80sEVxGJZ4M"
       },
       {
-        "rank": 36,
+        "rank": 37,
         "id": "6LXZac7iBIZgnNrywTkQRw",
         "name": "Monophonics",
         "image": "https://i.scdn.co/image/ab6761610000e5eb65bc9e74fce3873550668a5b",
@@ -2879,7 +2893,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/6LXZac7iBIZgnNrywTkQRw"
       },
       {
-        "rank": 37,
+        "rank": 38,
         "id": "1l51Sc9HBh8fLXUDEjFhxU",
         "name": "William DeVaughn",
         "image": "https://i.scdn.co/image/ab67616d00001e02246433e2822df12c5ce38688",
@@ -2893,7 +2907,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/1l51Sc9HBh8fLXUDEjFhxU"
       },
       {
-        "rank": 38,
+        "rank": 39,
         "id": "2Udd2jgFaz8tXG1w3PyMtN",
         "name": "Dekker",
         "image": "https://i.scdn.co/image/ab6761610000e5eb8e0768de5c003b1345cb8e82",
@@ -2907,7 +2921,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/2Udd2jgFaz8tXG1w3PyMtN"
       },
       {
-        "rank": 39,
+        "rank": 40,
         "id": "2t9yJDJIEtvPmr2iRIdqBf",
         "name": "Fink",
         "image": "https://i.scdn.co/image/ab6761610000e5eb442d7e695f5048559d24f0d5",
@@ -2920,20 +2934,6 @@ export const SPOTIFY_DATA = {
         ],
         "followers": 0,
         "url": "https://open.spotify.com/artist/2t9yJDJIEtvPmr2iRIdqBf"
-      },
-      {
-        "rank": 40,
-        "id": "3jzXlBF2157k4exx7idecs",
-        "name": "Leif Vollebekk",
-        "image": "https://i.scdn.co/image/ab6761610000e5ebedcef0452e43256e0e32fbd3",
-        "genres": [
-          "folk",
-          "canadian",
-          "singer-songwriter",
-          "indie folk"
-        ],
-        "followers": 0,
-        "url": "https://open.spotify.com/artist/3jzXlBF2157k4exx7idecs"
       },
       {
         "rank": 41,
@@ -2993,6 +2993,21 @@ export const SPOTIFY_DATA = {
       },
       {
         "rank": 45,
+        "id": "1M7odak1xeImHJBDcIMTAg",
+        "name": "Mynolia",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb1afb00474b20a11e28a1b74c",
+        "genres": [
+          "canadian",
+          "folk",
+          "german",
+          "indie",
+          "indie pop"
+        ],
+        "followers": 0,
+        "url": "https://open.spotify.com/artist/1M7odak1xeImHJBDcIMTAg"
+      },
+      {
+        "rank": 46,
         "id": "2DwbPVZ7uyW2B0AgoHuzLn",
         "name": "Olive Jones",
         "image": "https://i.scdn.co/image/ab6761610000e5eb70efd9d39ef9b0df3a8a75e4",
@@ -3007,7 +3022,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/2DwbPVZ7uyW2B0AgoHuzLn"
       },
       {
-        "rank": 46,
+        "rank": 47,
         "id": "4Z8W4fKeB5YxbusRsdQVPb",
         "name": "Radiohead",
         "image": "https://i.scdn.co/image/ab6761610000e5eb4104fbd80f1f795728abbd59",
@@ -3022,7 +3037,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb"
       },
       {
-        "rank": 47,
+        "rank": 48,
         "id": "5nz3Ya545dAVjfMwX60LPq",
         "name": "Hanakiv",
         "image": "https://i.scdn.co/image/ab6761610000e5eb3312f17baac9bb18475fbc9a",
@@ -3037,7 +3052,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/5nz3Ya545dAVjfMwX60LPq"
       },
       {
-        "rank": 48,
+        "rank": 49,
         "id": "6BxU8WANw4zXnBceJykdKX",
         "name": "O & The Mo",
         "image": "https://i.scdn.co/image/ab6761610000e5eb80a486406480c17c9e02fe3b",
@@ -3052,26 +3067,13 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/6BxU8WANw4zXnBceJykdKX"
       },
       {
-        "rank": 49,
+        "rank": 50,
         "id": "0vABYweyJunNI8gFdnxXps",
         "name": "nate2timez",
         "image": "https://i.scdn.co/image/ab6761610000e5eb44f77d260b6a0cfa9e795b69",
         "genres": [],
         "followers": 0,
         "url": "https://open.spotify.com/artist/0vABYweyJunNI8gFdnxXps"
-      },
-      {
-        "rank": 50,
-        "id": "14kEabF9MiQJW37PNuLGgJ",
-        "name": "KATZROAR",
-        "image": "https://i.scdn.co/image/ab6761610000e5ebf54ee1abe01cb5a97ab915b1",
-        "genres": [
-          "psychedelic rock",
-          "surf funk",
-          "funk_add_to_lidarr_batch_14"
-        ],
-        "followers": 0,
-        "url": "https://open.spotify.com/artist/14kEabF9MiQJW37PNuLGgJ"
       }
     ],
     "half": [
@@ -3649,7 +3651,13 @@ export const SPOTIFY_DATA = {
         "id": "2QOIawHpSlOwXDvSqQ9YJR",
         "name": "Antonio Vivaldi",
         "image": "https://i.scdn.co/image/9785700bae86f991f78183076861c7342a4bcf90",
-        "genres": [],
+        "genres": [
+          "classical",
+          "baroque",
+          "instrumental",
+          "composers",
+          "classic"
+        ],
         "followers": 0,
         "url": "https://open.spotify.com/artist/2QOIawHpSlOwXDvSqQ9YJR"
       },
@@ -4497,7 +4505,7 @@ export const SPOTIFY_DATA = {
   "genres": [
     {
       "name": "indie / folk",
-      "share": 36.3,
+      "share": 36.7,
       "hue": 140,
       "chroma": 0.15,
       "artists": [
@@ -4509,7 +4517,7 @@ export const SPOTIFY_DATA = {
     },
     {
       "name": "soul / R&B",
-      "share": 28.2,
+      "share": 28.0,
       "hue": 18,
       "chroma": 0.16,
       "artists": [
@@ -4521,7 +4529,7 @@ export const SPOTIFY_DATA = {
     },
     {
       "name": "classical / baroque",
-      "share": 19.9,
+      "share": 20.0,
       "hue": 280,
       "chroma": 0.03,
       "artists": [
@@ -4533,7 +4541,7 @@ export const SPOTIFY_DATA = {
     },
     {
       "name": "jazz",
-      "share": 6.7,
+      "share": 6.6,
       "hue": 210,
       "chroma": 0.15,
       "artists": [
@@ -4545,7 +4553,7 @@ export const SPOTIFY_DATA = {
     },
     {
       "name": "electronic",
-      "share": 5.6,
+      "share": 5.5,
       "hue": 265,
       "chroma": 0.15,
       "artists": [
@@ -4557,13 +4565,12 @@ export const SPOTIFY_DATA = {
     },
     {
       "name": "funk / psychedelic",
-      "share": 3.3,
+      "share": 3.2,
       "hue": 58,
       "chroma": 0.15,
       "artists": [
         "Hermanos Gutiérrez",
-        "Arc De Soleil",
-        "KATZROAR"
+        "Arc De Soleil"
       ]
     }
   ],
@@ -4747,13 +4754,13 @@ export const SPOTIFY_DATA = {
   ],
   "currently_playing": {
     "is_playing": true,
-    "progress_ms": 135438,
-    "duration_ms": 210893,
-    "name": "Maia",
-    "artist": "Bobby Bazini",
-    "album": "Maia",
-    "album_image": "https://i.scdn.co/image/ab67616d00001e025a863bbca8e97b71411e6666",
-    "url": "https://open.spotify.com/track/7GRw86pBE9E2kiH40ee9Nm",
+    "progress_ms": 118461,
+    "duration_ms": 267546,
+    "name": "Runnin'",
+    "artist": "Frazey Ford",
+    "album": "Indian Ocean",
+    "album_image": "https://i.scdn.co/image/ab67616d00001e0252c525d49d229a6e988213f3",
+    "url": "https://open.spotify.com/track/1cHx6qySxSb0QCulFoiuHf",
     "context_type": "playlist"
   },
   "stats": {
@@ -4768,7 +4775,7 @@ export const SPOTIFY_DATA = {
     "releaseYearOldest": 1966,
     "releaseYearNewest": 2026,
     "releaseYearPeak": 2024,
-    "fetched_at": "2026-05-23T13:22:25.482530+00:00",
+    "fetched_at": "2026-05-23T14:18:41.874192+00:00",
     "hoursChart": [
       1,
       0,
@@ -4785,8 +4792,8 @@ export const SPOTIFY_DATA = {
       0,
       7,
       12,
-      6,
-      1,
+      16,
+      8,
       17,
       21,
       6,
@@ -4795,7 +4802,7 @@ export const SPOTIFY_DATA = {
       14,
       13
     ],
-    "cumulativeArtists": 115,
+    "cumulativeArtists": 116,
     "cumulativeTracks": 132
   }
 };
