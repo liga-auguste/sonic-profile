@@ -3,7 +3,6 @@
 __pycache__/
 *.pyc
 *.pyo
-db.sqlite3
 staticfiles/
 
 # Environment
@@ -16,10 +15,16 @@ frontend/dist/
 # macOS
 .DS_Store
 
-# Spotify data exports
+# Spotify data exports (processed into sonic.db by the pipeline)
 spotify_data_*.json
 
-# Legacy files replaced by sonic.db
+# Legacy JSON files replaced by sonic.db
 listening_history.json
 cumulative_stats.json
+
+# Django leftovers (backend removed — app is fully static)
+db.sqlite3
+backend/
+manage.py
+spotify_api/
 

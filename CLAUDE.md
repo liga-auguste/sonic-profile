@@ -194,17 +194,17 @@ npm run build
 
 ## Offene TODOs (in Reihenfolge)
 
-- [ ] **1. Deployment** — Vercel Static Site live schalten (siehe unten)
-- [ ] **2. README** — Screenshot + kurze Erklärung im Repo, bevor Links geteilt werden
-- [ ] **3. TypeScript** — `.jsx` → `.tsx`, Typen für Datenstrukturen definieren, kein `any`
-- [ ] **4. Tests** — Unit Tests für `generate_data.py` (genre bucketing, venn, stats), ggf. Komponenten-Tests
-- [ ] **5. SQLite + Timeline** — `artists` und `tracks` Tabellen mit `first_seen_at` ersetzen die JSON-Akkumulation; `INSERT OR IGNORE` stellt sicher dass nur neue IDs hinzugefügt werden und `first_seen_at` nie überschrieben wird; Last.fm-Enrichment läuft nur für neue Artists (~90% weniger API-Requests nach Einlaufphase); ermöglicht Timeline-Ansicht ("wann kam welcher Artist/Track in den Pool")
+- [x] **1. Deployment** — Vercel live, sonic.ligaauguste.de
+- [x] **2. README** — Screenshot + Erklärung im Repo
+- [x] **3. TypeScript** — `.tsx`/`.ts` durchgehend, Typen in `types.ts`, Hooks typisiert
+- [x] **4. Tests** — 44 Unit Tests in `test_generate_data.py` (genre bucketing, venn, stats, transforms); run with `python -m pytest test_generate_data.py`
+- [x] **5. SQLite** — `sonic.db` + `sonic_db.py` live; `INSERT OR IGNORE` auf `artists`/`tracks` mit `first_seen_at`; Last.fm-Enrichment läuft nur für neue Artists; Changelog-View unter `/#changelog`
 
 ---
 
 ## Deployment
 
-Ziel: **Vercel** — nur Static Site, kein Backend.
+Ziel: **Vercel** — nur Static Site, kein Backend. **Live unter sonic.ligaauguste.de.**
 
 **Vercel-Einstellungen:**
 - Root Directory: `frontend/`
@@ -212,9 +212,9 @@ Ziel: **Vercel** — nur Static Site, kein Backend.
 - Output Directory: `dist`
 
 **Checkliste:**
-- [ ] Vercel-Projekt anlegen + Git-Repo verbinden
-- [ ] GitHub Actions Secrets eintragen: `SPOTIFY_CLIENT_ID`, `SPOTIFY_CLIENT_SECRET`, `SPOTIFY_REFRESH_TOKEN`, `LASTFM_API_KEY`
-- [ ] Cron Job testen (workflow_dispatch in GitHub UI)
+- [x] Vercel-Projekt anlegen + Git-Repo verbinden
+- [x] GitHub Actions Secrets eintragen: `SPOTIFY_CLIENT_ID`, `SPOTIFY_CLIENT_SECRET`, `SPOTIFY_REFRESH_TOKEN`, `LASTFM_API_KEY`
+- [x] Cron Job testen (workflow_dispatch in GitHub UI)
 - [ ] `axios` und `react-router-dom` aus `package.json` entfernen (werden nicht verwendet)
 
 **GitHub Actions Cron Job** ist fertig (`.github/workflows/update_data.yml`):
