@@ -33,7 +33,7 @@ function BumpChart({ topArtists }: { topArtists: SpotifyData["top_artists"] }) {
   }, [topArtists]);
 
   const MAX_RANK = 20;
-  const W = 560; const H = 280;
+  const W = 560; const H = 360;
   const COL_X = [150, W / 2, W - 150];
   const rankY = (r: number) => 24 + (Math.min(r, MAX_RANK) - 1) / (MAX_RANK - 1) * (H - 48);
   const isLong = (a: ArtistRank) => !!a.ranks.all;
@@ -54,8 +54,11 @@ function BumpChart({ topArtists }: { topArtists: SpotifyData["top_artists"] }) {
             .map((k) => ({ k, x: COL_X[RANGE_KEYS.indexOf(k)], y: rankY(a.ranks[k]!) }));
           const isHot = tip === a.id;
           return (
-            <g key={a.id} onMouseEnter={() => setTip(a.id)} onMouseLeave={() => setTip(null)}
-               style={{ cursor: "default" }}>
+            <g key={a.id}
+              onMouseEnter={() => setTip(a.id)}
+              onMouseLeave={() => setTip(null)}
+              onClick={() => setTip((t) => t === a.id ? null : a.id)}
+              style={{ cursor: "pointer" }}>
               {points.slice(0, -1).map((p, i) => {
                 const q = points[i + 1];
                 const mx = (p.x + q.x) / 2;
@@ -70,13 +73,13 @@ function BumpChart({ topArtists }: { topArtists: SpotifyData["top_artists"] }) {
                 );
               })}
               {points.map((p) => (
-                <circle key={p.k} cx={p.x} cy={p.y} r={isHot ? 5 : 3.5}
+                <circle key={p.k} cx={p.x} cy={p.y} r={isHot ? 6 : 4.5}
                   fill={`oklch(0.7 0.18 ${hue})`}
                   opacity={tip && !isHot ? 0.15 : 1}
                 />
               ))}
               {isHot && points[0] && (
-                <text x={points[0].x - 12} y={points[0].y + 4}
+                <text x={points[0].x - 14} y={points[0].y + 4}
                   textAnchor="end" className="bump-name">{a.name}</text>
               )}
             </g>
@@ -86,7 +89,7 @@ function BumpChart({ topArtists }: { topArtists: SpotifyData["top_artists"] }) {
       <div className="bump-legend">
         <span><span className="bleg-dot" style={{ background: "oklch(0.7 0.18 340)" }} />recent obsession</span>
         <span><span className="bleg-dot" style={{ background: "oklch(0.7 0.18 185)" }} />long-time favorite</span>
-        <span className="bump-legend-note">hover to identify · rank 1–20 shown · lines = multi-range artists</span>
+        <span className="bump-legend-note">tap to identify · rank 1–20 shown · lines = multi-range artists</span>
       </div>
     </div>
   );
@@ -159,7 +162,9 @@ interface GenresSectionProps {
 
 export default function GenresSection({ data, vennData }: GenresSectionProps) {
   const [hovered, setHovered] = useState<string | null>(null);
-  const [universeView, setUniverseView] = useState<UniverseView>("bump");
+  const [universeView, setUniverseView] = useState<UniverseView>(
+    () => window.innerWidth <= 768 ? "matrix" : "bump"
+  );
   const soundDna = data?.genres ?? [];
   const totalShare = soundDna.reduce((s, b) => s + b.share, 0) || 100;
 

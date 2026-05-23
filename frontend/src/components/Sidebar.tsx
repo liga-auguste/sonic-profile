@@ -1,10 +1,10 @@
 import type { Profile } from "../types";
 
 export const NAV = [
-  { id: "genres",  label: "Genre DNA",       glyph: "≋" },
-  { id: "artists", label: "Top Artists",     glyph: "◇" },
-  { id: "tracks",  label: "Top Tracks",      glyph: "♪" },
-  { id: "stats",   label: "Listening Stats", glyph: "▤" },
+  { id: "genres",  label: "Genre DNA",       glyph: "≋", num: "01" },
+  { id: "artists", label: "Top Artists",     glyph: "◇", num: "02" },
+  { id: "tracks",  label: "Top Tracks",      glyph: "♪", num: "03" },
+  { id: "stats",   label: "Listening Stats", glyph: "▤", num: "04" },
 ] as const;
 
 export type NavId = (typeof NAV)[number]["id"];

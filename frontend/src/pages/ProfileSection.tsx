@@ -115,10 +115,7 @@ export default function ProfileSection({ data, onTrackSelect }: ProfileSectionPr
               <div className="ps-lab">tracks seen</div>
             </div>
           </div>
-          <div className="profile-quote">
-            "music is just memory with a tempo."
-            <div className="profile-quote-by">— {profile.display_name}, bio.txt</div>
-          </div>
+
         </div>
 
         <div className="recent-card">

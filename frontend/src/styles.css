@@ -229,15 +229,59 @@ button {
 
 .side-foot { margin-top: auto; display: flex; flex-direction: column; gap: 14px; }
 
-.bottom-player {
+.player-wrap {
   position: fixed;
   bottom: 16px;
   right: 24px;
   width: 360px;
-  display: block;
-  border: none;
-  border-radius: 12px;
   z-index: 100;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px oklch(0 0 0 / 0.4);
+}
+
+.player-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 7px 10px 7px 14px;
+  background: oklch(0.22 0.02 280);
+  border-bottom: 1px solid oklch(1 0 0 / 0.07);
+}
+
+.player-bar-title {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--text-dim);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.player-bar-artist { color: var(--text-faint); }
+
+.player-close {
+  flex-shrink: 0;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: none;
+  border: 1px solid oklch(1 0 0 / 0.15);
+  color: var(--text-dim);
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s;
+}
+.player-close:hover { color: var(--text); border-color: var(--text-dim); }
+
+.bottom-player {
+  display: block;
+  width: 100%;
+  border: none;
 }
 
 .side-card {
@@ -736,6 +780,12 @@ button {
   gap: 10px;
 }
 
+.range-group {
+  display: flex;
+  align-items: flex-end;
+  gap: 4px;
+}
+
 .diverse-btn {
   font-family: var(--mono);
   font-size: 11.5px;
@@ -1105,6 +1155,8 @@ button {
   font-size: 11px;
   color: var(--text-faint);
 }
+
+.back-to-top { display: none; }
 
 /* ── Scrollbar ─────────────────────────────────────────── */
 
@@ -1484,4 +1536,144 @@ button {
   font-size: 12px;
   font-style: normal;
   color: var(--text-dim);
+}
+
+/* ── Mobile top bar + eyebrow crumb (hidden on desktop) ── */
+
+.mobile-topbar { display: none; }
+.crumb-eyebrow { display: none; }
+
+/* ── Mobile responsive ─────────────────────────────────── */
+
+@media (max-width: 768px) {
+  /* App shell: single full-height column, no bottom nav row */
+  .app {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    height: 100dvh;
+  }
+
+  /* Sidebar completely hidden — navigation is scroll-only on mobile */
+  .sidebar { display: none; }
+
+  /* Mobile brand header */
+  .mobile-topbar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 16px 0 14px;
+    border-bottom: 1px solid var(--line);
+    font-family: var(--display);
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: -0.01em;
+    color: var(--text);
+  }
+
+  /* Sticky eyebrow replaces breadcrumb */
+  .main-header { padding: 8px 0 6px; margin: 0; }
+  .crumb-dim, .crumb-label { display: none; }
+  .crumb-eyebrow {
+    display: inline;
+    font-family: var(--mono);
+    font-size: 11.5px;
+    color: var(--accent);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  /* Main content */
+  .main { padding: 0 16px 24px; scrollbar-width: none; }
+  .main::-webkit-scrollbar { display: none; }
+  .has-player .main { padding-bottom: 168px; }
+
+  /* Spotify bottom player: full-width at bottom */
+  .player-wrap { bottom: 0; left: 0; right: 0; width: 100%; border-radius: 0; }
+
+  /* Section headers */
+  .section { padding: 20px 0 20px; }
+  .section-title { font-size: clamp(22px, 7vw, 34px); }
+  .section-head {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    margin-bottom: 16px;
+  }
+  .section-meta { display: none; }
+  #section-genres .section-eyebrow { display: none; }
+  .foot { flex-direction: column; align-items: center; gap: 12px; }
+  .back-to-top {
+    display: inline-block;
+    background: none;
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    font-family: var(--mono);
+    font-size: 13px;
+    padding: 9px 22px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  /* Card head: stack title + meta vertically */
+  .card-head { flex-direction: column; gap: 2px; align-items: flex-start; }
+  .card-meta { text-align: left; }
+
+  /* Artists: 3 columns, portrait fills card reliably */
+  .artists-grid { grid-template-columns: repeat(3, 1fr); gap: 10px; }
+  .artist-card { min-width: 0; overflow: hidden; }
+  .artist-name { font-size: 12px; word-break: break-word; }
+  .artist-ranges { flex-wrap: wrap; }
+  .artist-portrait {
+    width: 100%;
+    position: relative;
+    padding-bottom: 100%;
+    height: 0;
+    margin: 0 auto 4px;
+  }
+  /* Cover div: fill the square (exclude rank badge) */
+  .artist-portrait > div:not(.artist-rank-badge) {
+    position: absolute !important;
+    inset: 0 !important;
+    width: auto !important;
+    height: auto !important;
+  }
+  .artist-rank-badge { position: absolute; z-index: 1; }
+
+  /* Track rows: flush left */
+  .track-row { padding: 8px 4px; gap: 8px; }
+
+  /* Stats bento: 2 columns, reset all inline grid placement */
+  .stats-bento { grid-template-columns: repeat(2, 1fr); }
+  .stats-bento > * { grid-column: auto !important; grid-row: auto !important; }
+
+  /* Genre row: flexible name column, hide track count */
+  .genre-row { grid-template-columns: 1fr auto auto; gap: 8px; }
+  .genre-row-tracks { display: none; }
+
+  /* Range toggle: no sub-label */
+  .range-btn { padding: 7px 10px; min-width: unset; }
+  .range-note { display: none; }
+
+  /* Tracks controls */
+  .tracks-head-right { flex-wrap: wrap; gap: 8px; }
+
+  /* Hours chart: taller bars */
+  .hours-chart { min-height: 100px; }
+
+  /* Venn */
+  .venn-svg { height: 260px; }
+
+  /* Profile card */
+  .profile-card { padding: 22px 18px; }
+}
+
+@media (max-width: 480px) {
+  .main { padding: 0 12px 24px; }
+  .has-player .main { padding-bottom: 168px; }
+
+  /* Stats bento: single column */
+  .stats-bento { grid-template-columns: 1fr; }
+
+  /* Section title tighter */
+  .section-title { font-size: clamp(20px, 8vw, 26px); }
 }

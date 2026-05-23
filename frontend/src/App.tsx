@@ -67,10 +67,22 @@ export default function App() {
     <div className={`app${activeTrack ? " has-player" : ""}`}>
       <Sidebar active={active} onNav={onNav} profile={data.profile} fetchedAt={data.stats.fetched_at} />
       <main className="main" ref={scrollerRef}>
+        <div className="mobile-topbar">
+          <svg viewBox="0 0 32 32" width="20" height="20" style={{ flexShrink: 0 }}>
+            <circle cx="16" cy="16" r="14" fill="none" stroke="var(--accent)" strokeWidth="1.4" />
+            <circle cx="16" cy="16" r="9"  fill="none" stroke="var(--accent)" strokeWidth="1.4" opacity="0.6" />
+            <circle cx="16" cy="16" r="4"  fill="none" stroke="var(--accent)" strokeWidth="1.4" opacity="0.4" />
+            <circle cx="16" cy="16" r="1.4" fill="var(--accent)" />
+          </svg>
+          <span>My Sonic Profile</span>
+        </div>
         <div className="main-header">
           <div className="crumb">
             <span className="crumb-dim">~ /</span>
-            <span>{NAV.find((n) => n.id === active)?.label.toLowerCase()}</span>
+            <span className="crumb-label">{NAV.find((n) => n.id === active)?.label.toLowerCase()}</span>
+            <span className="crumb-eyebrow">
+              {(() => { const n = NAV.find((nav) => nav.id === active); return n ? `${n.num} · ${n.label.toUpperCase()}` : ""; })()}
+            </span>
           </div>
         </div>
 
@@ -82,18 +94,25 @@ export default function App() {
 
         <footer className="foot">
           <div>portfolio piece — {data.profile.display_name}, 2026</div>
+          <button className="back-to-top" onClick={() => scrollerRef.current?.scrollTo({ top: 0, behavior: "smooth" })}>↑ nach oben</button>
         </footer>
       </main>
       {activeTrack && (
-        <iframe
-          className="bottom-player"
-          src={`https://open.spotify.com/embed/track/${activeTrack.id}?utm_source=generator&theme=0`}
-          width="100%"
-          height="152"
-          frameBorder="0"
-          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-          loading="lazy"
-        />
+        <div className="player-wrap">
+          <div className="player-bar">
+            <span className="player-bar-title">{activeTrack.name} · <span className="player-bar-artist">{activeTrack.artist}</span></span>
+            <button className="player-close" onClick={() => setActiveTrack(null)} aria-label="Close player">✕</button>
+          </div>
+          <iframe
+            className="bottom-player"
+            src={`https://open.spotify.com/embed/track/${activeTrack.id}?utm_source=generator&theme=0`}
+            width="100%"
+            height="152"
+            frameBorder="0"
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          />
+        </div>
       )}
     </div>
   );
