@@ -6,6 +6,7 @@ Schema:
   tracks(id PK, name, artist, artists JSON, album, album_image,
          duration_ms, explicit, release_date, url, first_seen_at)
   plays(played_at PK, track_id, track_name, artist)
+  fetches(id PK, fetched_at, new_artists, new_tracks, new_plays, snapshot_file)
 """
 
 import json
@@ -52,6 +53,15 @@ def init_db(conn):
             track_id   TEXT NOT NULL,
             track_name TEXT NOT NULL,
             artist     TEXT NOT NULL
+        );
+
+        CREATE TABLE IF NOT EXISTS fetches (
+            id            INTEGER PRIMARY KEY AUTOINCREMENT,
+            fetched_at    TEXT NOT NULL,
+            new_artists   INTEGER DEFAULT 0,
+            new_tracks    INTEGER DEFAULT 0,
+            new_plays     INTEGER DEFAULT 0,
+            snapshot_file TEXT DEFAULT ''
         );
     """)
     conn.commit()
@@ -124,6 +134,66 @@ def upsert_plays(conn, recently_played):
     )
     conn.commit()
     return len(rows)
+
+
+def log_fetch(conn, fetched_at, new_artists=0, new_tracks=0, new_plays=0, snapshot_file=""):
+    """Insert a fetch record into the fetches log."""
+    conn.execute(
+        "INSERT INTO fetches (fetched_at, new_artists, new_tracks, new_plays, snapshot_file) VALUES (?, ?, ?, ?, ?)",
+        (fetched_at, new_artists, new_tracks, new_plays, snapshot_file),
+    )
+    conn.commit()
+
+
+def get_changelog(conn):
+    """Return all fetch entries with associated new artists and tracks.
+
+    Artists/tracks are matched by first_seen_at == fetches.fetched_at (exact
+    timestamp set during the same generate_data.py run). Legacy rows with
+    first_seen_at = '2000-01-01T00:00:00+00:00' are excluded automatically
+    because no fetch entry shares that timestamp.
+    """
+    fetches = conn.execute(
+        "SELECT id, fetched_at, new_artists, new_tracks, new_plays, snapshot_file FROM fetches ORDER BY id DESC"
+    ).fetchall()
+
+    result = []
+    for f in fetches:
+        artists = conn.execute(
+            "SELECT id, name, image, genres FROM artists WHERE first_seen_at = ?",
+            (f["fetched_at"],),
+        ).fetchall()
+        tracks = conn.execute(
+            "SELECT id, name, artist, album_image FROM tracks WHERE first_seen_at = ?",
+            (f["fetched_at"],),
+        ).fetchall()
+        result.append({
+            "id": f["id"],
+            "fetched_at": f["fetched_at"],
+            "new_artists": f["new_artists"],
+            "new_tracks": f["new_tracks"],
+            "new_plays": f["new_plays"],
+            "snapshot_file": f["snapshot_file"],
+            "artists": [
+                {
+                    "id": a["id"],
+                    "name": a["name"],
+                    "image": a["image"] or "",
+                    "genres": json.loads(a["genres"] or "[]"),
+                }
+                for a in artists
+            ],
+            "tracks": [
+                {
+                    "id": t["id"],
+                    "name": t["name"],
+                    "artist": t["artist"],
+                    "album_image": t["album_image"] or "",
+                }
+                for t in tracks
+            ],
+        })
+    return result
 
 
 def get_genres_map(conn):

@@ -13,7 +13,11 @@ import glob
 import os
 import hashlib
 from datetime import datetime, timezone
-from sonic_db import get_connection, init_db, upsert_artists, upsert_tracks, get_hours_chart, count_artists, count_tracks
+from sonic_db import (
+    get_connection, init_db, upsert_artists, upsert_tracks,
+    get_hours_chart, count_artists, count_tracks,
+    log_fetch, get_changelog,
+)
 
 
 # ── helpers ──────────────────────────────────────────────────────────────────
@@ -371,20 +375,23 @@ def compute_genre_dna(short_artists, medium_artists, long_artists):
     return result
 
 
-def update_db(all_tracks, all_artists):
+def update_db(all_tracks, all_artists, snapshot_file=""):
     """Upsert transformed artists and tracks into sonic.db. Returns cumulative counts."""
+    from sonic_db import _now
+    now_ts = _now()
     conn = get_connection()
     init_db(conn)
     prev_artists = count_artists(conn)
     prev_tracks  = count_tracks(conn)
-    upsert_artists(conn, all_artists)
-    upsert_tracks(conn, all_tracks)
+    upsert_artists(conn, all_artists, now=now_ts)
+    upsert_tracks(conn, all_tracks, now=now_ts)
     total_artists = count_artists(conn)
     total_tracks  = count_tracks(conn)
     hours = get_hours_chart(conn)
-    conn.close()
     new_a = total_artists - prev_artists
     new_t = total_tracks  - prev_tracks
+    log_fetch(conn, fetched_at=now_ts, new_artists=new_a, new_tracks=new_t, snapshot_file=snapshot_file)
+    conn.close()
     print(f"  ✓ sonic.db  (+{new_a} artists, +{new_t} tracks → {total_artists} / {total_tracks} total)")
     return total_artists, total_tracks, hours
 
@@ -396,6 +403,20 @@ def write_spotify_data(data, path):
     with open(path, "w", encoding="utf-8") as f:
         f.write(js)
     print(f"  ✓ {path}")
+
+
+def write_changelog_data(data, path):
+    js = "export const CHANGELOG_DATA = " + json.dumps(data, indent=2, ensure_ascii=False) + ";\n"
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(js)
+    print(f"  ✓ {path}")
+
+
+def export_changelog(output_path):
+    conn = get_connection()
+    entries = get_changelog(conn)
+    conn.close()
+    write_changelog_data(entries, output_path)
 
 
 def write_venn_data(data, path):
@@ -478,13 +499,14 @@ def main():
     # upsert into sonic.db, get cumulative counts + hours chart
     all_tracks_flat  = short_tracks + medium_tracks + long_tracks
     all_artists_flat = short_artists + medium_artists + long_artists
-    cum_artists, cum_tracks, hours = update_db(all_tracks_flat, all_artists_flat)
+    cum_artists, cum_tracks, hours = update_db(all_tracks_flat, all_artists_flat, snapshot_file=os.path.basename(snapshot_path))
     stats["hoursChart"]         = hours
     spotify_data["stats"]["cumulativeArtists"] = cum_artists
     spotify_data["stats"]["cumulativeTracks"]  = cum_tracks
 
     write_spotify_data(spotify_data, os.path.join(data_dir, "spotifyData.js"))
     write_venn_data(venn_data, os.path.join(data_dir, "vennData.js"))
+    export_changelog(os.path.join(data_dir, "changelogData.js"))
     print("Done.")
 
 

@@ -78,3 +78,28 @@ export interface SpotifyData {
 export interface VennData extends Record<VennKey, string[]> {
   counts: Record<VennKey, number>;
 }
+
+export interface ChangelogArtist {
+  id: string;
+  name: string;
+  image: string;
+  genres: string[];
+}
+
+export interface ChangelogTrack {
+  id: string;
+  name: string;
+  artist: string;
+  album_image: string;
+}
+
+export interface FetchEntry {
+  id: number;
+  fetched_at: string;
+  new_artists: number;
+  new_tracks: number;
+  new_plays: number;
+  snapshot_file: string;
+  artists: ChangelogArtist[];
+  tracks: ChangelogTrack[];
+}

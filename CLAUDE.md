@@ -120,7 +120,7 @@ Fetcht alle Daten von Spotify. Zwei Modi:
 - **CI/Cron** (kein Browser): wenn `SPOTIFY_REFRESH_TOKEN` in Umgebung gesetzt
 
 ```bash
-source venv/bin/activate
+source .venv/bin/activate
 python spotify_fetch.py
 ```
 
@@ -137,9 +137,13 @@ Reichert Artist-Genres via Last.fm an (in-place im JSON):
 python genre_resolver.py spotify_data_YYYYMMDD_HHMMSS.json
 ```
 
-### `generate_data.py` _(noch nicht implementiert)_
-Konvertiert JSON → `frontend/src/data/spotifyData.js`.
+### `generate_data.py`
+Konvertiert JSON → `frontend/src/data/spotifyData.js` und `vennData.js`.
 Berechnet alle Stats (avg duration, explicit count, genre-Verteilung, etc.)
+
+```bash
+python generate_data.py
+```
 
 ---
 
@@ -149,36 +153,73 @@ Berechnet alle Stats (avg duration, explicit count, genre-Verteilung, etc.)
 |---|---|
 | `SPOTIFY_CLIENT_ID` | Spotify App |
 | `SPOTIFY_CLIENT_SECRET` | Spotify App |
-| `SPOTIFY_REDIRECT_URI` | Django OAuth Callback (`http://127.0.0.1:8000/api/auth/callback/`) |
 | `SPOTIFY_FETCH_REDIRECT_URI` | spotify_fetch.py Callback (`http://127.0.0.1:9009/callback`) |
 | `SPOTIFY_REFRESH_TOKEN` | Für Cron/CI ohne Browser |
 | `LASTFM_API_KEY` | Last.fm Genre-Lookup |
+
+> Django-Backend wurde entfernt — `SPOTIFY_REDIRECT_URI` wird nicht mehr benötigt.
 
 ---
 
 ## Server starten (lokal)
 
-**Terminal 1 — Backend:**
-```bash
-cd ~/coding-projects/sonic
-source venv/bin/activate
-python manage.py runserver 127.0.0.1:8000
-```
+Kein Backend mehr nötig — das Frontend läuft komplett statisch.
 
-**Terminal 2 — Frontend:**
 ```bash
 cd ~/coding-projects/sonic/frontend
 npm run dev
 # → http://localhost:5174
 ```
 
+Für Production Build:
+```bash
+npm run build
+# → dist/ (deploy this)
+```
+
 ---
 
-## Offene TODOs
+## Status
 
-- [ ] `generate_data.py` implementieren (P2)
-- [ ] `GenresSection.jsx` auf echte Daten umstellen (P3)
-- [ ] `StatsSection.jsx` hardcoded Strings ersetzen (P2)
-- [ ] GitHub Actions Cron Job einrichten (P4)
-- [ ] Vercel Deployment (P4)
-- [ ] `listening_history.json` in `.gitignore`? Oder committen für Cron Job?
+**Fertige Sections:**
+- 01 · Profile — statische Daten
+- 02 · Tracks — Range-Toggle (short / medium / long term)
+- 03 · Artists — Range-Toggle
+- 04 · Genres — SOUND_DNA curated + artist_universe Bubble-Chart aus echten Daten
+- 05 · Stats — alle Karten live, Venn-Diagramm live
+
+**Entfernt:** Django-Backend, Live-Login, Now Playing, Playlists-Section
+
+---
+
+## Offene TODOs (in Reihenfolge)
+
+- [ ] **1. Deployment** — Vercel Static Site live schalten (siehe unten)
+- [ ] **2. README** — Screenshot + kurze Erklärung im Repo, bevor Links geteilt werden
+- [ ] **3. TypeScript** — `.jsx` → `.tsx`, Typen für Datenstrukturen definieren, kein `any`
+- [ ] **4. Tests** — Unit Tests für `generate_data.py` (genre bucketing, venn, stats), ggf. Komponenten-Tests
+- [ ] **5. SQLite + Timeline** — `artists` und `tracks` Tabellen mit `first_seen_at` ersetzen die JSON-Akkumulation; `INSERT OR IGNORE` stellt sicher dass nur neue IDs hinzugefügt werden und `first_seen_at` nie überschrieben wird; Last.fm-Enrichment läuft nur für neue Artists (~90% weniger API-Requests nach Einlaufphase); ermöglicht Timeline-Ansicht ("wann kam welcher Artist/Track in den Pool")
+
+---
+
+## Deployment
+
+Ziel: **Vercel** — nur Static Site, kein Backend.
+
+**Vercel-Einstellungen:**
+- Root Directory: `frontend/`
+- Build Command: `npm run build`
+- Output Directory: `dist`
+
+**Checkliste:**
+- [ ] Vercel-Projekt anlegen + Git-Repo verbinden
+- [ ] GitHub Actions Secrets eintragen: `SPOTIFY_CLIENT_ID`, `SPOTIFY_CLIENT_SECRET`, `SPOTIFY_REFRESH_TOKEN`, `LASTFM_API_KEY`
+- [ ] Cron Job testen (workflow_dispatch in GitHub UI)
+- [ ] `axios` und `react-router-dom` aus `package.json` entfernen (werden nicht verwendet)
+
+**GitHub Actions Cron Job** ist fertig (`.github/workflows/update_data.yml`):
+- Läuft täglich 06:00 UTC
+- Fetcht Spotify → enriched Genres → generiert JS-Dateien → committed ins Repo
+- Vercel deployed automatisch bei jedem Push auf `main`
+
+**`listening_history.json`** wird vom Cron Job committed — bleibt im Repo (ist Datengrundlage).

@@ -9,12 +9,14 @@ import TracksSection from "./pages/TracksSection";
 import ArtistsSection from "./pages/ArtistsSection";
 import GenresSection from "./pages/GenresSection";
 import StatsSection from "./pages/StatsSection";
+import ChangelogSection from "./pages/ChangelogSection";
 import type { Track } from "./types";
 
 export default function App() {
   const { data, vennData } = useSpotifyData();
   const [active, setActive] = useState<NavId>("genres");
   const [activeTrack, setActiveTrack] = useState<Track | null>(null);
+  const [showChangelog, setShowChangelog] = useState(() => window.location.hash === "#changelog");
   const scrollerRef = useRef<HTMLElement>(null);
 
   const onNav = (id: NavId) => {
@@ -24,6 +26,24 @@ export default function App() {
       scrollerRef.current.scrollTo({ top: el.offsetTop - 24, behavior: "smooth" });
     }
   };
+
+  useEffect(() => {
+    const scrollTo = (id: string) => {
+      const el = document.getElementById(id);
+      if (el && scrollerRef.current) {
+        scrollerRef.current.scrollTo({ top: el.offsetTop - 24, behavior: "smooth" });
+      }
+    };
+    const handleHash = () => {
+      if (window.location.hash === "#changelog") {
+        setShowChangelog(true);
+        setTimeout(() => scrollTo("section-changelog"), 0);
+      }
+    };
+    handleHash();
+    window.addEventListener("hashchange", handleHash);
+    return () => window.removeEventListener("hashchange", handleHash);
+  }, []);
 
   useEffect(() => {
     const ids = NAV.map((n) => `section-${n.id}`);
@@ -58,6 +78,7 @@ export default function App() {
         <ArtistsSection data={data} />
         <TracksSection data={data} onTrackSelect={setActiveTrack} />
         <StatsSection data={data} vennData={vennData} />
+        {showChangelog && <ChangelogSection />}
 
         <footer className="foot">
           <div>portfolio piece — {data.profile.display_name}, 2026</div>
