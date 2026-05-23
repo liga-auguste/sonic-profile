@@ -10,6 +10,7 @@ import sys
 import time
 from datetime import datetime, timezone
 from dotenv import load_dotenv
+from sonic_db import get_connection, init_db, upsert_plays
 
 load_dotenv()
 
@@ -249,38 +250,13 @@ def fetch_all(token):
     }
 
 
-# ── Listening history (akkumulierend) ────────────────────────
-HISTORY_FILE = "listening_history.json"
-
-def update_listening_history(new_items):
-    """
-    Appends new recently-played entries to listening_history.json.
-    Deduplicates by played_at timestamp — safe to run multiple times per day.
-    Returns (total_entries, new_entries_added).
-    """
-    # Load existing history
-    if os.path.exists(HISTORY_FILE):
-        with open(HISTORY_FILE, encoding="utf-8") as f:
-            history = json.load(f)
-    else:
-        history = []
-
-    existing_timestamps = {entry["played_at"] for entry in history}
-
-    added = 0
-    for item in new_items:
-        if item["played_at"] not in existing_timestamps:
-            history.append(item)
-            existing_timestamps.add(item["played_at"])
-            added += 1
-
-    # Sort by played_at descending (newest first)
-    history.sort(key=lambda x: x["played_at"], reverse=True)
-
-    with open(HISTORY_FILE, "w", encoding="utf-8") as f:
-        json.dump(history, f, ensure_ascii=False, indent=2)
-
-    return len(history), added
+def write_plays_to_db(recently_played):
+    """Persist recently-played entries into sonic.db plays table."""
+    conn = get_connection()
+    init_db(conn)
+    added = upsert_plays(conn, recently_played)
+    conn.close()
+    return added
 
 
 # ── Main ──────────────────────────────────────────────────────
@@ -324,13 +300,12 @@ if __name__ == "__main__":
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-    # ── Akkumulierende Hörhistorie ──
-    total, added = update_listening_history(data["recently_played"])
+    # ── Plays → sonic.db ──
+    added = write_plays_to_db(data["recently_played"])
 
     print(f"\n✅ Done! Saved to: {filename}")
     print(f"   Tracks (short):   {len(data['top_tracks']['short_term']['items'])}")
     print(f"   Tracks (medium):  {len(data['top_tracks']['medium_term']['items'])}")
     print(f"   Tracks (long):    {len(data['top_tracks']['long_term']['items'])}")
     print(f"   Artists (unique): {len(set(a['id'] for t in data['top_artists'].values() for a in t['items']))}")
-    print(f"   Recently played:  {len(data['recently_played'])} tracks fetched")
-    print(f"   Listening history: +{added} new → {total} total entries in {HISTORY_FILE}")
+    print(f"   Recently played:  {len(data['recently_played'])} tracks fetched (+{added} new plays → sonic.db)")

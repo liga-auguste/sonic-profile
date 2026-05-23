@@ -19,3 +19,7 @@ frontend/dist/
 # Spotify data exports
 spotify_data_*.json
 
+# Legacy files replaced by sonic.db
+listening_history.json
+cumulative_stats.json
+

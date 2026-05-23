@@ -20,6 +20,7 @@ import time
 import urllib.parse
 import urllib.request
 from dotenv import load_dotenv
+from sonic_db import get_connection, init_db, get_genres_map, get_artist_ids_in_db, update_artist_genres
 
 load_dotenv()
 
@@ -70,14 +71,21 @@ def lastfm_get_tags(artist_name):
 
 def enrich_genres(data):
     """
-    Takes a spotify_fetch output dict and enriches artist genres via Last.fm
-    for any artist whose Spotify genres list is empty.
+    Enriches artist genres using DB as cache + Last.fm as fallback.
+
+    For each artist without Spotify genres:
+      1. If already in DB with genres → apply from cache (no Last.fm call)
+      2. If new to DB or missing genres → fetch from Last.fm, save to DB
     Returns the modified data dict.
     """
     if not LASTFM_API_KEY:
         print("⚠️  LASTFM_API_KEY not set — skipping genre enrichment.")
         print("   Get a free key at: https://www.last.fm/api/account/create")
         return data
+
+    conn = get_connection()
+    init_db(conn)
+    db_genres = get_genres_map(conn)  # {artist_id: [genres]} already in DB
 
     # Collect all unique artists across all time ranges
     seen_ids = set()
@@ -88,24 +96,38 @@ def enrich_genres(data):
                 seen_ids.add(artist["id"])
                 all_artists.append(artist)
 
-    artists_needing_genres = [a for a in all_artists if not a.get("genres")]
-    print(f"\nArtists with Spotify genres:    {len(all_artists) - len(artists_needing_genres)}")
-    print(f"Artists needing Last.fm lookup: {len(artists_needing_genres)}\n")
+    from_cache, needs_lookup = [], []
+    for a in all_artists:
+        if a.get("genres"):
+            pass  # already has Spotify genres
+        elif a["id"] in db_genres:
+            from_cache.append(a)
+        else:
+            needs_lookup.append(a)
 
-    # Build a lookup dict for quick updates
-    genre_lookup = {}  # artist_id → [genres]
-    for i, artist in enumerate(artists_needing_genres, 1):
+    print(f"\nArtists with Spotify genres:    {len(all_artists) - len(from_cache) - len(needs_lookup)}")
+    print(f"Artists served from DB cache:   {len(from_cache)}")
+    print(f"Artists needing Last.fm lookup: {len(needs_lookup)}\n")
+
+    # Apply cached genres
+    genre_lookup = {a["id"]: db_genres[a["id"]] for a in from_cache}
+
+    # Fetch from Last.fm for new artists
+    for i, artist in enumerate(needs_lookup, 1):
         name = artist["name"]
-        print(f"  [{i}/{len(artists_needing_genres)}] {name} ...", end=" ", flush=True)
+        print(f"  [{i}/{len(needs_lookup)}] {name} ...", end=" ", flush=True)
         tags = lastfm_get_tags(name)
         genre_lookup[artist["id"]] = tags
+        update_artist_genres(conn, artist["id"], tags)
         if tags:
             print(f"→ {', '.join(tags)}")
         else:
             print("→ (no tags found)")
-        time.sleep(0.25)  # respect Last.fm rate limit (5 req/s max)
+        time.sleep(0.25)
 
-    # Apply lookups back to all time ranges
+    conn.close()
+
+    # Apply all genres back to the JSON
     for term_data in data.get("top_artists", {}).values():
         for artist in term_data.get("items", []):
             if not artist.get("genres") and artist["id"] in genre_lookup:

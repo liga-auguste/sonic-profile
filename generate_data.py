@@ -13,6 +13,7 @@ import glob
 import os
 import hashlib
 from datetime import datetime, timezone
+from sonic_db import get_connection, init_db, upsert_artists, upsert_tracks, get_hours_chart, count_artists, count_tracks
 
 
 # ── helpers ──────────────────────────────────────────────────────────────────
@@ -370,72 +371,22 @@ def compute_genre_dna(short_artists, medium_artists, long_artists):
     return result
 
 
-# ── hours chart ───────────────────────────────────────────────────────────────
-
-def compute_hours_chart(script_dir):
-    """
-    Reads listening_history.json, counts plays per local hour (0-23).
-    Returns list of 24 ints. Falls back to zeros if file not found.
-    """
-    history_path = os.path.join(script_dir, "listening_history.json")
-    if not os.path.exists(history_path):
-        return [0] * 24
-
-    with open(history_path, encoding="utf-8") as f:
-        history = json.load(f)
-
-    counts = [0] * 24
-    for entry in history:
-        played_at = entry.get("played_at", "")
-        if not played_at:
-            continue
-        dt_utc = datetime.fromisoformat(played_at.replace("Z", "+00:00"))
-        dt_local = dt_utc.astimezone()  # system local timezone
-        counts[dt_local.hour] += 1
-
-    return counts
-
-
-# ── cumulative stats ──────────────────────────────────────────────────────────
-
-CUMULATIVE_FILE = "cumulative_stats.json"
-
-def update_cumulative_stats(all_tracks, all_artists, script_dir):
-    """
-    Loads cumulative_stats.json, adds any new artist/track IDs from this fetch,
-    saves back. Returns updated cumulative counts.
-    """
-    path = os.path.join(script_dir, CUMULATIVE_FILE)
-
-    if os.path.exists(path):
-        with open(path, encoding="utf-8") as f:
-            cum = json.load(f)
-        artist_ids = set(cum.get("artist_ids", []))
-        track_ids  = set(cum.get("track_ids", []))
-    else:
-        artist_ids = set()
-        track_ids  = set()
-
-    prev_artists = len(artist_ids)
-    prev_tracks  = len(track_ids)
-
-    for a in all_artists:
-        artist_ids.add(a["id"])
-    for t in all_tracks:
-        track_ids.add(t["id"])
-
-    new_artists = len(artist_ids) - prev_artists
-    new_tracks  = len(track_ids)  - prev_tracks
-
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump({
-            "artist_ids": sorted(artist_ids),
-            "track_ids":  sorted(track_ids),
-            "last_updated": datetime.now(timezone.utc).isoformat(),
-        }, f, indent=2)
-
-    print(f"  ✓ {CUMULATIVE_FILE}  (+{new_artists} artists, +{new_tracks} tracks → {len(artist_ids)} / {len(track_ids)} total)")
-    return len(artist_ids), len(track_ids)
+def update_db(all_tracks, all_artists):
+    """Upsert transformed artists and tracks into sonic.db. Returns cumulative counts."""
+    conn = get_connection()
+    init_db(conn)
+    prev_artists = count_artists(conn)
+    prev_tracks  = count_tracks(conn)
+    upsert_artists(conn, all_artists)
+    upsert_tracks(conn, all_tracks)
+    total_artists = count_artists(conn)
+    total_tracks  = count_tracks(conn)
+    hours = get_hours_chart(conn)
+    conn.close()
+    new_a = total_artists - prev_artists
+    new_t = total_tracks  - prev_tracks
+    print(f"  ✓ sonic.db  (+{new_a} artists, +{new_t} tracks → {total_artists} / {total_tracks} total)")
+    return total_artists, total_tracks, hours
 
 
 # ── JS writers ────────────────────────────────────────────────────────────────
@@ -522,13 +473,13 @@ def main():
 
     # output paths (relative to project root)
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    stats["hoursChart"] = compute_hours_chart(script_dir)
-    data_dir = os.path.join(script_dir, "frontend", "src", "data")
+    data_dir   = os.path.join(script_dir, "frontend", "src", "data")
 
-    # cumulative stats — all unique artists/tracks ever seen across all fetches
+    # upsert into sonic.db, get cumulative counts + hours chart
     all_tracks_flat  = short_tracks + medium_tracks + long_tracks
     all_artists_flat = short_artists + medium_artists + long_artists
-    cum_artists, cum_tracks = update_cumulative_stats(all_tracks_flat, all_artists_flat, script_dir)
+    cum_artists, cum_tracks, hours = update_db(all_tracks_flat, all_artists_flat)
+    stats["hoursChart"]         = hours
     spotify_data["stats"]["cumulativeArtists"] = cum_artists
     spotify_data["stats"]["cumulativeTracks"]  = cum_tracks
 
