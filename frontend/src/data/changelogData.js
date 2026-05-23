@@ -1,5 +1,80 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 7,
+    "fetched_at": "2026-05-23T20:03:30.238989+00:00",
+    "new_artists": 5,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260523_200252.json",
+    "artists": [
+      {
+        "id": "3ccVtqcqedranb7y8eywJ5",
+        "name": "Blanco White",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb12205cb471ab2a38ac9f3bf2",
+        "genres": [
+          "folk",
+          "british",
+          "folk rock"
+        ]
+      },
+      {
+        "id": "5dWiBOsD2jLvYWUSR9XdaZ",
+        "name": "Matt Storm",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb63012ff0696022b2245bb708",
+        "genres": [
+          "italian",
+          "video game music",
+          "indie soul",
+          "gentle indie sounds",
+          "funk_add_to_lidarr_batch_18"
+        ]
+      },
+      {
+        "id": "2t9yJDJIEtvPmr2iRIdqBf",
+        "name": "Fink",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb442d7e695f5048559d24f0d5",
+        "genres": [
+          "indie",
+          "singer-songwriter",
+          "downtempo",
+          "chillout",
+          "ninja tune"
+        ]
+      },
+      {
+        "id": "79hrYiudVcFyyxyJW0ipTy",
+        "name": "The Paper Kites",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb82fd0109f7289e75796d5ab4",
+        "genres": [
+          "folk",
+          "indie",
+          "australian",
+          "indie folk",
+          "acoustic"
+        ]
+      },
+      {
+        "id": "35RvGPQ1OxbEZknWyiaAcs",
+        "name": "Two Another",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb21e3cb75f75458bf7350592f",
+        "genres": [
+          "soul",
+          "pop",
+          "rnb",
+          "british"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "4DJQAOC8iGot5RcyPFCaNz",
+        "name": "Givin' Up On Lovin'",
+        "artist": "Magic City Hippies, NoMBe",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02607dc442195bc05514657c18"
+      }
+    ]
+  },
+  {
     "id": 6,
     "fetched_at": "2026-05-23T15:01:51.822714+00:00",
     "new_artists": 0,
@@ -38,115 +113,213 @@ export const CHANGELOG_DATA = [
         "id": "4VwvmwL98S8ab0iH74O4zP",
         "name": "Malia",
         "image": "https://i.scdn.co/image/7d10a8fb3451bde613b56473b0bfd9c318e4c7de",
-        "genres": []
+        "genres": [
+          "jazz",
+          "soul",
+          "female vocalists",
+          "vocal jazz",
+          "rnb"
+        ]
       },
       {
         "id": "6eXZu6O7nAUA5z6vLV8NKI",
         "name": "Little Simz",
         "image": "https://i.scdn.co/image/ab6761610000e5eba22264dfbad2d96ffc6ee2e0",
-        "genres": []
+        "genres": [
+          "rap",
+          "hip-hop",
+          "hip hop",
+          "grime",
+          "rnb"
+        ]
       },
       {
         "id": "187xgSpsFH8mMbAcoCW0zE",
         "name": "Billy Paul",
         "image": "https://i.scdn.co/image/ab6761610000e5ebc7a711a3d016337b5f5905aa",
-        "genres": []
+        "genres": [
+          "soul",
+          "70s",
+          "jazz",
+          "rhythm and blues",
+          "philly soul"
+        ]
       },
       {
         "id": "2cSZwherHAASXofK9ZFK2A",
         "name": "Golf Trip",
         "image": "https://i.scdn.co/image/ab6761610000e5ebf2fc945fa0f10462e416b6dc",
-        "genres": []
+        "genres": [
+          "electronic",
+          "france",
+          "smooth",
+          "disco",
+          "funk_add_to_lidarr_batch_11"
+        ]
       },
       {
         "id": "3sHXfX7v5JsxuM9PpYEWKD",
         "name": "Daniel Stark",
         "image": "https://i.scdn.co/image/ab6761610000e5eb95354582eb2f327984e7a5b4",
-        "genres": []
+        "genres": [
+          "chillout",
+          "instrumental",
+          "psychadelic"
+        ]
       },
       {
         "id": "0VzoflxRgSVEWHYmCbMOJJ",
         "name": "Geoffroy",
         "image": "https://i.scdn.co/image/ab6761610000e5eb783b4392084980a097b2170a",
-        "genres": []
+        "genres": [
+          "canadian",
+          "baroque",
+          "indie pop",
+          "singer-songwriter",
+          "classical"
+        ]
       },
       {
         "id": "3ua99a1Zgdi8qY3Cpv92gE",
         "name": "Munan",
         "image": "https://i.scdn.co/image/ab6761610000e5ebff86ff7ceb19fa05450401cf",
-        "genres": []
+        "genres": [
+          "indie pop",
+          "electronic",
+          "australia",
+          "synthpop",
+          "australian"
+        ]
       },
       {
         "id": "2BugRvdm3aasWYT3VthewW",
         "name": "Habe",
         "image": "https://i.scdn.co/image/ab6761610000e5eb3219deee2e50e258fda59e8b",
-        "genres": []
+        "genres": [
+          "lounge",
+          "indie",
+          "usa",
+          "electronic",
+          "melodic"
+        ]
       },
       {
         "id": "2iLMJdaqsQ44X7MPRD7rR5",
         "name": "Arc De Soleil",
         "image": "https://i.scdn.co/image/ab6761610000e5eb285d64f2a5d88cf6a1424dc1",
-        "genres": []
+        "genres": [
+          "psychedelic rock",
+          "psychedelic",
+          "surf funk",
+          "surf rock",
+          "sweden"
+        ]
       },
       {
         "id": "2tBWWgGv7H5ymPtJrT1rNu",
         "name": "Σtella",
         "image": "https://i.scdn.co/image/ab6761610000e5eba5527f66cb641c280c322191",
-        "genres": []
+        "genres": [
+          "indie pop",
+          "greek",
+          "female vocalists",
+          "greece"
+        ]
       },
       {
         "id": "6iqqrYdwxJzmxSz9ZJ72CH",
         "name": "Tutankhamun",
         "image": "https://i.scdn.co/image/ab6761610000e5eb9dd7b0df38484501de5d362f",
-        "genres": []
+        "genres": [
+          "psychedelic",
+          "jazz",
+          "soul",
+          "instrumental",
+          "funk_add_to_lidarr_batch_28"
+        ]
       },
       {
         "id": "1rr5AQb3MwrAJB4mrw2K88",
         "name": "Lords of Lounge",
         "image": "https://i.scdn.co/image/ab6761610000e5ebec7fcdfc7810fec81db95cf1",
-        "genres": []
+        "genres": [
+          "indie rock",
+          "indie",
+          "chill out"
+        ]
       },
       {
         "id": "3yg8VEfEzpr8T9NkiEsycS",
         "name": "Jitwam",
         "image": "https://i.scdn.co/image/ab6761610000e5eb231acb4091d6adeca9373912",
-        "genres": []
+        "genres": [
+          "house",
+          "experimental",
+          "electronic",
+          "soul",
+          "indian"
+        ]
       },
       {
         "id": "10tvYvaoSO32hlvu3NrrPC",
         "name": "Dominique Fils-Aimé",
         "image": "https://i.scdn.co/image/ab6761610000e5eb9add1da33ede1b79541504e8",
-        "genres": []
+        "genres": [
+          "jazz",
+          "soul",
+          "canada",
+          "canadian"
+        ]
       },
       {
         "id": "2KJNSLpM8g82k9zaukejw6",
         "name": "Vanessa Fernandez",
         "image": "https://i.scdn.co/image/ab6761610000e5ebf1df74e2b921b6a9f30dfbce",
-        "genres": []
+        "genres": [
+          "blues",
+          "indie",
+          "jazz pop",
+          "vocal jazz"
+        ]
       },
       {
         "id": "3lzTKwFsOqxtp5cLJ2qbSD",
         "name": "Tokyo Tea Room",
         "image": "https://i.scdn.co/image/ab6761610000e5ebe8d9e3554d20222bad969aa0",
-        "genres": []
+        "genres": [
+          "dream pop",
+          "indie pop",
+          "bedroom pop"
+        ]
       },
       {
         "id": "48IWhckCqdKLfS7hFw20x5",
         "name": "Moon Soul",
         "image": "https://i.scdn.co/image/ab6761610000e5eb1cd940b2a344ea0dedc1db36",
-        "genres": []
+        "genres": [
+          "soul psychedelic"
+        ]
       },
       {
         "id": "64fPWMvR6IQ9w4sGrCmoQj",
         "name": "Montazona",
         "image": "https://i.scdn.co/image/ab6761610000e5ebc2f0440617795a1a7dd135c5",
-        "genres": []
+        "genres": [
+          "alt rock",
+          "psychedelic rock",
+          "psychedelic",
+          "indie",
+          "alternative"
+        ]
       },
       {
         "id": "6Ay4LTevVm24IfC05fZNZH",
         "name": "Patchwork Inc.",
         "image": "https://i.scdn.co/image/ab6761610000e5eb97295bd5fe05b97ac92edb68",
-        "genres": []
+        "genres": [
+          "chicago",
+          "indie"
+        ]
       },
       {
         "id": "6IY1MxE4bpF80sEVxGJZ4M",
@@ -158,13 +331,23 @@ export const CHANGELOG_DATA = [
         "id": "6LXZac7iBIZgnNrywTkQRw",
         "name": "Monophonics",
         "image": "https://i.scdn.co/image/ab6761610000e5eb65bc9e74fce3873550668a5b",
-        "genres": []
+        "genres": [
+          "funk",
+          "soul",
+          "afrobeat",
+          "psychedelic"
+        ]
       },
       {
         "id": "1l51Sc9HBh8fLXUDEjFhxU",
         "name": "William DeVaughn",
         "image": "https://i.scdn.co/image/ab67616d00001e02246433e2822df12c5ce38688",
-        "genres": []
+        "genres": [
+          "soul",
+          "funk",
+          "rnb",
+          "70s"
+        ]
       },
       {
         "id": "14kEabF9MiQJW37PNuLGgJ",
@@ -194,7 +377,12 @@ export const CHANGELOG_DATA = [
         "id": "5JrIBQLdYU5SkSdu0zrO70",
         "name": "Black Sea Dahu",
         "image": "https://i.scdn.co/image/ab6761610000e5eb96125dd9ac6b2b8c6f4f347d",
-        "genres": []
+        "genres": [
+          "swiss",
+          "folk",
+          "indie folk",
+          "indie"
+        ]
       }
     ],
     "tracks": [
@@ -308,25 +496,42 @@ export const CHANGELOG_DATA = [
         "id": "5UA8O7xDhZ74ebRYT0XOxB",
         "name": "Common Saints",
         "image": "https://i.scdn.co/image/ab6761610000e5eba6821b4b1a1bfdbea977ed72",
-        "genres": []
+        "genres": [
+          "soul",
+          "psychedelic"
+        ]
       },
       {
         "id": "1uiEZYehlNivdK3iQyAbye",
         "name": "Tom Misch",
         "image": "https://i.scdn.co/image/ab6761610000e5ebd13583bc1c845d1fedbe059f",
-        "genres": []
+        "genres": [
+          "soul",
+          "hip-hop",
+          "jazz",
+          "indie",
+          "instrumental"
+        ]
       },
       {
         "id": "2aGCFk3Mvhs9Am7JHwoyRr",
         "name": "Svaneborg Kardyb",
         "image": "https://i.scdn.co/image/ab6761610000e5eb01f57a6ecd132da18c9ff922",
-        "genres": []
+        "genres": [
+          "jazz",
+          "danish",
+          "instrumental",
+          "denmark"
+        ]
       },
       {
         "id": "0C92eU3SGPjZXev5y6S1x2",
         "name": "Ensemble Contraste",
         "image": "https://i.scdn.co/image/ab67616d00001e02980dfd3e8ed202e71741b00d",
-        "genres": []
+        "genres": [
+          "tango",
+          "instrumental"
+        ]
       },
       {
         "id": "1kExWfjjFzo8vNlmtBjCdj",
@@ -338,13 +543,25 @@ export const CHANGELOG_DATA = [
         "id": "73mSg0dykFyhvU96tb5xQV",
         "name": "Hermanos Gutiérrez",
         "image": "https://i.scdn.co/image/ab6761610000e5eb5211c31290a0d915d4ee2225",
-        "genres": []
+        "genres": [
+          "instrumental",
+          "latin",
+          "swiss",
+          "switzerland",
+          "psychedelic"
+        ]
       },
       {
         "id": "7MEyCD4G0Zl6kmikEAZsym",
         "name": "Jan Garbarek",
         "image": "https://i.scdn.co/image/ab6761610000e5ebe75082b10c68bcb3c83ac705",
-        "genres": []
+        "genres": [
+          "jazz",
+          "saxophone",
+          "contemporary jazz",
+          "norwegian",
+          "ecm"
+        ]
       },
       {
         "id": "6z3juX3wLgnMpAF6VvqcUS",
@@ -356,31 +573,58 @@ export const CHANGELOG_DATA = [
         "id": "4xU7M9wEvpnvkNOyPdVi5y",
         "name": "RIO KOSTA",
         "image": "https://i.scdn.co/image/ab6761610000e5eb159dde08a83d0cb799f39113",
-        "genres": []
+        "genres": [
+          "psychedelic",
+          "indie",
+          "funk",
+          "alternative",
+          "los angeles"
+        ]
       },
       {
         "id": "2KORQIjhKGBWEtfxSSW7vg",
         "name": "George Bloomfield",
         "image": "https://i.scdn.co/image/ab6761610000e5ebf9aac7464535e19b93060c12",
-        "genres": []
+        "genres": [
+          "funk_add_to_lidarr_batch_10",
+          "british"
+        ]
       },
       {
         "id": "2vTfPvhJkpW1DTjmMvHjOB",
         "name": "Loaded Honey",
         "image": "https://i.scdn.co/image/ab6761610000e5ebde4bca5f47f45f07c2d3bc8a",
-        "genres": []
+        "genres": [
+          "soul",
+          "funk",
+          "british",
+          "electronic",
+          "modern world soul music"
+        ]
       },
       {
         "id": "3oKRxpszQKUjjaHz388fVA",
         "name": "Parcels",
         "image": "https://i.scdn.co/image/ab6761610000e5eb3f64ee564d3617f6a764f933",
-        "genres": []
+        "genres": [
+          "funk",
+          "indie",
+          "indie pop",
+          "synthpop",
+          "australian"
+        ]
       },
       {
         "id": "6styCzc1Ej4NxISL0LiigM",
         "name": "The Smile",
         "image": "https://i.scdn.co/image/ab6761610000e5ebb43db49ce029948457972352",
-        "genres": []
+        "genres": [
+          "art rock",
+          "post-punk",
+          "alternative rock",
+          "indie rock",
+          "crank wave"
+        ]
       },
       {
         "id": "1EqJ32F96FL21jzENwttnT",
@@ -392,7 +636,13 @@ export const CHANGELOG_DATA = [
         "id": "2DwbPVZ7uyW2B0AgoHuzLn",
         "name": "Olive Jones",
         "image": "https://i.scdn.co/image/ab6761610000e5eb70efd9d39ef9b0df3a8a75e4",
-        "genres": []
+        "genres": [
+          "jazz",
+          "folk",
+          "uk",
+          "soul",
+          "british"
+        ]
       },
       {
         "id": "7JKAIlZcxCK8hSIHiSp4ms",
@@ -404,13 +654,23 @@ export const CHANGELOG_DATA = [
         "id": "7b04D0yLktCUpvxQBhmG7R",
         "name": "LEISURE",
         "image": "https://i.scdn.co/image/ab6761610000e5ebf6589d1d011c7568f9d8c113",
-        "genres": []
+        "genres": [
+          "indie",
+          "indie pop",
+          "electronic",
+          "downtempo",
+          "new zealand"
+        ]
       },
       {
         "id": "1drrz7s5fhvO1dyvONKbFo",
         "name": "Chris Shards",
         "image": "https://i.scdn.co/image/ab67616d00001e02c762818ac0010593a6df2985",
-        "genres": []
+        "genres": [
+          "instrumental",
+          "guitar",
+          "electric guitar"
+        ]
       },
       {
         "id": "7lDQhKVaKvuNDftiiZVrYy",
@@ -422,7 +682,13 @@ export const CHANGELOG_DATA = [
         "id": "00x1fYSGhdqScXBRpSj3DW",
         "name": "Olivia Dean",
         "image": "https://i.scdn.co/image/ab6761610000e5eb5c7577ad44daeb7ce4b941a1",
-        "genres": []
+        "genres": [
+          "soul",
+          "rnb",
+          "pop",
+          "indie",
+          "female vocalists"
+        ]
       },
       {
         "id": "0tbeZu9lv8YEKSQ9tZSslu",
@@ -434,7 +700,13 @@ export const CHANGELOG_DATA = [
         "id": "1ixOHjIh8RJkIUrBSBiYHi",
         "name": "Alexander IV",
         "image": "https://i.scdn.co/image/ab6761610000e5eb7b95232354b9ef3d64e41d40",
-        "genres": []
+        "genres": [
+          "funk",
+          "electronic",
+          "dutch",
+          "dance",
+          "funk_add_to_lidarr_batch_1"
+        ]
       },
       {
         "id": "29uVFPS7wo6RBGzewIc6pt",
@@ -446,13 +718,25 @@ export const CHANGELOG_DATA = [
         "id": "2AcUPzkVWo81vumdzeLLRN",
         "name": "Rhye",
         "image": "https://i.scdn.co/image/ab6761610000e5eb8e2b3c095f8a891f4dd86a7b",
-        "genres": []
+        "genres": [
+          "soul",
+          "chillout",
+          "indie",
+          "alternative rnb",
+          "pop"
+        ]
       },
       {
         "id": "2jfW7L4RQXGS24KLA89MTh",
         "name": "The Mighty Tiny & The Many Few",
         "image": "https://i.scdn.co/image/ab6761610000e5eb0bd574b1470c10234555180d",
-        "genres": []
+        "genres": [
+          "danish",
+          "jazz",
+          "soul",
+          "dub",
+          "neo-soul"
+        ]
       },
       {
         "id": "5HNkGissAKlCv88sus7rVO",
@@ -464,19 +748,36 @@ export const CHANGELOG_DATA = [
         "id": "24icoQNJSEWNu3XvqKBR68",
         "name": "Jordan Rakei",
         "image": "https://i.scdn.co/image/ab6761610000e5eba145cc3628c33e1469130e2f",
-        "genres": []
+        "genres": [
+          "soul",
+          "rnb",
+          "neo-soul",
+          "jazz"
+        ]
       },
       {
         "id": "1REIcVUKiv1NcVivFm1ufJ",
         "name": "Stee Downes",
         "image": "https://i.scdn.co/image/ab6761610000e5eb42060f9cfb19e371cba29ff8",
-        "genres": []
+        "genres": [
+          "soul",
+          "nu-jazz",
+          "nu jazz",
+          "funk",
+          "sonar kollektiv"
+        ]
       },
       {
         "id": "1uRxRKC7d9zwYGSRflTKDR",
         "name": "SAULT",
         "image": "https://i.scdn.co/image/ab6761610000e5eb38dfd1af91aeccad71e6412f",
-        "genres": []
+        "genres": [
+          "soul",
+          "rnb",
+          "neo-soul",
+          "indie",
+          "pop"
+        ]
       },
       {
         "id": "2N1foZRamgP1sfiYXFID9O",
@@ -494,13 +795,25 @@ export const CHANGELOG_DATA = [
         "id": "3OWO2LOPTl1u6XvJHkwHmd",
         "name": "Rikas",
         "image": "https://i.scdn.co/image/ab6761610000e5eb2da3d2d11a5748865104c74a",
-        "genres": []
+        "genres": [
+          "indie pop",
+          "germany",
+          "stuttgart",
+          "surf",
+          "alternative"
+        ]
       },
       {
         "id": "4Z8W4fKeB5YxbusRsdQVPb",
         "name": "Radiohead",
         "image": "https://i.scdn.co/image/ab6761610000e5eb4104fbd80f1f795728abbd59",
-        "genres": []
+        "genres": [
+          "rock",
+          "alternative",
+          "alternative rock",
+          "indie",
+          "electronic"
+        ]
       },
       {
         "id": "4d53BMrRlQkrQMz5d59f2O",
@@ -518,13 +831,25 @@ export const CHANGELOG_DATA = [
         "id": "4gzpq5DPGxSnKTe4SA8HAU",
         "name": "Coldplay",
         "image": "https://i.scdn.co/image/ab6761610000e5eb1ba8fc5f5c73e7e9313cc6eb",
-        "genres": []
+        "genres": [
+          "rock",
+          "alternative",
+          "britpop",
+          "alternative rock",
+          "indie"
+        ]
       },
       {
         "id": "3x8FbPjh2Qz55XMdE2Yalj",
         "name": "Nick Mulvey",
         "image": "https://i.scdn.co/image/ab6761610000e5ebf87cf4ad125bd44b5176fe01",
-        "genres": []
+        "genres": [
+          "singer-songwriter",
+          "acoustic",
+          "british",
+          "folk",
+          "indie folk"
+        ]
       },
       {
         "id": "4gGuwY7KzJNNyA0JMlMvt4",
@@ -536,7 +861,9 @@ export const CHANGELOG_DATA = [
         "id": "5EYy6W2esV5xj3UE9XKiRo",
         "name": "L!aW",
         "image": "https://i.scdn.co/image/ab6761610000e5eb8e680bf7ebd57c939d82999f",
-        "genres": []
+        "genres": [
+          "lo-fi"
+        ]
       },
       {
         "id": "0bzfPKdbXL5ezYW2z3UGQj",
@@ -548,13 +875,24 @@ export const CHANGELOG_DATA = [
         "id": "1KgRATlxeAdHQLacHoIjgQ",
         "name": "Noah Yorke",
         "image": "https://i.scdn.co/image/ab6761610000e5eb67b112f65168b375d529a1e1",
-        "genres": []
+        "genres": [
+          "folk",
+          "indie",
+          "lo-fi",
+          "indie rock",
+          "indie folk"
+        ]
       },
       {
         "id": "2Udd2jgFaz8tXG1w3PyMtN",
         "name": "Dekker",
         "image": "https://i.scdn.co/image/ab6761610000e5eb8e0768de5c003b1345cb8e82",
-        "genres": []
+        "genres": [
+          "singer-songwriter",
+          "folk",
+          "acoustic",
+          "lo-fi"
+        ]
       },
       {
         "id": "3GBPw9NK25X1Wt2OUvOwY3",
@@ -572,13 +910,24 @@ export const CHANGELOG_DATA = [
         "id": "3jzXlBF2157k4exx7idecs",
         "name": "Leif Vollebekk",
         "image": "https://i.scdn.co/image/ab6761610000e5ebedcef0452e43256e0e32fbd3",
-        "genres": []
+        "genres": [
+          "folk",
+          "canadian",
+          "singer-songwriter",
+          "indie folk"
+        ]
       },
       {
         "id": "4kIwETcbpuFgRukE8o7Opx",
         "name": "Arlo Parks",
         "image": "https://i.scdn.co/image/ab6761610000e5ebd0c1a13a2710aef33ee5f819",
-        "genres": []
+        "genres": [
+          "soul",
+          "rnb",
+          "pop",
+          "neo-soul",
+          "indie"
+        ]
       },
       {
         "id": "5nz3Ya545dAVjfMwX60LPq",
@@ -602,61 +951,112 @@ export const CHANGELOG_DATA = [
         "id": "2CMg8J0WjftvFR5zFbufVA",
         "name": "Amsterdam Baroque Orchestra",
         "image": "https://i.scdn.co/image/dbcd26975f7cca0aa0524724727944e7923cc3bd",
-        "genres": []
+        "genres": [
+          "orchestra",
+          "baroque"
+        ]
       },
       {
         "id": "2txHhyCwHjUEpJjWrEyqyX",
         "name": "Tom Odell",
         "image": "https://i.scdn.co/image/ab6761610000e5eb89633578648b0b51f53d167f",
-        "genres": []
+        "genres": [
+          "indie",
+          "folk",
+          "british",
+          "singer-songwriter",
+          "piano"
+        ]
       },
       {
         "id": "2QjVv1gkLn8XkQxVndgLHF",
         "name": "Bill Laurance",
         "image": "https://i.scdn.co/image/ab6761610000e5eb9b310b4907a8dfa21a2f0d1d",
-        "genres": []
+        "genres": [
+          "jazz",
+          "electronic",
+          "piano",
+          "instrumental"
+        ]
       },
       {
         "id": "7L2rePM60cIztWZ7cLlskE",
         "name": "Martin Luke Brown",
         "image": "https://i.scdn.co/image/ab6761610000e5eb16183888b6121285f3dda61f",
-        "genres": []
+        "genres": [
+          "my top songs",
+          "british",
+          "indie pop",
+          "singer-songwriter",
+          "folk"
+        ]
       },
       {
         "id": "1JkIjayfiEEYvIaUYY4b7A",
         "name": "Tal Arditi",
         "image": "https://i.scdn.co/image/ab6761610000e5eb35f0a95e194c22d7c80ab748",
-        "genres": []
+        "genres": [
+          "berlin",
+          "germany",
+          "israeli",
+          "deutschland",
+          "israeli roots"
+        ]
       },
       {
         "id": "0Cqfz92flAzrp94pgN1jEW",
         "name": "The Monteverdi Choir",
         "image": "https://i.scdn.co/image/ab6761610000e5eb5ecb1473e8ef1c39d881c245",
-        "genres": []
+        "genres": [
+          "classical",
+          "uk",
+          "choir",
+          "conductor",
+          "musica sacra"
+        ]
       },
       {
         "id": "5KKpBU5eC2tJDzf0wmlRp2",
         "name": "RAYE",
         "image": "https://i.scdn.co/image/ab6761610000e5ebd9b6eb671700503c0e6205a9",
-        "genres": []
+        "genres": [
+          "pop",
+          "rnb",
+          "british",
+          "female vocalists",
+          "my top songs"
+        ]
       },
       {
         "id": "1Fc9NsRkuV2IuHA1UQEPki",
         "name": "La Rêveuse",
         "image": "https://i.scdn.co/image/ab6772690000c46c5d5d1477cceb41a5aee99aab",
-        "genres": []
+        "genres": [
+          "baroque",
+          "classical",
+          "france",
+          "2000s",
+          "2010s"
+        ]
       },
       {
         "id": "33YCmNkqNaxaGlCMisYKCd",
         "name": "Phoenix Chorale",
         "image": "https://i.scdn.co/image/ab6761610000e5eb30f8d33585fcd7fdfe63281b",
-        "genres": []
+        "genres": [
+          "choral"
+        ]
       },
       {
         "id": "0EzrGrgoaRfFelIQgRBIt7",
         "name": "Octave Lissner",
         "image": "https://i.scdn.co/image/ab6761610000e5eba26dd6c002e88b686e1ec65d",
-        "genres": []
+        "genres": [
+          "folk",
+          "soul",
+          "singer-songwriter",
+          "blues"
+        ]
       },
       {
         "id": "2JntGPQDmz3Lm0m3C7OEm4",
@@ -668,37 +1068,72 @@ export const CHANGELOG_DATA = [
         "id": "1gIjaA2XzQwFRHIvVuKwJW",
         "name": "Dorothee Mields",
         "image": "https://i.scdn.co/image/ab6772690000c46c523353759599b82aac89bfc5",
-        "genres": []
+        "genres": [
+          "female vocalists",
+          "classical",
+          "early music",
+          "soprano",
+          "baroque"
+        ]
       },
       {
         "id": "17BdLN9q8RRQQqyklLwac1",
         "name": "Collegium Vocale Gent",
         "image": "https://i.scdn.co/image/ab6761610000e5eb6e895483075f6e493f491476",
-        "genres": []
+        "genres": [
+          "baroque",
+          "classical",
+          "choral",
+          "oratorio"
+        ]
       },
       {
         "id": "6uhxLhuh3jcNhKhM6pUo2V",
         "name": "Klaus Mertens",
         "image": "https://i.scdn.co/image/ab6761610000e5eb1b329409bc9762701aa1c1f5",
-        "genres": []
+        "genres": [
+          "baroque",
+          "classical",
+          "romantic",
+          "vocal",
+          "early music"
+        ]
       },
       {
         "id": "2LnE7uKchgVW2Uv7vzwixZ",
         "name": "Andreas Scholl",
         "image": "https://i.scdn.co/image/ab6761610000e5eb04ce81c4a0b5a13b4897ace7",
-        "genres": []
+        "genres": [
+          "countertenor",
+          "classical",
+          "baroque",
+          "opera",
+          "german"
+        ]
       },
       {
         "id": "4GQwgdcDQwqtcHICjUNndp",
         "name": "Sir Simon Rattle",
         "image": "https://i.scdn.co/image/ab6772690000c46c9fd4055a34d4d6d6a0314138",
-        "genres": []
+        "genres": [
+          "classical",
+          "conductor",
+          "british",
+          "avant-garde",
+          "soundtrack"
+        ]
       },
       {
         "id": "54QMjE4toDfiCryzYWCpXX",
         "name": "Metronomy",
         "image": "https://i.scdn.co/image/ab6761610000e5ebceff4142bf102931cd3cd61d",
-        "genres": []
+        "genres": [
+          "electronic",
+          "new rave",
+          "experimental",
+          "electro",
+          "glitch"
+        ]
       },
       {
         "id": "1sNJ4MiIoUC38wEPkXdW1W",
@@ -710,19 +1145,36 @@ export const CHANGELOG_DATA = [
         "id": "00FQb4jTyendYWaN8pK0wa",
         "name": "Lana Del Rey",
         "image": "https://i.scdn.co/image/ab6761610000e5ebb99cacf8acd5378206767261",
-        "genres": []
+        "genres": [
+          "indie",
+          "female vocalists",
+          "indie pop",
+          "pop",
+          "alternative"
+        ]
       },
       {
         "id": "6UcJxoeHWWWyT5HZP064om",
         "name": "Chet Faker",
         "image": "https://i.scdn.co/image/ab6761610000e5eb887f380a1d6fafe95238c86b",
-        "genres": []
+        "genres": [
+          "downtempo",
+          "lo-fi",
+          "post-dubstep",
+          "smooth",
+          "electronic"
+        ]
       },
       {
         "id": "5b5bt4mZQpJMoCRbiQ7diH",
         "name": "Royel Otis",
         "image": "https://i.scdn.co/image/ab6761610000e5ebf9611f076ce2c0d5fbda708d",
-        "genres": []
+        "genres": [
+          "indie pop",
+          "indie rock",
+          "lo-fi",
+          "dream pop"
+        ]
       },
       {
         "id": "2FjzRd1bgtsmhESettmFAN",
@@ -734,25 +1186,44 @@ export const CHANGELOG_DATA = [
         "id": "32nW8kGbs65y8CSlIvREuc",
         "name": "VOCES8",
         "image": "https://i.scdn.co/image/ab6761610000e5eb21ee9455d4ff1007cac0eca8",
-        "genres": []
+        "genres": [
+          "classical",
+          "british"
+        ]
       },
       {
         "id": "3Bd1cgCjtCI32PYvDC3ynO",
         "name": "London Grammar",
         "image": "https://i.scdn.co/image/ab6761610000e5eb03fca863ba2e1e379ad19998",
-        "genres": []
+        "genres": [
+          "indie pop",
+          "electronic",
+          "indie",
+          "female vocalists",
+          "british"
+        ]
       },
       {
         "id": "3ZKyADicHqelBDeADLutiu",
         "name": "Flyte",
         "image": "https://i.scdn.co/image/ab6761610000e5eb5aa349a85ed95ae0f5ae37ac",
-        "genres": []
+        "genres": [
+          "progressive rock",
+          "symphonic prog",
+          "rock",
+          "folk",
+          "indie rock"
+        ]
       },
       {
         "id": "7H3z77VbkJcCcFilmKqKNM",
         "name": "Pale Jay",
         "image": "https://i.scdn.co/image/ab6761610000e5eb8f9248427efd447ee9bb61a3",
-        "genres": []
+        "genres": [
+          "soul",
+          "jazz",
+          "indie"
+        ]
       },
       {
         "id": "0liNX4mflJExPsvDkY7yfa",
@@ -764,13 +1235,24 @@ export const CHANGELOG_DATA = [
         "id": "2QOIawHpSlOwXDvSqQ9YJR",
         "name": "Antonio Vivaldi",
         "image": "https://i.scdn.co/image/9785700bae86f991f78183076861c7342a4bcf90",
-        "genres": []
+        "genres": [
+          "classical",
+          "baroque",
+          "instrumental",
+          "composers",
+          "classic"
+        ]
       },
       {
         "id": "2S11VlKvbvSKyyb7Wk4YP1",
         "name": "Oracle Sisters",
         "image": "https://i.scdn.co/image/ab6761610000e5ebd1b53e721cb5d8f8adee23ea",
-        "genres": []
+        "genres": [
+          "indie pop",
+          "french",
+          "dream pop",
+          "indie"
+        ]
       },
       {
         "id": "6xrCU6zdcSTsG2hLrojpmI",
@@ -788,103 +1270,195 @@ export const CHANGELOG_DATA = [
         "id": "5EyGexfSUi8oGjOmZSD5HG",
         "name": "CECI",
         "image": "https://i.scdn.co/image/ab6761610000e5eb69b8990ef499b56561cad9c1",
-        "genres": []
+        "genres": [
+          "pop",
+          "indie",
+          "house",
+          "german",
+          "deep house"
+        ]
       },
       {
         "id": "7Fu8GId2mQkNzqDbZbcDWM",
         "name": "Ton Koopman",
         "image": "https://i.scdn.co/image/b662fe57c28a9872f685edaed68ac399aa349e13",
-        "genres": []
+        "genres": [
+          "classical",
+          "baroque",
+          "organ",
+          "bach",
+          "conductor"
+        ]
       },
       {
         "id": "2VZNmg4vCnew4Pavo8zDdW",
         "name": "Max Richter",
         "image": "https://i.scdn.co/image/ab6761610000e5eb8dee498089aaed97d680c5b7",
-        "genres": []
+        "genres": [
+          "ambient",
+          "contemporary classical",
+          "neoclassical",
+          "classical",
+          "electronic"
+        ]
       },
       {
         "id": "3x8rZy1i6FwWOWKwfRT1Ab",
         "name": "The Choir Of Trinity College, Cambridge",
         "image": "https://i.scdn.co/image/ab6761610000e5eb594d92a2e3e15d398d4e64ef",
-        "genres": []
+        "genres": [
+          "classical",
+          "choral",
+          "choir",
+          "hark the herald angel sing"
+        ]
       },
       {
         "id": "0W79ONUwHoehEib1nRXlmi",
         "name": "Angelo De Augustine",
         "image": "https://i.scdn.co/image/ab6761610000e5eb7dfb25a7f899ddd8c3fc0ea2",
-        "genres": []
+        "genres": [
+          "folk",
+          "singer-songwriter",
+          "lo-fi"
+        ]
       },
       {
         "id": "0iqgjl0OG3z53PZVIB7ZyD",
         "name": "Víkingur Ólafsson",
         "image": "https://i.scdn.co/image/ab6761610000e5eb52881e0d82d8f835d5ad67c0",
-        "genres": []
+        "genres": [
+          "piano",
+          "classical",
+          "icelandic",
+          "instrumental",
+          "clinically romantic"
+        ]
       },
       {
         "id": "6qqNVTkY8uBg9cP3Jd7DAH",
         "name": "Billie Eilish",
         "image": "https://i.scdn.co/image/ab6761610000e5eb4a21b4760d2ecb7b0dcdc8da",
-        "genres": []
+        "genres": [
+          "pop",
+          "indie pop",
+          "electropop",
+          "art pop",
+          "alternative"
+        ]
       },
       {
         "id": "59oA5WbbQvomJz2BuRG071",
         "name": "Jungle",
         "image": "https://i.scdn.co/image/ab6761610000e5eb21f6e9ccd576bb2ef541a3fe",
-        "genres": []
+        "genres": [
+          "electronic",
+          "psychedelic",
+          "techno",
+          "jungle",
+          "funk"
+        ]
       },
       {
         "id": "7KkUirCiJZhgRN3NbgG98L",
         "name": "Ottorino Respighi",
         "image": "https://i.scdn.co/image/6f1664190b39f8b288ab3ce0e32884cc33cfb2cd",
-        "genres": []
+        "genres": [
+          "classical",
+          "italian",
+          "composer",
+          "20th century classical"
+        ]
       },
       {
         "id": "3OOAxdMJCLi7iAurDghYyK",
         "name": "Jasmine Myra",
         "image": "https://i.scdn.co/image/ab6761610000e5ebc7a03ce73f2bb3ce73838b30",
-        "genres": []
+        "genres": [
+          "jazz",
+          "the flourishing zoo"
+        ]
       },
       {
         "id": "1DS1wubFnTOJQxtX1CeYGo",
         "name": "Steve Dobrogosz",
         "image": "https://i.scdn.co/image/ab6761610000e5eb42618bf16ce8663f315b6788",
-        "genres": []
+        "genres": [
+          "usa",
+          "american classical pianist"
+        ]
       },
       {
         "id": "47i4lPow1dIRwOb85AB6lj",
         "name": "Gizmo Varillas",
         "image": "https://i.scdn.co/image/ab6761610000e5eb0a0b7b66a348655e065452ea",
-        "genres": []
+        "genres": [
+          "spanish",
+          "folk",
+          "spain",
+          "indie",
+          "folk rock"
+        ]
       },
       {
         "id": "1WgXqy2Dd70QQOU7Ay074N",
         "name": "AURORA",
         "image": "https://i.scdn.co/image/ab6761610000e5ebeefc6f13cec94fe613a6c1c8",
-        "genres": []
+        "genres": [
+          "art pop",
+          "synthpop",
+          "indie pop",
+          "pop",
+          "norwegian"
+        ]
       },
       {
         "id": "587PA35pRGL1JwQr6idJbb",
         "name": "NEIL FRANCES",
         "image": "https://i.scdn.co/image/ab6761610000e5eb30a5a51cd9f9998007285593",
-        "genres": []
+        "genres": [
+          "electronic",
+          "soul",
+          "indietronica",
+          "indie",
+          "indie pop"
+        ]
       },
       {
         "id": "6pSQcy8935ABNiK2qOpOlK",
         "name": "Lambert",
         "image": "https://i.scdn.co/image/ab6761610000e5ebdaf9663eb65c04adb9fc4f37",
-        "genres": []
+        "genres": [
+          "piano",
+          "composer",
+          "contemporary classical",
+          "instrumental",
+          "german"
+        ]
       },
       {
         "id": "5DAYFETp2MfJgHkgbkJvoX",
         "name": "Chris Staples",
         "image": "https://i.scdn.co/image/ab6761610000e5eb90a16320e477f05895eea7f3",
-        "genres": []
+        "genres": [
+          "folk",
+          "acoustic",
+          "singer-songwriter",
+          "indie",
+          "christian indie"
+        ]
       },
       {
         "id": "0qlhpgr87PEG89Jd5iRpxe",
         "name": "John Rutter",
         "image": "https://i.scdn.co/image/ab6761610000e5eb26ac0dfe2c24cac0aa36890f",
-        "genres": []
+        "genres": [
+          "classical",
+          "contemporary classical",
+          "choral",
+          "composer",
+          "rutter"
+        ]
       },
       {
         "id": "04ZrBgeey3LoXYNzYpF1Lz",
@@ -896,31 +1470,59 @@ export const CHANGELOG_DATA = [
         "id": "49eo9xE4yGzJLWkOndiODs",
         "name": "Deichkind",
         "image": "https://i.scdn.co/image/ab6761610000e5ebddd5cda45ef6e9e32886bda2",
-        "genres": []
+        "genres": [
+          "electronic",
+          "german",
+          "hip-hop",
+          "hip hop",
+          "deutsch"
+        ]
       },
       {
         "id": "29lbSb4ujaVH5pHnQjFT0G",
         "name": "Ola Gjeilo",
         "image": "https://i.scdn.co/image/ab6761610000e5ebc1aea74280e81f30beb6454f",
-        "genres": []
+        "genres": [
+          "piano",
+          "contemporary classical",
+          "composer",
+          "classical",
+          "norwegian"
+        ]
       },
       {
         "id": "1WWZAYN8d4n4iwjYALmmKB",
         "name": "Orchestra of the Age of Enlightenment",
         "image": "https://i.scdn.co/image/ab6761610000e5ebb911844d072c772dad0b59d2",
-        "genres": []
+        "genres": [
+          "baroque",
+          "classical",
+          "chamber music"
+        ]
       },
       {
         "id": "4MXUO7sVCaFgFjoTI5ox5c",
         "name": "Sufjan Stevens",
         "image": "https://i.scdn.co/image/ab6761610000e5ebe70700c1329d2f26971c3914",
-        "genres": []
+        "genres": [
+          "folk",
+          "indie",
+          "singer-songwriter",
+          "alternative",
+          "indie rock"
+        ]
       },
       {
         "id": "41AbNVba2ccpmcc9QtOJE7",
         "name": "Kings of Convenience",
         "image": "https://i.scdn.co/image/ab6761610000e5ebee085e8fca475f2b6a318df9",
-        "genres": []
+        "genres": [
+          "acoustic",
+          "indie",
+          "norwegian",
+          "indie pop",
+          "mellow"
+        ]
       },
       {
         "id": "3rttMPJOXUqtB2g05toACf",
@@ -932,7 +1534,13 @@ export const CHANGELOG_DATA = [
         "id": "5yxyJsFanEAuwSM5kOuZKc",
         "name": "London Symphony Orchestra",
         "image": "https://i.scdn.co/image/ab6761610000e5eb5a5d168879568c94e86c61aa",
-        "genres": []
+        "genres": [
+          "classical",
+          "instrumental",
+          "symphony",
+          "soundtrack",
+          "british"
+        ]
       },
       {
         "id": "72udTJKu1pGovvS9aCYGMI",
@@ -944,7 +1552,12 @@ export const CHANGELOG_DATA = [
         "id": "0f3PsS9IQ6whvNMFFKnpjl",
         "name": "Choir of King's College, Cambridge",
         "image": "https://i.scdn.co/image/ab6761610000e5eb3b79a768508397648f433a52",
-        "genres": []
+        "genres": [
+          "choir",
+          "choral",
+          "traditional gospel",
+          "british"
+        ]
       }
     ],
     "tracks": [
