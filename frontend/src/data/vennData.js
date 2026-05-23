@@ -13,6 +13,7 @@ export const VENN_DATA = {
     "Habe",
     "Hanakiv",
     "Jitwam",
+    "Jon and Roy",
     "L!aW",
     "Lords of Lounge",
     "Monophonics",
@@ -31,7 +32,6 @@ export const VENN_DATA = {
     "Vanessa Fernandez",
     "Vicky Sometani",
     "William DeVaughn",
-    "nate2timez",
     "Σtella"
   ],
   "M_only": [
