@@ -1,54 +1,57 @@
 import { useState, useMemo } from "react";
 import VennDiagram from "../components/VennDiagram";
+import type { SpotifyData, VennData, RangeKey } from "../types";
 
+const RANGE_KEYS: RangeKey[]  = ["month", "half", "all"];
+const RANGE_LABELS             = ["4w", "6mo", "all-time"];
 
-const RANGE_KEYS   = ["month", "half", "all"];
-const RANGE_LABELS = ["4w", "6mo", "all-time"];
+interface ArtistRank {
+  id: string;
+  name: string;
+  ranks: Partial<Record<RangeKey, number>>;
+}
 
-function buildArtistRanks(topArtists) {
-  const map = new Map();
+function buildArtistRanks(topArtists: SpotifyData["top_artists"]): ArtistRank[] {
+  const map = new Map<string, ArtistRank>();
   for (const key of RANGE_KEYS) {
     for (const a of topArtists[key] ?? []) {
       if (!map.has(a.id)) map.set(a.id, { id: a.id, name: a.name, ranks: {} });
-      map.get(a.id).ranks[key] = a.rank;
+      map.get(a.id)!.ranks[key] = a.rank;
     }
   }
   return [...map.values()];
 }
 
-function BumpChart({ topArtists }) {
-  const [tip, setTip] = useState(null);
+function BumpChart({ topArtists }: { topArtists: SpotifyData["top_artists"] }) {
+  const [tip, setTip] = useState<string | null>(null);
   const artists = useMemo(() => {
     const all = buildArtistRanks(topArtists);
     return all
       .filter((a) => Object.keys(a.ranks).length >= 2)
-      .sort((a, b) => Math.min(...Object.values(a.ranks)) - Math.min(...Object.values(b.ranks)))
+      .sort((a, b) => Math.min(...Object.values(a.ranks) as number[]) - Math.min(...Object.values(b.ranks) as number[]))
       .slice(0, 18);
   }, [topArtists]);
 
   const MAX_RANK = 20;
   const W = 560; const H = 280;
   const COL_X = [150, W / 2, W - 150];
-  const rankY = (r) => 24 + (Math.min(r, MAX_RANK) - 1) / (MAX_RANK - 1) * (H - 48);
-  const isLong = (a) => !!a.ranks.all;
+  const rankY = (r: number) => 24 + (Math.min(r, MAX_RANK) - 1) / (MAX_RANK - 1) * (H - 48);
+  const isLong = (a: ArtistRank) => !!a.ranks.all;
 
   return (
     <div className="bump-wrap">
       <svg viewBox={`0 0 ${W} ${H}`} className="bump-svg">
-        {/* column headers */}
         {RANGE_LABELS.map((l, i) => (
           <text key={l} x={COL_X[i]} y={14} textAnchor="middle" className="bump-col-label">{l}</text>
         ))}
-        {/* grid lines */}
         {COL_X.map((x, i) => (
           <line key={i} x1={x} y1={22} x2={x} y2={H - 8} stroke="oklch(1 0 0 / 0.07)" strokeWidth="1" />
         ))}
-        {/* artist lines + dots */}
         {artists.map((a) => {
           const hue = isLong(a) ? 185 : 340;
           const points = RANGE_KEYS
-            .filter((k) => a.ranks[k] != null && a.ranks[k] <= MAX_RANK)
-            .map((k, _, arr) => ({ k, x: COL_X[RANGE_KEYS.indexOf(k)], y: rankY(a.ranks[k]) }));
+            .filter((k) => a.ranks[k] != null && a.ranks[k]! <= MAX_RANK)
+            .map((k) => ({ k, x: COL_X[RANGE_KEYS.indexOf(k)], y: rankY(a.ranks[k]!) }));
           const isHot = tip === a.id;
           return (
             <g key={a.id} onMouseEnter={() => setTip(a.id)} onMouseLeave={() => setTip(null)}
@@ -89,15 +92,15 @@ function BumpChart({ topArtists }) {
   );
 }
 
-function MatrixChart({ topArtists }) {
-  const [tip, setTip] = useState(null);
+function MatrixChart({ topArtists }: { topArtists: SpotifyData["top_artists"] }) {
+  const [tip, setTip] = useState<string | null>(null);
   const artists = useMemo(() => {
     const all = buildArtistRanks(topArtists);
     return all
       .sort((a, b) => {
         const ac = Object.keys(a.ranks).length, bc = Object.keys(b.ranks).length;
         if (ac !== bc) return bc - ac;
-        return Math.min(...Object.values(a.ranks)) - Math.min(...Object.values(b.ranks));
+        return Math.min(...Object.values(a.ranks) as number[]) - Math.min(...Object.values(b.ranks) as number[]);
       })
       .slice(0, 30);
   }, [topArtists]);
@@ -126,7 +129,7 @@ function MatrixChart({ topArtists }) {
                 <div key={k} className="matrix-cell">
                   {a.ranks[k] != null ? (
                     <span className="matrix-dot"
-                      style={{ background: `oklch(${0.45 + (1 - a.ranks[k] / 50) * 0.3} 0.16 ${hue})` }}>
+                      style={{ background: `oklch(${0.45 + (1 - a.ranks[k]! / 50) * 0.3} 0.16 ${hue})` }}>
                       {a.ranks[k]}
                     </span>
                   ) : (
@@ -147,12 +150,18 @@ function MatrixChart({ topArtists }) {
   );
 }
 
-export default function GenresSection({ data, vennData }) {
-  const [hovered, setHovered] = useState(null);
-  const [universeView, setUniverseView] = useState("bump");
+type UniverseView = "bump" | "venn" | "matrix";
+
+interface GenresSectionProps {
+  data: SpotifyData;
+  vennData: VennData;
+}
+
+export default function GenresSection({ data, vennData }: GenresSectionProps) {
+  const [hovered, setHovered] = useState<string | null>(null);
+  const [universeView, setUniverseView] = useState<UniverseView>("bump");
   const soundDna = data?.genres ?? [];
   const totalShare = soundDna.reduce((s, b) => s + b.share, 0) || 100;
-  const artistUniverse = data?.artist_universe ?? [];
 
   return (
     <section className="section" id="section-genres">
@@ -232,15 +241,15 @@ export default function GenresSection({ data, vennData }) {
           <div className="card-head">
             <div className="card-title">Artist universe</div>
             <div className="universe-tabs">
-              {["bump", "venn", "matrix"].map((v) => (
+              {(["bump", "venn", "matrix"] as UniverseView[]).map((v) => (
                 <button key={v} className={`universe-tab${universeView === v ? " is-active" : ""}`}
                   onClick={() => setUniverseView(v)}>{v}</button>
               ))}
             </div>
           </div>
-          {universeView === "bump"    && <BumpChart topArtists={data.top_artists} />}
-          {universeView === "venn"    && <VennDiagram vennData={vennData} />}
-          {universeView === "matrix"  && <MatrixChart topArtists={data.top_artists} />}
+          {universeView === "bump"   && <BumpChart topArtists={data.top_artists} />}
+          {universeView === "venn"   && <VennDiagram vennData={vennData} />}
+          {universeView === "matrix" && <MatrixChart topArtists={data.top_artists} />}
         </div>
       </div>
     </section>

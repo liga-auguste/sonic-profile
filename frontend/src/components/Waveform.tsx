@@ -1,8 +1,15 @@
 import { useMemo } from "react";
 
-export default function Waveform({ seed = 1, bars = 48, height = 28, color = "var(--accent)" }) {
+interface WaveformProps {
+  seed?: number;
+  bars?: number;
+  height?: number;
+  color?: string;
+}
+
+export default function Waveform({ seed = 1, bars = 48, height = 28, color = "var(--accent)" }: WaveformProps) {
   const heights = useMemo(() => {
-    const out = [];
+    const out: number[] = [];
     let s = seed * 9301 + 49297;
     for (let i = 0; i < bars; i++) {
       s = (s * 9301 + 49297) % 233280;

@@ -4,18 +4,20 @@ import "./styles.css";
 import useSpotifyData from "./hooks/useSpotifyData";
 
 import Sidebar, { NAV } from "./components/Sidebar";
+import type { NavId } from "./components/Sidebar";
 import TracksSection from "./pages/TracksSection";
 import ArtistsSection from "./pages/ArtistsSection";
 import GenresSection from "./pages/GenresSection";
 import StatsSection from "./pages/StatsSection";
+import type { Track } from "./types";
 
 export default function App() {
   const { data, vennData } = useSpotifyData();
-  const [active, setActive] = useState("genres");
-  const [activeTrack, setActiveTrack] = useState(null);
-  const scrollerRef = useRef(null);
+  const [active, setActive] = useState<NavId>("genres");
+  const [activeTrack, setActiveTrack] = useState<Track | null>(null);
+  const scrollerRef = useRef<HTMLElement>(null);
 
-  const onNav = (id) => {
+  const onNav = (id: NavId) => {
     setActive(id);
     const el = document.getElementById(`section-${id}`);
     if (el && scrollerRef.current) {
@@ -29,16 +31,16 @@ export default function App() {
       const sc = scrollerRef.current;
       if (!sc) return;
       const top = sc.scrollTop + 120;
-let cur = active;
+      let cur: NavId = active;
       for (const id of ids) {
         const el = document.getElementById(id);
-        if (el && el.offsetTop <= top) cur = id.replace("section-", "");
+        if (el && el.offsetTop <= top) cur = id.replace("section-", "") as NavId;
       }
       if (cur !== active) setActive(cur);
     };
     const sc = scrollerRef.current;
     if (sc) sc.addEventListener("scroll", onScroll);
-    return () => sc && sc.removeEventListener("scroll", onScroll);
+    return () => { sc?.removeEventListener("scroll", onScroll); };
   }, [active]);
 
   return (

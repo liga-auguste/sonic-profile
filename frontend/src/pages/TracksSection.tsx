@@ -2,9 +2,10 @@ import { useState } from "react";
 import Cover from "../components/Cover";
 import RangeToggle from "../components/RangeToggle";
 import { hashHue } from "../utils";
+import type { SpotifyData, Track, RangeKey } from "../types";
 
-function diversify(tracks) {
-  const seenAlbums = new Set();
+function diversify(tracks: Track[]): Track[] {
+  const seenAlbums = new Set<string>();
   return tracks.filter((t) => {
     if (seenAlbums.has(t.album)) return false;
     seenAlbums.add(t.album);
@@ -12,7 +13,15 @@ function diversify(tracks) {
   });
 }
 
-function TrackRow({ t, index, delay = 0, isActive, onToggle }) {
+interface TrackRowProps {
+  t: Track;
+  index: number;
+  delay?: number;
+  isActive: boolean;
+  onToggle: () => void;
+}
+
+function TrackRow({ t, index, delay = 0, isActive, onToggle }: TrackRowProps) {
   const hue = hashHue(t.name + t.artist);
   return (
     <div
@@ -30,9 +39,14 @@ function TrackRow({ t, index, delay = 0, isActive, onToggle }) {
   );
 }
 
-export default function TracksSection({ data, onTrackSelect }) {
-  const [range, setRange] = useState("month");
-  const [activeId, setActiveId] = useState(null);
+interface TracksSectionProps {
+  data: SpotifyData;
+  onTrackSelect: (track: Track | null) => void;
+}
+
+export default function TracksSection({ data, onTrackSelect }: TracksSectionProps) {
+  const [range, setRange] = useState<RangeKey>("month");
+  const [activeId, setActiveId] = useState<string | null>(null);
   const [showAll, setShowAll] = useState(false);
   const [diverse, setDiverse] = useState(true);
 
@@ -40,13 +54,13 @@ export default function TracksSection({ data, onTrackSelect }) {
   const tracks = diverse ? diversify(raw) : raw;
   const visible = showAll ? tracks : tracks.slice(0, 25);
 
-  const handleToggle = (t) => {
+  const handleToggle = (t: Track) => {
     const next = activeId === t.id ? null : t.id;
     setActiveId(next);
     onTrackSelect(next ? t : null);
   };
 
-  const handleRange = (r) => {
+  const handleRange = (r: RangeKey) => {
     setRange(r);
     setActiveId(null);
     setShowAll(false);

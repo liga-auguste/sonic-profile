@@ -1,7 +1,16 @@
 import { useState } from "react";
 import { hashHue } from "../utils";
 
-export default function Cover({ src, alt, hue, size = 64, radius = 6, round }) {
+interface CoverProps {
+  src?: string;
+  alt?: string;
+  hue?: number;
+  size?: number;
+  radius?: number;
+  round?: boolean;
+}
+
+export default function Cover({ src, alt, hue, size = 64, radius = 6, round }: CoverProps) {
   const [errored, setErrored] = useState(false);
   const initials = (alt || "?")
     .split(" ")
@@ -35,7 +44,7 @@ export default function Cover({ src, alt, hue, size = 64, radius = 6, round }) {
     );
   }
 
-  const h = hue ?? hashHue(alt);
+  const h = hue ?? hashHue(alt ?? "");
   const h2 = (h + 60) % 360;
   return (
     <div

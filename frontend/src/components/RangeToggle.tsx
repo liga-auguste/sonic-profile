@@ -1,10 +1,17 @@
-const RANGES = [
+import type { RangeKey } from "../types";
+
+const RANGES: { id: RangeKey; label: string; note: string }[] = [
   { id: "month", label: "Last Month", note: "4 weeks · short_term" },
-  { id: "half", label: "6 Months", note: "26 weeks · medium_term" },
-  { id: "all", label: "All Time", note: "long_term" },
+  { id: "half",  label: "6 Months",   note: "26 weeks · medium_term" },
+  { id: "all",   label: "All Time",   note: "long_term" },
 ];
 
-export default function RangeToggle({ value, onChange }) {
+interface RangeToggleProps {
+  value: RangeKey;
+  onChange: (value: RangeKey) => void;
+}
+
+export default function RangeToggle({ value, onChange }: RangeToggleProps) {
   return (
     <div className="range-toggle">
       {RANGES.map((r) => (

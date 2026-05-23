@@ -1,13 +1,22 @@
-const NAV = [
-  { id: "genres",  label: "Genre DNA",      glyph: "≋" },
-  { id: "artists", label: "Top Artists",    glyph: "◇" },
-  { id: "tracks",  label: "Top Tracks",     glyph: "♪" },
+import type { Profile } from "../types";
+
+export const NAV = [
+  { id: "genres",  label: "Genre DNA",       glyph: "≋" },
+  { id: "artists", label: "Top Artists",     glyph: "◇" },
+  { id: "tracks",  label: "Top Tracks",      glyph: "♪" },
   { id: "stats",   label: "Listening Stats", glyph: "▤" },
-];
+] as const;
 
-export { NAV };
+export type NavId = (typeof NAV)[number]["id"];
 
-export default function Sidebar({ active, onNav, profile, fetchedAt }) {
+interface SidebarProps {
+  active: NavId;
+  onNav: (id: NavId) => void;
+  profile: Profile;
+  fetchedAt: string;
+}
+
+export default function Sidebar({ active, onNav, profile, fetchedAt }: SidebarProps) {
   const initials = (profile?.display_name || "?")
     .split(" ").filter(Boolean).slice(0, 2)
     .map((w) => w[0]).join("").toUpperCase();
@@ -18,8 +27,8 @@ export default function Sidebar({ active, onNav, profile, fetchedAt }) {
         <div className="brand-mark">
           <svg viewBox="0 0 32 32" width="28" height="28">
             <circle cx="16" cy="16" r="14" fill="none" stroke="var(--accent)" strokeWidth="1.4" />
-            <circle cx="16" cy="16" r="9" fill="none" stroke="var(--accent)" strokeWidth="1.4" opacity="0.6" />
-            <circle cx="16" cy="16" r="4" fill="none" stroke="var(--accent)" strokeWidth="1.4" opacity="0.4" />
+            <circle cx="16" cy="16" r="9"  fill="none" stroke="var(--accent)" strokeWidth="1.4" opacity="0.6" />
+            <circle cx="16" cy="16" r="4"  fill="none" stroke="var(--accent)" strokeWidth="1.4" opacity="0.4" />
             <circle cx="16" cy="16" r="1.4" fill="var(--accent)" />
           </svg>
         </div>

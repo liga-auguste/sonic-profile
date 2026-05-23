@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { fmtNum } from "../utils";
 import VennDiagram, { REGIONS } from "../components/VennDiagram";
+import type { SpotifyData, VennData, VennKey } from "../types";
 
-function HoursChart({ hours }) {
+function HoursChart({ hours }: { hours: number[] }) {
   const max = Math.max(...hours, 1);
   const peakHour = hours.indexOf(max);
   const peakLabel = peakHour === 0 ? "12a" : peakHour < 12 ? `${peakHour}a` : peakHour === 12 ? "12p" : `${peakHour - 12}p`;
@@ -24,9 +25,18 @@ function HoursChart({ hours }) {
   );
 }
 
-function StatCard({ big, label, sub, accent, small, style }) {
+interface StatCardProps {
+  big: string | number;
+  label: string;
+  sub: string;
+  accent: string | number;
+  small?: boolean;
+  style?: React.CSSProperties;
+}
+
+function StatCard({ big, label, sub, accent, small, style }: StatCardProps) {
   return (
-    <div className="stat-card" style={{ "--card-accent": `oklch(0.7 0.15 ${accent})`, ...style }}>
+    <div className="stat-card" style={{ "--card-accent": `oklch(0.7 0.15 ${accent})`, ...style } as React.CSSProperties}>
       <div className="stat-tick" />
       <div className={`stat-big ${small ? "is-small" : ""}`}>{big}</div>
       <div className="stat-label">{label}</div>
@@ -35,11 +45,16 @@ function StatCard({ big, label, sub, accent, small, style }) {
   );
 }
 
-export default function StatsSection({ data, vennData }) {
+interface StatsSectionProps {
+  data: SpotifyData;
+  vennData: VennData;
+}
+
+export default function StatsSection({ data, vennData }: StatsSectionProps) {
   const { stats, genres } = data;
   const topGenre = genres?.[0];
-  const [vennHot, setVennHot] = useState("ALL");
-  const hotRegion = REGIONS.find((r) => r.key === vennHot);
+  const [vennHot, setVennHot] = useState<VennKey>("ALL");
+  const hotRegion = REGIONS.find((r) => r.key === vennHot)!;
   const hotList   = vennData[vennHot] || [];
   const hotTotal  = vennData.counts[vennHot];
 
@@ -58,7 +73,6 @@ export default function StatsSection({ data, vennData }) {
       </div>
 
       <div className="stats-bento">
-        {/* Row 1 — 2 stats + hours (2-wide) */}
         <StatCard style={{ gridColumn: 1, gridRow: 1 }}
           big={fmtNum(stats.uniqueArtists)} label="unique artists" sub="across all-time tops" accent="168" />
         <StatCard style={{ gridColumn: 2, gridRow: 1 }}
@@ -71,7 +85,6 @@ export default function StatsSection({ data, vennData }) {
           <HoursChart hours={stats.hoursChart} />
         </div>
 
-        {/* Rows 2–3 left column */}
         <div style={{ gridColumn: 1, gridRow: "2 / 4", display: "flex", flexDirection: "column", gap: 12, justifyContent: "space-between" }}>
           <StatCard big={stats.oldestObsession} label="all-time #1 artist" sub="most consistent in long_term" accent="22" small />
           <StatCard big={`${stats.releaseYearOldest}–${stats.releaseYearNewest}`} label="release era span"
@@ -79,7 +92,6 @@ export default function StatsSection({ data, vennData }) {
           <StatCard big={fmtNum(stats.uniqueTracks)} label="unique tracks" sub="across all 3 ranges" accent="130" />
         </div>
 
-        {/* Center — Venn diagram (SVG only, no side panel) */}
         <div className="card stats-bento-venn" style={{ gridColumn: "2 / 4", gridRow: "2 / 4" }}>
           <div className="card-head">
             <div className="card-title">Where artists live in time</div>
@@ -88,14 +100,13 @@ export default function StatsSection({ data, vennData }) {
           <VennDiagram vennData={vennData} hot={vennHot} onHot={setVennHot} hideSide />
         </div>
 
-        {/* Rows 2–3 right column — Venn hover details */}
-        <div className="stat-card" style={{ gridColumn: 4, gridRow: 2, "--card-accent": `oklch(0.7 0.15 ${hotRegion.hue})` }}>
+        <div className="stat-card" style={{ gridColumn: 4, gridRow: 2, "--card-accent": `oklch(0.7 0.15 ${hotRegion.hue})` } as React.CSSProperties}>
           <div className="stat-tick" />
           <div className="stat-big" style={{ fontSize: 38 }}>{hotTotal}</div>
           <div className="stat-label">{hotRegion.label}</div>
           <div className="stat-sub">artists · hover venn to explore</div>
         </div>
-        <div className="stat-card venn-chip-tile" style={{ gridColumn: 4, gridRow: 3, "--card-accent": `oklch(0.7 0.15 ${hotRegion.hue})` }}>
+        <div className="stat-card venn-chip-tile" style={{ gridColumn: 4, gridRow: 3, "--card-accent": `oklch(0.7 0.15 ${hotRegion.hue})` } as React.CSSProperties}>
           <div className="stat-tick" />
           <div className="venn-chip-list">
             {hotList.length
@@ -105,7 +116,6 @@ export default function StatsSection({ data, vennData }) {
           </div>
         </div>
 
-        {/* Row 4 — all 4 stats */}
         <StatCard style={{ gridColumn: 1, gridRow: 4 }}
           big={stats.longestTrack} label="longest track" sub={stats.longestTrackName} accent="332" small />
         <StatCard style={{ gridColumn: 2, gridRow: 4 }}

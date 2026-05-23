@@ -1,8 +1,9 @@
 import { useState } from "react";
 import Cover from "../components/Cover";
 import { fmtNum, hashHue } from "../utils";
+import type { SpotifyData, Track } from "../types";
 
-function HoursChart({ hours }) {
+function HoursChart({ hours }: { hours: number[] }) {
   const max = Math.max(...hours, 1);
   const peakHour = hours.indexOf(max);
   const peakLabel = peakHour === 0 ? "12a" : peakHour < 12 ? `${peakHour}a` : peakHour === 12 ? "12p" : `${peakHour - 12}p`;
@@ -33,14 +34,21 @@ function HoursChart({ hours }) {
   );
 }
 
-export default function ProfileSection({ data, onTrackSelect }) {
+interface ProfileSectionProps {
+  data: SpotifyData;
+  onTrackSelect: (track: Track | null) => void;
+}
+
+export default function ProfileSection({ data, onTrackSelect }: ProfileSectionProps) {
   const { profile, stats, top_tracks } = data;
-  const [activeId, setActiveId] = useState(null);
-  const handleToggle = (t) => {
+  const [activeId, setActiveId] = useState<string | null>(null);
+
+  const handleToggle = (t: Track) => {
     const next = activeId === t.id ? null : t.id;
     setActiveId(next);
     onTrackSelect(next ? t : null);
   };
+
   const initials = (profile.display_name || "?")
     .split(" ")
     .filter(Boolean)
@@ -77,17 +85,9 @@ export default function ProfileSection({ data, onTrackSelect }) {
                   </linearGradient>
                 </defs>
                 <circle cx="60" cy="60" r="60" fill="url(#ag)" />
-                <text
-                  x="60"
-                  y="74"
-                  textAnchor="middle"
-                  fontFamily="'Bricolage Grotesque', serif"
-                  fontWeight="600"
-                  fontSize="48"
-                  fill="oklch(0.98 0.02 168)"
-                >
-                  {initials}
-                </text>
+                <text x="60" y="74" textAnchor="middle"
+                  fontFamily="'Bricolage Grotesque', serif" fontWeight="600"
+                  fontSize="48" fill="oklch(0.98 0.02 168)">{initials}</text>
               </svg>
             )}
             <div className="avatar-ring" />
@@ -107,11 +107,11 @@ export default function ProfileSection({ data, onTrackSelect }) {
               </div>
             )}
             <div>
-              <div className="ps-num">{fmtNum(stats.cumulativeArtists)}</div>
+              <div className="ps-num">{fmtNum(stats.cumulativeArtists ?? 0)}</div>
               <div className="ps-lab">artists seen</div>
             </div>
             <div>
-              <div className="ps-num">{fmtNum(stats.cumulativeTracks)}</div>
+              <div className="ps-num">{fmtNum(stats.cumulativeTracks ?? 0)}</div>
               <div className="ps-lab">tracks seen</div>
             </div>
           </div>
@@ -122,35 +122,35 @@ export default function ProfileSection({ data, onTrackSelect }) {
         </div>
 
         <div className="recent-card">
-            <div className="card-head">
-              <div className="card-title">On heavy rotation · last 4 weeks</div>
-              <div className="card-meta">short_term top tracks</div>
-            </div>
-            <div className="recent-list">
-              {top_tracks.month.slice(0, 6).map((t) => (
-                <div
-                  key={t.id}
-                  className={`recent-row${activeId === t.id ? " is-active" : ""}`}
-                  onClick={() => handleToggle(t)}
-                >
-                  <Cover src={t.album_image} alt={t.name} hue={hashHue(t.name)} size={36} radius={3} />
-                  <div className="recent-text">
-                    <div className="recent-track">{t.name}</div>
-                    <div className="recent-artist">{t.artist}</div>
-                  </div>
-                  <div className="recent-time">#{t.rank}</div>
+          <div className="card-head">
+            <div className="card-title">On heavy rotation · last 4 weeks</div>
+            <div className="card-meta">short_term top tracks</div>
+          </div>
+          <div className="recent-list">
+            {top_tracks.month.slice(0, 6).map((t) => (
+              <div
+                key={t.id}
+                className={`recent-row${activeId === t.id ? " is-active" : ""}`}
+                onClick={() => handleToggle(t)}
+              >
+                <Cover src={t.album_image} alt={t.name} hue={hashHue(t.name)} size={36} radius={3} />
+                <div className="recent-text">
+                  <div className="recent-track">{t.name}</div>
+                  <div className="recent-artist">{t.artist}</div>
                 </div>
-              ))}
-            </div>
+                <div className="recent-time">#{t.rank}</div>
+              </div>
+            ))}
           </div>
+        </div>
 
-          <div className="hours-card">
-            <div className="card-head">
-              <div className="card-title">Tracks played by hour</div>
-              <div className="card-meta">{stats.hoursChart.reduce((a, b) => a + b, 0)} plays tracked</div>
-            </div>
-            <HoursChart hours={stats.hoursChart} />
+        <div className="hours-card">
+          <div className="card-head">
+            <div className="card-title">Tracks played by hour</div>
+            <div className="card-meta">{stats.hoursChart.reduce((a, b) => a + b, 0)} plays tracked</div>
           </div>
+          <HoursChart hours={stats.hoursChart} />
+        </div>
       </div>
     </section>
   );

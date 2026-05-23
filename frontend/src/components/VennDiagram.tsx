@@ -1,12 +1,13 @@
 import { useState } from "react";
+import type { VennData, VennKey } from "../types";
 
 const CIRCLES = [
   { id: "S", label: "last month", cx: 78,  cy: 70,  r: 52, hue: 332 },
   { id: "M", label: "6 months",   cx: 122, cy: 70,  r: 52, hue: 168 },
   { id: "L", label: "all-time",   cx: 100, cy: 100, r: 52, hue: 42  },
-];
+] as const;
 
-const REGIONS = [
+export const REGIONS: { key: VennKey; x: number; y: number; label: string; hue: number }[] = [
   { key: "S_only", x: 50,  y: 56,  label: "last month only",       hue: 332 },
   { key: "M_only", x: 150, y: 56,  label: "6 months only",         hue: 168 },
   { key: "L_only", x: 100, y: 130, label: "all-time only",         hue: 42  },
@@ -16,14 +17,19 @@ const REGIONS = [
   { key: "ALL",    x: 100, y: 80,  label: "all three ranges",      hue: 200 },
 ];
 
-export { REGIONS };
+interface VennDiagramProps {
+  vennData: VennData;
+  hot?: VennKey;
+  onHot?: (key: VennKey) => void;
+  hideSide?: boolean;
+}
 
-export default function VennDiagram({ vennData, hot: hotProp, onHot, hideSide }) {
-  const [hotInternal, setHotInternal] = useState("ALL");
+export default function VennDiagram({ vennData, hot: hotProp, onHot, hideSide }: VennDiagramProps) {
+  const [hotInternal, setHotInternal] = useState<VennKey>("ALL");
   const hot = hotProp !== undefined ? hotProp : hotInternal;
   const setHot = onHot ?? setHotInternal;
 
-  const region = REGIONS.find((r) => r.key === hot);
+  const region = REGIONS.find((r) => r.key === hot)!;
   const list   = vennData[hot] || [];
   const total  = vennData.counts[hot];
 
