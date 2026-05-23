@@ -5,22 +5,21 @@ export const VENN_DATA = {
     "Arc De Soleil",
     "Billy Paul",
     "Chris Shards",
+    "Collect 200",
     "Daniel Stark",
     "Dominique Fils-Aimé",
-    "Fink",
     "Geoffroy",
     "Golf Trip",
     "Habe",
     "Hanakiv",
     "Jitwam",
-    "Jon and Roy",
+    "KATZROAR",
     "L!aW",
     "Lords of Lounge",
     "Monophonics",
     "Montazona",
     "Moon Soul",
     "Munan",
-    "Mynolia",
     "Noah Yorke",
     "O & The Mo",
     "Pastel Radio",
@@ -32,6 +31,8 @@ export const VENN_DATA = {
     "Vanessa Fernandez",
     "Vicky Sometani",
     "William DeVaughn",
+    "Willie J Healey",
+    "nate2timez",
     "Σtella"
   ],
   "M_only": [
@@ -43,8 +44,8 @@ export const VENN_DATA = {
     "Chet Faker",
     "Dorothee Mields",
     "Ensemble Contraste",
-    "George Bloomfield",
     "Jordan Rakei",
+    "José González",
     "Klaus Mertens",
     "La Rêveuse",
     "Lana Del Rey",
@@ -56,7 +57,6 @@ export const VENN_DATA = {
     "Royel Otis",
     "Sir Simon Rattle",
     "Svaneborg Kardyb",
-    "Two Another",
     "VOCES8"
   ],
   "L_only": [
@@ -67,6 +67,7 @@ export const VENN_DATA = {
     "Choir of King's College, Cambridge",
     "Chris Staples",
     "Deichkind",
+    "Dekker",
     "Gester Martin",
     "Gizmo Varillas",
     "Jasmine Myra",
@@ -87,6 +88,7 @@ export const VENN_DATA = {
     "Víkingur Ólafsson"
   ],
   "SM": [
+    "George Bloomfield",
     "Hermanos Gutiérrez",
     "Jan Garbarek",
     "Little Simz",
@@ -97,7 +99,6 @@ export const VENN_DATA = {
   ],
   "SL": [
     "Coldplay",
-    "Dekker",
     "Nick Mulvey",
     "Radiohead",
     "The Smile"
@@ -108,6 +109,7 @@ export const VENN_DATA = {
     "Bill Laurance",
     "Collegium Vocale Gent",
     "Flyte",
+    "Leif Vollebekk",
     "London Grammar",
     "Martin Luke Brown",
     "Octave Lissner",
@@ -122,17 +124,16 @@ export const VENN_DATA = {
     "Common Saints",
     "Jungle",
     "LEISURE",
-    "Leif Vollebekk",
     "RIO KOSTA",
     "Tom Misch"
   ],
   "counts": {
-    "S_only": 32,
-    "M_only": 23,
-    "L_only": 25,
-    "SM": 7,
-    "SL": 5,
-    "ML": 14,
-    "ALL": 6
+    "S_only": 33,
+    "M_only": 22,
+    "L_only": 26,
+    "SM": 8,
+    "SL": 4,
+    "ML": 15,
+    "ALL": 5
   }
 };
