@@ -34,7 +34,7 @@ export default function TracksSection({ data, onTrackSelect }) {
   const [range, setRange] = useState("month");
   const [activeId, setActiveId] = useState(null);
   const [showAll, setShowAll] = useState(false);
-  const [diverse, setDiverse] = useState(false);
+  const [diverse, setDiverse] = useState(true);
 
   const raw = data.top_tracks[range];
   const tracks = diverse ? diversify(raw) : raw;
