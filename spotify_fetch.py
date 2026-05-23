@@ -17,7 +17,6 @@ load_dotenv()
 # ── Credentials ──────────────────────────────────────────────
 CLIENT_ID     = os.environ.get("SPOTIFY_CLIENT_ID", "")
 CLIENT_SECRET = os.environ.get("SPOTIFY_CLIENT_SECRET", "")
-# Uses a dedicated port (9009) so it doesn't conflict with the running Django backend (8000)
 REDIRECT_URI  = os.environ.get("SPOTIFY_FETCH_REDIRECT_URI", "http://127.0.0.1:9009/callback")
 
 SCOPES = " ".join([
