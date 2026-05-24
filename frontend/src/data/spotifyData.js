@@ -4758,7 +4758,17 @@ export const SPOTIFY_DATA = {
       "hue": 340
     }
   ],
-  "currently_playing": null,
+  "currently_playing": {
+    "is_playing": true,
+    "progress_ms": 127494,
+    "duration_ms": 214000,
+    "name": "Easy to Come Home - Alternative Edit Mix",
+    "artist": "Dojo Cuts",
+    "album": "Easy to Come Home (Alternative Edit Mix)",
+    "album_image": "https://i.scdn.co/image/ab67616d00001e029eb3f1b626b67e3774544ac2",
+    "url": "https://open.spotify.com/track/3TxzHz3KAziA6U1joG5NL1",
+    "context_type": "album"
+  },
   "stats": {
     "uniqueArtists": 111,
     "uniqueTracks": 131,
@@ -4771,7 +4781,7 @@ export const SPOTIFY_DATA = {
     "releaseYearOldest": 1966,
     "releaseYearNewest": 2026,
     "releaseYearPeak": 2024,
-    "fetched_at": "2026-05-24T07:28:10.047517+00:00",
+    "fetched_at": "2026-05-24T08:18:30.931129+00:00",
     "hoursChart": [
       1,
       0,
@@ -4782,8 +4792,8 @@ export const SPOTIFY_DATA = {
       0,
       0,
       6,
-      0,
-      5,
+      7,
+      10,
       0,
       0,
       7,
