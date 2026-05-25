@@ -1,5 +1,35 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 10,
+    "fetched_at": "2026-05-25T09:51:24.000147+00:00",
+    "new_artists": 1,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260525_095121.json",
+    "artists": [
+      {
+        "id": "5fbhwqYYh4YwUoEs582mq5",
+        "name": "The Spinners",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebc973e7f9d1a3be98df8b8dbc",
+        "genres": [
+          "soul",
+          "motown",
+          "funk",
+          "70s",
+          "oldies"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "22HB16KSjOjGLDSoMzsOae",
+        "name": "Mambo italiano (Arr. for Voice & Chamber Ensemble by Johan Farjot)",
+        "artist": "Bob Merrill, Frankie Laine, William S. Fischer, Marco Angioloni, Ensemble Contraste",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02153af53b077721308974cc0a"
+      }
+    ]
+  },
+  {
     "id": 9,
     "fetched_at": "2026-05-24T08:18:32.881782+00:00",
     "new_artists": 0,
@@ -1254,7 +1284,11 @@ export const CHANGELOG_DATA = [
         "id": "2FjzRd1bgtsmhESettmFAN",
         "name": "DON WEST",
         "image": "https://i.scdn.co/image/ab6761610000e5eb5aac611f15bcb79c674d6f2a",
-        "genres": []
+        "genres": [
+          "australian",
+          "soul",
+          "funk_add_to_lidarr_batch_7"
+        ]
       },
       {
         "id": "32nW8kGbs65y8CSlIvREuc",

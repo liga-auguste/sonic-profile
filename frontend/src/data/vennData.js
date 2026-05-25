@@ -19,7 +19,6 @@ export const VENN_DATA = {
     "Louis Baker",
     "MT Jones",
     "Matt Storm",
-    "Monophonics",
     "Montazona",
     "Moon Soul",
     "Munan",
@@ -28,6 +27,7 @@ export const VENN_DATA = {
     "Patchwork Inc.",
     "Stee Downes",
     "The Mighty Tiny & The Many Few",
+    "The Spinners",
     "Tokyo Tea Room",
     "Tutankhamun",
     "Vanessa Fernandez",
@@ -40,6 +40,7 @@ export const VENN_DATA = {
     "Arlo Parks",
     "CECI",
     "Chet Faker",
+    "DON WEST",
     "Dorothee Mields",
     "Ensemble Contraste",
     "George Bloomfield",
@@ -54,7 +55,6 @@ export const VENN_DATA = {
     "Royel Otis",
     "Sir Simon Rattle",
     "Svaneborg Kardyb",
-    "Two Another",
     "VOCES8"
   ],
   "L_only": [
