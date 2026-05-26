@@ -1,11 +1,9 @@
 // Where artists live in time — Venn-style overlap data
 export const VENN_DATA = {
   "S_only": [
-    "Alexander IV",
-    "Arc De Soleil",
     "Billy Paul",
     "Blanco White",
-    "Chris Shards",
+    "C Duncan",
     "Daniel Stark",
     "Dominique Fils-Aimé",
     "GeeJay",
@@ -15,23 +13,23 @@ export const VENN_DATA = {
     "Izo FitzRoy",
     "Jitwam",
     "Jon and Roy",
+    "Loma",
     "Lords of Lounge",
     "Louis Baker",
     "MT Jones",
     "Matt Storm",
-    "Montazona",
     "Moon Soul",
     "Munan",
     "Mynolia",
-    "Pastel Radio",
-    "Patchwork Inc.",
-    "Stee Downes",
+    "Nick Drake",
+    "Noah Yorke",
+    "Pink Floyd",
     "The Mighty Tiny & The Many Few",
-    "The Spinners",
     "Tokyo Tea Room",
     "Tutankhamun",
     "Vanessa Fernandez",
     "Vicky Sometani",
+    "Willie J Healey",
     "Σtella"
   ],
   "M_only": [
@@ -77,12 +75,10 @@ export const VENN_DATA = {
     "Ola Gjeilo",
     "Orchestra of the Age of Enlightenment",
     "Ottorino Respighi",
-    "Radiohead",
     "Rhye",
     "Steve Dobrogosz",
     "Sufjan Stevens",
     "The Choir Of Trinity College, Cambridge",
-    "The Smile",
     "Ton Koopman",
     "Víkingur Ólafsson"
   ],
@@ -98,7 +94,9 @@ export const VENN_DATA = {
   ],
   "SL": [
     "Coldplay",
-    "Nick Mulvey"
+    "Nick Mulvey",
+    "Radiohead",
+    "The Smile"
   ],
   "ML": [
     "Amsterdam Baroque Orchestra",
@@ -126,11 +124,11 @@ export const VENN_DATA = {
     "Tom Misch"
   ],
   "counts": {
-    "S_only": 32,
+    "S_only": 30,
     "M_only": 21,
-    "L_only": 27,
+    "L_only": 25,
     "SM": 8,
-    "SL": 2,
+    "SL": 4,
     "ML": 13,
     "ALL": 8
   }

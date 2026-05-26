@@ -1,5 +1,63 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 11,
+    "fetched_at": "2026-05-26T09:38:07.106800+00:00",
+    "new_artists": 4,
+    "new_tracks": 0,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260526_093803.json",
+    "artists": [
+      {
+        "id": "4oCcCzMjKNCjQTzxtVlOJT",
+        "name": "Loma",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb158a526ebbf80361d2872616",
+        "genres": [
+          "indie",
+          "female vocalists",
+          "ambient",
+          "rock",
+          "indie pop"
+        ]
+      },
+      {
+        "id": "5c3GLXai8YOMid29ZEuR9y",
+        "name": "Nick Drake",
+        "image": "https://i.scdn.co/image/d364b498f85ae764cd278fbba9a8ed7f00c3e434",
+        "genres": [
+          "folk",
+          "singer-songwriter",
+          "acoustic",
+          "indie",
+          "mellow"
+        ]
+      },
+      {
+        "id": "0x3sTIYnP56TnL6bbyMU2i",
+        "name": "C Duncan",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb94ce25261a3495cd35a878fc",
+        "genres": [
+          "indie pop",
+          "indie",
+          "dream pop",
+          "electronic"
+        ]
+      },
+      {
+        "id": "0k17h0D3J5VfsdmQ1iZtE9",
+        "name": "Pink Floyd",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb3c9e8c67b087ba0cb5923b78",
+        "genres": [
+          "progressive rock",
+          "psychedelic rock",
+          "classic rock",
+          "rock",
+          "psychedelic"
+        ]
+      }
+    ],
+    "tracks": []
+  },
+  {
     "id": 10,
     "fetched_at": "2026-05-25T09:51:24.000147+00:00",
     "new_artists": 1,
@@ -475,7 +533,12 @@ export const CHANGELOG_DATA = [
         "id": "4T4JE09FOmRgv2Wzb6JaOR",
         "name": "Willie J Healey",
         "image": "https://i.scdn.co/image/ab6761610000e5ebb6c675d46a43b4cb8f226057",
-        "genres": []
+        "genres": [
+          "post-punk",
+          "alternative",
+          "uk",
+          "british"
+        ]
       },
       {
         "id": "5JrIBQLdYU5SkSdu0zrO70",
