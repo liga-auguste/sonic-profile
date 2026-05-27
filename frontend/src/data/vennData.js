@@ -17,7 +17,6 @@ export const VENN_DATA = {
     "Lords of Lounge",
     "Louis Baker",
     "MT Jones",
-    "Matt Storm",
     "Moon Soul",
     "Munan",
     "Mynolia",
@@ -41,7 +40,6 @@ export const VENN_DATA = {
     "DON WEST",
     "Dorothee Mields",
     "Ensemble Contraste",
-    "George Bloomfield",
     "Jordan Rakei",
     "Klaus Mertens",
     "La Rêveuse",
@@ -87,6 +85,7 @@ export const VENN_DATA = {
     "Hermanos Gutiérrez",
     "Jan Garbarek",
     "Little Simz",
+    "Lola Young",
     "Malia",
     "Olive Jones",
     "Pale Jay",
@@ -124,10 +123,10 @@ export const VENN_DATA = {
     "Tom Misch"
   ],
   "counts": {
-    "S_only": 30,
-    "M_only": 21,
+    "S_only": 29,
+    "M_only": 20,
     "L_only": 25,
-    "SM": 8,
+    "SM": 9,
     "SL": 4,
     "ML": 13,
     "ALL": 8

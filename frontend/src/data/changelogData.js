@@ -1,5 +1,41 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 12,
+    "fetched_at": "2026-05-27T09:31:17.444067+00:00",
+    "new_artists": 1,
+    "new_tracks": 2,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260527_093115.json",
+    "artists": [
+      {
+        "id": "67FB4n52MgexGQIG8s0yUH",
+        "name": "Lola Young",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb0d191f6192fd3690e7aefcc3",
+        "genres": [
+          "pop",
+          "rnb",
+          "indie pop",
+          "soul",
+          "my top songs"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "6KFQdIB3njXBQNcg1xUh9U",
+        "name": "One Thing",
+        "artist": "Lola Young",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0237aca5f6e9127cb9a469ec0f"
+      },
+      {
+        "id": "7Hg7l5aOygIHuaNDVFp3ox",
+        "name": "From Down Here",
+        "artist": "Lola Young",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02077d76816deabe0f17fcf8fd"
+      }
+    ]
+  },
+  {
     "id": 11,
     "fetched_at": "2026-05-26T09:38:07.106800+00:00",
     "new_artists": 4,
