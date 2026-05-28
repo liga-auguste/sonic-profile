@@ -17,10 +17,10 @@ export const VENN_DATA = {
     "Lords of Lounge",
     "Louis Baker",
     "MT Jones",
+    "Matt Storm",
     "Moon Soul",
     "Munan",
     "Mynolia",
-    "Nick Drake",
     "Noah Yorke",
     "Pink Floyd",
     "The Mighty Tiny & The Many Few",
@@ -34,8 +34,8 @@ export const VENN_DATA = {
   "M_only": [
     "Andreas Scholl",
     "Antonio Vivaldi",
-    "Arlo Parks",
     "CECI",
+    "Charles Bruffy",
     "Chet Faker",
     "DON WEST",
     "Dorothee Mields",
@@ -46,7 +46,6 @@ export const VENN_DATA = {
     "Lana Del Rey",
     "Loaded Honey",
     "Metronomy",
-    "Phoenix Chorale",
     "RAYE",
     "Royel Otis",
     "Sir Simon Rattle",
@@ -92,7 +91,6 @@ export const VENN_DATA = {
     "SAULT"
   ],
   "SL": [
-    "Coldplay",
     "Nick Mulvey",
     "Radiohead",
     "The Smile"
@@ -113,6 +111,7 @@ export const VENN_DATA = {
     "Tom Odell"
   ],
   "ALL": [
+    "Coldplay",
     "Common Saints",
     "Dekker",
     "Jungle",
@@ -124,11 +123,11 @@ export const VENN_DATA = {
   ],
   "counts": {
     "S_only": 29,
-    "M_only": 20,
+    "M_only": 19,
     "L_only": 25,
     "SM": 9,
-    "SL": 4,
+    "SL": 3,
     "ML": 13,
-    "ALL": 8
+    "ALL": 9
   }
 };

@@ -1,5 +1,44 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 13,
+    "fetched_at": "2026-05-28T09:47:19.830906+00:00",
+    "new_artists": 1,
+    "new_tracks": 3,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260528_094717.json",
+    "artists": [
+      {
+        "id": "2ai9WL8wYLTiYqg1QFHQyT",
+        "name": "Charles Bruffy",
+        "image": "https://i.scdn.co/image/b4df27902b95bc0df51b5132a34b06c8dbb4cc24",
+        "genres": [
+          "choral",
+          "classical"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "5gEqROxXzf8wvJgaQiHA2Z",
+        "name": "Easy",
+        "artist": "MT Jones",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0289cdaa7fe52b5b61e3eb0de0"
+      },
+      {
+        "id": "2NhdHJX5ESeAi1kjzo7wNC",
+        "name": "Ich lasse dich nicht, du segnest mich denn, BWV Anh. 159",
+        "artist": "Johann Sebastian Bach, The Monteverdi Choir, John Eliot Gardiner",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02942da5a2f745334ed617ea15"
+      },
+      {
+        "id": "0CSowsei7rRGCLf6x1kvoG",
+        "name": "Denn das Gesetz des Geistes",
+        "artist": "Johann Sebastian Bach, The Monteverdi Choir, John Eliot Gardiner",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02942da5a2f745334ed617ea15"
+      }
+    ]
+  },
+  {
     "id": 12,
     "fetched_at": "2026-05-27T09:31:17.444067+00:00",
     "new_artists": 1,
