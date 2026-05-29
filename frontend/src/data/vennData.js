@@ -21,6 +21,7 @@ export const VENN_DATA = {
     "Moon Soul",
     "Munan",
     "Mynolia",
+    "Nick Drake",
     "Noah Yorke",
     "Pink Floyd",
     "The Mighty Tiny & The Many Few",
@@ -69,6 +70,7 @@ export const VENN_DATA = {
     "London Symphony Orchestra",
     "Max Richter",
     "NEIL FRANCES",
+    "Nick Mulvey",
     "Ola Gjeilo",
     "Orchestra of the Age of Enlightenment",
     "Ottorino Respighi",
@@ -91,7 +93,6 @@ export const VENN_DATA = {
     "SAULT"
   ],
   "SL": [
-    "Nick Mulvey",
     "Radiohead",
     "The Smile"
   ],
@@ -122,11 +123,11 @@ export const VENN_DATA = {
     "Tom Misch"
   ],
   "counts": {
-    "S_only": 29,
+    "S_only": 30,
     "M_only": 19,
-    "L_only": 25,
+    "L_only": 26,
     "SM": 9,
-    "SL": 3,
+    "SL": 2,
     "ML": 13,
     "ALL": 9
   }
