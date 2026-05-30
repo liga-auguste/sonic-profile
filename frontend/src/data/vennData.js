@@ -25,6 +25,7 @@ export const VENN_DATA = {
     "Noah Yorke",
     "Pink Floyd",
     "The Mighty Tiny & The Many Few",
+    "The Spinners",
     "Tokyo Tea Room",
     "Tutankhamun",
     "Vanessa Fernandez",
@@ -41,6 +42,7 @@ export const VENN_DATA = {
     "DON WEST",
     "Dorothee Mields",
     "Ensemble Contraste",
+    "Jan Garbarek",
     "Jordan Rakei",
     "Klaus Mertens",
     "La Rêveuse",
@@ -84,7 +86,6 @@ export const VENN_DATA = {
   "SM": [
     "Dojo Cuts",
     "Hermanos Gutiérrez",
-    "Jan Garbarek",
     "Little Simz",
     "Lola Young",
     "Malia",
@@ -123,10 +124,10 @@ export const VENN_DATA = {
     "Tom Misch"
   ],
   "counts": {
-    "S_only": 30,
-    "M_only": 19,
+    "S_only": 31,
+    "M_only": 20,
     "L_only": 26,
-    "SM": 9,
+    "SM": 8,
     "SL": 2,
     "ML": 13,
     "ALL": 9

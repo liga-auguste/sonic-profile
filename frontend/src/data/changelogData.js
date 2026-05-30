@@ -1,5 +1,22 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 15,
+    "fetched_at": "2026-05-30T08:17:55.894337+00:00",
+    "new_artists": 0,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260530_081754.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "6YAbIZPjyQ5euHxyxUgRoQ",
+        "name": "Fix You",
+        "artist": "Coldplay",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02d1471c86e8772115e1d7b9bc"
+      }
+    ]
+  },
+  {
     "id": 14,
     "fetched_at": "2026-05-29T09:37:42.724876+00:00",
     "new_artists": 0,
