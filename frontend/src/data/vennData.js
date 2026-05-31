@@ -22,7 +22,6 @@ export const VENN_DATA = {
     "Munan",
     "Mynolia",
     "Nick Drake",
-    "Noah Yorke",
     "Pink Floyd",
     "The Mighty Tiny & The Many Few",
     "The Spinners",
@@ -31,6 +30,7 @@ export const VENN_DATA = {
     "Vanessa Fernandez",
     "Vicky Sometani",
     "Willie J Healey",
+    "Wolfgang Meyer",
     "Σtella"
   ],
   "M_only": [

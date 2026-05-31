@@ -1,5 +1,39 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 16,
+    "fetched_at": "2026-05-31T08:35:32.367927+00:00",
+    "new_artists": 1,
+    "new_tracks": 2,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260531_083530.json",
+    "artists": [
+      {
+        "id": "2SuezTKxIOTLrrVOVFlPfH",
+        "name": "Wolfgang Meyer",
+        "image": "https://i.scdn.co/image/ffe7870599b932fcc36eb62762d4466504903dad",
+        "genres": [
+          "german",
+          "classical",
+          "clarinet"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "6ZB4mXb5Hc50soaXTmWJFB",
+        "name": "Piano Trio No. 4 in B-Flat Major \"Gassenhauer-Trio\", Op. 11: I. Allegro con brio",
+        "artist": "Ludwig van Beethoven, Wolfgang Meyer, Christophe Coin, Patrick Cohen",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0241cc1e4a81e03a4dc6383826"
+      },
+      {
+        "id": "5KlKz8FUL77bWL80K54Ru6",
+        "name": "Piano Trio No. 4 in B-Flat Major \"Gassenhauer-Trio\", Op. 11: II. Adagio con espressione",
+        "artist": "Ludwig van Beethoven, Wolfgang Meyer, Christophe Coin, Patrick Cohen",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0241cc1e4a81e03a4dc6383826"
+      }
+    ]
+  },
+  {
     "id": 15,
     "fetched_at": "2026-05-30T08:17:55.894337+00:00",
     "new_artists": 0,
