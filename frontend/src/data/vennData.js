@@ -3,6 +3,7 @@ export const VENN_DATA = {
   "S_only": [
     "Billy Paul",
     "Blanco White",
+    "Busch Trio",
     "C Duncan",
     "Daniel Stark",
     "Dominique Fils-Aimé",
@@ -10,6 +11,7 @@ export const VENN_DATA = {
     "Geoffroy",
     "Golf Trip",
     "Habe",
+    "Honahlei",
     "Izo FitzRoy",
     "Jitwam",
     "Jon and Roy",
@@ -17,14 +19,12 @@ export const VENN_DATA = {
     "Lords of Lounge",
     "Louis Baker",
     "MT Jones",
-    "Matt Storm",
     "Moon Soul",
     "Munan",
     "Mynolia",
     "Nick Drake",
     "Pink Floyd",
     "The Mighty Tiny & The Many Few",
-    "The Spinners",
     "Tokyo Tea Room",
     "Tutankhamun",
     "Vanessa Fernandez",
@@ -76,6 +76,7 @@ export const VENN_DATA = {
     "Ola Gjeilo",
     "Orchestra of the Age of Enlightenment",
     "Ottorino Respighi",
+    "Radiohead",
     "Rhye",
     "Steve Dobrogosz",
     "Sufjan Stevens",
@@ -94,7 +95,6 @@ export const VENN_DATA = {
     "SAULT"
   ],
   "SL": [
-    "Radiohead",
     "The Smile"
   ],
   "ML": [
@@ -108,7 +108,6 @@ export const VENN_DATA = {
     "Olivia Dean",
     "Parcels",
     "Rikas",
-    "Tal Arditi",
     "The Monteverdi Choir",
     "Tom Odell"
   ],
@@ -121,15 +120,16 @@ export const VENN_DATA = {
     "Leif Vollebekk",
     "Octave Lissner",
     "RIO KOSTA",
+    "Tal Arditi",
     "Tom Misch"
   ],
   "counts": {
     "S_only": 31,
     "M_only": 20,
-    "L_only": 26,
+    "L_only": 27,
     "SM": 8,
-    "SL": 2,
-    "ML": 13,
-    "ALL": 9
+    "SL": 1,
+    "ML": 12,
+    "ALL": 10
   }
 };

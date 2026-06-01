@@ -1,5 +1,65 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 17,
+    "fetched_at": "2026-06-01T11:11:30.793927+00:00",
+    "new_artists": 2,
+    "new_tracks": 6,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260601_111128.json",
+    "artists": [
+      {
+        "id": "25tWNt17KhPNkpGn2qUcBO",
+        "name": "Busch Trio",
+        "image": "https://i.scdn.co/image/ab67616d00001e02f88938db95180c951f1a00b5",
+        "genres": []
+      },
+      {
+        "id": "7MDlzyZFI4z01Tnyblyhwy",
+        "name": "Honahlei",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebb927a51b599c74cd2f22f5df",
+        "genres": []
+      }
+    ],
+    "tracks": [
+      {
+        "id": "1EpKDxe1SIFZBg2tQ2CRao",
+        "name": "Mambo italiano (Arr. for Voice & Chamber Ensemble by Johan Farjot)",
+        "artist": "Bob Merrill, Frankie Laine, William S. Fischer, Marco Angioloni, Ensemble Contraste",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e022e58f39fbe26b677bc08a73d"
+      },
+      {
+        "id": "1du4tPkvJfCIuVL6WMtqSs",
+        "name": "Boys",
+        "artist": "Lizzo",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02c73afc08102af649ce32d6b4"
+      },
+      {
+        "id": "3StzUkgOI1u0Tch847Z8ge",
+        "name": "Stall Stickers",
+        "artist": "Mynolia",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e020817bb6dcd54cbe6ae43c389"
+      },
+      {
+        "id": "1KOqWydgFDlDw0J6C8EMIw",
+        "name": "You And I",
+        "artist": "Tomo",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e023a17406bee4fabba136e5bcb"
+      },
+      {
+        "id": "1xLn3QYRhTOGotH8shQNVH",
+        "name": "In Between World",
+        "artist": "Tal Arditi",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e020f8e7147482a2993615ef39e"
+      },
+      {
+        "id": "4gUEh3yvw3rFdFOORn9IU2",
+        "name": "Piano Trio No. 4 in B-Flat Major, Op. 11 \"Gassenhauer\": I. Allegro con brio",
+        "artist": "Ludwig van Beethoven, Busch Trio",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02d35368f02ee812c9d6a8c636"
+      }
+    ]
+  },
+  {
     "id": 16,
     "fetched_at": "2026-05-31T08:35:32.367927+00:00",
     "new_artists": 1,
