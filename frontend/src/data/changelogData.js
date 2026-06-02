@@ -1,5 +1,60 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 18,
+    "fetched_at": "2026-06-02T10:06:33.516235+00:00",
+    "new_artists": 2,
+    "new_tracks": 4,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260602_100630.json",
+    "artists": [
+      {
+        "id": "3OjgeSs8O04J0ULa4Xhpel",
+        "name": "Thomas Rückert",
+        "image": "https://i.scdn.co/image/ab67616d00001e02dae47529cd6c194a5e0a4b82",
+        "genres": [
+          "piano",
+          "jazz",
+          "trio",
+          "jazz piano"
+        ]
+      },
+      {
+        "id": "1TCzSEMmYO28H6ogWtVqfM",
+        "name": "Kublaii",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb56b44d6697527f9ace4d67a6",
+        "genres": [
+          "usa"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "4tG2QDR8VH5TlKw9EcQh1C",
+        "name": "Whatever You Want",
+        "artist": "Tal Arditi",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e020f8e7147482a2993615ef39e"
+      },
+      {
+        "id": "1nOqk8PfxKJakXKoeC4Fi9",
+        "name": "In My Head",
+        "artist": "Tal Arditi",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e020f8e7147482a2993615ef39e"
+      },
+      {
+        "id": "1ugXAzI9NC2QlBiuI6ybHI",
+        "name": "Supernatural Loving Star",
+        "artist": "Tal Arditi",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e020f8e7147482a2993615ef39e"
+      },
+      {
+        "id": "2sYwExbsQl9GWsvVLnJsSZ",
+        "name": "Into The Ocean",
+        "artist": "Tal Arditi",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e020f8e7147482a2993615ef39e"
+      }
+    ]
+  },
+  {
     "id": 17,
     "fetched_at": "2026-06-01T11:11:30.793927+00:00",
     "new_artists": 2,
