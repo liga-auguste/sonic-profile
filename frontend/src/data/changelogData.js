@@ -1,5 +1,22 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 19,
+    "fetched_at": "2026-06-03T10:45:04.732313+00:00",
+    "new_artists": 0,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260603_104502.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "4Y72QWoUeX237tl4t2lfYu",
+        "name": "Everything Is Gonna Be Alright",
+        "artist": "Tal Arditi",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e020f8e7147482a2993615ef39e"
+      }
+    ]
+  },
+  {
     "id": 18,
     "fetched_at": "2026-06-02T10:06:33.516235+00:00",
     "new_artists": 2,
