@@ -1,5 +1,35 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 20,
+    "fetched_at": "2026-06-04T09:44:45.551701+00:00",
+    "new_artists": 1,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260604_094441.json",
+    "artists": [
+      {
+        "id": "6qhSmWrnhPy0W5gafGWk8T",
+        "name": "The Grove",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb5fc4c626846747aaaa95f6b6",
+        "genres": [
+          "metal",
+          "rock",
+          "hard rock",
+          "alternative metal",
+          "christian rock"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "7wqwI7qWV9QFr4iKADCc3D",
+        "name": "Bill",
+        "artist": "Isaac Birituro & The Rail Abandon",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0228496a5df73a1a2dcf800737"
+      }
+    ]
+  },
+  {
     "id": 19,
     "fetched_at": "2026-06-03T10:45:04.732313+00:00",
     "new_artists": 0,
