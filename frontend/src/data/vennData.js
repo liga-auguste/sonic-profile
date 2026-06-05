@@ -5,7 +5,6 @@ export const VENN_DATA = {
     "Blanco White",
     "Busch Trio",
     "C Duncan",
-    "Daniel Stark",
     "GeeJay",
     "Geoffroy",
     "Golf Trip",
@@ -21,6 +20,7 @@ export const VENN_DATA = {
     "Munan",
     "Mynolia",
     "Nick Drake",
+    "Pale Jay",
     "Pastel Radio",
     "Pink Floyd",
     "The Grove",
@@ -37,7 +37,7 @@ export const VENN_DATA = {
   "M_only": [
     "Andreas Scholl",
     "Antonio Vivaldi",
-    "Charles Bruffy",
+    "CECI",
     "Chet Faker",
     "DON WEST",
     "Dorothee Mields",
@@ -48,25 +48,24 @@ export const VENN_DATA = {
     "Klaus Mertens",
     "La Rêveuse",
     "Lana Del Rey",
-    "Loaded Honey",
     "Malia",
     "Metronomy",
+    "Phoenix Chorale",
     "RAYE",
     "Royel Otis",
-    "SAULT",
     "Sir Simon Rattle",
     "Svaneborg Kardyb",
     "VOCES8"
   ],
   "L_only": [
     "AURORA",
+    "Amsterdam Baroque Orchestra",
     "Angelo De Augustine",
     "Antonia Bourvé",
     "Billie Eilish",
     "Choir of King's College, Cambridge",
     "Chris Staples",
     "Deichkind",
-    "Flyte",
     "Gester Martin",
     "Gizmo Varillas",
     "Jasmine Myra",
@@ -76,7 +75,6 @@ export const VENN_DATA = {
     "London Symphony Orchestra",
     "Max Richter",
     "NEIL FRANCES",
-    "Ola Gjeilo",
     "Orchestra of the Age of Enlightenment",
     "Ottorino Respighi",
     "Radiohead",
@@ -93,18 +91,19 @@ export const VENN_DATA = {
     "Little Simz",
     "Lola Young",
     "Olive Jones",
-    "Pale Jay"
+    "SAULT"
   ],
   "SL": [
     "The Smile"
   ],
   "ML": [
-    "Amsterdam Baroque Orchestra",
     "Ava Joe",
     "Bill Laurance",
     "Collegium Vocale Gent",
+    "Flyte",
     "London Grammar",
     "Martin Luke Brown",
+    "Ola Gjeilo",
     "Olivia Dean",
     "Parcels",
     "Rikas",
@@ -126,11 +125,11 @@ export const VENN_DATA = {
   ],
   "counts": {
     "S_only": 32,
-    "M_only": 22,
-    "L_only": 27,
+    "M_only": 21,
+    "L_only": 26,
     "SM": 6,
     "SL": 1,
-    "ML": 11,
+    "ML": 12,
     "ALL": 11
   }
 };
