@@ -8,4 +8,7 @@ export default defineConfig({
     strictPort: true,
     host: true,
   },
+  test: {
+    environment: "node",
+  },
 });
