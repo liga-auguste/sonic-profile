@@ -1,5 +1,34 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 24,
+    "fetched_at": "2026-06-08T10:19:12.786030+00:00",
+    "new_artists": 0,
+    "new_tracks": 3,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260608_101909.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "5D7r8uynR0c4Uo0JfAWT59",
+        "name": "In The End",
+        "artist": "Tal Arditi",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e020f8e7147482a2993615ef39e"
+      },
+      {
+        "id": "6V5FWqMcvY5Zx2AHUp8ZmV",
+        "name": "Lonely",
+        "artist": "Tal Arditi",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e020f8e7147482a2993615ef39e"
+      },
+      {
+        "id": "6rOqe4buvkkN8bCumLQ7Fh",
+        "name": "If My Complaints Could Passions Move",
+        "artist": "Thomas Rückert, Peter Dahm",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e021bdb53de7e825fbd35d1e8b8"
+      }
+    ]
+  },
+  {
     "id": 23,
     "fetched_at": "2026-06-07T08:46:12.005832+00:00",
     "new_artists": 0,
