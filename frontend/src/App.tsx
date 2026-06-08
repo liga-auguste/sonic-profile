@@ -75,6 +75,11 @@ export default function App() {
             <circle cx="16" cy="16" r="1.4" fill="var(--accent)" />
           </svg>
           <span>My Sonic Profile</span>
+          {data.stats.fetched_at && (
+            <span className="mobile-topbar-fetched">
+              {new Date(data.stats.fetched_at).toLocaleDateString()}
+            </span>
+          )}
         </div>
         <div className="main-header">
           <div className="crumb">
