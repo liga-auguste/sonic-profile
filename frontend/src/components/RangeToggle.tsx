@@ -19,6 +19,7 @@ export default function RangeToggle({ value, onChange }: RangeToggleProps) {
           key={r.id}
           className={`range-btn ${value === r.id ? "is-on" : ""}`}
           onClick={() => onChange(r.id)}
+          aria-pressed={value === r.id}
         >
           <span className="range-label">{r.label}</span>
           <span className="range-note">{r.note}</span>

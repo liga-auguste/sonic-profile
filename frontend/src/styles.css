@@ -1036,6 +1036,8 @@ button {
   gap: 12px;
 }
 
+.stats-col-stack > .stat-card { flex: 1; }
+
 .stats-bento-venn {
   /* fills the center 2×2 */
 }
@@ -1654,7 +1656,8 @@ button {
   /* Stats bento: 2 columns, reset all inline grid placement */
   .stats-bento { grid-template-columns: repeat(2, 1fr); }
   .stats-bento > * { grid-column: auto !important; grid-row: auto !important; }
-  .stats-col-stack { justify-content: flex-start !important; align-self: start; }
+  .stats-col-stack { align-self: start; }
+  .stats-col-stack > .stat-card { flex: none; }
 
   /* Genre row: flexible name column, hide track count */
   .genre-row { grid-template-columns: 1fr auto auto; gap: 8px; }

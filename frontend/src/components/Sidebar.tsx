@@ -67,6 +67,7 @@ export default function Sidebar({ active, onNav, profile, fetchedAt }: SidebarPr
             key={n.id}
             className={`nav-item ${active === n.id ? "is-active" : ""}`}
             onClick={() => onNav(n.id)}
+            aria-current={active === n.id ? "page" : undefined}
           >
             <span className="nav-glyph">{n.glyph}</span>
             <span>{n.label}</span>

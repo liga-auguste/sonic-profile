@@ -47,6 +47,7 @@ export default function ArtistsSection({ data }: { data: SpotifyData }) {
               key={r.key}
               className={`range-btn${range === r.key ? " is-on" : ""}`}
               onClick={() => { setRange(r.key); setShowAll(false); }}
+              aria-pressed={range === r.key}
             >
               <span className="range-label">{r.label}</span>
               <span className="range-note">{r.sub}</span>

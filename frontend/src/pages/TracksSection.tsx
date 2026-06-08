@@ -28,6 +28,11 @@ function TrackRow({ t, index, delay = 0, isActive, onToggle }: TrackRowProps) {
       className={`track-row${isActive ? " is-active" : ""}`}
       style={{ animationDelay: `${delay}ms` }}
       onClick={onToggle}
+      onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onToggle(); } }}
+      role="button"
+      tabIndex={0}
+      aria-pressed={isActive}
+      aria-label={`${t.name} by ${t.artist}`}
     >
       <span className="track-row-rank">{String(index).padStart(2, "0")}</span>
       <Cover src={t.album_image} alt={t.name} hue={hue} size={44} radius={4} />
@@ -81,6 +86,7 @@ export default function TracksSection({ data, onTrackSelect }: TracksSectionProp
             className={`diverse-btn${diverse ? " is-on" : ""}`}
             onClick={() => { setDiverse((d) => !d); setShowAll(false); setActiveId(null); onTrackSelect(null); }}
             title="Show one track per album to avoid a single album dominating"
+            aria-pressed={diverse}
           >
             {diverse ? "◈ diverse" : "◈ raw"}
           </button>

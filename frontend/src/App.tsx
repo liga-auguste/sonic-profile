@@ -99,7 +99,7 @@ export default function App() {
 
         <footer className="foot">
           <div>portfolio piece — {data.profile.display_name}, 2026</div>
-          <button className="back-to-top" onClick={() => scrollerRef.current?.scrollTo({ top: 0, behavior: "smooth" })}>↑ nach oben</button>
+          <button className="back-to-top" onClick={() => scrollerRef.current?.scrollTo({ top: 0, behavior: "smooth" })} aria-label="Scroll back to top">↑ nach oben</button>
         </footer>
       </main>
       {activeTrack && (

@@ -85,7 +85,7 @@ export default function StatsSection({ data, vennData }: StatsSectionProps) {
           <HoursChart hours={stats.hoursChart} />
         </div>
 
-        <div className="stats-col-stack" style={{ gridColumn: 1, gridRow: "2 / 4", display: "flex", flexDirection: "column", gap: 12, justifyContent: "space-between" }}>
+        <div className="stats-col-stack" style={{ gridColumn: 1, gridRow: "2 / 4", display: "flex", flexDirection: "column", gap: 12 }}>
           <StatCard big={stats.oldestObsession} label="all-time #1 artist" sub="most consistent in long_term" accent="22" small />
           <StatCard big={`${stats.releaseYearOldest}–${stats.releaseYearNewest}`} label="release era span"
             sub={`peak: ${stats.releaseYearPeak}`} accent="264" small />
