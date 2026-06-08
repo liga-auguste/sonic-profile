@@ -77,7 +77,7 @@ export default function App() {
           <span>My Sonic Profile</span>
           {data.stats.fetched_at && (
             <span className="mobile-topbar-fetched">
-              {new Date(data.stats.fetched_at).toLocaleDateString()}
+              fetched {new Date(data.stats.fetched_at).toLocaleDateString()}
             </span>
           )}
         </div>
