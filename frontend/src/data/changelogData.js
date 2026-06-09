@@ -1,5 +1,59 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 25,
+    "fetched_at": "2026-06-09T09:25:03.589199+00:00",
+    "new_artists": 4,
+    "new_tracks": 0,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260609_092500.json",
+    "artists": [
+      {
+        "id": "2kEDso93O2hDgCbnuiSkkZ",
+        "name": "Jalen Ngonda",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb42b3620fa149f037543ceacd",
+        "genres": [
+          "soul",
+          "rnb",
+          "usa"
+        ]
+      },
+      {
+        "id": "2s1dVWuPyOdBkHOFU59v14",
+        "name": "Richard Cejer",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebdab9108f6c292708fe9cf830",
+        "genres": [
+          "popronde",
+          "utrecht",
+          "the dreamboats of indie music",
+          "british male vocalists",
+          "sofar sounds"
+        ]
+      },
+      {
+        "id": "4I2QW85rkIhCRRZt1kuBqS",
+        "name": "GoldFord",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebc40968f02df013014eacb403",
+        "genres": [
+          "soul",
+          "folk",
+          "singer-songwriter",
+          "indie",
+          "funk_add_to_lidarr_batch_10"
+        ]
+      },
+      {
+        "id": "0CUpzKPDfIVzYqMn47jiV3",
+        "name": "Curtis Harding",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebe95ddf633dc8358ae1f9dd08",
+        "genres": [
+          "soul",
+          "rnb"
+        ]
+      }
+    ],
+    "tracks": []
+  },
+  {
     "id": 24,
     "fetched_at": "2026-06-08T10:19:12.786030+00:00",
     "new_artists": 0,
