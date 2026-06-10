@@ -1,5 +1,22 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 26,
+    "fetched_at": "2026-06-10T09:41:34.127333+00:00",
+    "new_artists": 0,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260610_094131.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "7mqHGiepXIqFG1NitGNrzR",
+        "name": "Love Myself",
+        "artist": "Tal Arditi",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e020f8e7147482a2993615ef39e"
+      }
+    ]
+  },
+  {
     "id": 25,
     "fetched_at": "2026-06-09T09:25:03.589199+00:00",
     "new_artists": 4,
