@@ -4245,15 +4245,6 @@ export const SPOTIFY_DATA = {
       },
       {
         "rank": 33,
-        "id": "04ZrBgeey3LoXYNzYpF1Lz",
-        "name": "Antonia Bourvé",
-        "image": "https://i.scdn.co/image/ab67616d00001e024016f2f57f011cad88a96b5d",
-        "genres": [],
-        "followers": 0,
-        "url": "https://open.spotify.com/artist/04ZrBgeey3LoXYNzYpF1Lz"
-      },
-      {
-        "rank": 34,
         "id": "0qlhpgr87PEG89Jd5iRpxe",
         "name": "John Rutter",
         "image": "https://i.scdn.co/image/ab6761610000e5eb26ac0dfe2c24cac0aa36890f",
@@ -4266,6 +4257,15 @@ export const SPOTIFY_DATA = {
         ],
         "followers": 0,
         "url": "https://open.spotify.com/artist/0qlhpgr87PEG89Jd5iRpxe"
+      },
+      {
+        "rank": 34,
+        "id": "04ZrBgeey3LoXYNzYpF1Lz",
+        "name": "Antonia Bourvé",
+        "image": "https://i.scdn.co/image/ab67616d00001e024016f2f57f011cad88a96b5d",
+        "genres": [],
+        "followers": 0,
+        "url": "https://open.spotify.com/artist/04ZrBgeey3LoXYNzYpF1Lz"
       },
       {
         "rank": 35,
@@ -4508,7 +4508,7 @@ export const SPOTIFY_DATA = {
     },
     {
       "name": "soul / R&B",
-      "share": 30.2,
+      "share": 30.1,
       "hue": 18,
       "chroma": 0.16,
       "artists": [
@@ -4756,7 +4756,7 @@ export const SPOTIFY_DATA = {
     "releaseYearOldest": 1969,
     "releaseYearNewest": 2026,
     "releaseYearPeak": 2026,
-    "fetched_at": "2026-06-10T09:41:31.677642+00:00",
+    "fetched_at": "2026-06-11T10:07:58.455993+00:00",
     "hoursChart": [
       24,
       3,
