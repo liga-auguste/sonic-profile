@@ -1,5 +1,22 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 28,
+    "fetched_at": "2026-06-12T09:58:03.295505+00:00",
+    "new_artists": 0,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260612_095801.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "44pFuCNOk1FG9NvFu1Dk1b",
+        "name": "Ready! Steady! Go!",
+        "artist": "Jack Garratt",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e025f71cec62d2392f265fe77f3"
+      }
+    ]
+  },
+  {
     "id": 27,
     "fetched_at": "2026-06-11T10:08:00.894796+00:00",
     "new_artists": 0,
