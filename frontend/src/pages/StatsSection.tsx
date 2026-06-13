@@ -102,19 +102,16 @@ export default function StatsSection({ data, vennData }: StatsSectionProps) {
           <VennDiagram vennData={vennData} hot={vennHot} onHot={setVennHot} hideSide />
         </div>
 
-        <div className="stat-card" style={{ gridColumn: 4, gridRow: 2, "--card-accent": `oklch(0.7 0.15 ${hotRegion.hue})` } as React.CSSProperties}>
+        <div className="stat-card venn-chip-tile" style={{ gridColumn: 4, gridRow: "2 / 4", "--card-accent": `oklch(0.7 0.15 ${hotRegion.hue})` } as React.CSSProperties}>
           <div className="stat-tick" />
-          <div className="stat-big" style={{ fontSize: 38 }}>{hotTotal}</div>
-          <div className="stat-label">{hotRegion.label}</div>
-          <div className="stat-sub">artists · {isTouchDevice() ? "tap" : "hover"} venn to explore</div>
-        </div>
-        <div className="stat-card venn-chip-tile" style={{ gridColumn: 4, gridRow: 3, "--card-accent": `oklch(0.7 0.15 ${hotRegion.hue})` } as React.CSSProperties}>
-          <div className="stat-tick" />
+          <div className="venn-tile-header">
+            <span className="venn-tile-count">{hotTotal}</span>
+            <span className="venn-tile-label">{hotRegion.label}</span>
+          </div>
           <div className="venn-chip-list">
             {hotList.length
-              ? hotList.slice(0, 10).map((n) => <span key={n} className="venn-chip">{n}</span>)
+              ? hotList.map((n) => <span key={n} className="venn-chip">{n}</span>)
               : <span className="venn-empty">—</span>}
-            {hotTotal > 10 && <span className="venn-more">+{hotTotal - 10} more</span>}
           </div>
         </div>
 
