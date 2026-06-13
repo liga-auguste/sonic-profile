@@ -1,6 +1,7 @@
 // Where artists live in time — Venn-style overlap data
 export const VENN_DATA = {
   "S_only": [
+    "Archie Bell & The Drells",
     "Billy Paul",
     "Blanco White",
     "Busch Trio",
@@ -10,7 +11,6 @@ export const VENN_DATA = {
     "Geoffroy",
     "GoldFord",
     "Golf Trip",
-    "Habe",
     "Izo FitzRoy",
     "Jalen Ngonda",
     "Jon and Roy",
@@ -23,10 +23,10 @@ export const VENN_DATA = {
     "Pink Floyd",
     "Richard Cejer",
     "The Grove",
+    "The Paper Kites",
     "The Spinners",
     "Thomas Rückert",
     "Tutankhamun",
-    "Vicky Sometani",
     "William DeVaughn",
     "Willie J Healey",
     "Wolfgang Meyer",
@@ -104,10 +104,10 @@ export const VENN_DATA = {
     "Jungle",
     "London Grammar",
     "Martin Luke Brown",
+    "Monteverdi Choir",
     "Ola Gjeilo",
     "Parcels",
     "Rikas",
-    "The Monteverdi Choir",
     "Tom Odell"
   ],
   "ALL": [

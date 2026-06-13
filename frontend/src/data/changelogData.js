@@ -1,5 +1,28 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 29,
+    "fetched_at": "2026-06-13T08:48:07.468569+00:00",
+    "new_artists": 1,
+    "new_tracks": 0,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260613_084805.json",
+    "artists": [
+      {
+        "id": "1kupwLFpHALpmhp5qol8xH",
+        "name": "Archie Bell & The Drells",
+        "image": "https://i.scdn.co/image/061cd4127191ad1a728c554acb51a8a0b0503880",
+        "genres": [
+          "soul",
+          "funk",
+          "rhythm and blues",
+          "oldies",
+          "60s"
+        ]
+      }
+    ],
+    "tracks": []
+  },
+  {
     "id": 28,
     "fetched_at": "2026-06-12T09:58:03.295505+00:00",
     "new_artists": 0,
