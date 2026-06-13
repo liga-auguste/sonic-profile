@@ -1,4 +1,6 @@
 import { useState } from "react";
+
+const isTouchDevice = () => window.matchMedia("(hover: none)").matches;
 import type { VennData, VennKey } from "../types";
 
 const CIRCLES = [
@@ -82,7 +84,7 @@ export default function VennDiagram({ vennData, hot: hotProp, onHot, hideSide }:
             : <span className="venn-empty">—</span>}
           {list.length > 14 && <span className="venn-more">+{total - 14} more</span>}
         </div>
-        <div className="venn-hint">hover regions to explore</div>
+        <div className="venn-hint">{isTouchDevice() ? "tap" : "hover"} regions to explore</div>
       </div>
     </div>
   );

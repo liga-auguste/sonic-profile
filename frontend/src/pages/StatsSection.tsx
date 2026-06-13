@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { fmtNum } from "../utils";
 import VennDiagram, { REGIONS } from "../components/VennDiagram";
+
+const isTouchDevice = () => window.matchMedia("(hover: none)").matches;
 import type { SpotifyData, VennData, VennKey } from "../types";
 
 function HoursChart({ hours }: { hours: number[] }) {
@@ -104,7 +106,7 @@ export default function StatsSection({ data, vennData }: StatsSectionProps) {
           <div className="stat-tick" />
           <div className="stat-big" style={{ fontSize: 38 }}>{hotTotal}</div>
           <div className="stat-label">{hotRegion.label}</div>
-          <div className="stat-sub">artists · hover venn to explore</div>
+          <div className="stat-sub">artists · {isTouchDevice() ? "tap" : "hover"} venn to explore</div>
         </div>
         <div className="stat-card venn-chip-tile" style={{ gridColumn: 4, gridRow: 3, "--card-accent": `oklch(0.7 0.15 ${hotRegion.hue})` } as React.CSSProperties}>
           <div className="stat-tick" />
