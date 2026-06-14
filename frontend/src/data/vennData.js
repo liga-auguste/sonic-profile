@@ -1,13 +1,12 @@
 // Where artists live in time — Venn-style overlap data
 export const VENN_DATA = {
   "S_only": [
-    "Archie Bell & The Drells",
     "Billy Paul",
     "Blanco White",
     "Busch Trio",
     "C Duncan",
+    "Collect 200",
     "Curtis Harding",
-    "Fink",
     "Geoffroy",
     "GoldFord",
     "Golf Trip",
@@ -23,9 +22,9 @@ export const VENN_DATA = {
     "Pink Floyd",
     "Richard Cejer",
     "The Grove",
-    "The Paper Kites",
     "The Spinners",
     "Thomas Rückert",
+    "Tonique & Man",
     "Tutankhamun",
     "William DeVaughn",
     "Willie J Healey",
@@ -55,6 +54,7 @@ export const VENN_DATA = {
     "VOCES8"
   ],
   "L_only": [
+    "AMANZI",
     "AURORA",
     "Amsterdam Baroque Orchestra",
     "Angelo De Augustine",
@@ -76,7 +76,6 @@ export const VENN_DATA = {
     "Ottorino Respighi",
     "Radiohead",
     "Rhye",
-    "Steve Dobrogosz",
     "Sufjan Stevens",
     "The Choir Of Trinity College, Cambridge",
     "Ton Koopman",
@@ -101,7 +100,6 @@ export const VENN_DATA = {
     "Bill Laurance",
     "Collegium Vocale Gent",
     "Flyte",
-    "Jungle",
     "London Grammar",
     "Martin Luke Brown",
     "Monteverdi Choir",
@@ -113,6 +111,7 @@ export const VENN_DATA = {
   "ALL": [
     "Coldplay",
     "Common Saints",
+    "Jungle",
     "LEISURE",
     "Leif Vollebekk",
     "Nick Mulvey",
@@ -123,12 +122,12 @@ export const VENN_DATA = {
     "Tom Misch"
   ],
   "counts": {
-    "S_only": 30,
+    "S_only": 29,
     "M_only": 20,
     "L_only": 26,
     "SM": 8,
     "SL": 2,
-    "ML": 12,
-    "ALL": 10
+    "ML": 11,
+    "ALL": 11
   }
 };

@@ -1,5 +1,34 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 30,
+    "fetched_at": "2026-06-14T09:20:07.341018+00:00",
+    "new_artists": 1,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260614_092004.json",
+    "artists": [
+      {
+        "id": "42vNl6qfOzdJe4oiTPONpq",
+        "name": "Tonique & Man",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb5b80b51d709ca1b4afc18a2e",
+        "genres": [
+          "lounge",
+          "french",
+          "synthpop",
+          "electronic"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "5SHtU2P8fASB2tjdOh1jMc",
+        "name": "Carry On",
+        "artist": "Jungle",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0297c2c43713e5ae2d458dabcc"
+      }
+    ]
+  },
+  {
     "id": 29,
     "fetched_at": "2026-06-13T08:48:07.468569+00:00",
     "new_artists": 1,
@@ -1549,7 +1578,10 @@ export const CHANGELOG_DATA = [
         "id": "3MFpHeyqVwW0n7mZbJPNyE",
         "name": "Collect 200",
         "image": "https://i.scdn.co/image/ab6761610000e5eb35b244144d5361c963f12740",
-        "genres": []
+        "genres": [
+          "dance",
+          "electronic"
+        ]
       },
       {
         "id": "3jzXlBF2157k4exx7idecs",
@@ -1707,7 +1739,13 @@ export const CHANGELOG_DATA = [
         "id": "2JntGPQDmz3Lm0m3C7OEm4",
         "name": "AMANZI",
         "image": "https://i.scdn.co/image/ab6761610000e5ebd70a9c81b79ac4c49015a240",
-        "genres": []
+        "genres": [
+          "soul",
+          "jazz",
+          "blues",
+          "singer-songwriter",
+          "british"
+        ]
       },
       {
         "id": "1gIjaA2XzQwFRHIvVuKwJW",
