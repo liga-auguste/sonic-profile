@@ -1,5 +1,60 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 31,
+    "fetched_at": "2026-06-15T11:47:31.866714+00:00",
+    "new_artists": 4,
+    "new_tracks": 0,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260615_114728.json",
+    "artists": [
+      {
+        "id": "30b8dNhkUcfPVsDbwyXlC9",
+        "name": "Okvsho",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb1e2e23420ef3fb056ff703a3",
+        "genres": [
+          "jazz",
+          "electronic",
+          "swiss"
+        ]
+      },
+      {
+        "id": "3ETLPQkcEd7z4k3IbZmXMq",
+        "name": "Cleo Sol",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb37a5a7e709dedd052f11b31d",
+        "genres": [
+          "soul",
+          "rnb",
+          "uk",
+          "british"
+        ]
+      },
+      {
+        "id": "1evO4fwLsEkkPGq32dCix7",
+        "name": "Aaron Taylor",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb22fc5c2b36b5888f5131215f",
+        "genres": [
+          "chillout",
+          "soul",
+          "neo-soul",
+          "lounge"
+        ]
+      },
+      {
+        "id": "2mVVjNmdjXZZDvhgQWiakk",
+        "name": "Khruangbin",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb7c7e48743caf917d5206fb39",
+        "genres": [
+          "funk",
+          "psychedelic",
+          "psychedelic rock",
+          "rock",
+          "usa"
+        ]
+      }
+    ],
+    "tracks": []
+  },
+  {
     "id": 30,
     "fetched_at": "2026-06-14T09:20:07.341018+00:00",
     "new_artists": 1,
