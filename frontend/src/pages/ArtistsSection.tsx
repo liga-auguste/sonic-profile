@@ -32,7 +32,7 @@ export default function ArtistsSection({ data }: { data: SpotifyData }) {
   const [showAll, setShowAll] = useState(false);
 
   const artists = data.top_artists[range];
-  const visible = showAll ? artists : artists.slice(0, 12);
+  const visible = showAll ? artists : artists.slice(0, 15);
 
   return (
     <section className="section" id="section-artists">
