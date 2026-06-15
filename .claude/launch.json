@@ -5,7 +5,7 @@
       "name": "frontend",
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run", "dev"],
-      "cwd": "/Users/liga/coding-projects/sonic/frontend",
+      "cwd": "frontend",
       "port": 5174
     }
   ]

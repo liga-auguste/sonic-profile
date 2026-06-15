@@ -28,3 +28,4 @@ backend/
 manage.py
 spotify_api/
 
+.claude/launch.json
