@@ -1,5 +1,73 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 32,
+    "fetched_at": "2026-06-16T10:55:48.889213+00:00",
+    "new_artists": 4,
+    "new_tracks": 2,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260616_105545.json",
+    "artists": [
+      {
+        "id": "0GbqW5TJr7n4is453VOY4C",
+        "name": "Procol Harum",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb2af24c397e6ba11f49516dd9",
+        "genres": [
+          "progressive rock",
+          "classic rock",
+          "60s",
+          "rock",
+          "psychedelic"
+        ]
+      },
+      {
+        "id": "2hwy5DELim1AxB1sHPqn4y",
+        "name": "Gotts Street Park",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebbe1cb95c7d1d2420acfd71fe",
+        "genres": [
+          "soul",
+          "jazz",
+          "indie pop"
+        ]
+      },
+      {
+        "id": "39cDMNnxwjrKJE1dyt47jh",
+        "name": "Oscar Jerome",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebe90fe7cf5f0700beaf9f9952",
+        "genres": [
+          "jazz",
+          "soul",
+          "funk"
+        ]
+      },
+      {
+        "id": "5KbEFz293OMDqqk9ajZKZV",
+        "name": "vbnd",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb0eebf5d9e7898e4e73efda2a",
+        "genres": [
+          "electronic",
+          "soul",
+          "rnb",
+          "canada",
+          "neon"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "6fIfjUpL0fzAT2ZROgAmmi",
+        "name": "Hotel Overture + Vamp",
+        "artist": "Gary Burton, Steve Swallow",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e029a794fc87d40f476521d0be3"
+      },
+      {
+        "id": "6Ln44Up5lBxNgCsaLoXY6W",
+        "name": "The Wave",
+        "artist": "Jungle",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0295383b4fc062a7fc3e582a0f"
+      }
+    ]
+  },
+  {
     "id": 31,
     "fetched_at": "2026-06-15T11:47:31.866714+00:00",
     "new_artists": 4,
@@ -1671,7 +1739,11 @@ export const CHANGELOG_DATA = [
         "id": "6TVVIyd0fsRDGg6WzHKyTP",
         "name": "Durand Jones & The Indications",
         "image": "https://i.scdn.co/image/ab6761610000e5eba0c699d06eac9003f5cde9a2",
-        "genres": []
+        "genres": [
+          "soul",
+          "neo-soul",
+          "rnb"
+        ]
       },
       {
         "id": "6pCq758EGVhfbiUIeuHTcf",

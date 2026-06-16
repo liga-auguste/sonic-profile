@@ -1,32 +1,30 @@
 // Where artists live in time — Venn-style overlap data
 export const VENN_DATA = {
   "S_only": [
-    "Aaron Taylor",
     "Blanco White",
     "Busch Trio",
     "C Duncan",
     "Cleo Sol",
     "Collect 200",
     "Curtis Harding",
+    "Durand Jones & The Indications",
     "Geoffroy",
     "GoldFord",
-    "Golf Trip",
+    "Gotts Street Park",
     "Jalen Ngonda",
     "Jon and Roy",
     "Khruangbin",
-    "Kublaii",
     "Loma",
     "Louis Baker",
-    "Mynolia",
     "Nick Drake",
     "Okvsho",
+    "Oscar Jerome",
     "Pink Floyd",
+    "Procol Harum",
     "Thomas Rückert",
-    "Tutankhamun",
-    "Two Another",
     "Willie J Healey",
     "Wolfgang Meyer",
-    "Σtella"
+    "vbnd"
   ],
   "M_only": [
     "Andreas Scholl",
@@ -34,11 +32,11 @@ export const VENN_DATA = {
     "Dorothee Mields",
     "Ensemble Contraste",
     "Hermanos Gutiérrez",
-    "Jan Garbarek",
     "Klaus Mertens",
     "La Rêveuse",
     "Lana Del Rey",
     "Little Simz",
+    "Loaded Honey",
     "Malia",
     "Metronomy",
     "Phoenix Chorale",
@@ -57,6 +55,7 @@ export const VENN_DATA = {
     "Choir of King's College, Cambridge",
     "Chris Staples",
     "Deichkind",
+    "Flyte",
     "Gester Martin",
     "Gizmo Varillas",
     "Jasmine Myra",
@@ -65,7 +64,6 @@ export const VENN_DATA = {
     "Lambert",
     "London Symphony Orchestra",
     "Max Richter",
-    "NEIL FRANCES",
     "Orchestra of the Age of Enlightenment",
     "Ottorino Respighi",
     "Radiohead",
@@ -86,17 +84,18 @@ export const VENN_DATA = {
     "Olive Jones",
     "Pale Jay",
     "Richard Cejer",
-    "SAULT"
+    "SAULT",
+    "Two Another"
   ],
   "SL": [
     "Dekker",
+    "NEIL FRANCES",
     "The Smile"
   ],
   "ML": [
     "Ava Joe",
     "Bill Laurance",
     "Collegium Vocale Gent",
-    "Flyte",
     "London Grammar",
     "Martin Luke Brown",
     "Monteverdi Choir",
@@ -119,12 +118,12 @@ export const VENN_DATA = {
     "Tom Misch"
   ],
   "counts": {
-    "S_only": 26,
+    "S_only": 24,
     "M_only": 17,
     "L_only": 26,
-    "SM": 11,
-    "SL": 2,
-    "ML": 11,
+    "SM": 12,
+    "SL": 3,
+    "ML": 10,
     "ALL": 11
   }
 };
