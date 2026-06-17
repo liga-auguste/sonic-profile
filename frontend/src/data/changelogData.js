@@ -1,5 +1,22 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 33,
+    "fetched_at": "2026-06-17T10:27:10.060693+00:00",
+    "new_artists": 1,
+    "new_tracks": 0,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260617_102707.json",
+    "artists": [
+      {
+        "id": "0GRkFcHaRm50dImpZMc8eG",
+        "name": "FÄM",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb2d8b82a424b2f004eb71be5c",
+        "genres": []
+      }
+    ],
+    "tracks": []
+  },
+  {
     "id": 32,
     "fetched_at": "2026-06-16T10:55:48.889213+00:00",
     "new_artists": 4,
