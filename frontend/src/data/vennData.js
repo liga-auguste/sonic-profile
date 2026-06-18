@@ -1,6 +1,7 @@
 // Where artists live in time — Venn-style overlap data
 export const VENN_DATA = {
   "S_only": [
+    "Aaron Taylor",
     "Blanco White",
     "Busch Trio",
     "C Duncan",
@@ -8,10 +9,9 @@ export const VENN_DATA = {
     "Collect 200",
     "Curtis Harding",
     "Durand Jones & The Indications",
-    "FÄM",
-    "Geoffroy",
     "GoldFord",
     "Gotts Street Park",
+    "Jack Page",
     "Jalen Ngonda",
     "Khruangbin",
     "Loma",

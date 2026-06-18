@@ -1,5 +1,61 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 34,
+    "fetched_at": "2026-06-18T10:06:43.594196+00:00",
+    "new_artists": 1,
+    "new_tracks": 6,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260618_100641.json",
+    "artists": [
+      {
+        "id": "35XvTmV3nJa6fXZJqITASs",
+        "name": "Jack Page",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebb9b3e6ce6b85345a4c149890",
+        "genres": [
+          "contemporary classical"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "0ADFGFTvHRr7fF1lYIjYlV",
+        "name": "Can She Excuse My Wrongs",
+        "artist": "Thomas Rückert, Peter Dahm",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e021bdb53de7e825fbd35d1e8b8"
+      },
+      {
+        "id": "0iB8UtNPBfgYRFADE4x3z1",
+        "name": "Flow My Tears",
+        "artist": "Thomas Rückert, Peter Dahm",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e021bdb53de7e825fbd35d1e8b8"
+      },
+      {
+        "id": "1I3RSn1cWwOHU3pP5opnfs",
+        "name": "Lime Street Blues - 2009 Remaster - Mono",
+        "artist": "Procol Harum",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02b980be36b4d67a12196b8658"
+      },
+      {
+        "id": "1aVtm49BlMKcpOwaZM1FkX",
+        "name": "Eyes On The Prize",
+        "artist": "Jessy Yasmeen",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0267fa523b28ac37c969b85d44"
+      },
+      {
+        "id": "1epOEQ1TOVyGlNDgHuMLfu",
+        "name": "Piano Trio No. 4 in B-Flat Major, Op. 11 \"Gassenhauer\": II. Adagio",
+        "artist": "Ludwig van Beethoven, Busch Trio",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02d35368f02ee812c9d6a8c636"
+      },
+      {
+        "id": "1yktHBAGtun5ouFkfT1r9l",
+        "name": "Quite Rightly So - 2009 Remaster - Mono",
+        "artist": "Procol Harum",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02b980be36b4d67a12196b8658"
+      }
+    ]
+  },
+  {
     "id": 33,
     "fetched_at": "2026-06-17T10:27:10.060693+00:00",
     "new_artists": 1,
