@@ -7,24 +7,27 @@ export const VENN_DATA = {
     "C Duncan",
     "Cleo Sol",
     "Collect 200",
-    "Curtis Harding",
     "Durand Jones & The Indications",
+    "Folamour",
     "GoldFord",
     "Gotts Street Park",
     "Jack Page",
     "Jalen Ngonda",
+    "Jitwam",
     "Khruangbin",
     "Loma",
     "Louis Baker",
+    "Mom Tudie",
     "Nick Drake",
     "Okvsho",
     "Oscar Jerome",
     "Pink Floyd",
     "Procol Harum",
+    "Son Little",
     "Thomas Rückert",
     "Willie J Healey",
     "Wolfgang Meyer",
-    "vbnd"
+    "edbl"
   ],
   "M_only": [
     "Andreas Scholl",
@@ -38,6 +41,7 @@ export const VENN_DATA = {
     "Lana Del Rey",
     "Little Simz",
     "Loaded Honey",
+    "Lola Young",
     "Malia",
     "Metronomy",
     "Phoenix Chorale",
@@ -72,6 +76,7 @@ export const VENN_DATA = {
     "Rhye",
     "Sufjan Stevens",
     "The Choir Of Trinity College, Cambridge",
+    "The Smile",
     "Ton Koopman",
     "Víkingur Ólafsson"
   ],
@@ -81,7 +86,6 @@ export const VENN_DATA = {
     "GeeJay",
     "Honahlei",
     "Jordan Rakei",
-    "Lola Young",
     "MT Jones",
     "Olive Jones",
     "Pale Jay",
@@ -91,13 +95,13 @@ export const VENN_DATA = {
   ],
   "SL": [
     "Dekker",
-    "NEIL FRANCES",
-    "The Smile"
+    "NEIL FRANCES"
   ],
   "ML": [
     "Ava Joe",
     "Bill Laurance",
     "Collegium Vocale Gent",
+    "Common Saints",
     "Martin Luke Brown",
     "Monteverdi Choir",
     "Ola Gjeilo",
@@ -107,7 +111,6 @@ export const VENN_DATA = {
   ],
   "ALL": [
     "Coldplay",
-    "Common Saints",
     "Jungle",
     "LEISURE",
     "Leif Vollebekk",
@@ -119,12 +122,12 @@ export const VENN_DATA = {
     "Tom Misch"
   ],
   "counts": {
-    "S_only": 24,
-    "M_only": 18,
-    "L_only": 27,
-    "SM": 12,
-    "SL": 3,
-    "ML": 9,
-    "ALL": 11
+    "S_only": 27,
+    "M_only": 19,
+    "L_only": 28,
+    "SM": 11,
+    "SL": 2,
+    "ML": 10,
+    "ALL": 10
   }
 };

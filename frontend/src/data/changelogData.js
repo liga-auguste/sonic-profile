@@ -1,5 +1,69 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 35,
+    "fetched_at": "2026-06-19T10:13:50.056627+00:00",
+    "new_artists": 4,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260619_101346.json",
+    "artists": [
+      {
+        "id": "6pJY5At9SiMpAOBrw9YosS",
+        "name": "Folamour",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebe87bcd600923388e07d3e950",
+        "genres": [
+          "house",
+          "french house",
+          "french",
+          "electronic",
+          "deep house"
+        ]
+      },
+      {
+        "id": "7ncd26zzbpqgZRroBKmReO",
+        "name": "edbl",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb1f81908a6c7961ca24e4218e",
+        "genres": [
+          "electronic",
+          "lo-fi",
+          "rnb",
+          "chillout"
+        ]
+      },
+      {
+        "id": "1wd0PsPr7L269FkA1bVnA8",
+        "name": "Mom Tudie",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb361fdc45aad107c011bba42a",
+        "genres": [
+          "electronic",
+          "jazz",
+          "rnb",
+          "experimental",
+          "neo-soul"
+        ]
+      },
+      {
+        "id": "4lujUKeO6nQAJXpq37Epn7",
+        "name": "Son Little",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb2033f514d351b838c670e46c",
+        "genres": [
+          "soul",
+          "blues",
+          "indie",
+          "rnb"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "4qYA9zDgKBQ5AX2D4IRv3a",
+        "name": "Sapphires",
+        "artist": "Richard Cejer, m. demian",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e025deb452975c79afa9825ab74"
+      }
+    ]
+  },
+  {
     "id": 34,
     "fetched_at": "2026-06-18T10:06:43.594196+00:00",
     "new_artists": 1,
