@@ -2,7 +2,6 @@ import { useState } from "react";
 import { fmtNum } from "../utils";
 import VennDiagram, { REGIONS } from "../components/VennDiagram";
 
-const isTouchDevice = () => window.matchMedia("(hover: none)").matches;
 import type { SpotifyData, VennData, VennKey } from "../types";
 
 function HoursChart({ hours }: { hours: number[] }) {
