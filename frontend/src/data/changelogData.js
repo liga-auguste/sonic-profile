@@ -1,5 +1,28 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 36,
+    "fetched_at": "2026-06-20T08:42:04.071113+00:00",
+    "new_artists": 1,
+    "new_tracks": 0,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260620_084201.json",
+    "artists": [
+      {
+        "id": "2rp9zfs7yPrwCGVl4CjWAl",
+        "name": "Otis Kane",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebc1e80e99b5b2e80483f81a93",
+        "genres": [
+          "soul",
+          "rnb",
+          "los angeles",
+          "usa",
+          "funk_add_to_lidarr_batch_20"
+        ]
+      }
+    ],
+    "tracks": []
+  },
+  {
     "id": 35,
     "fetched_at": "2026-06-19T10:13:50.056627+00:00",
     "new_artists": 4,

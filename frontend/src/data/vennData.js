@@ -21,13 +21,15 @@ export const VENN_DATA = {
     "Nick Drake",
     "Okvsho",
     "Oscar Jerome",
+    "Otis Kane",
     "Pink Floyd",
     "Procol Harum",
     "Son Little",
     "Thomas Rückert",
     "Willie J Healey",
     "Wolfgang Meyer",
-    "edbl"
+    "edbl",
+    "vbnd"
   ],
   "M_only": [
     "Andreas Scholl",
@@ -70,6 +72,7 @@ export const VENN_DATA = {
     "London Grammar",
     "London Symphony Orchestra",
     "Max Richter",
+    "Ola Gjeilo",
     "Orchestra of the Age of Enlightenment",
     "Ottorino Respighi",
     "Radiohead",
@@ -94,7 +97,6 @@ export const VENN_DATA = {
     "Two Another"
   ],
   "SL": [
-    "Dekker",
     "NEIL FRANCES"
   ],
   "ML": [
@@ -102,9 +104,10 @@ export const VENN_DATA = {
     "Bill Laurance",
     "Collegium Vocale Gent",
     "Common Saints",
+    "Dekker",
+    "Leif Vollebekk",
     "Martin Luke Brown",
     "Monteverdi Choir",
-    "Ola Gjeilo",
     "Parcels",
     "Rikas",
     "Tom Odell"
@@ -113,7 +116,6 @@ export const VENN_DATA = {
     "Coldplay",
     "Jungle",
     "LEISURE",
-    "Leif Vollebekk",
     "Nick Mulvey",
     "Octave Lissner",
     "Olivia Dean",
@@ -122,12 +124,12 @@ export const VENN_DATA = {
     "Tom Misch"
   ],
   "counts": {
-    "S_only": 27,
+    "S_only": 29,
     "M_only": 19,
-    "L_only": 28,
+    "L_only": 29,
     "SM": 11,
-    "SL": 2,
-    "ML": 10,
-    "ALL": 10
+    "SL": 1,
+    "ML": 11,
+    "ALL": 9
   }
 };
