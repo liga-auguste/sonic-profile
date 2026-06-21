@@ -1,5 +1,28 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 37,
+    "fetched_at": "2026-06-21T09:37:15.122420+00:00",
+    "new_artists": 1,
+    "new_tracks": 0,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260621_093712.json",
+    "artists": [
+      {
+        "id": "03Y8hH60ObeKNFsDcum6Uu",
+        "name": "Ethan French",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb3ffb292d51d86790a19fd385",
+        "genres": [
+          "acoustic",
+          "jazz",
+          "australia",
+          "indie",
+          "alternative folk"
+        ]
+      }
+    ],
+    "tracks": []
+  },
+  {
     "id": 36,
     "fetched_at": "2026-06-20T08:42:04.071113+00:00",
     "new_artists": 1,

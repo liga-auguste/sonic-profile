@@ -2,13 +2,14 @@
 export const VENN_DATA = {
   "S_only": [
     "Aaron Taylor",
-    "Blanco White",
     "Busch Trio",
     "C Duncan",
     "Cleo Sol",
     "Collect 200",
     "Durand Jones & The Indications",
+    "Ethan French",
     "Folamour",
+    "FÄM",
     "GoldFord",
     "Gotts Street Park",
     "Jack Page",
@@ -16,7 +17,6 @@ export const VENN_DATA = {
     "Jitwam",
     "Khruangbin",
     "Loma",
-    "Louis Baker",
     "Mom Tudie",
     "Nick Drake",
     "Okvsho",
@@ -24,7 +24,6 @@ export const VENN_DATA = {
     "Otis Kane",
     "Pink Floyd",
     "Procol Harum",
-    "Son Little",
     "Thomas Rückert",
     "Willie J Healey",
     "Wolfgang Meyer",
@@ -43,7 +42,6 @@ export const VENN_DATA = {
     "Lana Del Rey",
     "Little Simz",
     "Loaded Honey",
-    "Lola Young",
     "Malia",
     "Metronomy",
     "Phoenix Chorale",
@@ -79,7 +77,6 @@ export const VENN_DATA = {
     "Rhye",
     "Sufjan Stevens",
     "The Choir Of Trinity College, Cambridge",
-    "The Smile",
     "Ton Koopman",
     "Víkingur Ólafsson"
   ],
@@ -89,6 +86,7 @@ export const VENN_DATA = {
     "GeeJay",
     "Honahlei",
     "Jordan Rakei",
+    "Lola Young",
     "MT Jones",
     "Olive Jones",
     "Pale Jay",
@@ -97,7 +95,8 @@ export const VENN_DATA = {
     "Two Another"
   ],
   "SL": [
-    "NEIL FRANCES"
+    "NEIL FRANCES",
+    "The Smile"
   ],
   "ML": [
     "Ava Joe",
@@ -108,6 +107,7 @@ export const VENN_DATA = {
     "Leif Vollebekk",
     "Martin Luke Brown",
     "Monteverdi Choir",
+    "Octave Lissner",
     "Parcels",
     "Rikas",
     "Tom Odell"
@@ -117,19 +117,18 @@ export const VENN_DATA = {
     "Jungle",
     "LEISURE",
     "Nick Mulvey",
-    "Octave Lissner",
     "Olivia Dean",
     "RIO KOSTA",
     "Tal Arditi",
     "Tom Misch"
   ],
   "counts": {
-    "S_only": 29,
-    "M_only": 19,
-    "L_only": 29,
-    "SM": 11,
-    "SL": 1,
-    "ML": 11,
-    "ALL": 9
+    "S_only": 28,
+    "M_only": 18,
+    "L_only": 28,
+    "SM": 12,
+    "SL": 2,
+    "ML": 12,
+    "ALL": 8
   }
 };
