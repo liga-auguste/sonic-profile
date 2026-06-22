@@ -9,7 +9,6 @@ export const VENN_DATA = {
     "Durand Jones & The Indications",
     "Ethan French",
     "Folamour",
-    "FÄM",
     "GoldFord",
     "Gotts Street Park",
     "Jack Page",
@@ -60,6 +59,7 @@ export const VENN_DATA = {
     "Choir of King's College, Cambridge",
     "Chris Staples",
     "Deichkind",
+    "Dekker",
     "Flyte",
     "Gester Martin",
     "Gizmo Varillas",
@@ -92,6 +92,7 @@ export const VENN_DATA = {
     "Pale Jay",
     "Richard Cejer",
     "SAULT",
+    "Sir Simon Rattle",
     "Two Another"
   ],
   "SL": [
@@ -103,7 +104,6 @@ export const VENN_DATA = {
     "Bill Laurance",
     "Collegium Vocale Gent",
     "Common Saints",
-    "Dekker",
     "Leif Vollebekk",
     "Martin Luke Brown",
     "Monteverdi Choir",
@@ -123,12 +123,12 @@ export const VENN_DATA = {
     "Tom Misch"
   ],
   "counts": {
-    "S_only": 28,
+    "S_only": 27,
     "M_only": 18,
-    "L_only": 28,
-    "SM": 12,
+    "L_only": 29,
+    "SM": 13,
     "SL": 2,
-    "ML": 12,
+    "ML": 11,
     "ALL": 8
   }
 };

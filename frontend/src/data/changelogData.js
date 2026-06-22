@@ -1,5 +1,28 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 38,
+    "fetched_at": "2026-06-22T11:36:48.658699+00:00",
+    "new_artists": 0,
+    "new_tracks": 2,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260622_113646.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "63N3cUxKvqpseKaZXSnE9v",
+        "name": "Soul Brother",
+        "artist": "Golf Trip",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e024799a29700599712b191b84e"
+      },
+      {
+        "id": "088cevKb8LgnaulGCCLCLN",
+        "name": "Brahms: Ein deutsches Requiem, Op. 45: V. Ihr habt nun Traurigkeit",
+        "artist": "Johannes Brahms, Sir Simon Rattle, Berliner Philharmoniker, Dorothea Röschmann, Rundfunkchor Berlin",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02f3660c7e6ce82ba965119aba"
+      }
+    ]
+  },
+  {
     "id": 37,
     "fetched_at": "2026-06-21T09:37:15.122420+00:00",
     "new_artists": 1,
