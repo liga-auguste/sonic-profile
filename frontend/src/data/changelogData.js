@@ -1,5 +1,40 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 39,
+    "fetched_at": "2026-06-23T08:59:47.622763+00:00",
+    "new_artists": 3,
+    "new_tracks": 0,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260623_085944.json",
+    "artists": [
+      {
+        "id": "0gPcmVDfRgMGgnZCr3qvuO",
+        "name": "ZYHH",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb8fa731544de9de2ea1e3a8b0",
+        "genres": []
+      },
+      {
+        "id": "1iEwzHojkE2rHcDAJDQOuo",
+        "name": "FENNE",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebd3d17e1cbdcf99f07f305ebc",
+        "genres": []
+      },
+      {
+        "id": "2datC2OML2YxykP6vnDRmg",
+        "name": "Yazmin Lacey",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebe7df942d4911b6cbd14d474e",
+        "genres": [
+          "soul",
+          "jazz",
+          "funk",
+          "rnb",
+          "british"
+        ]
+      }
+    ],
+    "tracks": []
+  },
+  {
     "id": 38,
     "fetched_at": "2026-06-22T11:36:48.658699+00:00",
     "new_artists": 0,
@@ -2249,7 +2284,13 @@ export const CHANGELOG_DATA = [
         "id": "0liNX4mflJExPsvDkY7yfa",
         "name": "Flo Naegeli",
         "image": "https://i.scdn.co/image/ab6761610000e5ebf64306e632ece9d566fc5a75",
-        "genres": []
+        "genres": [
+          "soul",
+          "guitar",
+          "germany",
+          "deutschland",
+          "the dreamboats of indie music"
+        ]
       },
       {
         "id": "2QOIawHpSlOwXDvSqQ9YJR",

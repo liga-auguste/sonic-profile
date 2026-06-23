@@ -3,29 +3,31 @@ export const VENN_DATA = {
   "S_only": [
     "Aaron Taylor",
     "Busch Trio",
-    "C Duncan",
     "Cleo Sol",
     "Collect 200",
     "Durand Jones & The Indications",
     "Ethan French",
+    "FENNE",
+    "Flo Naegeli",
     "Folamour",
+    "FÄM",
     "GoldFord",
     "Gotts Street Park",
     "Jack Page",
     "Jalen Ngonda",
     "Jitwam",
     "Khruangbin",
-    "Loma",
+    "Kublaii",
+    "Lola Young",
     "Mom Tudie",
-    "Nick Drake",
     "Okvsho",
     "Oscar Jerome",
     "Otis Kane",
-    "Pink Floyd",
     "Procol Harum",
     "Thomas Rückert",
-    "Willie J Healey",
     "Wolfgang Meyer",
+    "Yazmin Lacey",
+    "ZYHH",
     "edbl",
     "vbnd"
   ],
@@ -59,7 +61,6 @@ export const VENN_DATA = {
     "Choir of King's College, Cambridge",
     "Chris Staples",
     "Deichkind",
-    "Dekker",
     "Flyte",
     "Gester Martin",
     "Gizmo Varillas",
@@ -77,6 +78,7 @@ export const VENN_DATA = {
     "Rhye",
     "Sufjan Stevens",
     "The Choir Of Trinity College, Cambridge",
+    "The Smile",
     "Ton Koopman",
     "Víkingur Ólafsson"
   ],
@@ -86,7 +88,6 @@ export const VENN_DATA = {
     "GeeJay",
     "Honahlei",
     "Jordan Rakei",
-    "Lola Young",
     "MT Jones",
     "Olive Jones",
     "Pale Jay",
@@ -96,14 +97,14 @@ export const VENN_DATA = {
     "Two Another"
   ],
   "SL": [
-    "NEIL FRANCES",
-    "The Smile"
+    "NEIL FRANCES"
   ],
   "ML": [
     "Ava Joe",
     "Bill Laurance",
     "Collegium Vocale Gent",
     "Common Saints",
+    "Dekker",
     "Leif Vollebekk",
     "Martin Luke Brown",
     "Monteverdi Choir",
@@ -123,12 +124,12 @@ export const VENN_DATA = {
     "Tom Misch"
   ],
   "counts": {
-    "S_only": 27,
+    "S_only": 29,
     "M_only": 18,
     "L_only": 29,
-    "SM": 13,
-    "SL": 2,
-    "ML": 11,
+    "SM": 12,
+    "SL": 1,
+    "ML": 12,
     "ALL": 8
   }
 };
