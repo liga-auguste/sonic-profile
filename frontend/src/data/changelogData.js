@@ -1,5 +1,40 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 40,
+    "fetched_at": "2026-06-24T08:54:31.672990+00:00",
+    "new_artists": 1,
+    "new_tracks": 2,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260624_085428.json",
+    "artists": [
+      {
+        "id": "2hGdIKyNUkvMzSxllWksAt",
+        "name": "Olympia Vitalis",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebf95334226daacf0b18175878",
+        "genres": [
+          "soul",
+          "rnb",
+          "funk_add_to_lidarr_batch_20",
+          "british"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "1LIESiZoyKeg8RgoYKmJRk",
+        "name": "Holberg Suite, Op. 40: II. Sarabande. Andante",
+        "artist": "Edvard Grieg, Gothenburg Symphony Orchestra, Neeme Järvi",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02fa9cc33e2176a5139fb8bd92"
+      },
+      {
+        "id": "7CvqrzfxeSlVLawECWZazW",
+        "name": "Holberg Suite, Op. 40: I. Praeludium. Allegro vivace",
+        "artist": "Edvard Grieg, Gothenburg Symphony Orchestra, Neeme Järvi",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02fa9cc33e2176a5139fb8bd92"
+      }
+    ]
+  },
+  {
     "id": 39,
     "fetched_at": "2026-06-23T08:59:47.622763+00:00",
     "new_artists": 3,
