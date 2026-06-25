@@ -42,7 +42,6 @@ export const VENN_DATA = {
     "La Rêveuse",
     "Lana Del Rey",
     "Little Simz",
-    "Loaded Honey",
     "Malia",
     "Metronomy",
     "Phoenix Chorale",
@@ -88,6 +87,7 @@ export const VENN_DATA = {
     "GeeJay",
     "Honahlei",
     "Jordan Rakei",
+    "Loaded Honey",
     "MT Jones",
     "Olive Jones",
     "Pale Jay",
@@ -102,6 +102,7 @@ export const VENN_DATA = {
   "ML": [
     "Ava Joe",
     "Bill Laurance",
+    "Coldplay",
     "Collegium Vocale Gent",
     "Common Saints",
     "Dekker",
@@ -114,7 +115,6 @@ export const VENN_DATA = {
     "Tom Odell"
   ],
   "ALL": [
-    "Coldplay",
     "Jungle",
     "LEISURE",
     "Nick Mulvey",
@@ -125,11 +125,11 @@ export const VENN_DATA = {
   ],
   "counts": {
     "S_only": 29,
-    "M_only": 18,
+    "M_only": 17,
     "L_only": 29,
-    "SM": 12,
+    "SM": 13,
     "SL": 1,
-    "ML": 12,
-    "ALL": 8
+    "ML": 13,
+    "ALL": 7
   }
 };
