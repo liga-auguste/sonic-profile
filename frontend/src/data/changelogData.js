@@ -1,5 +1,39 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 42,
+    "fetched_at": "2026-06-26T08:51:24.394038+00:00",
+    "new_artists": 2,
+    "new_tracks": 0,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260626_085120.json",
+    "artists": [
+      {
+        "id": "2xp9ArvFcCoeXjTG2sWVNJ",
+        "name": "Jessy Yasmeen",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb925507335b32298bd21808ed",
+        "genres": [
+          "soul",
+          "indie",
+          "dutch",
+          "singer-songwriter",
+          "dutch female vocalists"
+        ]
+      },
+      {
+        "id": "6XwbawUNwNcZ7OXtvMVyKK",
+        "name": "Nectar Woode",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebe94830cbe92502963aa6a6cf",
+        "genres": [
+          "rnb",
+          "soul",
+          "jazz",
+          "pop"
+        ]
+      }
+    ],
+    "tracks": []
+  },
+  {
     "id": 41,
     "fetched_at": "2026-06-25T08:48:38.566290+00:00",
     "new_artists": 0,
