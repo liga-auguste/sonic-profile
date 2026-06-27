@@ -4751,7 +4751,7 @@ export const SPOTIFY_DATA = {
     "releaseYearOldest": 1966,
     "releaseYearNewest": 2026,
     "releaseYearPeak": 2026,
-    "fetched_at": "2026-06-26T08:51:20.624984+00:00",
+    "fetched_at": "2026-06-27T08:27:04.089838+00:00",
     "hoursChart": [
       68,
       22,
