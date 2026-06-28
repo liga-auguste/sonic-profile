@@ -1,5 +1,46 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 44,
+    "fetched_at": "2026-06-28T08:41:39.004475+00:00",
+    "new_artists": 0,
+    "new_tracks": 5,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260628_084135.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "4yiw2H1JYSXJ74dJKycyZU",
+        "name": "Millionaire - Live From KOKO",
+        "artist": "Olivia Dean",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e029240dc0ba5ef5dcbd535d3a8"
+      },
+      {
+        "id": "52VEpqNimtyGrMlRYOgezn",
+        "name": "A Long Time",
+        "artist": "Vijay Strickland",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0271cd2bae28265a13947886ac"
+      },
+      {
+        "id": "2DJ0lLxggpQAw58tpsNSBC",
+        "name": "King of Possibilities",
+        "artist": "Goldie Boutilier",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e029cbcad0be0dace300c46aebe"
+      },
+      {
+        "id": "3fvZo45Y28ly1QBo05pujJ",
+        "name": "Let's Go Back",
+        "artist": "Jungle",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0215ecd6926b2b357a546b02fc"
+      },
+      {
+        "id": "2sKjOX72UX1HiCDhI2HdlR",
+        "name": "Don't Speak",
+        "artist": "Loaded Honey, Lydia Kitto, J Lloyd",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e028e515a0c788f14697d9c6faa"
+      }
+    ]
+  },
+  {
     "id": 43,
     "fetched_at": "2026-06-27T08:27:09.318840+00:00",
     "new_artists": 0,

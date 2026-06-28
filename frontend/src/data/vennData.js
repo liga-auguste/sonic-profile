@@ -26,8 +26,6 @@ export const VENN_DATA = {
     "Otis Kane",
     "Procol Harum",
     "Thomas Rückert",
-    "Wolfgang Meyer",
-    "Yazmin Lacey",
     "ZYHH",
     "edbl",
     "vbnd"
@@ -53,7 +51,6 @@ export const VENN_DATA = {
     "VOCES8"
   ],
   "L_only": [
-    "AMANZI",
     "AURORA",
     "Amsterdam Baroque Orchestra",
     "Angelo De Augustine",
@@ -98,6 +95,7 @@ export const VENN_DATA = {
     "Two Another"
   ],
   "SL": [
+    "AMANZI",
     "NEIL FRANCES"
   ],
   "ML": [
@@ -111,7 +109,6 @@ export const VENN_DATA = {
     "Martin Luke Brown",
     "Monteverdi Choir",
     "Octave Lissner",
-    "Parcels",
     "Rikas",
     "Tom Odell"
   ],
@@ -120,17 +117,18 @@ export const VENN_DATA = {
     "LEISURE",
     "Nick Mulvey",
     "Olivia Dean",
+    "Parcels",
     "RIO KOSTA",
     "Tal Arditi",
     "Tom Misch"
   ],
   "counts": {
-    "S_only": 30,
+    "S_only": 28,
     "M_only": 18,
-    "L_only": 29,
+    "L_only": 28,
     "SM": 12,
-    "SL": 1,
-    "ML": 13,
-    "ALL": 7
+    "SL": 2,
+    "ML": 12,
+    "ALL": 8
   }
 };
