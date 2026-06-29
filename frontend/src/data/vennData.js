@@ -2,7 +2,6 @@
 export const VENN_DATA = {
   "S_only": [
     "Aaron Taylor",
-    "Busch Trio",
     "Cleo Sol",
     "Collect 200",
     "Durand Jones & The Indications",
@@ -26,6 +25,7 @@ export const VENN_DATA = {
     "Otis Kane",
     "Procol Harum",
     "Thomas Rückert",
+    "Yazmin Lacey",
     "ZYHH",
     "edbl",
     "vbnd"

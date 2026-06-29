@@ -1,5 +1,22 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 45,
+    "fetched_at": "2026-06-29T10:24:06.281018+00:00",
+    "new_artists": 0,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260629_102403.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "4BOdCKuO8W8OwSuFdUxVop",
+        "name": "Change",
+        "artist": "Lipka",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02823f9595621015755602e304"
+      }
+    ]
+  },
+  {
     "id": 44,
     "fetched_at": "2026-06-28T08:41:39.004475+00:00",
     "new_artists": 0,
