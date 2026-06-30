@@ -17,10 +17,11 @@ export const VENN_DATA = {
     "Jessy Yasmeen",
     "Jitwam",
     "Khruangbin",
-    "Kublaii",
+    "Meeka Kates",
     "Mom Tudie",
     "Nectar Woode",
     "Okvsho",
+    "Olympia Vitalis",
     "Oscar Jerome",
     "Otis Kane",
     "Procol Harum",
@@ -36,12 +37,12 @@ export const VENN_DATA = {
     "Dorothee Mields",
     "Ensemble Contraste",
     "Hermanos Gutiérrez",
+    "Honahlei",
     "Jan Garbarek",
     "Klaus Mertens",
     "La Rêveuse",
     "Lana Del Rey",
     "Little Simz",
-    "Loaded Honey",
     "Malia",
     "Metronomy",
     "Phoenix Chorale",
@@ -84,8 +85,8 @@ export const VENN_DATA = {
     "DON WEST",
     "Dojo Cuts",
     "GeeJay",
-    "Honahlei",
     "Jordan Rakei",
+    "Loaded Honey",
     "MT Jones",
     "Olive Jones",
     "Pale Jay",
@@ -110,6 +111,7 @@ export const VENN_DATA = {
     "Monteverdi Choir",
     "Octave Lissner",
     "Rikas",
+    "Tal Arditi",
     "Tom Odell"
   ],
   "ALL": [
@@ -119,16 +121,15 @@ export const VENN_DATA = {
     "Olivia Dean",
     "Parcels",
     "RIO KOSTA",
-    "Tal Arditi",
     "Tom Misch"
   ],
   "counts": {
-    "S_only": 28,
+    "S_only": 29,
     "M_only": 18,
     "L_only": 28,
     "SM": 12,
     "SL": 2,
-    "ML": 12,
-    "ALL": 8
+    "ML": 13,
+    "ALL": 7
   }
 };

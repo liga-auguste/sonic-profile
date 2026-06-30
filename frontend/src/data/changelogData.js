@@ -1,5 +1,59 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 46,
+    "fetched_at": "2026-06-30T08:57:35.335251+00:00",
+    "new_artists": 1,
+    "new_tracks": 5,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260630_085732.json",
+    "artists": [
+      {
+        "id": "24XZ9joYiC4hzMYXihqgc1",
+        "name": "Meeka Kates",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb9480950c21eebfb143176c40",
+        "genres": [
+          "electronic",
+          "chillout",
+          "acoustic",
+          "indie",
+          "dutch"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "0gjcEL2CTKu3fT9qMVVu2w",
+        "name": "Bad Kids",
+        "artist": "TTRRUUCES",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02297fe500cf4445f6b06186df"
+      },
+      {
+        "id": "0zXhiHHnUzhCYd3ehnZEe5",
+        "name": "Thinking of You (Spotify Singles)",
+        "artist": "Joesef",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02eb5c9dba9851c1f2f398531d"
+      },
+      {
+        "id": "1ORQRPyekMB3awJHtvsCyR",
+        "name": "Brahms: Ein deutsches Requiem, Op. 45: VII. Selig sind die Toten",
+        "artist": "Johannes Brahms, Sir Simon Rattle, Berliner Philharmoniker, Rundfunkchor Berlin",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02f3660c7e6ce82ba965119aba"
+      },
+      {
+        "id": "1wsLt0uxVHxUMXfwfI6Gsn",
+        "name": "It Isn’t Perfect But It Might Be - from “Bridget Jones: Mad About the Boy” Original Motion Picture Soundtrack",
+        "artist": "Olivia Dean",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e023af34b93a5eb9b68b62c6aab"
+      },
+      {
+        "id": "24XppU2tez3GnQ0BZjSGA0",
+        "name": "Brahms: Ein deutsches Requiem, Op. 45: III. Herr, lehre doch mich",
+        "artist": "Johannes Brahms, Sir Simon Rattle, Berliner Philharmoniker, Rundfunkchor Berlin, Thomas Quasthoff",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02f3660c7e6ce82ba965119aba"
+      }
+    ]
+  },
+  {
     "id": 45,
     "fetched_at": "2026-06-29T10:24:06.281018+00:00",
     "new_artists": 0,
