@@ -1,5 +1,34 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 47,
+    "fetched_at": "2026-07-01T09:30:36.608868+00:00",
+    "new_artists": 0,
+    "new_tracks": 3,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260701_093034.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "29inZpy70DfpyXLRQ5lRjc",
+        "name": "Homburg - Single Version - 2009 Remaster - Mono",
+        "artist": "Procol Harum",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02b980be36b4d67a12196b8658"
+      },
+      {
+        "id": "2B664ulJSVBd6B8SAY3Wux",
+        "name": "Oysters In My Pocket",
+        "artist": "Royel Otis",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0243e43cc5bad5dcb157ee3609"
+      },
+      {
+        "id": "2CMfnYSI28O570OE7ExscU",
+        "name": "Some People",
+        "artist": "liou",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02b2adb6a6a27b7fdf305c6b1f"
+      }
+    ]
+  },
+  {
     "id": 46,
     "fetched_at": "2026-06-30T08:57:35.335251+00:00",
     "new_artists": 1,

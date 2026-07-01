@@ -25,7 +25,7 @@ export const VENN_DATA = {
     "Oscar Jerome",
     "Otis Kane",
     "Procol Harum",
-    "Thomas Rückert",
+    "Son Little",
     "Yazmin Lacey",
     "ZYHH",
     "edbl",
@@ -43,6 +43,7 @@ export const VENN_DATA = {
     "La Rêveuse",
     "Lana Del Rey",
     "Little Simz",
+    "Louis Baker",
     "Malia",
     "Metronomy",
     "Phoenix Chorale",
@@ -60,6 +61,7 @@ export const VENN_DATA = {
     "Choir of King's College, Cambridge",
     "Chris Staples",
     "Deichkind",
+    "Dekker",
     "Flyte",
     "Gester Martin",
     "Gizmo Varillas",
@@ -105,7 +107,6 @@ export const VENN_DATA = {
     "Coldplay",
     "Collegium Vocale Gent",
     "Common Saints",
-    "Dekker",
     "Leif Vollebekk",
     "Martin Luke Brown",
     "Monteverdi Choir",
@@ -125,11 +126,11 @@ export const VENN_DATA = {
   ],
   "counts": {
     "S_only": 29,
-    "M_only": 18,
-    "L_only": 28,
+    "M_only": 19,
+    "L_only": 29,
     "SM": 12,
     "SL": 2,
-    "ML": 13,
+    "ML": 12,
     "ALL": 7
   }
 };
