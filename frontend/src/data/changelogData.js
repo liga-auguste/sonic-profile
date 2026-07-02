@@ -1,5 +1,46 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 48,
+    "fetched_at": "2026-07-02T08:42:56.681536+00:00",
+    "new_artists": 0,
+    "new_tracks": 5,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260702_084252.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "1GEf45ad9tT9njeDYw9WPx",
+        "name": "Your Mind Is on Vacation",
+        "artist": "Mose Allison",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02b3bed6bd2cd6b138f71a1d53"
+      },
+      {
+        "id": "2PIUId9G7Io4bJnUqq8TYy",
+        "name": "Over The Rainbow",
+        "artist": "Judy Garland",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02e789c17875d6cc2e562287a6"
+      },
+      {
+        "id": "5v3oL4EOGmzFjo7S3O7IFH",
+        "name": "City Lights",
+        "artist": "Blanche",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e024f6edbae62d601d95753cbeb"
+      },
+      {
+        "id": "5uq3x8Pg8HAj8qNwPFOzfl",
+        "name": "Light",
+        "artist": "Sleeping At Last",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02c761387d83c7c615da7008a8"
+      },
+      {
+        "id": "7JqCjgNaHhNcvL9DDLynJP",
+        "name": "Glowing",
+        "artist": "The Script",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e022e3049fef96abebf336b7366"
+      }
+    ]
+  },
+  {
     "id": 47,
     "fetched_at": "2026-07-01T09:30:36.608868+00:00",
     "new_artists": 0,
