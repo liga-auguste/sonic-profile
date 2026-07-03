@@ -1,5 +1,27 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 49,
+    "fetched_at": "2026-07-03T08:50:34.305932+00:00",
+    "new_artists": 1,
+    "new_tracks": 0,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260703_085031.json",
+    "artists": [
+      {
+        "id": "6N1Kaz3CvRa9VLll5ahk9T",
+        "name": "Theodore Shapiro",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebd0cded7e29a0b8c0e8895c70",
+        "genres": [
+          "soundtrack",
+          "composer",
+          "instrumental",
+          "contemporary classical"
+        ]
+      }
+    ],
+    "tracks": []
+  },
+  {
     "id": 48,
     "fetched_at": "2026-07-02T08:42:56.681536+00:00",
     "new_artists": 0,

@@ -26,6 +26,7 @@ export const VENN_DATA = {
     "Otis Kane",
     "Procol Harum",
     "Son Little",
+    "Theodore Shapiro",
     "Yazmin Lacey",
     "ZYHH",
     "edbl",
@@ -43,6 +44,7 @@ export const VENN_DATA = {
     "La Rêveuse",
     "Lana Del Rey",
     "Little Simz",
+    "Loaded Honey",
     "Louis Baker",
     "Malia",
     "Metronomy",
@@ -88,7 +90,6 @@ export const VENN_DATA = {
     "Dojo Cuts",
     "GeeJay",
     "Jordan Rakei",
-    "Loaded Honey",
     "MT Jones",
     "Olive Jones",
     "Pale Jay",
@@ -125,10 +126,10 @@ export const VENN_DATA = {
     "Tom Misch"
   ],
   "counts": {
-    "S_only": 29,
-    "M_only": 19,
+    "S_only": 30,
+    "M_only": 20,
     "L_only": 29,
-    "SM": 12,
+    "SM": 11,
     "SL": 2,
     "ML": 12,
     "ALL": 7
