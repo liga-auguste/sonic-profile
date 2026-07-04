@@ -1,5 +1,47 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 50,
+    "fetched_at": "2026-07-04T08:25:26.369487+00:00",
+    "new_artists": 2,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260704_082523.json",
+    "artists": [
+      {
+        "id": "7MoIc5s9KXolCBH1fy9kkw",
+        "name": "Japanese Breakfast",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb679cee0110b7cc128a496431",
+        "genres": [
+          "dream pop",
+          "indie pop",
+          "indie rock",
+          "indie",
+          "lo-fi"
+        ]
+      },
+      {
+        "id": "1eYhYunlNJlDoQhtYBvPsi",
+        "name": "Ray Charles",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb6fc460f10177fa38af69b8bf",
+        "genres": [
+          "jazz",
+          "soul",
+          "blues",
+          "rhythm and blues",
+          "piano"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "6yMGxqKj0218mFR5KqsMRq",
+        "name": "Georgia on My Mind",
+        "artist": "Ray Charles",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e024448e36a9ef845b705d80a0d"
+      }
+    ]
+  },
+  {
     "id": 49,
     "fetched_at": "2026-07-03T08:50:34.305932+00:00",
     "new_artists": 1,
