@@ -1,5 +1,22 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 51,
+    "fetched_at": "2026-07-05T08:41:41.238210+00:00",
+    "new_artists": 0,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260705_084138.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "35t18XdIkW0keeUT9UR60L",
+        "name": "All We Need",
+        "artist": "Louis Baker",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02d1eed18017fbaeb685dcbf7d"
+      }
+    ]
+  },
+  {
     "id": 50,
     "fetched_at": "2026-07-04T08:25:26.369487+00:00",
     "new_artists": 2,
