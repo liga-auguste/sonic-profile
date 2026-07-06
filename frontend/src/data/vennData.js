@@ -27,6 +27,7 @@ export const VENN_DATA = {
     "Procol Harum",
     "Ray Charles",
     "Theodore Shapiro",
+    "Yazmin Lacey",
     "ZYHH",
     "edbl",
     "vbnd"
@@ -110,6 +111,7 @@ export const VENN_DATA = {
     "Leif Vollebekk",
     "Martin Luke Brown",
     "Monteverdi Choir",
+    "Nick Mulvey",
     "Octave Lissner",
     "Rikas",
     "Tal Arditi",
@@ -118,19 +120,18 @@ export const VENN_DATA = {
   "ALL": [
     "Jungle",
     "LEISURE",
-    "Nick Mulvey",
     "Olivia Dean",
     "Parcels",
     "RIO KOSTA",
     "Tom Misch"
   ],
   "counts": {
-    "S_only": 29,
+    "S_only": 30,
     "M_only": 19,
     "L_only": 29,
     "SM": 12,
     "SL": 2,
-    "ML": 12,
-    "ALL": 7
+    "ML": 13,
+    "ALL": 6
   }
 };
