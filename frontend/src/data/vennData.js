@@ -9,8 +9,6 @@ export const VENN_DATA = {
     "FENNE",
     "Flo Naegeli",
     "Folamour",
-    "FÄM",
-    "GoldFord",
     "Gotts Street Park",
     "Jack Page",
     "Jalen Ngonda",
@@ -18,13 +16,13 @@ export const VENN_DATA = {
     "Jessy Yasmeen",
     "Jitwam",
     "Khruangbin",
+    "MT Jones",
     "Meeka Kates",
     "Mom Tudie",
-    "Nectar Woode",
     "Okvsho",
+    "Olympia Vitalis",
     "Oscar Jerome",
     "Otis Kane",
-    "Procol Harum",
     "Ray Charles",
     "Theodore Shapiro",
     "Yazmin Lacey",
@@ -34,20 +32,20 @@ export const VENN_DATA = {
   ],
   "M_only": [
     "Andreas Scholl",
+    "Arlo Parks",
+    "Black Sea Dahu",
     "Chet Faker",
     "Dorothee Mields",
     "Ensemble Contraste",
     "Hermanos Gutiérrez",
-    "Honahlei",
     "Jan Garbarek",
+    "José González",
     "Klaus Mertens",
     "La Rêveuse",
     "Lana Del Rey",
     "Little Simz",
-    "Loaded Honey",
     "Malia",
     "Metronomy",
-    "Phoenix Chorale",
     "RAYE",
     "Royel Otis",
     "Svaneborg Kardyb",
@@ -80,7 +78,7 @@ export const VENN_DATA = {
     "Rhye",
     "Sufjan Stevens",
     "The Choir Of Trinity College, Cambridge",
-    "The Smile",
+    "Tom Odell",
     "Ton Koopman",
     "Víkingur Ólafsson"
   ],
@@ -89,10 +87,11 @@ export const VENN_DATA = {
     "Dojo Cuts",
     "GeeJay",
     "Jordan Rakei",
+    "Loaded Honey",
     "Louis Baker",
-    "MT Jones",
     "Olive Jones",
     "Pale Jay",
+    "Procol Harum",
     "Richard Cejer",
     "SAULT",
     "Sir Simon Rattle",
@@ -100,7 +99,8 @@ export const VENN_DATA = {
   ],
   "SL": [
     "AMANZI",
-    "NEIL FRANCES"
+    "NEIL FRANCES",
+    "The Smile"
   ],
   "ML": [
     "Ava Joe",
@@ -114,8 +114,7 @@ export const VENN_DATA = {
     "Nick Mulvey",
     "Octave Lissner",
     "Rikas",
-    "Tal Arditi",
-    "Tom Odell"
+    "Tal Arditi"
   ],
   "ALL": [
     "Jungle",
@@ -126,12 +125,12 @@ export const VENN_DATA = {
     "Tom Misch"
   ],
   "counts": {
-    "S_only": 30,
+    "S_only": 28,
     "M_only": 19,
     "L_only": 29,
-    "SM": 12,
-    "SL": 2,
-    "ML": 13,
+    "SM": 13,
+    "SL": 3,
+    "ML": 12,
     "ALL": 6
   }
 };

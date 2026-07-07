@@ -1,5 +1,22 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 53,
+    "fetched_at": "2026-07-07T09:25:02.173688+00:00",
+    "new_artists": 0,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260707_092459.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "4AbTZh79w3ERGwlfaAO4i8",
+        "name": "Die Meistersinger von Nürnberg, WWV 96: Prelude",
+        "artist": "Richard Wagner, Wiener Philharmoniker, Sir Georg Solti",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0255d0ea0f4c371e291c624add"
+      }
+    ]
+  },
+  {
     "id": 52,
     "fetched_at": "2026-07-06T09:57:29.912345+00:00",
     "new_artists": 0,
@@ -2681,7 +2698,13 @@ export const CHANGELOG_DATA = [
         "id": "6xrCU6zdcSTsG2hLrojpmI",
         "name": "José González",
         "image": "https://i.scdn.co/image/ab6761610000e5eb4f706abc017ea2308b96aff4",
-        "genres": []
+        "genres": [
+          "acoustic",
+          "singer-songwriter",
+          "folk",
+          "indie",
+          "swedish"
+        ]
       },
       {
         "id": "43l4GGl1QwpqP7R2k43M9W",
