@@ -1,5 +1,28 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 54,
+    "fetched_at": "2026-07-08T08:09:26.980726+00:00",
+    "new_artists": 1,
+    "new_tracks": 0,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260708_080924.json",
+    "artists": [
+      {
+        "id": "09kXLeOXRyfNQMXRaDO4qA",
+        "name": "Nilüfer Yanya",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb9668739f320bc34bfd0f0e7a",
+        "genres": [
+          "singer-songwriter",
+          "indie rock",
+          "indie pop",
+          "indie",
+          "female vocalists"
+        ]
+      }
+    ],
+    "tracks": []
+  },
+  {
     "id": 53,
     "fetched_at": "2026-07-07T09:25:02.173688+00:00",
     "new_artists": 0,
