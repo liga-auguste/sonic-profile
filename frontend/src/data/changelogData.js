@@ -1,5 +1,70 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 55,
+    "fetched_at": "2026-07-09T09:32:29.423934+00:00",
+    "new_artists": 2,
+    "new_tracks": 5,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260709_093226.json",
+    "artists": [
+      {
+        "id": "6YRqlhH88xZ7h2WOhwNYOb",
+        "name": "Caoilfhionn Rose",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebc0961803d4c0d44bebf84d11",
+        "genres": [
+          "folk",
+          "dream pop",
+          "singer-songwriter",
+          "indie pop",
+          "female vocalists"
+        ]
+      },
+      {
+        "id": "7t00AYOoiQrcgNlpTkNer6",
+        "name": "King Hannah",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb8961ac5437cb36ccf9ca9977",
+        "genres": [
+          "indie rock",
+          "alternative rock",
+          "indie",
+          "rock"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "1yXQmk6xjljWfkZ32TGLLu",
+        "name": "Turnaround",
+        "artist": "Loma",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02359a23c5ec9c76c6cc2eba1b"
+      },
+      {
+        "id": "0P5SizgE38BivB42lBc9jB",
+        "name": "Please, Come In",
+        "artist": "Loma",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02359a23c5ec9c76c6cc2eba1b"
+      },
+      {
+        "id": "7ImBoYT05oKgqrblLSJZwX",
+        "name": "Unbraiding",
+        "artist": "Loma",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02359a23c5ec9c76c6cc2eba1b"
+      },
+      {
+        "id": "4aIBSRXsCffmIE9efBkuNK",
+        "name": "Arrhythmia",
+        "artist": "Loma",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02359a23c5ec9c76c6cc2eba1b"
+      },
+      {
+        "id": "5zcOVzWXeuFuKiGwVOckIi",
+        "name": "A Steady Mind",
+        "artist": "Loma",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02359a23c5ec9c76c6cc2eba1b"
+      }
+    ]
+  },
+  {
     "id": 54,
     "fetched_at": "2026-07-08T08:09:26.980726+00:00",
     "new_artists": 1,
@@ -2223,7 +2288,13 @@ export const CHANGELOG_DATA = [
         "id": "2N1foZRamgP1sfiYXFID9O",
         "name": "Leifur James",
         "image": "https://i.scdn.co/image/ab6761610000e5eb6927960fa8fd957ac3f15244",
-        "genres": []
+        "genres": [
+          "experimental",
+          "jazz",
+          "soul",
+          "indie",
+          "electronic"
+        ]
       },
       {
         "id": "2iSZ41LUUYVcz5At9Xuz7T",
