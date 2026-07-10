@@ -1,5 +1,52 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 56,
+    "fetched_at": "2026-07-10T09:19:53.722501+00:00",
+    "new_artists": 0,
+    "new_tracks": 6,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260710_091951.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "06gyDqonDde4dTqOpVzWDB",
+        "name": "Affinity",
+        "artist": "Loma",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02359a23c5ec9c76c6cc2eba1b"
+      },
+      {
+        "id": "14dEAeXPWngsRk24V4QjJ0",
+        "name": "Broken Doorbell",
+        "artist": "Loma",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02359a23c5ec9c76c6cc2eba1b"
+      },
+      {
+        "id": "2gdjR8nBAShQ2fu4pBnwKm",
+        "name": "I Swallowed a Stone",
+        "artist": "Loma",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02359a23c5ec9c76c6cc2eba1b"
+      },
+      {
+        "id": "2o367zsjhtv6PvN8NXq4Ig",
+        "name": "Pink Sky",
+        "artist": "Loma",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02359a23c5ec9c76c6cc2eba1b"
+      },
+      {
+        "id": "4msTUT8LfdYk55XlD6oYGl",
+        "name": "Dark Trio",
+        "artist": "Loma",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02359a23c5ec9c76c6cc2eba1b"
+      },
+      {
+        "id": "72G1uutjkmbaW6XJR6bfyH",
+        "name": "How It Starts",
+        "artist": "Loma",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02359a23c5ec9c76c6cc2eba1b"
+      }
+    ]
+  },
+  {
     "id": 55,
     "fetched_at": "2026-07-09T09:32:29.423934+00:00",
     "new_artists": 2,
