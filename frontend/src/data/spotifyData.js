@@ -1983,24 +1983,6 @@ export const SPOTIFY_DATA = {
       },
       {
         "rank": 28,
-        "id": "7w9VmSzLy7a5Nk2Gd4gE14",
-        "name": "Requiem, Op. 9: I. Introit (1961 Version)",
-        "artists": [
-          "Maurice Duruflé",
-          "Stephen Cleobury",
-          "Choir of King's College, Cambridge",
-          "Orchestra of the Age of Enlightenment"
-        ],
-        "artist": "Maurice Duruflé, Stephen Cleobury, Choir of King's College, Cambridge, Orchestra of the Age of Enlightenment",
-        "album": "Duruflé: Requiem, Four Motets, Messe Cum Jubilo",
-        "album_image": "https://i.scdn.co/image/ab67616d00001e023845b59a02e91af2c70e1e58",
-        "duration_ms": 212120,
-        "explicit": false,
-        "release_date": "2016-09-09",
-        "url": "https://open.spotify.com/track/7w9VmSzLy7a5Nk2Gd4gE14"
-      },
-      {
-        "rank": 29,
         "id": "4eP7VbswtkGd5Hlyj4E7Qx",
         "name": "Nevada",
         "artists": [
@@ -2015,7 +1997,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/4eP7VbswtkGd5Hlyj4E7Qx"
       },
       {
-        "rank": 30,
+        "rank": 29,
         "id": "5xbuJuQsTVheVZvX2AJVIv",
         "name": "Spring 1 - 2012",
         "artists": [
@@ -2031,6 +2013,24 @@ export const SPOTIFY_DATA = {
         "explicit": false,
         "release_date": "2014-01-01",
         "url": "https://open.spotify.com/track/5xbuJuQsTVheVZvX2AJVIv"
+      },
+      {
+        "rank": 30,
+        "id": "7w9VmSzLy7a5Nk2Gd4gE14",
+        "name": "Requiem, Op. 9: I. Introit (1961 Version)",
+        "artists": [
+          "Maurice Duruflé",
+          "Stephen Cleobury",
+          "Choir of King's College, Cambridge",
+          "Orchestra of the Age of Enlightenment"
+        ],
+        "artist": "Maurice Duruflé, Stephen Cleobury, Choir of King's College, Cambridge, Orchestra of the Age of Enlightenment",
+        "album": "Duruflé: Requiem, Four Motets, Messe Cum Jubilo",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e023845b59a02e91af2c70e1e58",
+        "duration_ms": 212120,
+        "explicit": false,
+        "release_date": "2016-09-09",
+        "url": "https://open.spotify.com/track/7w9VmSzLy7a5Nk2Gd4gE14"
       },
       {
         "rank": 31,
@@ -2067,24 +2067,6 @@ export const SPOTIFY_DATA = {
       },
       {
         "rank": 33,
-        "id": "6dTq3VPRH3CTVvnRSMpyxO",
-        "name": "Requiem, Op. 9: VI. Agnus Dei (1961 Version)",
-        "artists": [
-          "Maurice Duruflé",
-          "Orchestra of the Age of Enlightenment",
-          "Choir of King's College, Cambridge",
-          "Stephen Cleobury"
-        ],
-        "artist": "Maurice Duruflé, Orchestra of the Age of Enlightenment, Choir of King's College, Cambridge, Stephen Cleobury",
-        "album": "Duruflé: Requiem, Four Motets, Messe Cum Jubilo",
-        "album_image": "https://i.scdn.co/image/ab67616d00001e023845b59a02e91af2c70e1e58",
-        "duration_ms": 225560,
-        "explicit": false,
-        "release_date": "2016-09-09",
-        "url": "https://open.spotify.com/track/6dTq3VPRH3CTVvnRSMpyxO"
-      },
-      {
-        "rank": 34,
         "id": "7kaP2l8xzo4TWsPnjN9S39",
         "name": "This One's On The House",
         "artists": [
@@ -2099,7 +2081,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/7kaP2l8xzo4TWsPnjN9S39"
       },
       {
-        "rank": 35,
+        "rank": 34,
         "id": "1WiiMZbCeTvNlHOUGYjFLY",
         "name": "In The Moment",
         "artists": [
@@ -2114,7 +2096,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/1WiiMZbCeTvNlHOUGYjFLY"
       },
       {
-        "rank": 36,
+        "rank": 35,
         "id": "0wnGT3ASkpmCjEmGRULfS0",
         "name": "5 Pieces for Violin and Piano, P. 62: II. Aubade. Vivace",
         "artists": [
@@ -2131,7 +2113,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/0wnGT3ASkpmCjEmGRULfS0"
       },
       {
-        "rank": 37,
+        "rank": 36,
         "id": "1l8GdvJX9IgL3Ul7pdE87h",
         "name": "Spring 3 - 2012",
         "artists": [
@@ -2150,7 +2132,196 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/1l8GdvJX9IgL3Ul7pdE87h"
       },
       {
+        "rank": 37,
+        "id": "5IJCCnOsSF50lku7Mau7rr",
+        "name": "Magnetised (Live at Union Chapel)",
+        "artists": [
+          "Tom Odell"
+        ],
+        "artist": "Tom Odell",
+        "album": "Live at Union Chapel",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e025ba7a2d7f21078ac0d82f69e",
+        "duration_ms": 330133,
+        "explicit": false,
+        "release_date": "2023-07-28",
+        "url": "https://open.spotify.com/track/5IJCCnOsSF50lku7Mau7rr"
+      },
+      {
         "rank": 38,
+        "id": "6dTq3VPRH3CTVvnRSMpyxO",
+        "name": "Requiem, Op. 9: VI. Agnus Dei (1961 Version)",
+        "artists": [
+          "Maurice Duruflé",
+          "Orchestra of the Age of Enlightenment",
+          "Choir of King's College, Cambridge",
+          "Stephen Cleobury"
+        ],
+        "artist": "Maurice Duruflé, Orchestra of the Age of Enlightenment, Choir of King's College, Cambridge, Stephen Cleobury",
+        "album": "Duruflé: Requiem, Four Motets, Messe Cum Jubilo",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e023845b59a02e91af2c70e1e58",
+        "duration_ms": 225560,
+        "explicit": false,
+        "release_date": "2016-09-09",
+        "url": "https://open.spotify.com/track/6dTq3VPRH3CTVvnRSMpyxO"
+      },
+      {
+        "rank": 39,
+        "id": "7LVHVU3tWfcxj5aiPFEW4Q",
+        "name": "Fix You",
+        "artists": [
+          "Coldplay"
+        ],
+        "artist": "Coldplay",
+        "album": "X&Y",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e024e0362c225863f6ae2432651",
+        "duration_ms": 295533,
+        "explicit": false,
+        "release_date": "2005-06-07",
+        "url": "https://open.spotify.com/track/7LVHVU3tWfcxj5aiPFEW4Q"
+      },
+      {
+        "rank": 40,
+        "id": "1a9cjcgv2kb5cnR2Gev2pn",
+        "name": "5 Pieces for Violin and Piano, P. 62: III. Madrigale. Andantino",
+        "artists": [
+          "Ottorino Respighi",
+          "Peter Nagy",
+          "Tanja Becker-Bender"
+        ],
+        "artist": "Ottorino Respighi, Peter Nagy, Tanja Becker-Bender",
+        "album": "Respighi: Violin Sonatas & Other Pieces",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02406823aeb12c5432a44167d7",
+        "duration_ms": 258665,
+        "explicit": false,
+        "release_date": "2012-08-31",
+        "url": "https://open.spotify.com/track/1a9cjcgv2kb5cnR2Gev2pn"
+      },
+      {
+        "rank": 41,
+        "id": "6jJTlYkddJONCQQVzWFzcQ",
+        "name": "Only",
+        "artists": [
+          "Little Simz",
+          "Lydia Kitto"
+        ],
+        "artist": "Little Simz, Lydia Kitto",
+        "album": "Lotus",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02d0e17539a0ac5b32b6db47bb",
+        "duration_ms": 215986,
+        "explicit": false,
+        "release_date": "2025-06-06",
+        "url": "https://open.spotify.com/track/6jJTlYkddJONCQQVzWFzcQ"
+      },
+      {
+        "rank": 42,
+        "id": "0wHZ5Pfie0W61GnEGvkqEf",
+        "name": "Woman on the Line",
+        "artists": [
+          "HAERTS"
+        ],
+        "artist": "HAERTS",
+        "album": "Woman on the Line",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0235de7e9bdda472f0e0669aaa",
+        "duration_ms": 241173,
+        "explicit": false,
+        "release_date": "2025-07-10",
+        "url": "https://open.spotify.com/track/0wHZ5Pfie0W61GnEGvkqEf"
+      },
+      {
+        "rank": 43,
+        "id": "0fipg1Og2rKXfxmVWc1C72",
+        "name": "Spring 0 - 2012",
+        "artists": [
+          "Max Richter",
+          "Konzerthaus Kammerorchester Berlin",
+          "Andre de Ridder"
+        ],
+        "artist": "Max Richter, Konzerthaus Kammerorchester Berlin, Andre de Ridder",
+        "album": "Recomposed By Max Richter: Vivaldi, The Four Seasons",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e027ead2c02fb48674b6bac7cc4",
+        "duration_ms": 42266,
+        "explicit": false,
+        "release_date": "2014-01-01",
+        "url": "https://open.spotify.com/track/0fipg1Og2rKXfxmVWc1C72"
+      },
+      {
+        "rank": 44,
+        "id": "23X7ImLS3TiYluiahBp8Z5",
+        "name": "Just Another Thing We Don’t Talk About (Live at Union Chapel)",
+        "artists": [
+          "Tom Odell"
+        ],
+        "artist": "Tom Odell",
+        "album": "Live at Union Chapel",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e025ba7a2d7f21078ac0d82f69e",
+        "duration_ms": 301732,
+        "explicit": false,
+        "release_date": "2023-07-28",
+        "url": "https://open.spotify.com/track/23X7ImLS3TiYluiahBp8Z5"
+      },
+      {
+        "rank": 45,
+        "id": "3fvZo45Y28ly1QBo05pujJ",
+        "name": "Let's Go Back",
+        "artists": [
+          "Jungle"
+        ],
+        "artist": "Jungle",
+        "album": "Let's Go Back",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0215ecd6926b2b357a546b02fc",
+        "duration_ms": 169651,
+        "explicit": false,
+        "release_date": "2024-09-04",
+        "url": "https://open.spotify.com/track/3fvZo45Y28ly1QBo05pujJ"
+      },
+      {
+        "rank": 46,
+        "id": "43GWrCMgxLOH7lE1KrBGul",
+        "name": "DANCING IN THE SUN",
+        "artists": [
+          "Sedric Perry",
+          "Raven Iman"
+        ],
+        "artist": "Sedric Perry, Raven Iman",
+        "album": "ODYSSÉ",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02268a57f491d333a936a7abad",
+        "duration_ms": 249996,
+        "explicit": false,
+        "release_date": "2025-07-25",
+        "url": "https://open.spotify.com/track/43GWrCMgxLOH7lE1KrBGul"
+      },
+      {
+        "rank": 47,
+        "id": "00sdzt2UJOGSrBw3V2rZXn",
+        "name": "to be a man",
+        "artists": [
+          "Martin Luke Brown"
+        ],
+        "artist": "Martin Luke Brown",
+        "album": "man oh man !",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02a4ec741baa18b30e9b53a79c",
+        "duration_ms": 233500,
+        "explicit": false,
+        "release_date": "2025-02-21",
+        "url": "https://open.spotify.com/track/00sdzt2UJOGSrBw3V2rZXn"
+      },
+      {
+        "rank": 48,
+        "id": "14sA9zLPG6EWdff8OpufCm",
+        "name": "Old Man",
+        "artists": [
+          "Tom Misch"
+        ],
+        "artist": "Tom Misch",
+        "album": "Sisters With Me",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e020e67723bee611801f78867da",
+        "duration_ms": 207242,
+        "explicit": false,
+        "release_date": "2026-01-28",
+        "url": "https://open.spotify.com/track/14sA9zLPG6EWdff8OpufCm"
+      },
+      {
+        "rank": 49,
         "id": "2Nsi3pcdGp4NaR9O6Hiysl",
         "name": "Requiem, Op. 9: IX. In Paradisum (1961 Version)",
         "artists": [
@@ -2168,165 +2339,9 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/2Nsi3pcdGp4NaR9O6Hiysl"
       },
       {
-        "rank": 39,
-        "id": "5IJCCnOsSF50lku7Mau7rr",
-        "name": "Magnetised (Live at Union Chapel)",
-        "artists": [
-          "Tom Odell"
-        ],
-        "artist": "Tom Odell",
-        "album": "Live at Union Chapel",
-        "album_image": "https://i.scdn.co/image/ab67616d00001e025ba7a2d7f21078ac0d82f69e",
-        "duration_ms": 330133,
-        "explicit": false,
-        "release_date": "2023-07-28",
-        "url": "https://open.spotify.com/track/5IJCCnOsSF50lku7Mau7rr"
-      },
-      {
-        "rank": 40,
-        "id": "7LVHVU3tWfcxj5aiPFEW4Q",
-        "name": "Fix You",
-        "artists": [
-          "Coldplay"
-        ],
-        "artist": "Coldplay",
-        "album": "X&Y",
-        "album_image": "https://i.scdn.co/image/ab67616d00001e024e0362c225863f6ae2432651",
-        "duration_ms": 295533,
-        "explicit": false,
-        "release_date": "2005-06-07",
-        "url": "https://open.spotify.com/track/7LVHVU3tWfcxj5aiPFEW4Q"
-      },
-      {
-        "rank": 41,
-        "id": "1a9cjcgv2kb5cnR2Gev2pn",
-        "name": "5 Pieces for Violin and Piano, P. 62: III. Madrigale. Andantino",
-        "artists": [
-          "Ottorino Respighi",
-          "Peter Nagy",
-          "Tanja Becker-Bender"
-        ],
-        "artist": "Ottorino Respighi, Peter Nagy, Tanja Becker-Bender",
-        "album": "Respighi: Violin Sonatas & Other Pieces",
-        "album_image": "https://i.scdn.co/image/ab67616d00001e02406823aeb12c5432a44167d7",
-        "duration_ms": 258665,
-        "explicit": false,
-        "release_date": "2012-08-31",
-        "url": "https://open.spotify.com/track/1a9cjcgv2kb5cnR2Gev2pn"
-      },
-      {
-        "rank": 42,
-        "id": "6jJTlYkddJONCQQVzWFzcQ",
-        "name": "Only",
-        "artists": [
-          "Little Simz",
-          "Lydia Kitto"
-        ],
-        "artist": "Little Simz, Lydia Kitto",
-        "album": "Lotus",
-        "album_image": "https://i.scdn.co/image/ab67616d00001e02d0e17539a0ac5b32b6db47bb",
-        "duration_ms": 215986,
-        "explicit": false,
-        "release_date": "2025-06-06",
-        "url": "https://open.spotify.com/track/6jJTlYkddJONCQQVzWFzcQ"
-      },
-      {
-        "rank": 43,
-        "id": "0wHZ5Pfie0W61GnEGvkqEf",
-        "name": "Woman on the Line",
-        "artists": [
-          "HAERTS"
-        ],
-        "artist": "HAERTS",
-        "album": "Woman on the Line",
-        "album_image": "https://i.scdn.co/image/ab67616d00001e0235de7e9bdda472f0e0669aaa",
-        "duration_ms": 241173,
-        "explicit": false,
-        "release_date": "2025-07-10",
-        "url": "https://open.spotify.com/track/0wHZ5Pfie0W61GnEGvkqEf"
-      },
-      {
-        "rank": 44,
-        "id": "0fipg1Og2rKXfxmVWc1C72",
-        "name": "Spring 0 - 2012",
-        "artists": [
-          "Max Richter",
-          "Konzerthaus Kammerorchester Berlin",
-          "Andre de Ridder"
-        ],
-        "artist": "Max Richter, Konzerthaus Kammerorchester Berlin, Andre de Ridder",
-        "album": "Recomposed By Max Richter: Vivaldi, The Four Seasons",
-        "album_image": "https://i.scdn.co/image/ab67616d00001e027ead2c02fb48674b6bac7cc4",
-        "duration_ms": 42266,
-        "explicit": false,
-        "release_date": "2014-01-01",
-        "url": "https://open.spotify.com/track/0fipg1Og2rKXfxmVWc1C72"
-      },
-      {
-        "rank": 45,
-        "id": "23X7ImLS3TiYluiahBp8Z5",
-        "name": "Just Another Thing We Don’t Talk About (Live at Union Chapel)",
-        "artists": [
-          "Tom Odell"
-        ],
-        "artist": "Tom Odell",
-        "album": "Live at Union Chapel",
-        "album_image": "https://i.scdn.co/image/ab67616d00001e025ba7a2d7f21078ac0d82f69e",
-        "duration_ms": 301732,
-        "explicit": false,
-        "release_date": "2023-07-28",
-        "url": "https://open.spotify.com/track/23X7ImLS3TiYluiahBp8Z5"
-      },
-      {
-        "rank": 46,
-        "id": "3fvZo45Y28ly1QBo05pujJ",
-        "name": "Let's Go Back",
-        "artists": [
-          "Jungle"
-        ],
-        "artist": "Jungle",
-        "album": "Let's Go Back",
-        "album_image": "https://i.scdn.co/image/ab67616d00001e0215ecd6926b2b357a546b02fc",
-        "duration_ms": 169651,
-        "explicit": false,
-        "release_date": "2024-09-04",
-        "url": "https://open.spotify.com/track/3fvZo45Y28ly1QBo05pujJ"
-      },
-      {
-        "rank": 47,
-        "id": "43GWrCMgxLOH7lE1KrBGul",
-        "name": "DANCING IN THE SUN",
-        "artists": [
-          "Sedric Perry",
-          "Raven Iman"
-        ],
-        "artist": "Sedric Perry, Raven Iman",
-        "album": "ODYSSÉ",
-        "album_image": "https://i.scdn.co/image/ab67616d00001e02268a57f491d333a936a7abad",
-        "duration_ms": 249996,
-        "explicit": false,
-        "release_date": "2025-07-25",
-        "url": "https://open.spotify.com/track/43GWrCMgxLOH7lE1KrBGul"
-      },
-      {
-        "rank": 48,
-        "id": "00sdzt2UJOGSrBw3V2rZXn",
-        "name": "to be a man",
-        "artists": [
-          "Martin Luke Brown"
-        ],
-        "artist": "Martin Luke Brown",
-        "album": "man oh man !",
-        "album_image": "https://i.scdn.co/image/ab67616d00001e02a4ec741baa18b30e9b53a79c",
-        "duration_ms": 233500,
-        "explicit": false,
-        "release_date": "2025-02-21",
-        "url": "https://open.spotify.com/track/00sdzt2UJOGSrBw3V2rZXn"
-      },
-      {
-        "rank": 49,
-        "id": "4HAGm2fF2AeAhor8YLWAfH",
-        "name": "Requiem, Op. 9: IV. Sanctus (1961 Version)",
+        "rank": 50,
+        "id": "4eRESIKbOovmFqqrIpXP1V",
+        "name": "Requiem, Op. 9: VII. Lux Aeterna (1961 Version)",
         "artists": [
           "Maurice Duruflé",
           "Orchestra of the Age of Enlightenment",
@@ -2336,25 +2351,10 @@ export const SPOTIFY_DATA = {
         "artist": "Maurice Duruflé, Orchestra of the Age of Enlightenment, Stephen Cleobury, Choir of King's College, Cambridge",
         "album": "Duruflé: Requiem, Four Motets, Messe Cum Jubilo",
         "album_image": "https://i.scdn.co/image/ab67616d00001e023845b59a02e91af2c70e1e58",
-        "duration_ms": 199853,
+        "duration_ms": 232386,
         "explicit": false,
         "release_date": "2016-09-09",
-        "url": "https://open.spotify.com/track/4HAGm2fF2AeAhor8YLWAfH"
-      },
-      {
-        "rank": 50,
-        "id": "14sA9zLPG6EWdff8OpufCm",
-        "name": "Old Man",
-        "artists": [
-          "Tom Misch"
-        ],
-        "artist": "Tom Misch",
-        "album": "Sisters With Me",
-        "album_image": "https://i.scdn.co/image/ab67616d00001e020e67723bee611801f78867da",
-        "duration_ms": 207242,
-        "explicit": false,
-        "release_date": "2026-01-28",
-        "url": "https://open.spotify.com/track/14sA9zLPG6EWdff8OpufCm"
+        "url": "https://open.spotify.com/track/4eRESIKbOovmFqqrIpXP1V"
       }
     ]
   },
@@ -2769,6 +2769,20 @@ export const SPOTIFY_DATA = {
       },
       {
         "rank": 29,
+        "id": "0Vd8YQz8TYk2vSKEYVvIgL",
+        "name": "Dojo Cuts",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb35c9a18a858471a966db83e6",
+        "genres": [
+          "funk",
+          "soul",
+          "australia",
+          "modern funk"
+        ],
+        "followers": 0,
+        "url": "https://open.spotify.com/artist/0Vd8YQz8TYk2vSKEYVvIgL"
+      },
+      {
+        "rank": 30,
         "id": "1evO4fwLsEkkPGq32dCix7",
         "name": "Aaron Taylor",
         "image": "https://i.scdn.co/image/ab6761610000e5eb22fc5c2b36b5888f5131215f",
@@ -2782,7 +2796,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/1evO4fwLsEkkPGq32dCix7"
       },
       {
-        "rank": 30,
+        "rank": 31,
         "id": "1wd0PsPr7L269FkA1bVnA8",
         "name": "Mom Tudie",
         "image": "https://i.scdn.co/image/ab6761610000e5eb361fdc45aad107c011bba42a",
@@ -2797,7 +2811,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/1wd0PsPr7L269FkA1bVnA8"
       },
       {
-        "rank": 31,
+        "rank": 32,
         "id": "2N1foZRamgP1sfiYXFID9O",
         "name": "Leifur James",
         "image": "https://i.scdn.co/image/ab6761610000e5eb6927960fa8fd957ac3f15244",
@@ -2812,7 +2826,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/2N1foZRamgP1sfiYXFID9O"
       },
       {
-        "rank": 32,
+        "rank": 33,
         "id": "2rp9zfs7yPrwCGVl4CjWAl",
         "name": "Otis Kane",
         "image": "https://i.scdn.co/image/ab6761610000e5ebc1e80e99b5b2e80483f81a93",
@@ -2827,7 +2841,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/2rp9zfs7yPrwCGVl4CjWAl"
       },
       {
-        "rank": 33,
+        "rank": 34,
         "id": "2xp9ArvFcCoeXjTG2sWVNJ",
         "name": "Jessy Yasmeen",
         "image": "https://i.scdn.co/image/ab6761610000e5eb925507335b32298bd21808ed",
@@ -2842,7 +2856,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/2xp9ArvFcCoeXjTG2sWVNJ"
       },
       {
-        "rank": 34,
+        "rank": 35,
         "id": "3ETLPQkcEd7z4k3IbZmXMq",
         "name": "Cleo Sol",
         "image": "https://i.scdn.co/image/ab6761610000e5eb37a5a7e709dedd052f11b31d",
@@ -2856,7 +2870,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/3ETLPQkcEd7z4k3IbZmXMq"
       },
       {
-        "rank": 35,
+        "rank": 36,
         "id": "3MFpHeyqVwW0n7mZbJPNyE",
         "name": "Collect 200",
         "image": "https://i.scdn.co/image/ab6761610000e5eb9b0b3d482f585c62327ec39a",
@@ -2868,7 +2882,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/3MFpHeyqVwW0n7mZbJPNyE"
       },
       {
-        "rank": 36,
+        "rank": 37,
         "id": "3oKRxpszQKUjjaHz388fVA",
         "name": "Parcels",
         "image": "https://i.scdn.co/image/ab6761610000e5eb3f64ee564d3617f6a764f933",
@@ -2883,7 +2897,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/3oKRxpszQKUjjaHz388fVA"
       },
       {
-        "rank": 37,
+        "rank": 38,
         "id": "4xU7M9wEvpnvkNOyPdVi5y",
         "name": "RIO KOSTA",
         "image": "https://i.scdn.co/image/ab6761610000e5eb159dde08a83d0cb799f39113",
@@ -2898,7 +2912,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/4xU7M9wEvpnvkNOyPdVi5y"
       },
       {
-        "rank": 38,
+        "rank": 39,
         "id": "6TVVIyd0fsRDGg6WzHKyTP",
         "name": "Durand Jones & The Indications",
         "image": "https://i.scdn.co/image/ab6761610000e5eba0c699d06eac9003f5cde9a2",
@@ -2909,20 +2923,6 @@ export const SPOTIFY_DATA = {
         ],
         "followers": 0,
         "url": "https://open.spotify.com/artist/6TVVIyd0fsRDGg6WzHKyTP"
-      },
-      {
-        "rank": 39,
-        "id": "0Vd8YQz8TYk2vSKEYVvIgL",
-        "name": "Dojo Cuts",
-        "image": "https://i.scdn.co/image/ab6761610000e5eb35c9a18a858471a966db83e6",
-        "genres": [
-          "funk",
-          "soul",
-          "australia",
-          "modern funk"
-        ],
-        "followers": 0,
-        "url": "https://open.spotify.com/artist/0Vd8YQz8TYk2vSKEYVvIgL"
       },
       {
         "rank": 40,
@@ -3420,6 +3420,20 @@ export const SPOTIFY_DATA = {
       },
       {
         "rank": 25,
+        "id": "0Vd8YQz8TYk2vSKEYVvIgL",
+        "name": "Dojo Cuts",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb35c9a18a858471a966db83e6",
+        "genres": [
+          "funk",
+          "soul",
+          "australia",
+          "modern funk"
+        ],
+        "followers": 0,
+        "url": "https://open.spotify.com/artist/0Vd8YQz8TYk2vSKEYVvIgL"
+      },
+      {
+        "rank": 26,
         "id": "1uRxRKC7d9zwYGSRflTKDR",
         "name": "SAULT",
         "image": "https://i.scdn.co/image/ab6761610000e5eb38dfd1af91aeccad71e6412f",
@@ -3434,7 +3448,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/1uRxRKC7d9zwYGSRflTKDR"
       },
       {
-        "rank": 26,
+        "rank": 27,
         "id": "4gzpq5DPGxSnKTe4SA8HAU",
         "name": "Coldplay",
         "image": "https://i.scdn.co/image/ab6761610000e5eb1ba8fc5f5c73e7e9313cc6eb",
@@ -3449,7 +3463,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/4gzpq5DPGxSnKTe4SA8HAU"
       },
       {
-        "rank": 27,
+        "rank": 28,
         "id": "73mSg0dykFyhvU96tb5xQV",
         "name": "Hermanos Gutiérrez",
         "image": "https://i.scdn.co/image/ab6761610000e5ebde8a185ee5eef8c0e73fe3e5",
@@ -3462,20 +3476,6 @@ export const SPOTIFY_DATA = {
         ],
         "followers": 0,
         "url": "https://open.spotify.com/artist/73mSg0dykFyhvU96tb5xQV"
-      },
-      {
-        "rank": 28,
-        "id": "0Vd8YQz8TYk2vSKEYVvIgL",
-        "name": "Dojo Cuts",
-        "image": "https://i.scdn.co/image/ab6761610000e5eb35c9a18a858471a966db83e6",
-        "genres": [
-          "funk",
-          "soul",
-          "australia",
-          "modern funk"
-        ],
-        "followers": 0,
-        "url": "https://open.spotify.com/artist/0Vd8YQz8TYk2vSKEYVvIgL"
       },
       {
         "rank": 29,
@@ -4536,7 +4536,7 @@ export const SPOTIFY_DATA = {
     },
     {
       "name": "classical / baroque",
-      "share": 19.6,
+      "share": 19.7,
       "hue": 280,
       "chroma": 0.03,
       "artists": [
@@ -4764,7 +4764,7 @@ export const SPOTIFY_DATA = {
   "stats": {
     "uniqueArtists": 111,
     "uniqueTracks": 128,
-    "avgTrackLength": "3:48",
+    "avgTrackLength": "3:49",
     "longestTrack": "10:28",
     "longestTrackName": "Fratres (Version for Cello & Piano)",
     "explicitCount": 9,
@@ -4773,9 +4773,9 @@ export const SPOTIFY_DATA = {
     "releaseYearOldest": 1960,
     "releaseYearNewest": 2026,
     "releaseYearPeak": 2024,
-    "fetched_at": "2026-07-10T09:19:51.823306+00:00",
+    "fetched_at": "2026-07-11T07:41:12.480810+00:00",
     "hoursChart": [
-      94,
+      95,
       48,
       16,
       0,
@@ -4786,19 +4786,19 @@ export const SPOTIFY_DATA = {
       33,
       46,
       29,
-      84,
+      89,
       97,
       75,
       87,
       132,
-      142,
-      153,
-      148,
+      143,
+      156,
+      154,
       73,
       44,
       77,
-      127,
-      137
+      139,
+      140
     ],
     "cumulativeArtists": 193,
     "cumulativeTracks": 229
