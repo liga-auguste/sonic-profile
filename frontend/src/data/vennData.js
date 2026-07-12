@@ -1,10 +1,10 @@
 // Where artists live in time — Venn-style overlap data
 export const VENN_DATA = {
   "S_only": [
+    "AMANZI",
     "Aaron Taylor",
     "Caoilfhionn Rose",
     "Cleo Sol",
-    "Collect 200",
     "Durand Jones & The Indications",
     "Ethan French",
     "FENNE",
@@ -12,6 +12,7 @@ export const VENN_DATA = {
     "Folamour",
     "Gotts Street Park",
     "Jack Page",
+    "Jalen Ngonda",
     "Japanese Breakfast",
     "Jessy Yasmeen",
     "Jitwam",
@@ -23,6 +24,7 @@ export const VENN_DATA = {
     "Mom Tudie",
     "Nilüfer Yanya",
     "Okvsho",
+    "Olympia Vitalis",
     "Oscar Jerome",
     "Otis Kane",
     "Procol Harum",
@@ -48,13 +50,13 @@ export const VENN_DATA = {
     "Loaded Honey",
     "Malia",
     "Metronomy",
+    "Olive Jones",
     "RAYE",
     "Royel Otis",
     "Svaneborg Kardyb",
     "VOCES8"
   ],
   "L_only": [
-    "AMANZI",
     "AURORA",
     "Amsterdam Baroque Orchestra",
     "Angelo De Augustine",
@@ -87,12 +89,10 @@ export const VENN_DATA = {
   ],
   "SM": [
     "DON WEST",
-    "Dojo Cuts",
     "GeeJay",
     "Jordan Rakei",
     "Loma",
     "Louis Baker",
-    "Olive Jones",
     "Pale Jay",
     "Richard Cejer",
     "SAULT",
@@ -113,25 +113,26 @@ export const VENN_DATA = {
     "Monteverdi Choir",
     "Nick Mulvey",
     "Octave Lissner",
+    "Parcels",
     "Rikas",
     "Tal Arditi"
   ],
   "ALL": [
+    "Dojo Cuts",
     "Jungle",
     "LEISURE",
     "Olivia Dean",
-    "Parcels",
     "RIO KOSTA",
     "The Smile",
     "Tom Misch"
   ],
   "counts": {
-    "S_only": 30,
-    "M_only": 19,
-    "L_only": 30,
-    "SM": 12,
+    "S_only": 32,
+    "M_only": 20,
+    "L_only": 29,
+    "SM": 10,
     "SL": 1,
-    "ML": 12,
+    "ML": 13,
     "ALL": 7
   }
 };
