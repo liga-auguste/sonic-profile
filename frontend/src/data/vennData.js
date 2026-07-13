@@ -2,19 +2,15 @@
 export const VENN_DATA = {
   "S_only": [
     "AMANZI",
-    "Aaron Taylor",
     "Caoilfhionn Rose",
-    "Cleo Sol",
+    "Chip Wickham",
     "Durand Jones & The Indications",
     "Ethan French",
     "FENNE",
     "Flo Naegeli",
     "Folamour",
     "Gotts Street Park",
-    "Jack Page",
-    "Jalen Ngonda",
     "Japanese Breakfast",
-    "Jessy Yasmeen",
     "Jitwam",
     "Khruangbin",
     "King Hannah",
@@ -27,8 +23,10 @@ export const VENN_DATA = {
     "Olympia Vitalis",
     "Oscar Jerome",
     "Otis Kane",
+    "Phi-Psonics",
     "Procol Harum",
     "Ray Charles",
+    "Sophie Faith",
     "Theodore Shapiro",
     "ZYHH",
     "edbl",
@@ -47,7 +45,6 @@ export const VENN_DATA = {
     "La Rêveuse",
     "Lana Del Rey",
     "Little Simz",
-    "Loaded Honey",
     "Malia",
     "Metronomy",
     "Olive Jones",
@@ -91,6 +88,7 @@ export const VENN_DATA = {
     "DON WEST",
     "GeeJay",
     "Jordan Rakei",
+    "Loaded Honey",
     "Loma",
     "Louis Baker",
     "Pale Jay",
@@ -107,7 +105,6 @@ export const VENN_DATA = {
     "Bill Laurance",
     "Coldplay",
     "Collegium Vocale Gent",
-    "Common Saints",
     "Leif Vollebekk",
     "Martin Luke Brown",
     "Monteverdi Choir",
@@ -118,6 +115,7 @@ export const VENN_DATA = {
     "Tal Arditi"
   ],
   "ALL": [
+    "Common Saints",
     "Dojo Cuts",
     "Jungle",
     "LEISURE",
@@ -127,12 +125,12 @@ export const VENN_DATA = {
     "Tom Misch"
   ],
   "counts": {
-    "S_only": 32,
-    "M_only": 20,
+    "S_only": 30,
+    "M_only": 19,
     "L_only": 29,
-    "SM": 10,
+    "SM": 11,
     "SL": 1,
-    "ML": 13,
-    "ALL": 7
+    "ML": 12,
+    "ALL": 8
   }
 };

@@ -1,5 +1,51 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 59,
+    "fetched_at": "2026-07-13T08:50:33.785406+00:00",
+    "new_artists": 3,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260713_085030.json",
+    "artists": [
+      {
+        "id": "2fd1Ou8fG8CtsHLBDxM3l0",
+        "name": "Phi-Psonics",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb834c3bcc5dbd90b13f327f68",
+        "genres": [
+          "jazz",
+          "instrumental"
+        ]
+      },
+      {
+        "id": "62MkXCxcZ345tVUHsD9NK0",
+        "name": "Chip Wickham",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb7a995d8802f5e989e7b2964d",
+        "genres": [
+          "jazz"
+        ]
+      },
+      {
+        "id": "4LR3BRvTeWCiS1l16TqXVh",
+        "name": "Sophie Faith",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb35d7874c66b46747540b8a9f",
+        "genres": [
+          "soul",
+          "pop",
+          "rnb",
+          "alternative rnb"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "0EPwapv2uDUcK39s7DSGVr",
+        "name": "Cant Wait to Meet You",
+        "artist": "GeeJay",
+        "album_image": "https://i.scdn.co/image/ab6742d3000053b72957bd1e9dd4b187e2b3c20a"
+      }
+    ]
+  },
+  {
     "id": 58,
     "fetched_at": "2026-07-12T08:01:06.899057+00:00",
     "new_artists": 0,
