@@ -1,5 +1,139 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 60,
+    "fetched_at": "2026-07-14T07:48:15.824706+00:00",
+    "new_artists": 11,
+    "new_tracks": 0,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260714_074810.json",
+    "artists": [
+      {
+        "id": "0Cioop2zjxXxtcPUme7R46",
+        "name": "Matthew Halsall",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb187aa328ce74db49e1b28576",
+        "genres": [
+          "jazz",
+          "trumpet",
+          "nu-jazz",
+          "nu jazz"
+        ]
+      },
+      {
+        "id": "14YzutUdMwS9yTnI0IFBaD",
+        "name": "Hania Rani",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb401c85eb539cb31c5af4d537",
+        "genres": [
+          "piano",
+          "ambient",
+          "modern classical",
+          "contemporary classical",
+          "polish"
+        ]
+      },
+      {
+        "id": "497rp5TEzJffeBnUT0BeE1",
+        "name": "Mammal Hands",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb0dfb05dc8e6c8452f523a62e",
+        "genres": [
+          "jazz",
+          "instrumental",
+          "contemporary jazz"
+        ]
+      },
+      {
+        "id": "60df5JBRRPcnSpsIMxxwQm",
+        "name": "Otis Redding",
+        "image": "https://i.scdn.co/image/4ad89c805aff0fb76b01b6b62b39e21fcd8943c3",
+        "genres": [
+          "soul",
+          "rhythm and blues",
+          "blues",
+          "60s",
+          "oldies"
+        ]
+      },
+      {
+        "id": "6diSawT5XJdYq5XqCFOuPN",
+        "name": "Richard Rourke",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb149ef56e6799757d677612d5",
+        "genres": []
+      },
+      {
+        "id": "6hnWRPzGGKiapVX1UCdEAC",
+        "name": "Sam Cooke",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb41aaa3a05d2ddba59454273e",
+        "genres": [
+          "soul",
+          "rhythm and blues",
+          "gospel",
+          "oldies",
+          "rnb"
+        ]
+      },
+      {
+        "id": "6lOCVUQbb9wzuZQbZQV9zn",
+        "name": "Cool Company",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebc339abddc96ddfd9ad4d291e",
+        "genres": [
+          "funk",
+          "soul",
+          "rnb",
+          "hip-hop",
+          "brooklyn"
+        ]
+      },
+      {
+        "id": "3AmgGrYHXqgbmZ2yKoIVzO",
+        "name": "Warpaint",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebf763c4f2a03f7af93ef6a7d4",
+        "genres": [
+          "psychedelic",
+          "indie",
+          "shoegaze",
+          "female vocalists",
+          "ethereal"
+        ]
+      },
+      {
+        "id": "4CvTDPKA6W06DRfBnZKrau",
+        "name": "Thom Yorke",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb053f1578c9af7fd66c97dba0",
+        "genres": [
+          "electronic",
+          "experimental",
+          "alternative",
+          "indie",
+          "singer-songwriter"
+        ]
+      },
+      {
+        "id": "7sYipTRgDXS2JVOPEhRutx",
+        "name": "Portico Quartet",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb5e20b04142da70afead87a5c",
+        "genres": [
+          "jazz",
+          "electronic",
+          "instrumental",
+          "modern jazz",
+          "hang drum"
+        ]
+      },
+      {
+        "id": "0cWp5s4RU3EB86Vo0TQwFj",
+        "name": "Sunda Arc",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb7ec83d8598692b0b7f3d359c",
+        "genres": [
+          "ambient",
+          "jazz",
+          "modern classical",
+          "electronic",
+          "united kingdom"
+        ]
+      }
+    ],
+    "tracks": []
+  },
+  {
     "id": 59,
     "fetched_at": "2026-07-13T08:50:33.785406+00:00",
     "new_artists": 3,
