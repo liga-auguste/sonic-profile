@@ -13,7 +13,6 @@ export const VENN_DATA = {
     "Jitwam",
     "King Hannah",
     "Leifur James",
-    "MT Jones",
     "Mammal Hands",
     "Matthew Halsall",
     "Meeka Kates",
@@ -39,26 +38,26 @@ export const VENN_DATA = {
   "M_only": [
     "Andreas Scholl",
     "Arlo Parks",
-    "Black Sea Dahu",
+    "Ava Joe",
     "Chet Faker",
     "DON WEST",
     "Dorothee Mields",
     "Ensemble Contraste",
     "Hermanos Gutiérrez",
     "Jan Garbarek",
+    "José González",
     "Klaus Mertens",
     "La Rêveuse",
     "Lana Del Rey",
     "Little Simz",
     "Loaded Honey",
     "Malia",
-    "Metronomy",
     "Olive Jones",
     "Pale Jay",
+    "Procol Harum",
     "RAYE",
     "Royel Otis",
     "SAULT",
-    "Two Another",
     "VOCES8"
   ],
   "L_only": [
@@ -95,8 +94,8 @@ export const VENN_DATA = {
   "SM": [
     "GeeJay",
     "Jordan Rakei",
-    "Loma",
     "Louis Baker",
+    "MT Jones",
     "Richard Cejer",
     "Sir Simon Rattle",
     "Svaneborg Kardyb"
@@ -105,7 +104,6 @@ export const VENN_DATA = {
     "NEIL FRANCES"
   ],
   "ML": [
-    "Ava Joe",
     "Bill Laurance",
     "Coldplay",
     "Collegium Vocale Gent",
@@ -123,18 +121,19 @@ export const VENN_DATA = {
     "Dojo Cuts",
     "Jungle",
     "LEISURE",
+    "Loma",
     "Olivia Dean",
     "RIO KOSTA",
     "The Smile",
     "Tom Misch"
   ],
   "counts": {
-    "S_only": 34,
+    "S_only": 33,
     "M_only": 23,
     "L_only": 29,
     "SM": 7,
     "SL": 1,
-    "ML": 12,
-    "ALL": 8
+    "ML": 11,
+    "ALL": 9
   }
 };
