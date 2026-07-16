@@ -1,5 +1,49 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 62,
+    "fetched_at": "2026-07-16T07:57:10.208735+00:00",
+    "new_artists": 3,
+    "new_tracks": 0,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260716_075707.json",
+    "artists": [
+      {
+        "id": "0gbsttCxz1wkYMjN64WCgR",
+        "name": "Vega Trails",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb3dd0af7536a879bc290d9b88",
+        "genres": [
+          "jazz",
+          "the flourishing zoo",
+          "british",
+          "instrumental"
+        ]
+      },
+      {
+        "id": "3E7aH1Yv84NoaP9JWcrMpE",
+        "name": "Ed O'Brien",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb49cc68274110159cf749dbca",
+        "genres": [
+          "electronic",
+          "ambient",
+          "radiohead",
+          "indie rock",
+          "art rock"
+        ]
+      },
+      {
+        "id": "4rFHlpdKQUsvRYXbpoffXQ",
+        "name": "John Ellis",
+        "image": "https://i.scdn.co/image/ab67616d00001e0295c3581f5cdd876ef08366b0",
+        "genres": [
+          "jazz",
+          "saxophone",
+          "new wave"
+        ]
+      }
+    ],
+    "tracks": []
+  },
+  {
     "id": 61,
     "fetched_at": "2026-07-15T07:51:44.942266+00:00",
     "new_artists": 0,
