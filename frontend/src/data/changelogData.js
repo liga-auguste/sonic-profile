@@ -1,5 +1,51 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 63,
+    "fetched_at": "2026-07-17T07:53:12.952607+00:00",
+    "new_artists": 3,
+    "new_tracks": 0,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260717_075310.json",
+    "artists": [
+      {
+        "id": "5HzryqCINeBjTh2KnPtWnu",
+        "name": "Dwight Trible",
+        "image": "https://i.scdn.co/image/ab6772690000c46c6d6d09ff159a1623ec795b38",
+        "genres": [
+          "jazz",
+          "soul",
+          "ninja tune",
+          "downtempo",
+          "trip-hop"
+        ]
+      },
+      {
+        "id": "0ymdoOsfzRbCoAMfJPpsEx",
+        "name": "Cody Currie",
+        "image": "https://i.scdn.co/image/ab6761610000e5eba5fdd4b682ebfbbc0360f6e5",
+        "genres": [
+          "uk",
+          "house",
+          "tech house",
+          "deep house",
+          "funk_add_to_lidarr_batch_6"
+        ]
+      },
+      {
+        "id": "2cfSM4C3th9JvT6CrdQ8yT",
+        "name": "Forgiveness",
+        "image": "https://i.scdn.co/image/ab6761610000e5eba932e28d2d0548ec567aa5ca",
+        "genres": [
+          "ambient",
+          "instrumental",
+          "experimental",
+          "guitar"
+        ]
+      }
+    ],
+    "tracks": []
+  },
+  {
     "id": 62,
     "fetched_at": "2026-07-16T07:57:10.208735+00:00",
     "new_artists": 3,
@@ -2681,7 +2727,13 @@ export const CHANGELOG_DATA = [
         "id": "0bzfPKdbXL5ezYW2z3UGQj",
         "name": "Michael Kiwanuka",
         "image": "https://i.scdn.co/image/ab6761610000e5eb970e66fdac7be4f4829d4b05",
-        "genres": []
+        "genres": [
+          "soul",
+          "blues",
+          "singer-songwriter",
+          "jazz",
+          "folk"
+        ]
       },
       {
         "id": "1KgRATlxeAdHQLacHoIjgQ",
