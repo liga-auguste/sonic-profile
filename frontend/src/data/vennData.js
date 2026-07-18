@@ -2,15 +2,17 @@
 export const VENN_DATA = {
   "S_only": [
     "AMANZI",
+    "Ancient Infinity Orchestra",
     "Caoilfhionn Rose",
     "Chip Wickham",
     "Cody Currie",
     "Cool Company",
     "Dwight Trible",
     "Ed O'Brien",
-    "Flo Naegeli",
+    "Fontaines D.C.",
     "Forgiveness",
     "Hania Rani",
+    "Ishmael Ensemble",
     "Japanese Breakfast",
     "John Ellis",
     "Khruangbin",
@@ -18,12 +20,10 @@ export const VENN_DATA = {
     "Leifur James",
     "Mammal Hands",
     "Matthew Halsall",
-    "Meeka Kates",
     "Michael Kiwanuka",
     "Nick Drake",
     "Nilüfer Yanya",
     "Noah Yorke",
-    "Otis Kane",
     "Otis Redding",
     "Phi-Psonics",
     "Portico Quartet",
@@ -33,7 +33,8 @@ export const VENN_DATA = {
     "Theodore Shapiro",
     "Thom Yorke",
     "Vega Trails",
-    "Warpaint"
+    "Warpaint",
+    "strongboi"
   ],
   "M_only": [
     "Andreas Scholl",
@@ -42,9 +43,9 @@ export const VENN_DATA = {
     "Chet Faker",
     "Dorothee Mields",
     "Ensemble Contraste",
-    "GeeJay",
     "Hermanos Gutiérrez",
     "Jan Garbarek",
+    "Jordan Rakei",
     "José González",
     "Klaus Mertens",
     "La Rêveuse",
@@ -57,6 +58,7 @@ export const VENN_DATA = {
     "Pale Jay",
     "Procol Harum",
     "RAYE",
+    "Richard Cejer",
     "Royel Otis",
     "Son Little",
     "VOCES8"
@@ -95,9 +97,8 @@ export const VENN_DATA = {
   ],
   "SM": [
     "DON WEST",
-    "Jordan Rakei",
+    "GeeJay",
     "Louis Baker",
-    "Richard Cejer",
     "SAULT",
     "Sir Simon Rattle",
     "Svaneborg Kardyb"
@@ -129,10 +130,10 @@ export const VENN_DATA = {
     "Tom Misch"
   ],
   "counts": {
-    "S_only": 33,
-    "M_only": 24,
+    "S_only": 34,
+    "M_only": 25,
     "L_only": 30,
-    "SM": 7,
+    "SM": 6,
     "SL": 1,
     "ML": 10,
     "ALL": 9

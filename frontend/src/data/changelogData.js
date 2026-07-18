@@ -1,5 +1,59 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 64,
+    "fetched_at": "2026-07-18T07:28:14.009549+00:00",
+    "new_artists": 4,
+    "new_tracks": 0,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260718_072811.json",
+    "artists": [
+      {
+        "id": "2ygluM9w0lmulZrMJ1pI0i",
+        "name": "strongboi",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebc48096451ba1cab7617fb85f",
+        "genres": [
+          "indie pop",
+          "funk",
+          "chamber pop",
+          "electronic"
+        ]
+      },
+      {
+        "id": "6LiMIy9kwdQAfMrBInyUvY",
+        "name": "Ishmael Ensemble",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebc2f2d55d56e71b7022ec3b3b",
+        "genres": [
+          "jazz",
+          "electronic",
+          "nu jazz"
+        ]
+      },
+      {
+        "id": "3SXwqSqAoBz9WCI9PDQzY6",
+        "name": "Fontaines D.C.",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebc4b9cd69cf77ce41487dd69a",
+        "genres": [
+          "post-punk",
+          "crank wave",
+          "indie rock",
+          "irish",
+          "post-brexit new wave"
+        ]
+      },
+      {
+        "id": "3dGPvXs2gnNuw2RkIQKPqR",
+        "name": "Ancient Infinity Orchestra",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebd9ff3265043a6391f20e904d",
+        "genres": [
+          "jazz",
+          "instrumental",
+          "leeds"
+        ]
+      }
+    ],
+    "tracks": []
+  },
+  {
     "id": 63,
     "fetched_at": "2026-07-17T07:53:12.952607+00:00",
     "new_artists": 3,
