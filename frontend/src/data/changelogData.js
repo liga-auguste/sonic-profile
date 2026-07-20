@@ -1,5 +1,155 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 66,
+    "fetched_at": "2026-07-20T08:41:57.946439+00:00",
+    "new_artists": 12,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260720_084152.json",
+    "artists": [
+      {
+        "id": "0ZPqGxW2iwZz7vGJWzuTUi",
+        "name": "The Olympians",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb56ccba91b9cc09f50b9967aa",
+        "genres": [
+          "jazz",
+          "soul",
+          "funk",
+          "afro soul"
+        ]
+      },
+      {
+        "id": "3qnGvpP8Yth1AqSBMqON5x",
+        "name": "Leon Bridges",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb180ad25ea84456fc0dcb7e50",
+        "genres": [
+          "soul",
+          "american",
+          "rnb",
+          "rhythm and blues",
+          "nu soul"
+        ]
+      },
+      {
+        "id": "5ABBZoXY5r0UL1txACjinb",
+        "name": "Ikebe Shakedown",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb95e7bf9c7249e64cfe0a4285",
+        "genres": [
+          "afrobeat",
+          "funk",
+          "brooklyn",
+          "jazz"
+        ]
+      },
+      {
+        "id": "7c59lOg1veety7jD83d31w",
+        "name": "Pete Josef",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebd6732e6c01ce26cb17392561",
+        "genres": [
+          "soul",
+          "jazz",
+          "rnb"
+        ]
+      },
+      {
+        "id": "7owr01EP6gwCYjnfQtPKy8",
+        "name": "Delvon Lamarr Organ Trio",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebf31cf2a09eb2cc2b5d41de7a",
+        "genres": [
+          "funk",
+          "jazz",
+          "instrumental",
+          "fusion"
+        ]
+      },
+      {
+        "id": "0gdEDrF1Fve7FIBYcmX7W4",
+        "name": "Kelly Finnigan",
+        "image": "https://i.scdn.co/image/ab6761610000e5eba3eb88b5f2ca814fead1b8e9",
+        "genres": [
+          "soul",
+          "blues"
+        ]
+      },
+      {
+        "id": "1FcTd89N9ESEOsIDD883Kp",
+        "name": "Greyhounds",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb83eeb30bc3bf22d73a6fba13",
+        "genres": [
+          "soul",
+          "funk",
+          "americana",
+          "usa"
+        ]
+      },
+      {
+        "id": "1PryMSya1JnSAlcwYawCxp",
+        "name": "Menahan Street Band",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb46dc0fd03399b8a9dfed982d",
+        "genres": [
+          "funk",
+          "soul",
+          "jazz",
+          "jazz fusion",
+          "afrobeat"
+        ]
+      },
+      {
+        "id": "1WGb8nCPGJA0RyriSDIQfC",
+        "name": "Say She She",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb886e9e28013866be94a6f992",
+        "genres": [
+          "soul",
+          "funk",
+          "pop",
+          "rnb",
+          "usa"
+        ]
+      },
+      {
+        "id": "5ZMwoAjeDtLJ0XRwRTgaK8",
+        "name": "Quantic",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb71337edb39ba6789777dc44b",
+        "genres": [
+          "downtempo",
+          "electronic",
+          "chillout",
+          "nu jazz",
+          "funk"
+        ]
+      },
+      {
+        "id": "5azPv1y5kPJljpHQmy5K32",
+        "name": "WheelUP",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb9f656b7567124dab2214708e",
+        "genres": [
+          "electronic",
+          "dance",
+          "broken beat",
+          "british",
+          "breakbeat"
+        ]
+      },
+      {
+        "id": "6O0WkZMlHi7yqizwsA8uVf",
+        "name": "The Meltdown",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb6bc7c9a3d00a8689ed22fe23",
+        "genres": [
+          "soul",
+          "blues"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "2pC4aF8VvXFapppROIALIW",
+        "name": "Tieduprightnow",
+        "artist": "Parcels",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02d26bc8655d6132c9e243f82e"
+      }
+    ]
+  },
+  {
     "id": 65,
     "fetched_at": "2026-07-19T08:00:46.169921+00:00",
     "new_artists": 0,
