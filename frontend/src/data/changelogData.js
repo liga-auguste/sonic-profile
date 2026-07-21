@@ -1,5 +1,65 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 67,
+    "fetched_at": "2026-07-21T08:09:16.789364+00:00",
+    "new_artists": 2,
+    "new_tracks": 4,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260721_080914.json",
+    "artists": [
+      {
+        "id": "2qFDhzWBDqbPOjhy8Fkl3u",
+        "name": "Lucy Kruger & The Lost Boys",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb50a5539d41ad6ce89ef97362",
+        "genres": [
+          "folk",
+          "south african",
+          "psychedelic folk",
+          "south africa",
+          "ambient"
+        ]
+      },
+      {
+        "id": "7c5qu1gNlg8jWDzzmlp89O",
+        "name": "Kraak & Smaak",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb07aa45aba94c8ca9facf2aed",
+        "genres": [
+          "electronic",
+          "funk",
+          "dance",
+          "house",
+          "dutch"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "1kzj0RrTy96csSg1rvPGfo",
+        "name": "Illusions",
+        "artist": "Common Saints",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0276bcb52e5931e020a0601a26"
+      },
+      {
+        "id": "5T2hfKcyYNc1wSuFNAstId",
+        "name": "Stargaze",
+        "artist": "Common Saints",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e020ef3b27b0bc28faeb0684820"
+      },
+      {
+        "id": "0WfR4Wsc0DeRTtg6iu666r",
+        "name": "Soothsayer",
+        "artist": "Common Saints",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e020ef3b27b0bc28faeb0684820"
+      },
+      {
+        "id": "1SkCVKW2SrIhhxtVNlxOT7",
+        "name": "Kaos",
+        "artist": "Common Saints",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e020ef3b27b0bc28faeb0684820"
+      }
+    ]
+  },
+  {
     "id": 66,
     "fetched_at": "2026-07-20T08:41:57.946439+00:00",
     "new_artists": 12,
