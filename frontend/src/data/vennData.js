@@ -24,6 +24,7 @@ export const VENN_DATA = {
     "Monophonics",
     "Nick Drake",
     "Nilüfer Yanya",
+    "Noah Yorke",
     "Otis Redding",
     "Phi-Psonics",
     "Portico Quartet",
@@ -120,6 +121,7 @@ export const VENN_DATA = {
     "Nick Mulvey",
     "Octave Lissner",
     "Parcels",
+    "RIO KOSTA",
     "Rikas",
     "Tal Arditi",
     "Tom Misch"
@@ -130,16 +132,15 @@ export const VENN_DATA = {
     "LEISURE",
     "Loma",
     "Olivia Dean",
-    "RIO KOSTA",
     "The Smile"
   ],
   "counts": {
-    "S_only": 39,
+    "S_only": 40,
     "M_only": 27,
     "L_only": 31,
     "SM": 4,
     "SL": 0,
-    "ML": 12,
-    "ALL": 7
+    "ML": 13,
+    "ALL": 6
   }
 };

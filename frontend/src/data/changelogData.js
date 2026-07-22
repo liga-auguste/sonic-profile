@@ -1,5 +1,28 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 68,
+    "fetched_at": "2026-07-22T08:09:38.927336+00:00",
+    "new_artists": 0,
+    "new_tracks": 2,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260722_080937.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "3IKEgC5BTp0hzQxl5GTujD",
+        "name": "The Keys",
+        "artist": "Matt Duncan",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0291de01c0b193ea2d021bb739"
+      },
+      {
+        "id": "3bZUAHVL5knLlKmtvZxM0Z",
+        "name": "Pick Me Up",
+        "artist": "Niko",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e023a8af1c961943adebe263c73"
+      }
+    ]
+  },
+  {
     "id": 67,
     "fetched_at": "2026-07-21T08:09:16.789364+00:00",
     "new_artists": 2,
