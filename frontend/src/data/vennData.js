@@ -60,6 +60,7 @@ export const VENN_DATA = {
     "Lana Del Rey",
     "Little Simz",
     "Loaded Honey",
+    "MT Jones",
     "Malia",
     "Pale Jay",
     "Procol Harum",
@@ -68,6 +69,7 @@ export const VENN_DATA = {
     "Royel Otis",
     "SAULT",
     "Sir Simon Rattle",
+    "Son Little",
     "The Mighty Tiny & The Many Few",
     "VOCES8"
   ],
@@ -89,9 +91,11 @@ export const VENN_DATA = {
     "John Rutter",
     "Kings of Convenience",
     "Lambert",
+    "Leif Vollebekk",
     "London Grammar",
     "London Symphony Orchestra",
     "Max Richter",
+    "Monteverdi Choir",
     "NEIL FRANCES",
     "Ola Gjeilo",
     "Orchestra of the Age of Enlightenment",
@@ -115,9 +119,7 @@ export const VENN_DATA = {
     "Bill Laurance",
     "Coldplay",
     "Dojo Cuts",
-    "Leif Vollebekk",
     "Martin Luke Brown",
-    "Monteverdi Choir",
     "Nick Mulvey",
     "Octave Lissner",
     "Parcels",
@@ -136,11 +138,11 @@ export const VENN_DATA = {
   ],
   "counts": {
     "S_only": 40,
-    "M_only": 27,
-    "L_only": 31,
+    "M_only": 29,
+    "L_only": 33,
     "SM": 4,
     "SL": 0,
-    "ML": 13,
+    "ML": 11,
     "ALL": 6
   }
 };

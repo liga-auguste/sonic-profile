@@ -1,5 +1,28 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 69,
+    "fetched_at": "2026-07-23T08:13:06.373397+00:00",
+    "new_artists": 0,
+    "new_tracks": 2,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260723_081304.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "42fu0odllAZtjSxFBHqKBN",
+        "name": "Die Meistersinger von Nürnberg, WWV 96 / Act 1: \"Da zu dir der Heiland kam\"",
+        "artist": "Richard Wagner, Wiener Staatsopernchor, Wiener Philharmoniker, Sir Georg Solti",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0255d0ea0f4c371e291c624add"
+      },
+      {
+        "id": "0ewpkuhGXuXL2kZrj2yoE3",
+        "name": "Little Light",
+        "artist": "Supalung, Sam Brookes, Pete Josef",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02311a63786a684b92d2a02076"
+      }
+    ]
+  },
+  {
     "id": 68,
     "fetched_at": "2026-07-22T08:09:38.927336+00:00",
     "new_artists": 0,
