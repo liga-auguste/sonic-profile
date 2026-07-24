@@ -1,5 +1,22 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 70,
+    "fetched_at": "2026-07-24T08:08:57.922664+00:00",
+    "new_artists": 0,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260724_080856.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "2dHjmuCuQuToZQ2sSNqPyo",
+        "name": "Try",
+        "artist": "Sidsel Endresen, Bugge Wesseltoft",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e024af7f9dbed4441091a4c8057"
+      }
+    ]
+  },
+  {
     "id": 69,
     "fetched_at": "2026-07-23T08:13:06.373397+00:00",
     "new_artists": 0,
