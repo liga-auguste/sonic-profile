@@ -480,6 +480,21 @@ export const SPOTIFY_DATA = {
       },
       {
         "rank": 32,
+        "id": "3fvZo45Y28ly1QBo05pujJ",
+        "name": "Let's Go Back",
+        "artists": [
+          "Jungle"
+        ],
+        "artist": "Jungle",
+        "album": "Let's Go Back",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0215ecd6926b2b357a546b02fc",
+        "duration_ms": 169651,
+        "explicit": false,
+        "release_date": "2024-09-04",
+        "url": "https://open.spotify.com/track/3fvZo45Y28ly1QBo05pujJ"
+      },
+      {
+        "rank": 33,
         "id": "5T2hfKcyYNc1wSuFNAstId",
         "name": "Stargaze",
         "artists": [
@@ -494,7 +509,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/5T2hfKcyYNc1wSuFNAstId"
       },
       {
-        "rank": 33,
+        "rank": 34,
         "id": "61lec8zNQ5vuxPmdpqvpd1",
         "name": "Fair Play",
         "artists": [
@@ -510,7 +525,23 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/61lec8zNQ5vuxPmdpqvpd1"
       },
       {
-        "rank": 34,
+        "rank": 35,
+        "id": "3MqIVAWJ1R4FwEq6S96mLv",
+        "name": "Dancing with Ghosts - Live at Studio 1, Warsaw",
+        "artists": [
+          "Hania Rani",
+          "Patrick Watson"
+        ],
+        "artist": "Hania Rani, Patrick Watson",
+        "album": "Nostalgia (Live)",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02a7235c9c4c111ed32bdb918a",
+        "duration_ms": 331123,
+        "explicit": false,
+        "release_date": "2024-09-27",
+        "url": "https://open.spotify.com/track/3MqIVAWJ1R4FwEq6S96mLv"
+      },
+      {
+        "rank": 36,
         "id": "0gjcEL2CTKu3fT9qMVVu2w",
         "name": "Bad Kids",
         "artists": [
@@ -525,7 +556,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/0gjcEL2CTKu3fT9qMVVu2w"
       },
       {
-        "rank": 35,
+        "rank": 37,
         "id": "0y04zEcbrvldIwm37ditaQ",
         "name": "Thanks for Saving My Life",
         "artists": [
@@ -540,7 +571,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/0y04zEcbrvldIwm37ditaQ"
       },
       {
-        "rank": 36,
+        "rank": 38,
         "id": "0zXhiHHnUzhCYd3ehnZEe5",
         "name": "Thinking of You (Spotify Singles)",
         "artists": [
@@ -555,7 +586,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/0zXhiHHnUzhCYd3ehnZEe5"
       },
       {
-        "rank": 37,
+        "rank": 39,
         "id": "1EpKDxe1SIFZBg2tQ2CRao",
         "name": "Mambo italiano (Arr. for Voice & Chamber Ensemble by Johan Farjot)",
         "artists": [
@@ -574,7 +605,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/1EpKDxe1SIFZBg2tQ2CRao"
       },
       {
-        "rank": 38,
+        "rank": 40,
         "id": "1SkCVKW2SrIhhxtVNlxOT7",
         "name": "Kaos",
         "artists": [
@@ -589,7 +620,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/1SkCVKW2SrIhhxtVNlxOT7"
       },
       {
-        "rank": 39,
+        "rank": 41,
         "id": "1wsLt0uxVHxUMXfwfI6Gsn",
         "name": "It Isn’t Perfect But It Might Be - from “Bridget Jones: Mad About the Boy” Original Motion Picture Soundtrack",
         "artists": [
@@ -604,7 +635,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/1wsLt0uxVHxUMXfwfI6Gsn"
       },
       {
-        "rank": 40,
+        "rank": 42,
         "id": "2B664ulJSVBd6B8SAY3Wux",
         "name": "Oysters In My Pocket",
         "artists": [
@@ -619,7 +650,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/2B664ulJSVBd6B8SAY3Wux"
       },
       {
-        "rank": 41,
+        "rank": 43,
         "id": "2CMfnYSI28O570OE7ExscU",
         "name": "Some People",
         "artists": [
@@ -634,7 +665,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/2CMfnYSI28O570OE7ExscU"
       },
       {
-        "rank": 42,
+        "rank": 44,
         "id": "2PsPAn4aJL0gPIV4glWxX6",
         "name": "Welcome to the Mood",
         "artists": [
@@ -649,7 +680,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/2PsPAn4aJL0gPIV4glWxX6"
       },
       {
-        "rank": 43,
+        "rank": 45,
         "id": "2drXvACELcvwryaFRiRPdA",
         "name": "Sh-Boom",
         "artists": [
@@ -664,7 +695,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/2drXvACELcvwryaFRiRPdA"
       },
       {
-        "rank": 44,
+        "rank": 46,
         "id": "2pC4aF8VvXFapppROIALIW",
         "name": "Tieduprightnow",
         "artists": [
@@ -679,7 +710,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/2pC4aF8VvXFapppROIALIW"
       },
       {
-        "rank": 45,
+        "rank": 47,
         "id": "2sKjOX72UX1HiCDhI2HdlR",
         "name": "Don't Speak",
         "artists": [
@@ -696,7 +727,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/2sKjOX72UX1HiCDhI2HdlR"
       },
       {
-        "rank": 46,
+        "rank": 48,
         "id": "3AOjvIZEqBkxRiz7oonvnn",
         "name": "Night Light",
         "artists": [
@@ -711,7 +742,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/3AOjvIZEqBkxRiz7oonvnn"
       },
       {
-        "rank": 47,
+        "rank": 49,
         "id": "3IKEgC5BTp0hzQxl5GTujD",
         "name": "The Keys",
         "artists": [
@@ -726,7 +757,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/3IKEgC5BTp0hzQxl5GTujD"
       },
       {
-        "rank": 48,
+        "rank": 50,
         "id": "3bZUAHVL5knLlKmtvZxM0Z",
         "name": "Pick Me Up",
         "artists": [
@@ -739,36 +770,6 @@ export const SPOTIFY_DATA = {
         "explicit": false,
         "release_date": "2023-03-31",
         "url": "https://open.spotify.com/track/3bZUAHVL5knLlKmtvZxM0Z"
-      },
-      {
-        "rank": 49,
-        "id": "3fvZo45Y28ly1QBo05pujJ",
-        "name": "Let's Go Back",
-        "artists": [
-          "Jungle"
-        ],
-        "artist": "Jungle",
-        "album": "Let's Go Back",
-        "album_image": "https://i.scdn.co/image/ab67616d00001e0215ecd6926b2b357a546b02fc",
-        "duration_ms": 169651,
-        "explicit": false,
-        "release_date": "2024-09-04",
-        "url": "https://open.spotify.com/track/3fvZo45Y28ly1QBo05pujJ"
-      },
-      {
-        "rank": 50,
-        "id": "3zBhihYUHBmGd2bcQIobrF",
-        "name": "(Sittin' On) the Dock of the Bay - Mono",
-        "artists": [
-          "Otis Redding"
-        ],
-        "artist": "Otis Redding",
-        "album": "The Dock of the Bay (Mono)",
-        "album_image": "https://i.scdn.co/image/ab67616d00001e020acddc8ccf8d14858fbeddf5",
-        "duration_ms": 163755,
-        "explicit": false,
-        "release_date": "1968",
-        "url": "https://open.spotify.com/track/3zBhihYUHBmGd2bcQIobrF"
       }
     ],
     "half": [
@@ -834,6 +835,21 @@ export const SPOTIFY_DATA = {
       },
       {
         "rank": 5,
+        "id": "4aIBSRXsCffmIE9efBkuNK",
+        "name": "Arrhythmia",
+        "artists": [
+          "Loma"
+        ],
+        "artist": "Loma",
+        "album": "How Will I Live Without a Body?",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02359a23c5ec9c76c6cc2eba1b",
+        "duration_ms": 232580,
+        "explicit": false,
+        "release_date": "2024-06-28",
+        "url": "https://open.spotify.com/track/4aIBSRXsCffmIE9efBkuNK"
+      },
+      {
+        "rank": 6,
         "id": "61lec8zNQ5vuxPmdpqvpd1",
         "name": "Fair Play",
         "artists": [
@@ -847,21 +863,6 @@ export const SPOTIFY_DATA = {
         "explicit": false,
         "release_date": "2020-11-05",
         "url": "https://open.spotify.com/track/61lec8zNQ5vuxPmdpqvpd1"
-      },
-      {
-        "rank": 6,
-        "id": "4aIBSRXsCffmIE9efBkuNK",
-        "name": "Arrhythmia",
-        "artists": [
-          "Loma"
-        ],
-        "artist": "Loma",
-        "album": "How Will I Live Without a Body?",
-        "album_image": "https://i.scdn.co/image/ab67616d00001e02359a23c5ec9c76c6cc2eba1b",
-        "duration_ms": 232580,
-        "explicit": false,
-        "release_date": "2024-06-28",
-        "url": "https://open.spotify.com/track/4aIBSRXsCffmIE9efBkuNK"
       },
       {
         "rank": 7,
@@ -4691,14 +4692,6 @@ export const SPOTIFY_DATA = {
       "hue": 185
     },
     {
-      "name": "Otis Redding",
-      "x": 0.384,
-      "y": 0.618,
-      "size": 6,
-      "era": "recent obsession",
-      "hue": 340
-    },
-    {
       "name": "Parcels",
       "x": 0.692,
       "y": 0.3,
@@ -4745,13 +4738,21 @@ export const SPOTIFY_DATA = {
       "size": 4,
       "era": "long-time favorite",
       "hue": 185
+    },
+    {
+      "name": "Ava Joe",
+      "x": 0.281,
+      "y": 0.368,
+      "size": 4,
+      "era": "recent obsession",
+      "hue": 340
     }
   ],
   "currently_playing": null,
   "stats": {
     "uniqueArtists": 123,
-    "uniqueTracks": 132,
-    "avgTrackLength": "3:42",
+    "uniqueTracks": 133,
+    "avgTrackLength": "3:43",
     "longestTrack": "9:15",
     "longestTrackName": "Die Meistersinger von Nürnberg, WWV 96: Prelude",
     "explicitCount": 9,
@@ -4760,7 +4761,7 @@ export const SPOTIFY_DATA = {
     "releaseYearOldest": 1960,
     "releaseYearNewest": 2026,
     "releaseYearPeak": 2024,
-    "fetched_at": "2026-07-24T08:08:56.262171+00:00",
+    "fetched_at": "2026-07-25T07:51:35.058553+00:00",
     "hoursChart": [
       107,
       69,
@@ -4777,17 +4778,17 @@ export const SPOTIFY_DATA = {
       127,
       93,
       97,
-      150,
+      151,
       167,
       182,
       185,
       119,
       80,
       87,
-      140,
+      142,
       140
     ],
     "cumulativeArtists": 231,
-    "cumulativeTracks": 240
+    "cumulativeTracks": 241
   }
 };

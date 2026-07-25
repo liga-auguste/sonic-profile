@@ -1,5 +1,22 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 71,
+    "fetched_at": "2026-07-25T07:51:36.595237+00:00",
+    "new_artists": 0,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260725_075135.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "3MqIVAWJ1R4FwEq6S96mLv",
+        "name": "Dancing with Ghosts - Live at Studio 1, Warsaw",
+        "artist": "Hania Rani, Patrick Watson",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02a7235c9c4c111ed32bdb918a"
+      }
+    ]
+  },
+  {
     "id": 70,
     "fetched_at": "2026-07-24T08:08:57.922664+00:00",
     "new_artists": 0,
