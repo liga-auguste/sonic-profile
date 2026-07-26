@@ -1,5 +1,34 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 72,
+    "fetched_at": "2026-07-26T08:09:34.497706+00:00",
+    "new_artists": 0,
+    "new_tracks": 3,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260726_080932.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "5cjaDxaXyRlxGgGjRlte7m",
+        "name": "Daydream In Blue",
+        "artist": "I Monster",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e029a60a37a5ff1efb3ef6d1479"
+      },
+      {
+        "id": "5EpV4kj0CqsHFwPGLyQXBs",
+        "name": "Sunny Afternoon",
+        "artist": "Cielo",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02253b3995a7597c9609801cc3"
+      },
+      {
+        "id": "0RKQnH9IsHGraKtomDG980",
+        "name": "How Did I Get Here?",
+        "artist": "LaRose Jackson",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0281e2fd437580113b0098c6ae"
+      }
+    ]
+  },
+  {
     "id": 71,
     "fetched_at": "2026-07-25T07:51:36.595237+00:00",
     "new_artists": 0,

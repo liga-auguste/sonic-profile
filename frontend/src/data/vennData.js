@@ -1,16 +1,19 @@
 // Where artists live in time — Venn-style overlap data
 export const VENN_DATA = {
   "S_only": [
-    "AMANZI",
     "Caoilfhionn Rose",
     "Chip Wickham",
+    "Cody Currie",
     "Cool Company",
     "Delvon Lamarr Organ Trio",
+    "Dwight Trible",
+    "Ed O'Brien",
     "Greyhounds",
     "Hania Rani",
     "Ikebe Shakedown",
     "Jalen Ngonda",
     "Japanese Breakfast",
+    "John Ellis",
     "Kelly Finnigan",
     "King Hannah",
     "Kraak & Smaak",
@@ -119,9 +122,12 @@ export const VENN_DATA = {
     "Bill Laurance",
     "Coldplay",
     "Dojo Cuts",
+    "Jungle",
+    "LEISURE",
     "Martin Luke Brown",
     "Nick Mulvey",
     "Octave Lissner",
+    "Olivia Dean",
     "Parcels",
     "RIO KOSTA",
     "Rikas",
@@ -130,19 +136,16 @@ export const VENN_DATA = {
   ],
   "ALL": [
     "Common Saints",
-    "Jungle",
-    "LEISURE",
     "Loma",
-    "Olivia Dean",
     "The Smile"
   ],
   "counts": {
-    "S_only": 40,
+    "S_only": 43,
     "M_only": 29,
     "L_only": 33,
     "SM": 4,
     "SL": 0,
-    "ML": 11,
-    "ALL": 6
+    "ML": 14,
+    "ALL": 3
   }
 };
