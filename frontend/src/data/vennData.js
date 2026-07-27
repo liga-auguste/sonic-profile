@@ -3,7 +3,6 @@ export const VENN_DATA = {
   "S_only": [
     "Caoilfhionn Rose",
     "Chip Wickham",
-    "Cody Currie",
     "Cool Company",
     "Delvon Lamarr Organ Trio",
     "Dwight Trible",
@@ -43,7 +42,8 @@ export const VENN_DATA = {
     "Vega Trails",
     "Vicky Sometani",
     "Warpaint",
-    "WheelUP"
+    "WheelUP",
+    "Σtella"
   ],
   "M_only": [
     "Andreas Scholl",
