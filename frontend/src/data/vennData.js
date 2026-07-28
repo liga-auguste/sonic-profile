@@ -3,19 +3,20 @@ export const VENN_DATA = {
   "S_only": [
     "Caoilfhionn Rose",
     "Chip Wickham",
-    "Cool Company",
     "Delvon Lamarr Organ Trio",
     "Dwight Trible",
     "Ed O'Brien",
+    "Fontaines D.C.",
+    "Forgiveness",
     "Greyhounds",
     "Hania Rani",
     "Ikebe Shakedown",
+    "Ishmael Ensemble",
     "Jalen Ngonda",
     "Japanese Breakfast",
     "John Ellis",
     "Kelly Finnigan",
     "King Hannah",
-    "Kraak & Smaak",
     "Leifur James",
     "Leon Bridges",
     "Lucy Kruger & The Lost Boys",
@@ -63,6 +64,7 @@ export const VENN_DATA = {
     "Lana Del Rey",
     "Little Simz",
     "Loaded Honey",
+    "Louis Baker",
     "MT Jones",
     "Malia",
     "Pale Jay",
@@ -112,7 +114,6 @@ export const VENN_DATA = {
     "Víkingur Ólafsson"
   ],
   "SM": [
-    "Louis Baker",
     "Olive Jones",
     "Pete Josef",
     "Svaneborg Kardyb"
@@ -140,10 +141,10 @@ export const VENN_DATA = {
     "The Smile"
   ],
   "counts": {
-    "S_only": 43,
-    "M_only": 29,
+    "S_only": 44,
+    "M_only": 30,
     "L_only": 33,
-    "SM": 4,
+    "SM": 3,
     "SL": 0,
     "ML": 14,
     "ALL": 3

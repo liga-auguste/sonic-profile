@@ -1,5 +1,22 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 74,
+    "fetched_at": "2026-07-28T08:15:28.501654+00:00",
+    "new_artists": 0,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260728_081526.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "2PiYyDEaXrT5PtJxJE3l7E",
+        "name": "Call Your Mom",
+        "artist": "Delvon Lamarr Organ Trio",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e026e43f4a8b6faca251d13b51a"
+      }
+    ]
+  },
+  {
     "id": 73,
     "fetched_at": "2026-07-27T09:33:08.462246+00:00",
     "new_artists": 0,
