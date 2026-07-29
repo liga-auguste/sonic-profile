@@ -9,7 +9,6 @@ export const VENN_DATA = {
     "Fontaines D.C.",
     "Forgiveness",
     "Greyhounds",
-    "Hania Rani",
     "Ikebe Shakedown",
     "Ishmael Ensemble",
     "Jalen Ngonda",
@@ -105,7 +104,6 @@ export const VENN_DATA = {
     "Ola Gjeilo",
     "Orchestra of the Age of Enlightenment",
     "Ottorino Respighi",
-    "Radiohead",
     "Rhye",
     "Sufjan Stevens",
     "The Choir Of Trinity College, Cambridge",
@@ -118,7 +116,9 @@ export const VENN_DATA = {
     "Pete Josef",
     "Svaneborg Kardyb"
   ],
-  "SL": [],
+  "SL": [
+    "Hania Rani"
+  ],
   "ML": [
     "Bill Laurance",
     "Coldplay",
@@ -141,11 +141,11 @@ export const VENN_DATA = {
     "The Smile"
   ],
   "counts": {
-    "S_only": 44,
+    "S_only": 43,
     "M_only": 30,
-    "L_only": 33,
+    "L_only": 32,
     "SM": 3,
-    "SL": 0,
+    "SL": 1,
     "ML": 14,
     "ALL": 3
   }
