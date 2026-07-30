@@ -1,5 +1,15 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 76,
+    "fetched_at": "2026-07-30T08:08:41.970327+00:00",
+    "new_artists": 0,
+    "new_tracks": 0,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260730_080839.json",
+    "artists": [],
+    "tracks": []
+  },
+  {
     "id": 75,
     "fetched_at": "2026-07-29T08:22:12.227508+00:00",
     "new_artists": 0,
@@ -2948,7 +2958,10 @@ export const CHANGELOG_DATA = [
         "id": "7lDQhKVaKvuNDftiiZVrYy",
         "name": "Snazzy",
         "image": "https://i.scdn.co/image/ab6761610000e5ebb7364493244cb196b181bda2",
-        "genres": []
+        "genres": [
+          "hip-hop",
+          "funk_add_to_lidarr_batch_24"
+        ]
       },
       {
         "id": "00x1fYSGhdqScXBRpSj3DW",
