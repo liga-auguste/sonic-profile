@@ -2003,6 +2003,22 @@ export const SPOTIFY_DATA = {
       },
       {
         "rank": 30,
+        "id": "6jJTlYkddJONCQQVzWFzcQ",
+        "name": "Only",
+        "artists": [
+          "Little Simz",
+          "Lydia Kitto"
+        ],
+        "artist": "Little Simz, Lydia Kitto",
+        "album": "Lotus",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02d0e17539a0ac5b32b6db47bb",
+        "duration_ms": 215986,
+        "explicit": false,
+        "release_date": "2025-06-06",
+        "url": "https://open.spotify.com/track/6jJTlYkddJONCQQVzWFzcQ"
+      },
+      {
+        "rank": 31,
         "id": "5xbuJuQsTVheVZvX2AJVIv",
         "name": "Spring 1 - 2012",
         "artists": [
@@ -2020,7 +2036,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/5xbuJuQsTVheVZvX2AJVIv"
       },
       {
-        "rank": 31,
+        "rank": 32,
         "id": "7w9VmSzLy7a5Nk2Gd4gE14",
         "name": "Requiem, Op. 9: I. Introit (1961 Version)",
         "artists": [
@@ -2038,7 +2054,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/7w9VmSzLy7a5Nk2Gd4gE14"
       },
       {
-        "rank": 32,
+        "rank": 33,
         "id": "2HWzPiVhmB1Hfgw7SwC5Ee",
         "name": "Requiem, Op. 9: VIII. Libera Me (1961 Version)",
         "artists": [
@@ -2056,7 +2072,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/2HWzPiVhmB1Hfgw7SwC5Ee"
       },
       {
-        "rank": 33,
+        "rank": 34,
         "id": "5ZaTBiw6w3mY0Qu16LyZAJ",
         "name": "Wanderer",
         "artists": [
@@ -2071,7 +2087,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/5ZaTBiw6w3mY0Qu16LyZAJ"
       },
       {
-        "rank": 34,
+        "rank": 35,
         "id": "7kaP2l8xzo4TWsPnjN9S39",
         "name": "This One's On The House",
         "artists": [
@@ -2086,7 +2102,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/7kaP2l8xzo4TWsPnjN9S39"
       },
       {
-        "rank": 35,
+        "rank": 36,
         "id": "1WiiMZbCeTvNlHOUGYjFLY",
         "name": "In The Moment",
         "artists": [
@@ -2101,7 +2117,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/1WiiMZbCeTvNlHOUGYjFLY"
       },
       {
-        "rank": 36,
+        "rank": 37,
         "id": "0wnGT3ASkpmCjEmGRULfS0",
         "name": "5 Pieces for Violin and Piano, P. 62: II. Aubade. Vivace",
         "artists": [
@@ -2118,7 +2134,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/0wnGT3ASkpmCjEmGRULfS0"
       },
       {
-        "rank": 37,
+        "rank": 38,
         "id": "5IJCCnOsSF50lku7Mau7rr",
         "name": "Magnetised (Live at Union Chapel)",
         "artists": [
@@ -2133,7 +2149,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/5IJCCnOsSF50lku7Mau7rr"
       },
       {
-        "rank": 38,
+        "rank": 39,
         "id": "6dTq3VPRH3CTVvnRSMpyxO",
         "name": "Requiem, Op. 9: VI. Agnus Dei (1961 Version)",
         "artists": [
@@ -2151,7 +2167,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/6dTq3VPRH3CTVvnRSMpyxO"
       },
       {
-        "rank": 39,
+        "rank": 40,
         "id": "7LVHVU3tWfcxj5aiPFEW4Q",
         "name": "Fix You",
         "artists": [
@@ -2166,7 +2182,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/7LVHVU3tWfcxj5aiPFEW4Q"
       },
       {
-        "rank": 40,
+        "rank": 41,
         "id": "1a9cjcgv2kb5cnR2Gev2pn",
         "name": "5 Pieces for Violin and Piano, P. 62: III. Madrigale. Andantino",
         "artists": [
@@ -2183,7 +2199,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/1a9cjcgv2kb5cnR2Gev2pn"
       },
       {
-        "rank": 41,
+        "rank": 42,
         "id": "3fvZo45Y28ly1QBo05pujJ",
         "name": "Let's Go Back",
         "artists": [
@@ -2196,22 +2212,6 @@ export const SPOTIFY_DATA = {
         "explicit": false,
         "release_date": "2024-09-04",
         "url": "https://open.spotify.com/track/3fvZo45Y28ly1QBo05pujJ"
-      },
-      {
-        "rank": 42,
-        "id": "6jJTlYkddJONCQQVzWFzcQ",
-        "name": "Only",
-        "artists": [
-          "Little Simz",
-          "Lydia Kitto"
-        ],
-        "artist": "Little Simz, Lydia Kitto",
-        "album": "Lotus",
-        "album_image": "https://i.scdn.co/image/ab67616d00001e02d0e17539a0ac5b32b6db47bb",
-        "duration_ms": 215986,
-        "explicit": false,
-        "release_date": "2025-06-06",
-        "url": "https://open.spotify.com/track/6jJTlYkddJONCQQVzWFzcQ"
       },
       {
         "rank": 43,
@@ -4767,7 +4767,7 @@ export const SPOTIFY_DATA = {
     "releaseYearOldest": 1960,
     "releaseYearNewest": 2026,
     "releaseYearPeak": 2024,
-    "fetched_at": "2026-07-30T08:08:39.803830+00:00",
+    "fetched_at": "2026-07-31T08:35:31.160019+00:00",
     "hoursChart": [
       107,
       69,
