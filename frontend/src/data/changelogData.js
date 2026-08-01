@@ -1,5 +1,28 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 78,
+    "fetched_at": "2026-08-01T08:05:06.243831+00:00",
+    "new_artists": 0,
+    "new_tracks": 2,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260801_080504.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "0aEc0FvS4QWDVXmj1gwDuo",
+        "name": "Finger Trips (Reprise)",
+        "artist": "Re:um",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02de2d5f7f31ed73535a20bc63"
+      },
+      {
+        "id": "1y0YcbPS4pu5kveEhJ9KqJ",
+        "name": "Apathy",
+        "artist": "PIE",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02123beede66f74a341316a177"
+      }
+    ]
+  },
+  {
     "id": 77,
     "fetched_at": "2026-07-31T08:35:32.926466+00:00",
     "new_artists": 0,

@@ -1,17 +1,19 @@
 // Where artists live in time — Venn-style overlap data
 export const VENN_DATA = {
   "S_only": [
+    "Ancient Infinity Orchestra",
     "Caoilfhionn Rose",
     "Chip Wickham",
     "Delvon Lamarr Organ Trio",
     "Dwight Trible",
     "Ed O'Brien",
+    "Fontaines D.C.",
     "Forgiveness",
     "Greyhounds",
     "Ikebe Shakedown",
     "Ishmael Ensemble",
-    "Jalen Ngonda",
     "Japanese Breakfast",
+    "Jessy Yasmeen",
     "John Ellis",
     "Kelly Finnigan",
     "King Hannah",
@@ -26,21 +28,16 @@ export const VENN_DATA = {
     "Nick Drake",
     "Nilüfer Yanya",
     "Noah Yorke",
-    "Otis Redding",
     "Phi-Psonics",
     "Portico Quartet",
     "Quantic",
-    "Ray Charles",
-    "Sam Cooke",
     "Say She She",
     "Snazzy",
     "Sunda Arc",
     "The Meltdown",
     "The Olympians",
-    "Theodore Shapiro",
     "Thom Yorke",
     "Vega Trails",
-    "Vicky Sometani",
     "Warpaint",
     "WheelUP",
     "Σtella"
@@ -51,15 +48,14 @@ export const VENN_DATA = {
     "Ava Joe",
     "Chet Faker",
     "DON WEST",
-    "Dorothee Mields",
     "Ensemble Contraste",
+    "Flo Naegeli",
     "GeeJay",
     "Hermanos Gutiérrez",
     "Jan Garbarek",
     "Jordan Rakei",
     "José González",
     "Klaus Mertens",
-    "La Rêveuse",
     "Lana Del Rey",
     "Little Simz",
     "Loaded Honey",
@@ -73,9 +69,7 @@ export const VENN_DATA = {
     "Royel Otis",
     "SAULT",
     "Sir Simon Rattle",
-    "Son Little",
-    "The Mighty Tiny & The Many Few",
-    "VOCES8"
+    "Son Little"
   ],
   "L_only": [
     "AURORA",
@@ -112,18 +106,17 @@ export const VENN_DATA = {
     "Víkingur Ólafsson"
   ],
   "SM": [
+    "Jalen Ngonda",
     "Olive Jones",
     "Pete Josef",
-    "Svaneborg Kardyb"
+    "Svaneborg Kardyb",
+    "Vicky Sometani"
   ],
-  "SL": [
-    "Hania Rani"
-  ],
+  "SL": [],
   "ML": [
     "Bill Laurance",
     "Coldplay",
     "Dojo Cuts",
-    "Jungle",
     "LEISURE",
     "Martin Luke Brown",
     "Nick Mulvey",
@@ -137,16 +130,18 @@ export const VENN_DATA = {
   ],
   "ALL": [
     "Common Saints",
+    "Hania Rani",
+    "Jungle",
     "Loma",
     "The Smile"
   ],
   "counts": {
-    "S_only": 43,
-    "M_only": 30,
+    "S_only": 40,
+    "M_only": 27,
     "L_only": 32,
-    "SM": 3,
-    "SL": 1,
-    "ML": 14,
-    "ALL": 3
+    "SM": 5,
+    "SL": 0,
+    "ML": 13,
+    "ALL": 5
   }
 };
