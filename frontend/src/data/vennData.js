@@ -12,7 +12,6 @@ export const VENN_DATA = {
     "Greyhounds",
     "Ikebe Shakedown",
     "Ishmael Ensemble",
-    "Japanese Breakfast",
     "Jessy Yasmeen",
     "John Ellis",
     "Kelly Finnigan",
@@ -119,7 +118,6 @@ export const VENN_DATA = {
     "Dojo Cuts",
     "LEISURE",
     "Martin Luke Brown",
-    "Nick Mulvey",
     "Octave Lissner",
     "Olivia Dean",
     "Parcels",
@@ -133,15 +131,16 @@ export const VENN_DATA = {
     "Hania Rani",
     "Jungle",
     "Loma",
+    "Nick Mulvey",
     "The Smile"
   ],
   "counts": {
-    "S_only": 40,
+    "S_only": 39,
     "M_only": 27,
     "L_only": 32,
     "SM": 5,
     "SL": 0,
-    "ML": 13,
-    "ALL": 5
+    "ML": 12,
+    "ALL": 6
   }
 };

@@ -1,5 +1,22 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 79,
+    "fetched_at": "2026-08-02T08:06:41.282594+00:00",
+    "new_artists": 0,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260802_080639.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "3MwwB2aY7xDrHqmbYL0iYf",
+        "name": "Your Love Is Electric",
+        "artist": "Leon Bridges",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0259adae48f8ee1de1369b837a"
+      }
+    ]
+  },
+  {
     "id": 78,
     "fetched_at": "2026-08-01T08:05:06.243831+00:00",
     "new_artists": 0,
