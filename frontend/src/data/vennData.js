@@ -1,17 +1,14 @@
 // Where artists live in time — Venn-style overlap data
 export const VENN_DATA = {
   "S_only": [
-    "Ancient Infinity Orchestra",
     "Caoilfhionn Rose",
     "Chip Wickham",
     "Delvon Lamarr Organ Trio",
     "Dwight Trible",
     "Ed O'Brien",
-    "Fontaines D.C.",
     "Forgiveness",
     "Greyhounds",
     "Ikebe Shakedown",
-    "Ishmael Ensemble",
     "Jessy Yasmeen",
     "John Ellis",
     "Kelly Finnigan",
@@ -27,6 +24,7 @@ export const VENN_DATA = {
     "Nick Drake",
     "Nilüfer Yanya",
     "Noah Yorke",
+    "Otis Kane",
     "Phi-Psonics",
     "Portico Quartet",
     "Quantic",
@@ -46,7 +44,6 @@ export const VENN_DATA = {
     "Arlo Parks",
     "Ava Joe",
     "Chet Faker",
-    "DON WEST",
     "Ensemble Contraste",
     "Flo Naegeli",
     "GeeJay",
@@ -59,7 +56,6 @@ export const VENN_DATA = {
     "Little Simz",
     "Loaded Honey",
     "Louis Baker",
-    "MT Jones",
     "Malia",
     "Pale Jay",
     "Procol Harum",
@@ -105,7 +101,9 @@ export const VENN_DATA = {
     "Víkingur Ólafsson"
   ],
   "SM": [
+    "DON WEST",
     "Jalen Ngonda",
+    "MT Jones",
     "Olive Jones",
     "Pete Josef",
     "Svaneborg Kardyb",
@@ -115,7 +113,7 @@ export const VENN_DATA = {
   "ML": [
     "Bill Laurance",
     "Coldplay",
-    "Dojo Cuts",
+    "Jungle",
     "LEISURE",
     "Martin Luke Brown",
     "Octave Lissner",
@@ -128,17 +126,17 @@ export const VENN_DATA = {
   ],
   "ALL": [
     "Common Saints",
+    "Dojo Cuts",
     "Hania Rani",
-    "Jungle",
     "Loma",
     "Nick Mulvey",
     "The Smile"
   ],
   "counts": {
-    "S_only": 39,
-    "M_only": 27,
+    "S_only": 37,
+    "M_only": 25,
     "L_only": 32,
-    "SM": 5,
+    "SM": 7,
     "SL": 0,
     "ML": 12,
     "ALL": 6
