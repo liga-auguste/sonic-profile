@@ -1,5 +1,155 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 81,
+    "fetched_at": "2026-08-04T08:22:31.258238+00:00",
+    "new_artists": 6,
+    "new_tracks": 14,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260804_082227.json",
+    "artists": [
+      {
+        "id": "4LlJh7Tq2fJGfu0WrDJVvX",
+        "name": "Lou Ella",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebe3124506a03742ec40fc6644",
+        "genres": []
+      },
+      {
+        "id": "1lEj2mCu6IQrLEnJgDjKsS",
+        "name": "Nora Mae",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb781cbc57183dc2027c77a877",
+        "genres": []
+      },
+      {
+        "id": "3dZ1fTizrmY5jfkf0jrvav",
+        "name": "Syd Taylor",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb4d9e8848710c3566768ee87f",
+        "genres": [
+          "american",
+          "usa",
+          "united states",
+          "us",
+          "detroit"
+        ]
+      },
+      {
+        "id": "1JfNRa6vkoWP0k2UASfk7e",
+        "name": "Caitlin",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb7d9e2c56864d96196fe14ac8",
+        "genres": [
+          "pop",
+          "violin",
+          "rock",
+          "electronic",
+          "zambian"
+        ]
+      },
+      {
+        "id": "2mYmU4GJqsQTQiOXoA7qDD",
+        "name": "Ormella",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb732a02a3204d6604fc8d1a9e",
+        "genres": []
+      },
+      {
+        "id": "5UQMb52W2mfhkLJSJUzRAa",
+        "name": "Olivia C. Dacal",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb9a73c63476365c32158f76b1",
+        "genres": [
+          "singer-songwriter",
+          "indie",
+          "latin",
+          "pop",
+          "australian"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "1j35t4oAGJegJ7IPcSET5f",
+        "name": "Lost In The Woods",
+        "artist": "Ava Joe",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e024014e6ba25381cc198d40534"
+      },
+      {
+        "id": "24vRPxn6uMQwGdjTnEuC26",
+        "name": "Big Beautiful Mess",
+        "artist": "Ava Joe",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02a280b45e5ab45e5480f6c69f"
+      },
+      {
+        "id": "2oB0LU228cqSceOA8NWcEh",
+        "name": "Milk & Honey",
+        "artist": "Ava Joe",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02f36ac1cf8518fb2577b242fc"
+      },
+      {
+        "id": "30TP59PKNuBpfLuEWUHFNa",
+        "name": "No Man's Land",
+        "artist": "Ava Joe",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e024014e6ba25381cc198d40534"
+      },
+      {
+        "id": "39cvcPijx9ZG8ymIZ7IdBX",
+        "name": "Am I A Dreamer",
+        "artist": "Ava Joe",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02248a4004424387abc764ea50"
+      },
+      {
+        "id": "5pzYHDGbQ1SMjbcBBtmf1r",
+        "name": "Sunkissed",
+        "artist": "Ava Joe",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e024edc34aabebdd9ab56756dd9"
+      },
+      {
+        "id": "6zZxICD2WMHstEektXb7jc",
+        "name": "Deja Vu Hotel",
+        "artist": "Ava Joe",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e027223d3841ecac974856e5ef8"
+      },
+      {
+        "id": "7Gfiu6gksAzVQQ9744Nhvq",
+        "name": "Missing You",
+        "artist": "LEISURE",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e023221ba400f274dd3834e80cc"
+      },
+      {
+        "id": "4s0SHHEFuoTCoJ7rZJFDwI",
+        "name": "Tenderness",
+        "artist": "LEISURE",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e023221ba400f274dd3834e80cc"
+      },
+      {
+        "id": "62941O6G9VVUejlVIssE9Q",
+        "name": "Ride It Out",
+        "artist": "LEISURE",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02d06caa464c032687af348b31"
+      },
+      {
+        "id": "11vxl6GuoJixb43JXzYHur",
+        "name": "Home",
+        "artist": "LEISURE",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02d06caa464c032687af348b31"
+      },
+      {
+        "id": "14ncAP1gitDtfhB9iYGJn3",
+        "name": "Beach House",
+        "artist": "LEISURE",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e023221ba400f274dd3834e80cc"
+      },
+      {
+        "id": "2og9eWsM3blGJoQbby3DD4",
+        "name": "Dominoes",
+        "artist": "LEISURE",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e023221ba400f274dd3834e80cc"
+      },
+      {
+        "id": "3YKwLWmaVqrW6u0eogYXFD",
+        "name": "Island",
+        "artist": "LEISURE",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02d06caa464c032687af348b31"
+      }
+    ]
+  },
+  {
     "id": 80,
     "fetched_at": "2026-08-03T09:23:08.743513+00:00",
     "new_artists": 0,
