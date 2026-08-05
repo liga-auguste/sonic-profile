@@ -5,9 +5,9 @@ export const VENN_DATA = {
     "Caoilfhionn Rose",
     "Chip Wickham",
     "Delvon Lamarr Organ Trio",
+    "Golf Trip",
     "Greyhounds",
     "Ikebe Shakedown",
-    "John Ellis",
     "Kelly Finnigan",
     "King Hannah",
     "Leifur James",
@@ -51,7 +51,6 @@ export const VENN_DATA = {
     "Little Simz",
     "Loaded Honey",
     "Louis Baker",
-    "MT Jones",
     "Malia",
     "Pale Jay",
     "Procol Harum",
@@ -100,6 +99,7 @@ export const VENN_DATA = {
     "Ava Joe",
     "DON WEST",
     "Jalen Ngonda",
+    "MT Jones",
     "Mynolia",
     "Olive Jones",
     "Pete Josef",
@@ -117,6 +117,7 @@ export const VENN_DATA = {
     "RIO KOSTA",
     "Rikas",
     "Tal Arditi",
+    "The Smile",
     "Tom Misch"
   ],
   "ALL": [
@@ -126,16 +127,15 @@ export const VENN_DATA = {
     "Jungle",
     "LEISURE",
     "Loma",
-    "Nick Mulvey",
-    "The Smile"
+    "Nick Mulvey"
   ],
   "counts": {
     "S_only": 34,
-    "M_only": 24,
+    "M_only": 23,
     "L_only": 32,
-    "SM": 8,
+    "SM": 9,
     "SL": 0,
-    "ML": 10,
-    "ALL": 8
+    "ML": 11,
+    "ALL": 7
   }
 };
