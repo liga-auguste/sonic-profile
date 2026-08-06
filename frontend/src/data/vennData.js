@@ -1,6 +1,7 @@
 // Where artists live in time — Venn-style overlap data
 export const VENN_DATA = {
   "S_only": [
+    "Alexander IV",
     "Caitlin",
     "Caoilfhionn Rose",
     "Chip Wickham",
@@ -10,6 +11,7 @@ export const VENN_DATA = {
     "Ikebe Shakedown",
     "Kelly Finnigan",
     "King Hannah",
+    "Kraak & Smaak",
     "Leifur James",
     "Leon Bridges",
     "Lou Ella",
@@ -19,14 +21,12 @@ export const VENN_DATA = {
     "Menahan Street Band",
     "Michael Kiwanuka",
     "Monophonics",
-    "Nilüfer Yanya",
     "Nora Mae",
     "Olivia C. Dacal",
     "Ormella",
     "Phi-Psonics",
     "Portico Quartet",
     "Quantic",
-    "Say She She",
     "Snazzy",
     "Sunda Arc",
     "Syd Taylor",
