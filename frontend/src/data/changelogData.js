@@ -1,5 +1,22 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 85,
+    "fetched_at": "2026-08-08T06:35:17.016931+00:00",
+    "new_artists": 0,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260808_063514.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "4bZTQUNfKTNoZ0qis93wxt",
+        "name": "PIECE OF MY HEART",
+        "artist": "Erma Franklin",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e025ced7f40aaf4b328f6d36b5d"
+      }
+    ]
+  },
+  {
     "id": 84,
     "fetched_at": "2026-08-07T07:00:48.110435+00:00",
     "new_artists": 0,
