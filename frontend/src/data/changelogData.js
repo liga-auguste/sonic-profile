@@ -1,5 +1,34 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 86,
+    "fetched_at": "2026-08-09T06:39:05.642905+00:00",
+    "new_artists": 0,
+    "new_tracks": 3,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260809_063903.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "1uJYDmg5ajhba6GXZKZNd8",
+        "name": "Dry Your Tears",
+        "artist": "Jungle",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0274cecbbd6d0b6db5fdcca49d"
+      },
+      {
+        "id": "2IhXds0wZkbklKo12XGhb4",
+        "name": "Romeo",
+        "artist": "Jungle, Bas",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0274cecbbd6d0b6db5fdcca49d"
+      },
+      {
+        "id": "2ezQq2qWhGO6J6q5JwC50d",
+        "name": "All Of The Time",
+        "artist": "Jungle",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0274cecbbd6d0b6db5fdcca49d"
+      }
+    ]
+  },
+  {
     "id": 85,
     "fetched_at": "2026-08-08T06:35:17.016931+00:00",
     "new_artists": 0,
