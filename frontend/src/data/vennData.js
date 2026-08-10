@@ -13,6 +13,7 @@ export const VENN_DATA = {
     "Kraak & Smaak",
     "Leon Bridges",
     "Lou Ella",
+    "Magic City Hippies",
     "Mammal Hands",
     "Matthew Halsall",
     "Menahan Street Band",
@@ -21,13 +22,13 @@ export const VENN_DATA = {
     "Nora Mae",
     "Olivia C. Dacal",
     "Ormella",
-    "Otis Kane",
     "Phi-Psonics",
     "Portico Quartet",
     "Quantic",
     "Say She She",
     "Snazzy",
     "Sunda Arc",
+    "Supertaste",
     "Syd Taylor",
     "The Meltdown",
     "The Olympians",
@@ -55,6 +56,7 @@ export const VENN_DATA = {
     "Pale Jay",
     "Procol Harum",
     "RAYE",
+    "Richard Cejer",
     "Royel Otis",
     "SAULT",
     "Sir Simon Rattle"
@@ -101,7 +103,6 @@ export const VENN_DATA = {
     "Mynolia",
     "Olive Jones",
     "Pete Josef",
-    "Richard Cejer",
     "Svaneborg Kardyb",
     "Vicky Sometani"
   ],
@@ -129,10 +130,10 @@ export const VENN_DATA = {
     "Nick Mulvey"
   ],
   "counts": {
-    "S_only": 33,
-    "M_only": 22,
+    "S_only": 34,
+    "M_only": 23,
     "L_only": 32,
-    "SM": 10,
+    "SM": 9,
     "SL": 0,
     "ML": 11,
     "ALL": 7

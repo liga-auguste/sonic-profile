@@ -1,5 +1,62 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 87,
+    "fetched_at": "2026-08-10T07:12:04.830659+00:00",
+    "new_artists": 2,
+    "new_tracks": 4,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260810_071201.json",
+    "artists": [
+      {
+        "id": "6C4cWzfNlyH0l5xTQPLQa6",
+        "name": "Supertaste",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb3e05a26db818df4956e709d0",
+        "genres": [
+          "disco",
+          "usa"
+        ]
+      },
+      {
+        "id": "1ikg4sypcURm8Vy5GP68xb",
+        "name": "Magic City Hippies",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebe11975442e0b25a30c81321c",
+        "genres": [
+          "funk",
+          "indie pop",
+          "indie",
+          "american",
+          "indie funk"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "4R77PNllrdwsvTRTx66BQn",
+        "name": "Bonnie Hill",
+        "artist": "Jungle",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0274cecbbd6d0b6db5fdcca49d"
+      },
+      {
+        "id": "4rf0IVQDFjr27T4sgah5Pf",
+        "name": "Keep Moving",
+        "artist": "Jungle",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0274cecbbd6d0b6db5fdcca49d"
+      },
+      {
+        "id": "6uB3tMtnAkxqtm08NDNZAV",
+        "name": "Just Fly, Don't Worry",
+        "artist": "Jungle",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0274cecbbd6d0b6db5fdcca49d"
+      },
+      {
+        "id": "0O5H4Mg0iOhvRYsYMCZ07D",
+        "name": "Goodbye My Love",
+        "artist": "Jungle, Priya Ragu",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0274cecbbd6d0b6db5fdcca49d"
+      }
+    ]
+  },
+  {
     "id": 86,
     "fetched_at": "2026-08-09T06:39:05.642905+00:00",
     "new_artists": 0,
