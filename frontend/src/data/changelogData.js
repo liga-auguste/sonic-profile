@@ -1,5 +1,56 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 88,
+    "fetched_at": "2026-08-11T06:49:45.099990+00:00",
+    "new_artists": 3,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260811_064941.json",
+    "artists": [
+      {
+        "id": "0OtS8ueEJDd0RZnHdHOJDl",
+        "name": "anaiis",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb884e909d81ed77642918da2a",
+        "genres": [
+          "rnb",
+          "soul",
+          "pop",
+          "french",
+          "british"
+        ]
+      },
+      {
+        "id": "08Bt3jkvycLCshAiiEPQko",
+        "name": "MAYOR",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb022e1ab367ec71bb77925edf",
+        "genres": [
+          "producer",
+          "jazz-rap"
+        ]
+      },
+      {
+        "id": "5kTeQ588I2gMuODQFHRQUu",
+        "name": "Payfone",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebab1763a328fd6737b5aa58b0",
+        "genres": [
+          "funk",
+          "jazz",
+          "disco",
+          "electronic",
+          "british"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "6Xoc4QevozD6Bfh8SlWrfY",
+        "name": "Lifting You",
+        "artist": "Jungle",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0274cecbbd6d0b6db5fdcca49d"
+      }
+    ]
+  },
+  {
     "id": 87,
     "fetched_at": "2026-08-10T07:12:04.830659+00:00",
     "new_artists": 2,
