@@ -1,5 +1,40 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 89,
+    "fetched_at": "2026-08-12T07:09:18.945038+00:00",
+    "new_artists": 0,
+    "new_tracks": 4,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260812_070916.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "3BB5k0EArimPyCD1VYcFzR",
+        "name": "Quadris De Ouro",
+        "artist": "Pale Jay",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e028e1915ab289c4af3680bf4b2"
+      },
+      {
+        "id": "2dKkVF2m160z0RNDN2dddc",
+        "name": "NISSAN ALTIMA",
+        "artist": "Doechii",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02b245099fe26319344ddf6054"
+      },
+      {
+        "id": "3Uz9plElpmZDui6Crz53M8",
+        "name": "Did It My Own Way",
+        "artist": "Rhye",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02091373fc7c444d2b405566b3"
+      },
+      {
+        "id": "4lqcMdb4GdgCpsR54PY14u",
+        "name": "The Colour of the Sound",
+        "artist": "LEISURE",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e023221ba400f274dd3834e80cc"
+      }
+    ]
+  },
+  {
     "id": 88,
     "fetched_at": "2026-08-11T06:49:45.099990+00:00",
     "new_artists": 3,
