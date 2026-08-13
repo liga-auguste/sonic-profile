@@ -1,5 +1,28 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 90,
+    "fetched_at": "2026-08-13T07:13:42.994065+00:00",
+    "new_artists": 0,
+    "new_tracks": 2,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260813_071340.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "0h04eWLXS72ITUgN4PKnLg",
+        "name": "Light - Edit",
+        "artist": "Michael Kiwanuka",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02ca5f6c2a347dd7e4bd0e28ba"
+      },
+      {
+        "id": "5MiSfpdE6aOvZBejfjOAci",
+        "name": "Miles Away",
+        "artist": "LEISURE",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02b3aa934875c9af31c96e9d5e"
+      }
+    ]
+  },
+  {
     "id": 89,
     "fetched_at": "2026-08-12T07:09:18.945038+00:00",
     "new_artists": 0,
