@@ -1,5 +1,22 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 91,
+    "fetched_at": "2026-08-14T07:10:27.412121+00:00",
+    "new_artists": 0,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260814_071024.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "71TcmnPRvicQXI2FOLRDoT",
+        "name": "Half Silences",
+        "artist": "Loma",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02d69dc50c534c5b36f93f0c0d"
+      }
+    ]
+  },
+  {
     "id": 90,
     "fetched_at": "2026-08-13T07:13:42.994065+00:00",
     "new_artists": 0,
