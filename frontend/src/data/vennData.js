@@ -1,6 +1,7 @@
 // Where artists live in time — Venn-style overlap data
 export const VENN_DATA = {
   "S_only": [
+    "Aaron Taylor",
     "Alexander IV",
     "Caitlin",
     "Delvon Lamarr Organ Trio",
@@ -30,7 +31,6 @@ export const VENN_DATA = {
     "Syd Taylor",
     "The Meltdown",
     "The Olympians",
-    "WheelUP",
     "anaiis",
     "Σtella"
   ],
