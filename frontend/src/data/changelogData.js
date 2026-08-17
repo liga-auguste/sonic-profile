@@ -1,5 +1,96 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 94,
+    "fetched_at": "2026-08-17T06:34:50.802675+00:00",
+    "new_artists": 6,
+    "new_tracks": 2,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260817_063446.json",
+    "artists": [
+      {
+        "id": "2FwDTncULUnmANIh7qKa5z",
+        "name": "FKJ",
+        "image": "https://i.scdn.co/image/ab6761610000e5eba6e6973a01eb04abf32b58bb",
+        "genres": [
+          "electronic",
+          "funk",
+          "downtempo",
+          "nu jazz",
+          "indie"
+        ]
+      },
+      {
+        "id": "3xGUleMP0VqmYNXcGBNhnI",
+        "name": "Rosie Lowe",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb936cd73a71e3e4fc032f3c21",
+        "genres": [
+          "pop",
+          "rnb",
+          "soul",
+          "female vocalists",
+          "indie pop"
+        ]
+      },
+      {
+        "id": "68YD0oUAF8k1NqEFAIx60M",
+        "name": "Thandii",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb60fb0d01c296e294f3b00605",
+        "genres": [
+          "electronic",
+          "soul",
+          "indie pop"
+        ]
+      },
+      {
+        "id": "6gLleDsNwfehG7vWuK2zQe",
+        "name": "Re:um",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb28902c63f0aef7eb7a40618b",
+        "genres": [
+          "funk_add_to_lidarr_batch_22",
+          "soul"
+        ]
+      },
+      {
+        "id": "7ovXNdlB2DNSC16TbKgros",
+        "name": "Hannah Cohen",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebf5e31014498cff548e6f5627",
+        "genres": [
+          "singer-songwriter",
+          "female vocalists",
+          "folk",
+          "indie",
+          "melancholy"
+        ]
+      },
+      {
+        "id": "4E2rKHVDssGJm2SCDOMMJB",
+        "name": "Doechii",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebca2fee52c41d3f58ceb6474b",
+        "genres": [
+          "rap",
+          "rnb",
+          "hip-hop",
+          "hip hop",
+          "pop rap"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "7vsIg2popemXCM3mDTaWZA",
+        "name": "Fire",
+        "artist": "Jungle",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0274cecbbd6d0b6db5fdcca49d"
+      },
+      {
+        "id": "7L1pVDaAATmhv0swJh1B56",
+        "name": "Your New Morning Alarm",
+        "artist": "Marc Rebillet",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e022a327b779d23312c60697ed3"
+      }
+    ]
+  },
+  {
     "id": 93,
     "fetched_at": "2026-08-16T06:23:40.886586+00:00",
     "new_artists": 0,

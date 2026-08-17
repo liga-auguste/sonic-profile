@@ -4,33 +4,31 @@ export const VENN_DATA = {
     "Aaron Taylor",
     "Alexander IV",
     "Caitlin",
-    "Delvon Lamarr Organ Trio",
+    "Doechii",
+    "FKJ",
     "Geoffroy",
     "GoldFord",
     "Golf Trip",
-    "Greyhounds",
-    "Ikebe Shakedown",
-    "Kelly Finnigan",
+    "Gotts Street Park",
+    "Hannah Cohen",
+    "Jessy Yasmeen",
     "Kraak & Smaak",
     "Leon Bridges",
     "Lou Ella",
     "MAYOR",
     "Magic City Hippies",
-    "Menahan Street Band",
     "Michael Kiwanuka",
-    "Monophonics",
     "Nora Mae",
     "Olivia C. Dacal",
     "Ormella",
     "Otis Kane",
     "Payfone",
-    "Quantic",
-    "Say She She",
+    "Re:um",
+    "Rosie Lowe",
     "Snazzy",
     "Supertaste",
     "Syd Taylor",
-    "The Meltdown",
-    "The Olympians",
+    "Thandii",
     "anaiis",
     "Σtella"
   ],
@@ -49,13 +47,12 @@ export const VENN_DATA = {
     "Little Simz",
     "Loaded Honey",
     "Malia",
-    "Pale Jay",
+    "Pete Josef",
     "Procol Harum",
     "RAYE",
     "Royel Otis",
     "SAULT",
-    "Sir Simon Rattle",
-    "Svaneborg Kardyb"
+    "Sir Simon Rattle"
   ],
   "L_only": [
     "AURORA",
@@ -98,8 +95,9 @@ export const VENN_DATA = {
     "MT Jones",
     "Mynolia",
     "Olive Jones",
-    "Pete Josef",
+    "Pale Jay",
     "Richard Cejer",
+    "Svaneborg Kardyb",
     "Vicky Sometani"
   ],
   "SL": [],
@@ -113,8 +111,7 @@ export const VENN_DATA = {
     "Parcels",
     "Rikas",
     "Tal Arditi",
-    "The Smile",
-    "Tom Misch"
+    "The Smile"
   ],
   "ALL": [
     "Common Saints",
@@ -124,15 +121,16 @@ export const VENN_DATA = {
     "Loma",
     "Nick Mulvey",
     "RIO KOSTA",
-    "Rhye"
+    "Rhye",
+    "Tom Misch"
   ],
   "counts": {
-    "S_only": 32,
-    "M_only": 21,
+    "S_only": 30,
+    "M_only": 20,
     "L_only": 31,
-    "SM": 10,
+    "SM": 11,
     "SL": 0,
-    "ML": 11,
-    "ALL": 8
+    "ML": 10,
+    "ALL": 9
   }
 };
