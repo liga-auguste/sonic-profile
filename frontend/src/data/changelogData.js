@@ -1,5 +1,46 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 95,
+    "fetched_at": "2026-08-18T06:26:29.088398+00:00",
+    "new_artists": 3,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260818_062625.json",
+    "artists": [
+      {
+        "id": "2kcEBkX6yNx5lgyQCXA22P",
+        "name": "River Simmons",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb3e4f130b049aef9591fa140c",
+        "genres": []
+      },
+      {
+        "id": "5reK8WyX1RXvnRw8J0ZpgE",
+        "name": "Oly Sherman",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebe30c2beede5ade300e348a4f",
+        "genres": []
+      },
+      {
+        "id": "6hk187bUA8NzTX9NFGppv9",
+        "name": "The Offline",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebe28d126e6a987488d1fcca63",
+        "genres": [
+          "jazz",
+          "soul",
+          "hamburg",
+          "instrumental"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "0BnugXqRqfNqBSDHFyTVQn",
+        "name": "Come Back to Me",
+        "artist": "Jungle",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02775f28b18db542ae81fafee3"
+      }
+    ]
+  },
+  {
     "id": 94,
     "fetched_at": "2026-08-17T06:34:50.802675+00:00",
     "new_artists": 6,
