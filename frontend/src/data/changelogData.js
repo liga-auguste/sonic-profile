@@ -1,5 +1,65 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 96,
+    "fetched_at": "2026-08-19T06:27:09.958835+00:00",
+    "new_artists": 1,
+    "new_tracks": 6,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260819_062706.json",
+    "artists": [
+      {
+        "id": "6Mn5HNY6bJSqK31cRa0uiv",
+        "name": "JONES",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb846c7db377dbfab7aa691229",
+        "genres": [
+          "pop",
+          "rnb",
+          "chillout",
+          "soul",
+          "female vocalists"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "6ik4NDZ9Z0U3pfUXu2PvPb",
+        "name": "Where Are You Now?",
+        "artist": "Jungle",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02775f28b18db542ae81fafee3"
+      },
+      {
+        "id": "07lwMZLo0Nxc01nMXuiVL8",
+        "name": "Sunshine",
+        "artist": "Jungle",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02775f28b18db542ae81fafee3"
+      },
+      {
+        "id": "5ODIdmeS7890ddWRsVqxsZ",
+        "name": "Move Like You Do",
+        "artist": "Jungle",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02775f28b18db542ae81fafee3"
+      },
+      {
+        "id": "22loAc1Uf9VCb0clikbRY7",
+        "name": "Carry On",
+        "artist": "Jungle",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02775f28b18db542ae81fafee3"
+      },
+      {
+        "id": "0T0MpMfY1qUj7dfyLSaIHo",
+        "name": "The Wave",
+        "artist": "Jungle",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02775f28b18db542ae81fafee3"
+      },
+      {
+        "id": "3xfi8pAYmWCaLhn21fxZxp",
+        "name": "Romeo II (ft Bas)",
+        "artist": "Jungle, Bas",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02775f28b18db542ae81fafee3"
+      }
+    ]
+  },
+  {
     "id": 95,
     "fetched_at": "2026-08-18T06:26:29.088398+00:00",
     "new_artists": 3,
