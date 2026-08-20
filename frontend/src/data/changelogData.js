@@ -1,5 +1,87 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 97,
+    "fetched_at": "2026-08-20T06:28:41.606429+00:00",
+    "new_artists": 4,
+    "new_tracks": 5,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260820_062836.json",
+    "artists": [
+      {
+        "id": "2Igm79AVp3dCbQhfF6I60Z",
+        "name": "MAX RAD",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebe88e78beacc84e67f5bd4942",
+        "genres": [
+          "electronic",
+          "pop",
+          "rnb",
+          "synthpop",
+          "british"
+        ]
+      },
+      {
+        "id": "2qyspw08f8cTqsn8tInrB4",
+        "name": "Buttered",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb84912cc9ea6d27e4cdf79da3",
+        "genres": []
+      },
+      {
+        "id": "3EnbnmqrrvApHJs6FMvYik",
+        "name": "Elder Island",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebb85d701fb26d806a10c0ff2b",
+        "genres": [
+          "electronic",
+          "soul",
+          "chillout",
+          "british",
+          "funk"
+        ]
+      },
+      {
+        "id": "5ybU1P0ufoGH5CMclUKebd",
+        "name": "Ruby Waters",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb966947b94653d85af220496c",
+        "genres": [
+          "canadian",
+          "indie",
+          "singer-songwriter"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "69wmkZCUwdr2T0HvXKtNoa",
+        "name": "Someday, Somewhere",
+        "artist": "Jungle",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02775f28b18db542ae81fafee3"
+      },
+      {
+        "id": "0eVYZZq53ITKg7FGKQf3wR",
+        "name": "Heavy on My Soul",
+        "artist": "Jungle",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02775f28b18db542ae81fafee3"
+      },
+      {
+        "id": "1nsPzblmbGbZTyj1vCV9mk",
+        "name": "highest high",
+        "artist": "Martin Luke Brown",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02cd89ad57e9fdb0a7f5b1a9b3"
+      },
+      {
+        "id": "6AQThFVsshumuPP8bE7BeD",
+        "name": "Natural",
+        "artist": "Jungle",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02775f28b18db542ae81fafee3"
+      },
+      {
+        "id": "6irT8sLhEommDpvqxrwEuh",
+        "name": "Reflection",
+        "artist": "Jungle",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02775f28b18db542ae81fafee3"
+      }
+    ]
+  },
+  {
     "id": 96,
     "fetched_at": "2026-08-19T06:27:09.958835+00:00",
     "new_artists": 1,

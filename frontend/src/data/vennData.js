@@ -3,17 +3,16 @@ export const VENN_DATA = {
   "S_only": [
     "Aaron Taylor",
     "Alexander IV",
+    "Buttered",
     "Caitlin",
     "Collect 200",
-    "FKJ",
-    "Geoffroy",
+    "Elder Island",
     "GoldFord",
-    "Gotts Street Park",
     "JONES",
-    "Jessy Yasmeen",
     "Kraak & Smaak",
     "Leon Bridges",
     "Lou Ella",
+    "MAX RAD",
     "MAYOR",
     "Magic City Hippies",
     "Michael Kiwanuka",
@@ -24,6 +23,7 @@ export const VENN_DATA = {
     "Otis Kane",
     "Payfone",
     "River Simmons",
+    "Ruby Waters",
     "Snazzy",
     "Supertaste",
     "Syd Taylor",
@@ -52,7 +52,8 @@ export const VENN_DATA = {
     "RAYE",
     "Royel Otis",
     "SAULT",
-    "Sir Simon Rattle"
+    "Sir Simon Rattle",
+    "Svaneborg Kardyb"
   ],
   "L_only": [
     "AURORA",
@@ -97,7 +98,6 @@ export const VENN_DATA = {
     "Mynolia",
     "Olive Jones",
     "Richard Cejer",
-    "Svaneborg Kardyb",
     "Vicky Sometani"
   ],
   "SL": [],
@@ -105,7 +105,6 @@ export const VENN_DATA = {
     "Bill Laurance",
     "Coldplay",
     "Hania Rani",
-    "Martin Luke Brown",
     "Octave Lissner",
     "Olivia Dean",
     "Parcels",
@@ -119,6 +118,7 @@ export const VENN_DATA = {
     "Jungle",
     "LEISURE",
     "Loma",
+    "Martin Luke Brown",
     "Nick Mulvey",
     "RIO KOSTA",
     "Rhye",
@@ -126,11 +126,11 @@ export const VENN_DATA = {
   ],
   "counts": {
     "S_only": 30,
-    "M_only": 20,
+    "M_only": 21,
     "L_only": 31,
-    "SM": 11,
+    "SM": 10,
     "SL": 0,
-    "ML": 10,
-    "ALL": 9
+    "ML": 9,
+    "ALL": 10
   }
 };
