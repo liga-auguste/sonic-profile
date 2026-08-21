@@ -2,14 +2,17 @@
 export const VENN_DATA = {
   "S_only": [
     "Aaron Taylor",
+    "Abby Sage",
     "Alexander IV",
+    "Bay Ledges",
     "Buttered",
     "Caitlin",
     "Collect 200",
     "Elder Island",
-    "GoldFord",
+    "Eleni Drake",
+    "George Bloomfield",
     "JONES",
-    "Kraak & Smaak",
+    "Jacob Slade",
     "Leon Bridges",
     "Lou Ella",
     "MAX RAD",
@@ -20,7 +23,6 @@ export const VENN_DATA = {
     "Olivia C. Dacal",
     "Oly Sherman",
     "Ormella",
-    "Otis Kane",
     "Payfone",
     "River Simmons",
     "Ruby Waters",
@@ -30,6 +32,7 @@ export const VENN_DATA = {
     "Thandii",
     "The Offline",
     "anaiis",
+    "mou",
     "Σtella"
   ],
   "M_only": [
@@ -46,10 +49,12 @@ export const VENN_DATA = {
     "Lana Del Rey",
     "Little Simz",
     "Loaded Honey",
+    "Louis Baker",
     "Malia",
     "Pale Jay",
     "Procol Harum",
     "RAYE",
+    "Richard Cejer",
     "Royel Otis",
     "SAULT",
     "Sir Simon Rattle",
@@ -93,11 +98,9 @@ export const VENN_DATA = {
     "DON WEST",
     "Golf Trip",
     "Jalen Ngonda",
-    "Louis Baker",
     "MT Jones",
     "Mynolia",
     "Olive Jones",
-    "Richard Cejer",
     "Vicky Sometani"
   ],
   "SL": [],
@@ -108,6 +111,7 @@ export const VENN_DATA = {
     "Octave Lissner",
     "Olivia Dean",
     "Parcels",
+    "RIO KOSTA",
     "Rikas",
     "Tal Arditi",
     "The Smile"
@@ -120,17 +124,16 @@ export const VENN_DATA = {
     "Loma",
     "Martin Luke Brown",
     "Nick Mulvey",
-    "RIO KOSTA",
     "Rhye",
     "Tom Misch"
   ],
   "counts": {
-    "S_only": 30,
-    "M_only": 21,
+    "S_only": 33,
+    "M_only": 23,
     "L_only": 31,
-    "SM": 10,
+    "SM": 8,
     "SL": 0,
-    "ML": 9,
-    "ALL": 10
+    "ML": 10,
+    "ALL": 9
   }
 };

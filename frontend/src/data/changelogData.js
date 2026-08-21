@@ -1,5 +1,91 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 98,
+    "fetched_at": "2026-08-21T06:30:01.285997+00:00",
+    "new_artists": 5,
+    "new_tracks": 3,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260821_062955.json",
+    "artists": [
+      {
+        "id": "0hjU3zARYvc8H37k4RCqjt",
+        "name": "mou",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb5df68b367631e12f41aef9f6",
+        "genres": [
+          "dub",
+          "french",
+          "indie",
+          "noise",
+          "crossover"
+        ]
+      },
+      {
+        "id": "2BxFZaG9zCwZI09r2RQtL0",
+        "name": "Jacob Slade",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb2ca70506b932cdfd682e2cfb",
+        "genres": [
+          "acoustic",
+          "singer-songwriter",
+          "usa",
+          "indie pop",
+          "midwest"
+        ]
+      },
+      {
+        "id": "2y7pPMQioLwMFUKhK9Pyow",
+        "name": "Eleni Drake",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb9bc14dd39afc170c9e12a892",
+        "genres": [
+          "folk",
+          "rock",
+          "covers",
+          "acoustic",
+          "pop"
+        ]
+      },
+      {
+        "id": "4aej3kKLxSLM0WauTSfZ7k",
+        "name": "Abby Sage",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb654b65bc401190c425cd00ee",
+        "genres": [
+          "indie pop",
+          "pop",
+          "my top songs"
+        ]
+      },
+      {
+        "id": "7FhRUp59cBzPaxobsRY1Nc",
+        "name": "Bay Ledges",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebffb80d2a054a4e9f92de300e",
+        "genres": [
+          "indie pop",
+          "indie",
+          "pop"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "39fB92vtnJTw3y6sABRrWd",
+        "name": "back of my mind",
+        "artist": "Martin Luke Brown",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02e5041e819221b74fb696d527"
+      },
+      {
+        "id": "1pEdm4LOUE54rpnpNO1PAK",
+        "name": "aching for everyone",
+        "artist": "Martin Luke Brown",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e027e25b9a861341a7fb433fb7d"
+      },
+      {
+        "id": "62OMSnfraKVSw3EdMrfRaL",
+        "name": "dream state",
+        "artist": "Martin Luke Brown",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02159ec7c9cd36f28b4c350d9a"
+      }
+    ]
+  },
+  {
     "id": 97,
     "fetched_at": "2026-08-20T06:28:41.606429+00:00",
     "new_artists": 4,
