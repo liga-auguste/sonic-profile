@@ -1,5 +1,58 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 99,
+    "fetched_at": "2026-08-22T06:23:19.282530+00:00",
+    "new_artists": 3,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260822_062314.json",
+    "artists": [
+      {
+        "id": "1cofMlotC1E8kMOfz1yhZC",
+        "name": "Rowena Wise",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb368f56e775c92722fea38ebd",
+        "genres": [
+          "indie rock",
+          "indie",
+          "singer-songwriter",
+          "folk",
+          "alternative pop"
+        ]
+      },
+      {
+        "id": "3AZpyYJGXnWdPPwrGniSdF",
+        "name": "Dream Sitch",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb4d2e36f98456ba23dd92c578",
+        "genres": [
+          "indie pop",
+          "folk",
+          "chamber pop",
+          "americana",
+          "alternative"
+        ]
+      },
+      {
+        "id": "3NsEv68AsYdjKdCJ4AhHTa",
+        "name": "Johanna Samuels",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb243e3d6731ab938ef636c382",
+        "genres": [
+          "singer-songwriter",
+          "indie",
+          "female vocalist",
+          "indie pop"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "5vlT3j7ey6KTOmsFkesiKX",
+        "name": "Roads",
+        "artist": "Westerman",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e027442c622d53ca405291c14e1"
+      }
+    ]
+  },
+  {
     "id": 98,
     "fetched_at": "2026-08-21T06:30:01.285997+00:00",
     "new_artists": 5,

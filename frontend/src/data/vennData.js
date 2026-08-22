@@ -8,11 +8,13 @@ export const VENN_DATA = {
     "Buttered",
     "Caitlin",
     "Collect 200",
+    "Dream Sitch",
     "Elder Island",
     "Eleni Drake",
     "George Bloomfield",
     "JONES",
     "Jacob Slade",
+    "Johanna Samuels",
     "Leon Bridges",
     "Lou Ella",
     "MAX RAD",
@@ -25,6 +27,7 @@ export const VENN_DATA = {
     "Ormella",
     "Payfone",
     "River Simmons",
+    "Rowena Wise",
     "Ruby Waters",
     "Snazzy",
     "Supertaste",
@@ -42,6 +45,7 @@ export const VENN_DATA = {
     "Ensemble Contraste",
     "GeeJay",
     "Hermanos Gutiérrez",
+    "Jalen Ngonda",
     "Jan Garbarek",
     "Jordan Rakei",
     "José González",
@@ -50,6 +54,7 @@ export const VENN_DATA = {
     "Little Simz",
     "Loaded Honey",
     "Louis Baker",
+    "MT Jones",
     "Malia",
     "Pale Jay",
     "Procol Harum",
@@ -97,8 +102,6 @@ export const VENN_DATA = {
     "Ava Joe",
     "DON WEST",
     "Golf Trip",
-    "Jalen Ngonda",
-    "MT Jones",
     "Mynolia",
     "Olive Jones",
     "Vicky Sometani"
@@ -107,6 +110,7 @@ export const VENN_DATA = {
   "ML": [
     "Bill Laurance",
     "Coldplay",
+    "Dojo Cuts",
     "Hania Rani",
     "Octave Lissner",
     "Olivia Dean",
@@ -118,7 +122,6 @@ export const VENN_DATA = {
   ],
   "ALL": [
     "Common Saints",
-    "Dojo Cuts",
     "Jungle",
     "LEISURE",
     "Loma",
@@ -128,12 +131,12 @@ export const VENN_DATA = {
     "Tom Misch"
   ],
   "counts": {
-    "S_only": 33,
-    "M_only": 23,
+    "S_only": 36,
+    "M_only": 25,
     "L_only": 31,
-    "SM": 8,
+    "SM": 6,
     "SL": 0,
-    "ML": 10,
-    "ALL": 9
+    "ML": 11,
+    "ALL": 8
   }
 };
