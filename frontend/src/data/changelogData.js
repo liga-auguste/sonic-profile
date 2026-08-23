@@ -1,5 +1,47 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 100,
+    "fetched_at": "2026-08-23T06:24:30.502624+00:00",
+    "new_artists": 2,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260823_062425.json",
+    "artists": [
+      {
+        "id": "4E4URaamJ7aTA4YE2wk9EO",
+        "name": "Danika",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb49bb382a6c08c31a8f89619b",
+        "genres": [
+          "pop",
+          "folk",
+          "electropop",
+          "indie pop",
+          "folk pop"
+        ]
+      },
+      {
+        "id": "2uvY5pgdD9t1CZ5zMNw1rl",
+        "name": "Lucy Rose",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebd216069e292165c638a38107",
+        "genres": [
+          "folk",
+          "indie",
+          "female vocalists",
+          "indie folk",
+          "british"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "1O7hEOyUXyf1kgHjsoMGwm",
+        "name": "Suit of Armour",
+        "artist": "Danika",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e029a422774d3cb010e7aff9227"
+      }
+    ]
+  },
+  {
     "id": 99,
     "fetched_at": "2026-08-22T06:23:19.282530+00:00",
     "new_artists": 3,
