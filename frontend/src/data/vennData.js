@@ -4,6 +4,7 @@ export const VENN_DATA = {
     "Aaron Taylor",
     "Abby Sage",
     "Alexander IV",
+    "Anna Ash",
     "Buttered",
     "Caitlin",
     "Collect 200",
@@ -12,7 +13,6 @@ export const VENN_DATA = {
     "Elder Island",
     "Eleni Drake",
     "George Bloomfield",
-    "JONES",
     "Jacob Slade",
     "Johanna Samuels",
     "Leon Bridges",
@@ -34,6 +34,7 @@ export const VENN_DATA = {
     "Supertaste",
     "Syd Taylor",
     "Thandii",
+    "This Is The Kit",
     "anaiis",
     "mou"
   ],
@@ -61,7 +62,8 @@ export const VENN_DATA = {
     "Royel Otis",
     "SAULT",
     "Sir Simon Rattle",
-    "Svaneborg Kardyb"
+    "Svaneborg Kardyb",
+    "Σtella"
   ],
   "L_only": [
     "AURORA",
@@ -102,8 +104,7 @@ export const VENN_DATA = {
     "Golf Trip",
     "Mynolia",
     "Olive Jones",
-    "Vicky Sometani",
-    "Σtella"
+    "Vicky Sometani"
   ],
   "SL": [],
   "ML": [
@@ -130,10 +131,10 @@ export const VENN_DATA = {
     "Tom Misch"
   ],
   "counts": {
-    "S_only": 35,
-    "M_only": 24,
+    "S_only": 36,
+    "M_only": 25,
     "L_only": 31,
-    "SM": 7,
+    "SM": 6,
     "SL": 0,
     "ML": 11,
     "ALL": 8

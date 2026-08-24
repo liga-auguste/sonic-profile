@@ -1,5 +1,62 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 101,
+    "fetched_at": "2026-08-24T06:38:02.129460+00:00",
+    "new_artists": 2,
+    "new_tracks": 4,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260824_063757.json",
+    "artists": [
+      {
+        "id": "0ZUyFEafMwocvApBjTXvdo",
+        "name": "This Is The Kit",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb17e562daddcfa796d07ccfb4",
+        "genres": [
+          "folk",
+          "singer-songwriter",
+          "female vocalists",
+          "indie",
+          "new weird america"
+        ]
+      },
+      {
+        "id": "1QyjHJQb3WeWFxXaNLpLOw",
+        "name": "Anna Ash",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebe94d66b8a41bd11cd73f615e",
+        "genres": [
+          "folk",
+          "singer-songwriter"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "2WvgqvRgh4lGMIWfoXFET7",
+        "name": "Put It On Me",
+        "artist": "KOLA",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02bce3d57485233b290a552dd1"
+      },
+      {
+        "id": "5NFOB1LERUAfkOYNAeEqSU",
+        "name": "fault line",
+        "artist": "Vicky Sometani, MAX RAD",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e020ff4f14b82986c3794aa509b"
+      },
+      {
+        "id": "0iFdtqVlV5piDnq0KUloCB",
+        "name": "Bigger Picture",
+        "artist": "Sarah Julia",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0268d20af8769487be8b031472"
+      },
+      {
+        "id": "4qDHUnMXUB7yhVnYPi6sKq",
+        "name": "6 Strings",
+        "artist": "Natalie Madigan",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0296e2954c157ff656c8ad598e"
+      }
+    ]
+  },
+  {
     "id": 100,
     "fetched_at": "2026-08-23T06:24:30.502624+00:00",
     "new_artists": 2,
