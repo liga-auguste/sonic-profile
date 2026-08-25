@@ -1,5 +1,40 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 102,
+    "fetched_at": "2026-08-25T06:30:01.934434+00:00",
+    "new_artists": 2,
+    "new_tracks": 0,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260825_062957.json",
+    "artists": [
+      {
+        "id": "1mwP5J1kB8clYx0SoNL0uh",
+        "name": "Fabich",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb1f0932021ccba4e9db8f3c73",
+        "genres": [
+          "british",
+          "electronic",
+          "lofi",
+          "dance",
+          "instrumental hip-hop"
+        ]
+      },
+      {
+        "id": "1qz3nYVQit24tcOsCOdCvb",
+        "name": "Cupidon",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebbb5a54138f6f386cf5f18c2c",
+        "genres": [
+          "pop",
+          "canadian",
+          "hip-hop",
+          "electronic",
+          "canada"
+        ]
+      }
+    ],
+    "tracks": []
+  },
+  {
     "id": 101,
     "fetched_at": "2026-08-24T06:38:02.129460+00:00",
     "new_artists": 2,
