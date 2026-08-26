@@ -1,5 +1,40 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 103,
+    "fetched_at": "2026-08-26T06:31:42.222787+00:00",
+    "new_artists": 2,
+    "new_tracks": 0,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260826_063137.json",
+    "artists": [
+      {
+        "id": "1B62oENW0VGjnBBUvwkYtX",
+        "name": "No Suits",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb40d08ddb29f4eef4e17eb531",
+        "genres": [
+          "pop",
+          "hip-hop",
+          "indie",
+          "jazz",
+          "rap"
+        ]
+      },
+      {
+        "id": "2iHrc69sZgyWFBAhLpS3oH",
+        "name": "Meltt",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebdbe7d8a9793a7b979bd509bc",
+        "genres": [
+          "indie rock",
+          "psychedelic rock",
+          "psychedelic",
+          "rock",
+          "alternative"
+        ]
+      }
+    ],
+    "tracks": []
+  },
+  {
     "id": 102,
     "fetched_at": "2026-08-25T06:30:01.934434+00:00",
     "new_artists": 2,
