@@ -4,6 +4,7 @@ export const VENN_DATA = {
     "Aaron Taylor",
     "Alexander IV",
     "Anna Ash",
+    "Bonobo",
     "Buttered",
     "Caitlin",
     "Collect 200",
@@ -12,11 +13,12 @@ export const VENN_DATA = {
     "Eleni Drake",
     "Fabich",
     "George Bloomfield",
+    "GoldFord",
+    "JACOTÉNE",
     "Jacob Slade",
     "Leon Bridges",
     "Lou Ella",
     "Louis Baker",
-    "Lucy Rose",
     "MAX RAD",
     "MAYOR",
     "Magic City Hippies",
@@ -24,7 +26,6 @@ export const VENN_DATA = {
     "Michael Kiwanuka",
     "No Suits",
     "Nora Mae",
-    "Ormella",
     "Payfone",
     "River Simmons",
     "Rowena Wise",
@@ -115,7 +116,8 @@ export const VENN_DATA = {
     "RIO KOSTA",
     "Rikas",
     "Tal Arditi",
-    "The Smile"
+    "The Smile",
+    "Tom Misch"
   ],
   "ALL": [
     "Common Saints",
@@ -124,16 +126,15 @@ export const VENN_DATA = {
     "Loma",
     "Martin Luke Brown",
     "Nick Mulvey",
-    "Rhye",
-    "Tom Misch"
+    "Rhye"
   ],
   "counts": {
-    "S_only": 33,
+    "S_only": 34,
     "M_only": 22,
     "L_only": 31,
     "SM": 9,
     "SL": 0,
-    "ML": 11,
-    "ALL": 8
+    "ML": 12,
+    "ALL": 7
   }
 };

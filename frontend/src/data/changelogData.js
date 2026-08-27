@@ -1,5 +1,63 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 104,
+    "fetched_at": "2026-08-27T17:07:35.381063+00:00",
+    "new_artists": 2,
+    "new_tracks": 4,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260827_170731.json",
+    "artists": [
+      {
+        "id": "0cmWgDlu9CwTgxPhf403hb",
+        "name": "Bonobo",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebc66e2d7422967d6f6f5ab905",
+        "genres": [
+          "downtempo",
+          "electronic",
+          "trip-hop",
+          "chillout",
+          "ninja tune"
+        ]
+      },
+      {
+        "id": "1vPK0KqkfnZzdpKDC2l3rd",
+        "name": "JACOTÉNE",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb7874c90511ff98bf9b50392a",
+        "genres": [
+          "australian",
+          "soul",
+          "singer-songwriter"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "4bpMZGIwqPXbMggmWCNzqb",
+        "name": "Keep Smiling",
+        "artist": "Celeste",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0273a6edc5aef6277ccbc99af1"
+      },
+      {
+        "id": "6g2lOCDWFDjYLscHr6LCoM",
+        "name": "Pool Party",
+        "artist": "Abby Sage",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0292830688153d4fc3e4aea162"
+      },
+      {
+        "id": "1u4WV9uKWdeuyU2a89PpOP",
+        "name": "Ramblin'",
+        "artist": "Niina Soleil",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02ca8911fec28781e72bf73680"
+      },
+      {
+        "id": "0ZFDhrfPi5YPK1TvS0q1Av",
+        "name": "Summer Rain - Rework",
+        "artist": "Olive Jones",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02cd3638742f20d67dbeb948ec"
+      }
+    ]
+  },
+  {
     "id": 103,
     "fetched_at": "2026-08-26T06:31:42.222787+00:00",
     "new_artists": 2,
