@@ -1,5 +1,22 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 105,
+    "fetched_at": "2026-08-28T17:54:54.949327+00:00",
+    "new_artists": 0,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260828_175451.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "29MM2oLWsQFJoID6XDFStY",
+        "name": "Colour On The Wall",
+        "artist": "Olive Jones",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02e395f1ea180fe7359fa2cdd1"
+      }
+    ]
+  },
+  {
     "id": 104,
     "fetched_at": "2026-08-27T17:07:35.381063+00:00",
     "new_artists": 2,
