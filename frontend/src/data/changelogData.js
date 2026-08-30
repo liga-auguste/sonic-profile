@@ -1,5 +1,22 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 107,
+    "fetched_at": "2026-08-30T10:56:04.280070+00:00",
+    "new_artists": 0,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260830_105600.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "1LJ2yoyBD4aQJYVDj5dlNF",
+        "name": "Sh-Boom",
+        "artist": "The Chords",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e028a146965e7be8b6b3f0f7305"
+      }
+    ]
+  },
+  {
     "id": 106,
     "fetched_at": "2026-08-29T11:59:11.772011+00:00",
     "new_artists": 0,

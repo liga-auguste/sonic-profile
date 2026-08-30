@@ -37,7 +37,6 @@ export const VENN_DATA = {
     "mou"
   ],
   "M_only": [
-    "Andreas Scholl",
     "Chet Faker",
     "Ensemble Contraste",
     "Hermanos Gutiérrez",
@@ -46,11 +45,11 @@ export const VENN_DATA = {
     "Jan Garbarek",
     "Jordan Rakei",
     "José González",
-    "Klaus Mertens",
-    "Lana Del Rey",
+    "Kraak & Smaak",
     "Little Simz",
     "Loaded Honey",
     "Malia",
+    "Michael Kiwanuka",
     "Pale Jay",
     "Procol Harum",
     "RAYE",
@@ -58,6 +57,7 @@ export const VENN_DATA = {
     "SAULT",
     "Sir Simon Rattle",
     "Svaneborg Kardyb",
+    "Thomas Rückert",
     "Σtella"
   ],
   "L_only": [
@@ -79,6 +79,7 @@ export const VENN_DATA = {
     "John Rutter",
     "Kings of Convenience",
     "Lambert",
+    "Leif Vollebekk",
     "London Grammar",
     "London Symphony Orchestra",
     "Max Richter",
@@ -102,6 +103,7 @@ export const VENN_DATA = {
     "Olive Jones",
     "Richard Cejer",
     "Snazzy",
+    "Two Another",
     "Vicky Sometani"
   ],
   "SL": [],
@@ -109,7 +111,7 @@ export const VENN_DATA = {
     "Coldplay",
     "Dojo Cuts",
     "Hania Rani",
-    "Leif Vollebekk",
+    "Nick Mulvey",
     "Octave Lissner",
     "Olivia Dean",
     "Parcels",
@@ -125,16 +127,15 @@ export const VENN_DATA = {
     "LEISURE",
     "Loma",
     "Martin Luke Brown",
-    "Nick Mulvey",
     "Rhye"
   ],
   "counts": {
     "S_only": 34,
     "M_only": 22,
-    "L_only": 31,
-    "SM": 9,
+    "L_only": 32,
+    "SM": 10,
     "SL": 0,
     "ML": 12,
-    "ALL": 7
+    "ALL": 6
   }
 };
