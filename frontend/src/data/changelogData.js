@@ -1,5 +1,34 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 108,
+    "fetched_at": "2026-08-31T12:11:45.539961+00:00",
+    "new_artists": 0,
+    "new_tracks": 3,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260831_121142.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "00ZfGhQCMktK4A8jdFUt1Q",
+        "name": "Ramblin'",
+        "artist": "Niina Soleil",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02aad3f22b307b5842253a4fd6"
+      },
+      {
+        "id": "4aQVmxRFRT0EhGNkLyzUXJ",
+        "name": "End of Time",
+        "artist": "Olive Jones",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02e395f1ea180fe7359fa2cdd1"
+      },
+      {
+        "id": "1cbSuEz1j1M4EXlwRqa4zH",
+        "name": "Who You Are",
+        "artist": "Kwaku Asante",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02fb48c63d1a293bdc3fb1c8c3"
+      }
+    ]
+  },
+  {
     "id": 107,
     "fetched_at": "2026-08-30T10:56:04.280070+00:00",
     "new_artists": 0,
