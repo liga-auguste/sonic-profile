@@ -1,5 +1,58 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 109,
+    "fetched_at": "2026-09-01T10:48:18.467465+00:00",
+    "new_artists": 3,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260901_104814.json",
+    "artists": [
+      {
+        "id": "3JWTfcIZq4OUdC6oBunofK",
+        "name": "Otis Junior",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebc930260e87eaf6b7c4ee0d7d",
+        "genres": [
+          "soul",
+          "jazz",
+          "rnb",
+          "usa",
+          "united states"
+        ]
+      },
+      {
+        "id": "4pgjEpAP1k4epnwZWmbHTf",
+        "name": "Mop Mop",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb64bc8f77b5292e2a60bcb24d",
+        "genres": [
+          "nu jazz",
+          "jazz",
+          "nu-jazz",
+          "mj-house bounce"
+        ]
+      },
+      {
+        "id": "3U5oimD8ITVHMJQoxypQPN",
+        "name": "Nostalgia 77",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb7e6abedd06b94cf1b754767a",
+        "genres": [
+          "jazz",
+          "nu jazz",
+          "acid jazz",
+          "downtempo",
+          "electronic"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "4rMIxgdnLmKhvs4OoX6V6o",
+        "name": "Hands of Time",
+        "artist": "Kraak & Smaak, Alxndr London",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0228c34af3c56307edfa2acd52"
+      }
+    ]
+  },
+  {
     "id": 108,
     "fetched_at": "2026-08-31T12:11:45.539961+00:00",
     "new_artists": 0,
@@ -3832,7 +3885,11 @@ export const CHANGELOG_DATA = [
         "id": "14kEabF9MiQJW37PNuLGgJ",
         "name": "KATZROAR",
         "image": "https://i.scdn.co/image/ab6761610000e5ebf54ee1abe01cb5a97ab915b1",
-        "genres": []
+        "genres": [
+          "psychedelic rock",
+          "surf funk",
+          "funk_add_to_lidarr_batch_14"
+        ]
       },
       {
         "id": "6BxU8WANw4zXnBceJykdKX",
