@@ -1,5 +1,37 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 110,
+    "fetched_at": "2026-09-02T10:13:11.793247+00:00",
+    "new_artists": 2,
+    "new_tracks": 0,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260902_101307.json",
+    "artists": [
+      {
+        "id": "2Ks1Z1scmEDZfaYaCS7Osj",
+        "name": "Surprise Chef",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb11d862889052aa8d0be2b172",
+        "genres": [
+          "jazz",
+          "funk",
+          "psychedelic",
+          "instrumental",
+          "australian"
+        ]
+      },
+      {
+        "id": "36Lyedrxvj4wAPFvBK5O1S",
+        "name": "August Charles",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb9608ddcf46667e2ea5c869c2",
+        "genres": [
+          "indie pop",
+          "soul"
+        ]
+      }
+    ],
+    "tracks": []
+  },
+  {
     "id": 109,
     "fetched_at": "2026-09-01T10:48:18.467465+00:00",
     "new_artists": 3,
