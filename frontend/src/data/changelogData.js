@@ -1,5 +1,45 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 111,
+    "fetched_at": "2026-09-03T10:25:08.729751+00:00",
+    "new_artists": 3,
+    "new_tracks": 0,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260903_102504.json",
+    "artists": [
+      {
+        "id": "2xcyMeQhPSRjXrSVZDkVGo",
+        "name": "The Bahama Soul Club",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb380485463f2adbc0e4d95535",
+        "genres": [
+          "bossa nova",
+          "jazz",
+          "nu jazz",
+          "latin",
+          "soul"
+        ]
+      },
+      {
+        "id": "5szdoaeT1yHXbbj6w6z2eD",
+        "name": "Offthewally",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb0ecdef19e7fc189b72c28a45",
+        "genres": [
+          "australian",
+          "surf",
+          "indie",
+          "jazz"
+        ]
+      },
+      {
+        "id": "6su4Idcbfgp3UNwGPtgPrN",
+        "name": "Bodalla",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb8bf4e1521d40394cc0af77e3",
+        "genres": []
+      }
+    ],
+    "tracks": []
+  },
+  {
     "id": 110,
     "fetched_at": "2026-09-02T10:13:11.793247+00:00",
     "new_artists": 2,
