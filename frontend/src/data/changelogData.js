@@ -1,5 +1,52 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 112,
+    "fetched_at": "2026-09-04T10:11:30.920846+00:00",
+    "new_artists": 3,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260904_101118.json",
+    "artists": [
+      {
+        "id": "2I36EjIVz3vDfROgj1MfZ3",
+        "name": "Boozoo Bajou",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebaa68d18f9bba57c2cf7b1f02",
+        "genres": []
+      },
+      {
+        "id": "0CcvfJAMRa28MnCnujCdXQ",
+        "name": "Lady Blackbird",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebd26f1a333f99d3487b6a0854",
+        "genres": [
+          "soul",
+          "jazz",
+          "rnb",
+          "usa"
+        ]
+      },
+      {
+        "id": "1ga4lWS7NtKo4r9jNSWumc",
+        "name": "Alice Russell",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebb4f52c012ebee16885472032",
+        "genres": [
+          "soul",
+          "female vocalists",
+          "jazz",
+          "funk",
+          "nu jazz"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "65W7hYwWqa1hQnDV2UDCys",
+        "name": "Quadris De Ouro",
+        "artist": "Pale Jay",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0216a34e3f0a6cb9c84f643660"
+      }
+    ]
+  },
+  {
     "id": 111,
     "fetched_at": "2026-09-03T10:25:08.729751+00:00",
     "new_artists": 3,

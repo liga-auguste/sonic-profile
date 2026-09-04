@@ -3,9 +3,11 @@ export const VENN_DATA = {
   "S_only": [
     "Aaron Taylor",
     "Alexander IV",
+    "Alice Russell",
     "Anna Ash",
     "Bodalla",
     "Bonobo",
+    "Boozoo Bajou",
     "Buttered",
     "Cleo Sol",
     "Collect 200",
@@ -14,13 +16,12 @@ export const VENN_DATA = {
     "Eleni Drake",
     "FKJ",
     "Fabich",
-    "George Bloomfield",
-    "JACOTÉNE",
+    "Izo FitzRoy",
     "Jacob Slade",
     "KATZROAR",
+    "Lady Blackbird",
     "MAX RAD",
     "Magic City Hippies",
-    "Meltt",
     "Mop Mop",
     "No Suits",
     "Nostalgia 77",
@@ -31,10 +32,8 @@ export const VENN_DATA = {
     "River Simmons",
     "Rowena Wise",
     "Supertaste",
-    "Surprise Chef",
     "The Bahama Soul Club",
     "This Is The Kit",
-    "Yazmin Lacey",
     "anaiis",
     "mou"
   ],
@@ -48,8 +47,8 @@ export const VENN_DATA = {
     "Honahlei",
     "Jalen Ngonda",
     "Jan Garbarek",
+    "Jordan Rakei",
     "José González",
-    "Kraak & Smaak",
     "Little Simz",
     "Loaded Honey",
     "Malia",
@@ -99,7 +98,7 @@ export const VENN_DATA = {
   ],
   "SM": [
     "GeeJay",
-    "Jordan Rakei",
+    "Kraak & Smaak",
     "Leon Bridges",
     "Olive Jones",
     "Pale Jay",
@@ -109,7 +108,6 @@ export const VENN_DATA = {
   "SL": [],
   "ML": [
     "Coldplay",
-    "Dojo Cuts",
     "Hania Rani",
     "Nick Mulvey",
     "Octave Lissner",
@@ -123,6 +121,7 @@ export const VENN_DATA = {
   ],
   "ALL": [
     "Common Saints",
+    "Dojo Cuts",
     "Jungle",
     "LEISURE",
     "Loma",
@@ -131,12 +130,12 @@ export const VENN_DATA = {
     "Rhye"
   ],
   "counts": {
-    "S_only": 36,
+    "S_only": 35,
     "M_only": 24,
     "L_only": 31,
     "SM": 7,
     "SL": 0,
-    "ML": 12,
-    "ALL": 7
+    "ML": 11,
+    "ALL": 8
   }
 };
