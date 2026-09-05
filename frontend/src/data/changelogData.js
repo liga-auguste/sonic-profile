@@ -1,5 +1,28 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 113,
+    "fetched_at": "2026-09-05T09:40:36.161242+00:00",
+    "new_artists": 0,
+    "new_tracks": 2,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260905_094032.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "7HKRZsnUekFaRKQSwt074M",
+        "name": "Ein deutsches Requiem, Op. 45: II. Denn alles Fleisch es ist wie Gras",
+        "artist": "Johannes Brahms, Collegium Vocale Gent, La Chapelle Royale, Orchestre des Champs-Élysées, Philippe Herreweghe",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e020cc67815fa265a3ff359d85e"
+      },
+      {
+        "id": "52MeqGZGFDPacYyb0AoPVv",
+        "name": "Ein deutsches Requiem, Op. 45: VI. Denn wir haben hie keine bleibende Statt",
+        "artist": "Johannes Brahms, Gerald Finley, Collegium Vocale Gent, La Chapelle Royale, Orchestre des Champs-Élysées, Philippe Herreweghe",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e020cc67815fa265a3ff359d85e"
+      }
+    ]
+  },
+  {
     "id": 112,
     "fetched_at": "2026-09-04T10:11:30.920846+00:00",
     "new_artists": 3,
@@ -11,7 +34,13 @@ export const CHANGELOG_DATA = [
         "id": "2I36EjIVz3vDfROgj1MfZ3",
         "name": "Boozoo Bajou",
         "image": "https://i.scdn.co/image/ab6761610000e5ebaa68d18f9bba57c2cf7b1f02",
-        "genres": []
+        "genres": [
+          "downtempo",
+          "chillout",
+          "lounge",
+          "trip-hop",
+          "electronic"
+        ]
       },
       {
         "id": "0CcvfJAMRa28MnCnujCdXQ",

@@ -11,7 +11,6 @@ export const VENN_DATA = {
     "Buttered",
     "Cleo Sol",
     "Collect 200",
-    "Cupidon",
     "Danika",
     "Eleni Drake",
     "FKJ",
@@ -72,7 +71,6 @@ export const VENN_DATA = {
     "Billie Eilish",
     "Choir of King's College, Cambridge",
     "Chris Staples",
-    "Collegium Vocale Gent",
     "Deichkind",
     "Dekker",
     "Flyte",
@@ -105,7 +103,9 @@ export const VENN_DATA = {
     "Snazzy",
     "Vicky Sometani"
   ],
-  "SL": [],
+  "SL": [
+    "Collegium Vocale Gent"
+  ],
   "ML": [
     "Coldplay",
     "Hania Rani",
@@ -130,11 +130,11 @@ export const VENN_DATA = {
     "Rhye"
   ],
   "counts": {
-    "S_only": 35,
+    "S_only": 34,
     "M_only": 24,
-    "L_only": 31,
+    "L_only": 30,
     "SM": 7,
-    "SL": 0,
+    "SL": 1,
     "ML": 11,
     "ALL": 8
   }
