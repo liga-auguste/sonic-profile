@@ -1,5 +1,40 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 114,
+    "fetched_at": "2026-09-06T09:55:57.384780+00:00",
+    "new_artists": 2,
+    "new_tracks": 0,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260906_095552.json",
+    "artists": [
+      {
+        "id": "3bSsyMPujHM45QOvf6M6he",
+        "name": "Free Whenever",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebbb2b701ed71c32ce4e5bed18",
+        "genres": [
+          "psychedelic rock",
+          "usa",
+          "united states",
+          "funk_add_to_lidarr_batch_10",
+          "neopsychedelia"
+        ]
+      },
+      {
+        "id": "2pRRvc1D9seqK4txoe8laT",
+        "name": "sir Was",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb0249117084d3cd3f4546a843",
+        "genres": [
+          "swedish",
+          "electronic",
+          "indie pop",
+          "indietronica",
+          "electronica"
+        ]
+      }
+    ],
+    "tracks": []
+  },
+  {
     "id": 113,
     "fetched_at": "2026-09-05T09:40:36.161242+00:00",
     "new_artists": 0,
@@ -4337,7 +4372,12 @@ export const CHANGELOG_DATA = [
         "id": "7JKAIlZcxCK8hSIHiSp4ms",
         "name": "Serebii",
         "image": "https://i.scdn.co/image/ab6761610000e5eb7dba96f16b56a7d0be9584f3",
-        "genres": []
+        "genres": [
+          "new zealand",
+          "indie",
+          "funk_add_to_lidarr_batch_24",
+          "electronic"
+        ]
       },
       {
         "id": "7b04D0yLktCUpvxQBhmG7R",
