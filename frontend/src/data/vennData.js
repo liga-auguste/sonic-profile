@@ -2,12 +2,12 @@
 export const VENN_DATA = {
   "S_only": [
     "Alexander IV",
+    "Anna Ash",
     "Bodalla",
     "Bonobo",
     "Boozoo Bajou",
     "Buttered",
     "Cleo Sol",
-    "Collect 200",
     "Danika",
     "Eleni Drake",
     "FKJ",
@@ -16,20 +16,19 @@ export const VENN_DATA = {
     "Jacob Slade",
     "KATZROAR",
     "MAX RAD",
-    "Magic City Hippies",
     "Matt Storm",
     "Mop Mop",
+    "No Suits",
     "Nostalgia 77",
     "Offthewally",
     "Oly Sherman",
     "Otis Junior",
     "Payfone",
     "River Simmons",
+    "Rowena Wise",
     "Serebii",
-    "Supertaste",
     "The Bahama Soul Club",
     "This Is The Kit",
-    "anaiis",
     "mou",
     "sir Was"
   ],
@@ -44,16 +43,16 @@ export const VENN_DATA = {
     "Jan Garbarek",
     "José González",
     "Little Simz",
-    "Loaded Honey",
     "Malia",
     "Mynolia",
     "Procol Harum",
     "RAYE",
     "Richard Cejer",
-    "Royel Otis",
     "SAULT",
     "Sir Simon Rattle",
     "Svaneborg Kardyb",
+    "Thomas Rückert",
+    "Two Another",
     "Σtella"
   ],
   "L_only": [
@@ -79,6 +78,7 @@ export const VENN_DATA = {
     "London Symphony Orchestra",
     "Max Richter",
     "Monteverdi Choir",
+    "Octave Lissner",
     "Ola Gjeilo",
     "Orchestra of the Age of Enlightenment",
     "Ottorino Respighi",
@@ -89,6 +89,7 @@ export const VENN_DATA = {
     "Víkingur Ólafsson"
   ],
   "SM": [
+    "Collect 200",
     "GeeJay",
     "Golf Trip",
     "Jordan Rakei",
@@ -107,7 +108,6 @@ export const VENN_DATA = {
     "Coldplay",
     "Hania Rani",
     "Nick Mulvey",
-    "Octave Lissner",
     "Olivia Dean",
     "Parcels",
     "RIO KOSTA",
@@ -127,12 +127,12 @@ export const VENN_DATA = {
     "Rhye"
   ],
   "counts": {
-    "S_only": 31,
+    "S_only": 30,
     "M_only": 21,
-    "L_only": 30,
-    "SM": 10,
+    "L_only": 31,
+    "SM": 11,
     "SL": 1,
-    "ML": 11,
+    "ML": 10,
     "ALL": 8
   }
 };

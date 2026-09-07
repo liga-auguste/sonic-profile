@@ -1,5 +1,15 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 115,
+    "fetched_at": "2026-09-07T11:04:27.863113+00:00",
+    "new_artists": 0,
+    "new_tracks": 0,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260907_110424.json",
+    "artists": [],
+    "tracks": []
+  },
+  {
     "id": 114,
     "fetched_at": "2026-09-06T09:55:57.384780+00:00",
     "new_artists": 2,
