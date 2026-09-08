@@ -1,5 +1,28 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 116,
+    "fetched_at": "2026-09-08T10:18:30.614909+00:00",
+    "new_artists": 1,
+    "new_tracks": 0,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260908_101826.json",
+    "artists": [
+      {
+        "id": "2CtiNJi0zB35RHYXViVjKG",
+        "name": "BALTHVS",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb9044980041ee44c54de60738",
+        "genres": [
+          "psychedelic",
+          "colombia",
+          "psychedelic rock",
+          "rock",
+          "latin"
+        ]
+      }
+    ],
+    "tracks": []
+  },
+  {
     "id": 115,
     "fetched_at": "2026-09-07T11:04:27.863113+00:00",
     "new_artists": 0,
