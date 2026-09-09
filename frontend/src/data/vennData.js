@@ -29,6 +29,7 @@ export const VENN_DATA = {
     "Surprise Chef",
     "The Bahama Soul Club",
     "This Is The Kit",
+    "Yazmin Lacey",
     "mou",
     "sir Was"
   ],
@@ -45,6 +46,7 @@ export const VENN_DATA = {
     "Little Simz",
     "Malia",
     "Mynolia",
+    "Pale Jay",
     "Procol Harum",
     "RAYE",
     "Richard Cejer",
@@ -96,7 +98,6 @@ export const VENN_DATA = {
     "Kraak & Smaak",
     "Leon Bridges",
     "Olive Jones",
-    "Pale Jay",
     "Pete Josef",
     "Snazzy",
     "Vicky Sometani"
@@ -127,10 +128,10 @@ export const VENN_DATA = {
     "Rhye"
   ],
   "counts": {
-    "S_only": 30,
-    "M_only": 21,
+    "S_only": 31,
+    "M_only": 22,
     "L_only": 31,
-    "SM": 11,
+    "SM": 10,
     "SL": 1,
     "ML": 10,
     "ALL": 8

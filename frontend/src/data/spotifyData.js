@@ -41,96 +41,6 @@ export const SPOTIFY_DATA = {
       },
       {
         "rank": 3,
-        "id": "0BnugXqRqfNqBSDHFyTVQn",
-        "name": "Come Back to Me",
-        "artists": [
-          "Jungle"
-        ],
-        "artist": "Jungle",
-        "album": "Sunshine",
-        "album_image": "https://i.scdn.co/image/ab67616d00001e02775f28b18db542ae81fafee3",
-        "duration_ms": 185025,
-        "explicit": false,
-        "release_date": "2026-08-14",
-        "url": "https://open.spotify.com/track/0BnugXqRqfNqBSDHFyTVQn"
-      },
-      {
-        "rank": 4,
-        "id": "5ODIdmeS7890ddWRsVqxsZ",
-        "name": "Move Like You Do",
-        "artists": [
-          "Jungle"
-        ],
-        "artist": "Jungle",
-        "album": "Sunshine",
-        "album_image": "https://i.scdn.co/image/ab67616d00001e02775f28b18db542ae81fafee3",
-        "duration_ms": 160987,
-        "explicit": false,
-        "release_date": "2026-08-14",
-        "url": "https://open.spotify.com/track/5ODIdmeS7890ddWRsVqxsZ"
-      },
-      {
-        "rank": 5,
-        "id": "6ik4NDZ9Z0U3pfUXu2PvPb",
-        "name": "Where Are You Now?",
-        "artists": [
-          "Jungle"
-        ],
-        "artist": "Jungle",
-        "album": "Sunshine",
-        "album_image": "https://i.scdn.co/image/ab67616d00001e02775f28b18db542ae81fafee3",
-        "duration_ms": 188002,
-        "explicit": false,
-        "release_date": "2026-08-14",
-        "url": "https://open.spotify.com/track/6ik4NDZ9Z0U3pfUXu2PvPb"
-      },
-      {
-        "rank": 6,
-        "id": "3Uz9plElpmZDui6Crz53M8",
-        "name": "Did It My Own Way",
-        "artists": [
-          "Rhye"
-        ],
-        "artist": "Rhye",
-        "album": "JOY",
-        "album_image": "https://i.scdn.co/image/ab67616d00001e02091373fc7c444d2b405566b3",
-        "duration_ms": 223479,
-        "explicit": false,
-        "release_date": "2026-06-12",
-        "url": "https://open.spotify.com/track/3Uz9plElpmZDui6Crz53M8"
-      },
-      {
-        "rank": 7,
-        "id": "07lwMZLo0Nxc01nMXuiVL8",
-        "name": "Sunshine",
-        "artists": [
-          "Jungle"
-        ],
-        "artist": "Jungle",
-        "album": "Sunshine",
-        "album_image": "https://i.scdn.co/image/ab67616d00001e02775f28b18db542ae81fafee3",
-        "duration_ms": 191003,
-        "explicit": false,
-        "release_date": "2026-08-14",
-        "url": "https://open.spotify.com/track/07lwMZLo0Nxc01nMXuiVL8"
-      },
-      {
-        "rank": 8,
-        "id": "0iFdtqVlV5piDnq0KUloCB",
-        "name": "Bigger Picture",
-        "artists": [
-          "Sarah Julia"
-        ],
-        "artist": "Sarah Julia",
-        "album": "Bigger Picture",
-        "album_image": "https://i.scdn.co/image/ab67616d00001e0268d20af8769487be8b031472",
-        "duration_ms": 185753,
-        "explicit": false,
-        "release_date": "2026-02-13",
-        "url": "https://open.spotify.com/track/0iFdtqVlV5piDnq0KUloCB"
-      },
-      {
-        "rank": 9,
         "id": "4rMIxgdnLmKhvs4OoX6V6o",
         "name": "Hands of Time",
         "artists": [
@@ -146,7 +56,52 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/4rMIxgdnLmKhvs4OoX6V6o"
       },
       {
-        "rank": 10,
+        "rank": 4,
+        "id": "0BnugXqRqfNqBSDHFyTVQn",
+        "name": "Come Back to Me",
+        "artists": [
+          "Jungle"
+        ],
+        "artist": "Jungle",
+        "album": "Sunshine",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02775f28b18db542ae81fafee3",
+        "duration_ms": 185025,
+        "explicit": false,
+        "release_date": "2026-08-14",
+        "url": "https://open.spotify.com/track/0BnugXqRqfNqBSDHFyTVQn"
+      },
+      {
+        "rank": 5,
+        "id": "5ODIdmeS7890ddWRsVqxsZ",
+        "name": "Move Like You Do",
+        "artists": [
+          "Jungle"
+        ],
+        "artist": "Jungle",
+        "album": "Sunshine",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02775f28b18db542ae81fafee3",
+        "duration_ms": 160987,
+        "explicit": false,
+        "release_date": "2026-08-14",
+        "url": "https://open.spotify.com/track/5ODIdmeS7890ddWRsVqxsZ"
+      },
+      {
+        "rank": 6,
+        "id": "6ik4NDZ9Z0U3pfUXu2PvPb",
+        "name": "Where Are You Now?",
+        "artists": [
+          "Jungle"
+        ],
+        "artist": "Jungle",
+        "album": "Sunshine",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02775f28b18db542ae81fafee3",
+        "duration_ms": 188002,
+        "explicit": false,
+        "release_date": "2026-08-14",
+        "url": "https://open.spotify.com/track/6ik4NDZ9Z0U3pfUXu2PvPb"
+      },
+      {
+        "rank": 7,
         "id": "5NFOB1LERUAfkOYNAeEqSU",
         "name": "fault line",
         "artists": [
@@ -162,52 +117,52 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/5NFOB1LERUAfkOYNAeEqSU"
       },
       {
-        "rank": 11,
-        "id": "0h04eWLXS72ITUgN4PKnLg",
-        "name": "Light - Edit",
-        "artists": [
-          "Michael Kiwanuka"
-        ],
-        "artist": "Michael Kiwanuka",
-        "album": "Light (Edit)",
-        "album_image": "https://i.scdn.co/image/ab67616d00001e02ca5f6c2a347dd7e4bd0e28ba",
-        "duration_ms": 185373,
-        "explicit": false,
-        "release_date": "2020-03-06",
-        "url": "https://open.spotify.com/track/0h04eWLXS72ITUgN4PKnLg"
-      },
-      {
-        "rank": 12,
-        "id": "2dKkVF2m160z0RNDN2dddc",
-        "name": "NISSAN ALTIMA",
-        "artists": [
-          "Doechii"
-        ],
-        "artist": "Doechii",
-        "album": "Alligator Bites Never Heal",
-        "album_image": "https://i.scdn.co/image/ab67616d00001e02b245099fe26319344ddf6054",
-        "duration_ms": 126832,
-        "explicit": true,
-        "release_date": "2024-08-30",
-        "url": "https://open.spotify.com/track/2dKkVF2m160z0RNDN2dddc"
-      },
-      {
-        "rank": 13,
-        "id": "69wmkZCUwdr2T0HvXKtNoa",
-        "name": "Someday, Somewhere",
+        "rank": 8,
+        "id": "07lwMZLo0Nxc01nMXuiVL8",
+        "name": "Sunshine",
         "artists": [
           "Jungle"
         ],
         "artist": "Jungle",
         "album": "Sunshine",
         "album_image": "https://i.scdn.co/image/ab67616d00001e02775f28b18db542ae81fafee3",
-        "duration_ms": 151609,
+        "duration_ms": 191003,
         "explicit": false,
         "release_date": "2026-08-14",
-        "url": "https://open.spotify.com/track/69wmkZCUwdr2T0HvXKtNoa"
+        "url": "https://open.spotify.com/track/07lwMZLo0Nxc01nMXuiVL8"
       },
       {
-        "rank": 14,
+        "rank": 9,
+        "id": "0iFdtqVlV5piDnq0KUloCB",
+        "name": "Bigger Picture",
+        "artists": [
+          "Sarah Julia"
+        ],
+        "artist": "Sarah Julia",
+        "album": "Bigger Picture",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0268d20af8769487be8b031472",
+        "duration_ms": 185753,
+        "explicit": false,
+        "release_date": "2026-02-13",
+        "url": "https://open.spotify.com/track/0iFdtqVlV5piDnq0KUloCB"
+      },
+      {
+        "rank": 10,
+        "id": "3Uz9plElpmZDui6Crz53M8",
+        "name": "Did It My Own Way",
+        "artists": [
+          "Rhye"
+        ],
+        "artist": "Rhye",
+        "album": "JOY",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02091373fc7c444d2b405566b3",
+        "duration_ms": 223479,
+        "explicit": false,
+        "release_date": "2026-06-12",
+        "url": "https://open.spotify.com/track/3Uz9plElpmZDui6Crz53M8"
+      },
+      {
+        "rank": 11,
         "id": "0eVYZZq53ITKg7FGKQf3wR",
         "name": "Heavy on My Soul",
         "artists": [
@@ -222,7 +177,22 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/0eVYZZq53ITKg7FGKQf3wR"
       },
       {
-        "rank": 15,
+        "rank": 12,
+        "id": "0h04eWLXS72ITUgN4PKnLg",
+        "name": "Light - Edit",
+        "artists": [
+          "Michael Kiwanuka"
+        ],
+        "artist": "Michael Kiwanuka",
+        "album": "Light (Edit)",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02ca5f6c2a347dd7e4bd0e28ba",
+        "duration_ms": 185373,
+        "explicit": false,
+        "release_date": "2020-03-06",
+        "url": "https://open.spotify.com/track/0h04eWLXS72ITUgN4PKnLg"
+      },
+      {
+        "rank": 13,
         "id": "22loAc1Uf9VCb0clikbRY7",
         "name": "Carry On",
         "artists": [
@@ -235,6 +205,36 @@ export const SPOTIFY_DATA = {
         "explicit": false,
         "release_date": "2026-08-14",
         "url": "https://open.spotify.com/track/22loAc1Uf9VCb0clikbRY7"
+      },
+      {
+        "rank": 14,
+        "id": "5MiSfpdE6aOvZBejfjOAci",
+        "name": "Miles Away",
+        "artists": [
+          "LEISURE"
+        ],
+        "artist": "LEISURE",
+        "album": "Sunsetter",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02b3aa934875c9af31c96e9d5e",
+        "duration_ms": 236213,
+        "explicit": false,
+        "release_date": "2021-12-03",
+        "url": "https://open.spotify.com/track/5MiSfpdE6aOvZBejfjOAci"
+      },
+      {
+        "rank": 15,
+        "id": "69wmkZCUwdr2T0HvXKtNoa",
+        "name": "Someday, Somewhere",
+        "artists": [
+          "Jungle"
+        ],
+        "artist": "Jungle",
+        "album": "Sunshine",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02775f28b18db542ae81fafee3",
+        "duration_ms": 151609,
+        "explicit": false,
+        "release_date": "2026-08-14",
+        "url": "https://open.spotify.com/track/69wmkZCUwdr2T0HvXKtNoa"
       },
       {
         "rank": 16,
@@ -253,6 +253,21 @@ export const SPOTIFY_DATA = {
       },
       {
         "rank": 17,
+        "id": "4bpMZGIwqPXbMggmWCNzqb",
+        "name": "Keep Smiling",
+        "artists": [
+          "Celeste"
+        ],
+        "artist": "Celeste",
+        "album": "Woman Of Faces",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0273a6edc5aef6277ccbc99af1",
+        "duration_ms": 196683,
+        "explicit": false,
+        "release_date": "2025-11-14",
+        "url": "https://open.spotify.com/track/4bpMZGIwqPXbMggmWCNzqb"
+      },
+      {
+        "rank": 18,
         "id": "0WfR4Wsc0DeRTtg6iu666r",
         "name": "Soothsayer",
         "artists": [
@@ -267,7 +282,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/0WfR4Wsc0DeRTtg6iu666r"
       },
       {
-        "rank": 18,
+        "rank": 19,
         "id": "39fB92vtnJTw3y6sABRrWd",
         "name": "back of my mind",
         "artists": [
@@ -282,7 +297,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/39fB92vtnJTw3y6sABRrWd"
       },
       {
-        "rank": 19,
+        "rank": 20,
         "id": "3xfi8pAYmWCaLhn21fxZxp",
         "name": "Romeo II (ft Bas)",
         "artists": [
@@ -298,7 +313,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/3xfi8pAYmWCaLhn21fxZxp"
       },
       {
-        "rank": 20,
+        "rank": 21,
         "id": "4qDHUnMXUB7yhVnYPi6sKq",
         "name": "6 Strings",
         "artists": [
@@ -311,21 +326,6 @@ export const SPOTIFY_DATA = {
         "explicit": false,
         "release_date": "2023-11-02",
         "url": "https://open.spotify.com/track/4qDHUnMXUB7yhVnYPi6sKq"
-      },
-      {
-        "rank": 21,
-        "id": "5MiSfpdE6aOvZBejfjOAci",
-        "name": "Miles Away",
-        "artists": [
-          "LEISURE"
-        ],
-        "artist": "LEISURE",
-        "album": "Sunsetter",
-        "album_image": "https://i.scdn.co/image/ab67616d00001e02b3aa934875c9af31c96e9d5e",
-        "duration_ms": 236213,
-        "explicit": false,
-        "release_date": "2021-12-03",
-        "url": "https://open.spotify.com/track/5MiSfpdE6aOvZBejfjOAci"
       },
       {
         "rank": 22,
@@ -359,21 +359,6 @@ export const SPOTIFY_DATA = {
       },
       {
         "rank": 24,
-        "id": "4bpMZGIwqPXbMggmWCNzqb",
-        "name": "Keep Smiling",
-        "artists": [
-          "Celeste"
-        ],
-        "artist": "Celeste",
-        "album": "Woman Of Faces",
-        "album_image": "https://i.scdn.co/image/ab67616d00001e0273a6edc5aef6277ccbc99af1",
-        "duration_ms": 196683,
-        "explicit": false,
-        "release_date": "2025-11-14",
-        "url": "https://open.spotify.com/track/4bpMZGIwqPXbMggmWCNzqb"
-      },
-      {
-        "rank": 25,
         "id": "6g2lOCDWFDjYLscHr6LCoM",
         "name": "Pool Party",
         "artists": [
@@ -388,7 +373,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/6g2lOCDWFDjYLscHr6LCoM"
       },
       {
-        "rank": 26,
+        "rank": 25,
         "id": "7wqwI7qWV9QFr4iKADCc3D",
         "name": "Bill",
         "artists": [
@@ -403,22 +388,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/7wqwI7qWV9QFr4iKADCc3D"
       },
       {
-        "rank": 27,
-        "id": "3MwwB2aY7xDrHqmbYL0iYf",
-        "name": "Your Love Is Electric",
-        "artists": [
-          "Leon Bridges"
-        ],
-        "artist": "Leon Bridges",
-        "album": "Happiness Anytime: Part 1",
-        "album_image": "https://i.scdn.co/image/ab67616d00001e0259adae48f8ee1de1369b837a",
-        "duration_ms": 222166,
-        "explicit": false,
-        "release_date": "2026-07-17",
-        "url": "https://open.spotify.com/track/3MwwB2aY7xDrHqmbYL0iYf"
-      },
-      {
-        "rank": 28,
+        "rank": 26,
         "id": "00ZfGhQCMktK4A8jdFUt1Q",
         "name": "Ramblin'",
         "artists": [
@@ -433,7 +403,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/00ZfGhQCMktK4A8jdFUt1Q"
       },
       {
-        "rank": 29,
+        "rank": 27,
         "id": "0ZFDhrfPi5YPK1TvS0q1Av",
         "name": "Summer Rain - Rework",
         "artists": [
@@ -448,7 +418,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/0ZFDhrfPi5YPK1TvS0q1Av"
       },
       {
-        "rank": 30,
+        "rank": 28,
         "id": "1GEf45ad9tT9njeDYw9WPx",
         "name": "Your Mind Is on Vacation",
         "artists": [
@@ -463,7 +433,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/1GEf45ad9tT9njeDYw9WPx"
       },
       {
-        "rank": 31,
+        "rank": 29,
         "id": "1nsPzblmbGbZTyj1vCV9mk",
         "name": "highest high",
         "artists": [
@@ -478,7 +448,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/1nsPzblmbGbZTyj1vCV9mk"
       },
       {
-        "rank": 32,
+        "rank": 30,
         "id": "2dHjmuCuQuToZQ2sSNqPyo",
         "name": "Try",
         "artists": [
@@ -492,6 +462,36 @@ export const SPOTIFY_DATA = {
         "explicit": false,
         "release_date": "2002",
         "url": "https://open.spotify.com/track/2dHjmuCuQuToZQ2sSNqPyo"
+      },
+      {
+        "rank": 31,
+        "id": "2dKkVF2m160z0RNDN2dddc",
+        "name": "NISSAN ALTIMA",
+        "artists": [
+          "Doechii"
+        ],
+        "artist": "Doechii",
+        "album": "Alligator Bites Never Heal",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02b245099fe26319344ddf6054",
+        "duration_ms": 126832,
+        "explicit": true,
+        "release_date": "2024-08-30",
+        "url": "https://open.spotify.com/track/2dKkVF2m160z0RNDN2dddc"
+      },
+      {
+        "rank": 32,
+        "id": "3MwwB2aY7xDrHqmbYL0iYf",
+        "name": "Your Love Is Electric",
+        "artists": [
+          "Leon Bridges"
+        ],
+        "artist": "Leon Bridges",
+        "album": "Happiness Anytime: Part 1",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0259adae48f8ee1de1369b837a",
+        "duration_ms": 222166,
+        "explicit": false,
+        "release_date": "2026-07-17",
+        "url": "https://open.spotify.com/track/3MwwB2aY7xDrHqmbYL0iYf"
       },
       {
         "rank": 33,
@@ -672,21 +672,6 @@ export const SPOTIFY_DATA = {
       },
       {
         "rank": 44,
-        "id": "65W7hYwWqa1hQnDV2UDCys",
-        "name": "Quadris De Ouro",
-        "artists": [
-          "Pale Jay"
-        ],
-        "artist": "Pale Jay",
-        "album": "Low End Love Songs",
-        "album_image": "https://i.scdn.co/image/ab67616d00001e0216a34e3f0a6cb9c84f643660",
-        "duration_ms": 210813,
-        "explicit": false,
-        "release_date": "2024-09-06",
-        "url": "https://open.spotify.com/track/65W7hYwWqa1hQnDV2UDCys"
-      },
-      {
-        "rank": 45,
         "id": "5vlT3j7ey6KTOmsFkesiKX",
         "name": "Roads",
         "artists": [
@@ -701,7 +686,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/5vlT3j7ey6KTOmsFkesiKX"
       },
       {
-        "rank": 46,
+        "rank": 45,
         "id": "1O7hEOyUXyf1kgHjsoMGwm",
         "name": "Suit of Armour",
         "artists": [
@@ -716,7 +701,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/1O7hEOyUXyf1kgHjsoMGwm"
       },
       {
-        "rank": 47,
+        "rank": 46,
         "id": "3e0mTdrvtD4jlzwlSGUBXB",
         "name": "Sweet Release",
         "artists": [
@@ -731,7 +716,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/3e0mTdrvtD4jlzwlSGUBXB"
       },
       {
-        "rank": 48,
+        "rank": 47,
         "id": "71TcmnPRvicQXI2FOLRDoT",
         "name": "Half Silences",
         "artists": [
@@ -746,34 +731,53 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/71TcmnPRvicQXI2FOLRDoT"
       },
       {
-        "rank": 49,
-        "id": "29MM2oLWsQFJoID6XDFStY",
-        "name": "Colour On The Wall",
+        "rank": 48,
+        "id": "0y04zEcbrvldIwm37ditaQ",
+        "name": "Thanks for Saving My Life",
         "artists": [
-          "Olive Jones"
+          "Billy Paul"
         ],
-        "artist": "Olive Jones",
-        "album": "For Mary",
-        "album_image": "https://i.scdn.co/image/ab67616d00001e02e395f1ea180fe7359fa2cdd1",
-        "duration_ms": 198189,
+        "artist": "Billy Paul",
+        "album": "War of the Gods (Expanded Edition)",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e022c2ea1804dd05c8542d3f641",
+        "duration_ms": 177600,
         "explicit": false,
-        "release_date": "2026-03-13",
-        "url": "https://open.spotify.com/track/29MM2oLWsQFJoID6XDFStY"
+        "release_date": "1973-10-12",
+        "url": "https://open.spotify.com/track/0y04zEcbrvldIwm37ditaQ"
+      },
+      {
+        "rank": 49,
+        "id": "1EpKDxe1SIFZBg2tQ2CRao",
+        "name": "Mambo italiano (Arr. for Voice & Chamber Ensemble by Johan Farjot)",
+        "artists": [
+          "Bob Merrill",
+          "Frankie Laine",
+          "William S. Fischer",
+          "Marco Angioloni",
+          "Ensemble Contraste"
+        ],
+        "artist": "Bob Merrill, Frankie Laine, William S. Fischer, Marco Angioloni, Ensemble Contraste",
+        "album": "Mambo Italiano",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e022e58f39fbe26b677bc08a73d",
+        "duration_ms": 204746,
+        "explicit": false,
+        "release_date": "2024-04-19",
+        "url": "https://open.spotify.com/track/1EpKDxe1SIFZBg2tQ2CRao"
       },
       {
         "rank": 50,
-        "id": "5gEqROxXzf8wvJgaQiHA2Z",
-        "name": "Easy",
+        "id": "1LJ2yoyBD4aQJYVDj5dlNF",
+        "name": "Sh-Boom",
         "artists": [
-          "MT Jones"
+          "The Chords"
         ],
-        "artist": "MT Jones",
-        "album": "Joy",
-        "album_image": "https://i.scdn.co/image/ab67616d00001e0289cdaa7fe52b5b61e3eb0de0",
-        "duration_ms": 208636,
+        "artist": "The Chords",
+        "album": "Boom Again!",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e028a146965e7be8b6b3f0f7305",
+        "duration_ms": 147320,
         "explicit": false,
-        "release_date": "2026-03-20",
-        "url": "https://open.spotify.com/track/5gEqROxXzf8wvJgaQiHA2Z"
+        "release_date": "1954-01-09",
+        "url": "https://open.spotify.com/track/1LJ2yoyBD4aQJYVDj5dlNF"
       }
     ],
     "half": [
@@ -2542,20 +2546,6 @@ export const SPOTIFY_DATA = {
       },
       {
         "rank": 16,
-        "id": "0Vd8YQz8TYk2vSKEYVvIgL",
-        "name": "Dojo Cuts",
-        "image": "https://i.scdn.co/image/ab6761610000e5ebc9e5dec41ffa2cabb4969d32",
-        "genres": [
-          "funk",
-          "soul",
-          "australia",
-          "modern funk"
-        ],
-        "followers": 0,
-        "url": "https://open.spotify.com/artist/0Vd8YQz8TYk2vSKEYVvIgL"
-      },
-      {
-        "rank": 17,
         "id": "2Igm79AVp3dCbQhfF6I60Z",
         "name": "MAX RAD",
         "image": "https://i.scdn.co/image/ab6761610000e5ebe88e78beacc84e67f5bd4942",
@@ -2570,7 +2560,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/2Igm79AVp3dCbQhfF6I60Z"
       },
       {
-        "rank": 18,
+        "rank": 17,
         "id": "2xcyMeQhPSRjXrSVZDkVGo",
         "name": "The Bahama Soul Club",
         "image": "https://i.scdn.co/image/ab6761610000e5eb380485463f2adbc0e4d95535",
@@ -2585,7 +2575,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/2xcyMeQhPSRjXrSVZDkVGo"
       },
       {
-        "rank": 19,
+        "rank": 18,
         "id": "3JWTfcIZq4OUdC6oBunofK",
         "name": "Otis Junior",
         "image": "https://i.scdn.co/image/ab6761610000e5ebc930260e87eaf6b7c4ee0d7d",
@@ -2600,7 +2590,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/3JWTfcIZq4OUdC6oBunofK"
       },
       {
-        "rank": 20,
+        "rank": 19,
         "id": "3U5oimD8ITVHMJQoxypQPN",
         "name": "Nostalgia 77",
         "image": "https://i.scdn.co/image/ab6761610000e5eb7e6abedd06b94cf1b754767a",
@@ -2615,7 +2605,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/3U5oimD8ITVHMJQoxypQPN"
       },
       {
-        "rank": 21,
+        "rank": 20,
         "id": "3bSsyMPujHM45QOvf6M6he",
         "name": "Free Whenever",
         "image": "https://i.scdn.co/image/ab6761610000e5ebbb2b701ed71c32ce4e5bed18",
@@ -2630,7 +2620,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/3bSsyMPujHM45QOvf6M6he"
       },
       {
-        "rank": 22,
+        "rank": 21,
         "id": "4pgjEpAP1k4epnwZWmbHTf",
         "name": "Mop Mop",
         "image": "https://i.scdn.co/image/ab6761610000e5eb64bc8f77b5292e2a60bcb24d",
@@ -2644,7 +2634,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/4pgjEpAP1k4epnwZWmbHTf"
       },
       {
-        "rank": 23,
+        "rank": 22,
         "id": "50gPQYV9WREGkWM53dNb9r",
         "name": "Izo FitzRoy",
         "image": "https://i.scdn.co/image/ab6761610000e5eb4f980a8a4e7b59be688dc125",
@@ -2658,7 +2648,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/50gPQYV9WREGkWM53dNb9r"
       },
       {
-        "rank": 24,
+        "rank": 23,
         "id": "587PA35pRGL1JwQr6idJbb",
         "name": "NEIL FRANCES",
         "image": "https://i.scdn.co/image/ab6761610000e5eb30a5a51cd9f9998007285593",
@@ -2673,7 +2663,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/587PA35pRGL1JwQr6idJbb"
       },
       {
-        "rank": 25,
+        "rank": 24,
         "id": "5dWiBOsD2jLvYWUSR9XdaZ",
         "name": "Matt Storm",
         "image": "https://i.scdn.co/image/ab6761610000e5ebb3cd041e8ddefb056918008c",
@@ -2688,7 +2678,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/5dWiBOsD2jLvYWUSR9XdaZ"
       },
       {
-        "rank": 26,
+        "rank": 25,
         "id": "5reK8WyX1RXvnRw8J0ZpgE",
         "name": "Oly Sherman",
         "image": "https://i.scdn.co/image/ab6761610000e5ebe30c2beede5ade300e348a4f",
@@ -2697,7 +2687,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/5reK8WyX1RXvnRw8J0ZpgE"
       },
       {
-        "rank": 27,
+        "rank": 26,
         "id": "6su4Idcbfgp3UNwGPtgPrN",
         "name": "Bodalla",
         "image": "https://i.scdn.co/image/ab6761610000e5eb8bf4e1521d40394cc0af77e3",
@@ -2706,20 +2696,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/6su4Idcbfgp3UNwGPtgPrN"
       },
       {
-        "rank": 28,
-        "id": "7H3z77VbkJcCcFilmKqKNM",
-        "name": "Pale Jay",
-        "image": "https://i.scdn.co/image/ab6761610000e5eb8f9248427efd447ee9bb61a3",
-        "genres": [
-          "soul",
-          "jazz",
-          "indie"
-        ],
-        "followers": 0,
-        "url": "https://open.spotify.com/artist/7H3z77VbkJcCcFilmKqKNM"
-      },
-      {
-        "rank": 29,
+        "rank": 27,
         "id": "7lDQhKVaKvuNDftiiZVrYy",
         "name": "Snazzy",
         "image": "https://i.scdn.co/image/ab6761610000e5ebfc092c2767617af20a3c3fa7",
@@ -2731,7 +2708,21 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/7lDQhKVaKvuNDftiiZVrYy"
       },
       {
-        "rank": 30,
+        "rank": 28,
+        "id": "0Vd8YQz8TYk2vSKEYVvIgL",
+        "name": "Dojo Cuts",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebc9e5dec41ffa2cabb4969d32",
+        "genres": [
+          "funk",
+          "soul",
+          "australia",
+          "modern funk"
+        ],
+        "followers": 0,
+        "url": "https://open.spotify.com/artist/0Vd8YQz8TYk2vSKEYVvIgL"
+      },
+      {
+        "rank": 29,
         "id": "0hjU3zARYvc8H37k4RCqjt",
         "name": "mou",
         "image": "https://i.scdn.co/image/ab6761610000e5eb5df68b367631e12f41aef9f6",
@@ -2746,7 +2737,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/0hjU3zARYvc8H37k4RCqjt"
       },
       {
-        "rank": 31,
+        "rank": 30,
         "id": "14kEabF9MiQJW37PNuLGgJ",
         "name": "KATZROAR",
         "image": "https://i.scdn.co/image/ab6761610000e5ebf54ee1abe01cb5a97ab915b1",
@@ -2759,7 +2750,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/14kEabF9MiQJW37PNuLGgJ"
       },
       {
-        "rank": 32,
+        "rank": 31,
         "id": "24icoQNJSEWNu3XvqKBR68",
         "name": "Jordan Rakei",
         "image": "https://i.scdn.co/image/ab6761610000e5eb36df3b7306689e78f012c7fe",
@@ -2773,7 +2764,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/24icoQNJSEWNu3XvqKBR68"
       },
       {
-        "rank": 33,
+        "rank": 32,
         "id": "2BxFZaG9zCwZI09r2RQtL0",
         "name": "Jacob Slade",
         "image": "https://i.scdn.co/image/ab6761610000e5eb2ca70506b932cdfd682e2cfb",
@@ -2788,22 +2779,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/2BxFZaG9zCwZI09r2RQtL0"
       },
       {
-        "rank": 34,
-        "id": "2I36EjIVz3vDfROgj1MfZ3",
-        "name": "Boozoo Bajou",
-        "image": "https://i.scdn.co/image/ab6761610000e5ebaa68d18f9bba57c2cf7b1f02",
-        "genres": [
-          "downtempo",
-          "chillout",
-          "lounge",
-          "trip-hop",
-          "electronic"
-        ],
-        "followers": 0,
-        "url": "https://open.spotify.com/artist/2I36EjIVz3vDfROgj1MfZ3"
-      },
-      {
-        "rank": 35,
+        "rank": 33,
         "id": "2pRRvc1D9seqK4txoe8laT",
         "name": "sir Was",
         "image": "https://i.scdn.co/image/ab6761610000e5eb0249117084d3cd3f4546a843",
@@ -2818,7 +2794,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/2pRRvc1D9seqK4txoe8laT"
       },
       {
-        "rank": 36,
+        "rank": 34,
         "id": "2y7pPMQioLwMFUKhK9Pyow",
         "name": "Eleni Drake",
         "image": "https://i.scdn.co/image/ab6761610000e5eb9bc14dd39afc170c9e12a892",
@@ -2833,7 +2809,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/2y7pPMQioLwMFUKhK9Pyow"
       },
       {
-        "rank": 37,
+        "rank": 35,
         "id": "43l4GGl1QwpqP7R2k43M9W",
         "name": "GeeJay",
         "image": "https://i.scdn.co/image/ab6761610000e5eb06c146c3ea6ba7dfcebd7c7d",
@@ -2848,7 +2824,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/43l4GGl1QwpqP7R2k43M9W"
       },
       {
-        "rank": 38,
+        "rank": 36,
         "id": "5szdoaeT1yHXbbj6w6z2eD",
         "name": "Offthewally",
         "image": "https://i.scdn.co/image/ab6761610000e5eb0ecdef19e7fc189b72c28a45",
@@ -2862,7 +2838,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/5szdoaeT1yHXbbj6w6z2eD"
       },
       {
-        "rank": 39,
+        "rank": 37,
         "id": "7c59lOg1veety7jD83d31w",
         "name": "Pete Josef",
         "image": "https://i.scdn.co/image/ab6761610000e5eb5cbecdb2cf6e20457e2cda84",
@@ -2875,7 +2851,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/7c59lOg1veety7jD83d31w"
       },
       {
-        "rank": 40,
+        "rank": 38,
         "id": "7c5qu1gNlg8jWDzzmlp89O",
         "name": "Kraak & Smaak",
         "image": "https://i.scdn.co/image/ab6761610000e5eb07aa45aba94c8ca9facf2aed",
@@ -2890,7 +2866,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/7c5qu1gNlg8jWDzzmlp89O"
       },
       {
-        "rank": 41,
+        "rank": 39,
         "id": "0ZUyFEafMwocvApBjTXvdo",
         "name": "This Is The Kit",
         "image": "https://i.scdn.co/image/ab6761610000e5eb17e562daddcfa796d07ccfb4",
@@ -2905,7 +2881,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/0ZUyFEafMwocvApBjTXvdo"
       },
       {
-        "rank": 42,
+        "rank": 40,
         "id": "0cmWgDlu9CwTgxPhf403hb",
         "name": "Bonobo",
         "image": "https://i.scdn.co/image/ab6761610000e5ebc66e2d7422967d6f6f5ab905",
@@ -2920,7 +2896,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/0cmWgDlu9CwTgxPhf403hb"
       },
       {
-        "rank": 43,
+        "rank": 41,
         "id": "1B62oENW0VGjnBBUvwkYtX",
         "name": "No Suits",
         "image": "https://i.scdn.co/image/ab6761610000e5eb40d08ddb29f4eef4e17eb531",
@@ -2935,7 +2911,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/1B62oENW0VGjnBBUvwkYtX"
       },
       {
-        "rank": 44,
+        "rank": 42,
         "id": "1QyjHJQb3WeWFxXaNLpLOw",
         "name": "Anna Ash",
         "image": "https://i.scdn.co/image/ab6761610000e5ebe94d66b8a41bd11cd73f615e",
@@ -2947,7 +2923,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/1QyjHJQb3WeWFxXaNLpLOw"
       },
       {
-        "rank": 45,
+        "rank": 43,
         "id": "1cofMlotC1E8kMOfz1yhZC",
         "name": "Rowena Wise",
         "image": "https://i.scdn.co/image/ab6761610000e5eb368f56e775c92722fea38ebd",
@@ -2962,7 +2938,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/1cofMlotC1E8kMOfz1yhZC"
       },
       {
-        "rank": 46,
+        "rank": 44,
         "id": "1ga4lWS7NtKo4r9jNSWumc",
         "name": "Alice Russell",
         "image": "https://i.scdn.co/image/ab6761610000e5ebb4f52c012ebee16885472032",
@@ -2977,7 +2953,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/1ga4lWS7NtKo4r9jNSWumc"
       },
       {
-        "rank": 47,
+        "rank": 45,
         "id": "1ixOHjIh8RJkIUrBSBiYHi",
         "name": "Alexander IV",
         "image": "https://i.scdn.co/image/ab6761610000e5eb7b95232354b9ef3d64e41d40",
@@ -2992,7 +2968,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/1ixOHjIh8RJkIUrBSBiYHi"
       },
       {
-        "rank": 48,
+        "rank": 46,
         "id": "1rr5AQb3MwrAJB4mrw2K88",
         "name": "Lords of Lounge",
         "image": "https://i.scdn.co/image/ab6761610000e5ebec7fcdfc7810fec81db95cf1",
@@ -3005,7 +2981,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/1rr5AQb3MwrAJB4mrw2K88"
       },
       {
-        "rank": 49,
+        "rank": 47,
         "id": "2CtiNJi0zB35RHYXViVjKG",
         "name": "BALTHVS",
         "image": "https://i.scdn.co/image/ab6761610000e5eb9044980041ee44c54de60738",
@@ -3020,7 +2996,22 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/2CtiNJi0zB35RHYXViVjKG"
       },
       {
-        "rank": 50,
+        "rank": 48,
+        "id": "2I36EjIVz3vDfROgj1MfZ3",
+        "name": "Boozoo Bajou",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebaa68d18f9bba57c2cf7b1f02",
+        "genres": [
+          "downtempo",
+          "chillout",
+          "lounge",
+          "trip-hop",
+          "electronic"
+        ],
+        "followers": 0,
+        "url": "https://open.spotify.com/artist/2I36EjIVz3vDfROgj1MfZ3"
+      },
+      {
+        "rank": 49,
         "id": "2Ks1Z1scmEDZfaYaCS7Osj",
         "name": "Surprise Chef",
         "image": "https://i.scdn.co/image/ab6761610000e5eb11d862889052aa8d0be2b172",
@@ -3033,6 +3024,21 @@ export const SPOTIFY_DATA = {
         ],
         "followers": 0,
         "url": "https://open.spotify.com/artist/2Ks1Z1scmEDZfaYaCS7Osj"
+      },
+      {
+        "rank": 50,
+        "id": "2datC2OML2YxykP6vnDRmg",
+        "name": "Yazmin Lacey",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebe7df942d4911b6cbd14d474e",
+        "genres": [
+          "soul",
+          "jazz",
+          "funk",
+          "rnb",
+          "british"
+        ],
+        "followers": 0,
+        "url": "https://open.spotify.com/artist/2datC2OML2YxykP6vnDRmg"
       }
     ],
     "half": [
@@ -4464,20 +4470,8 @@ export const SPOTIFY_DATA = {
   },
   "genres": [
     {
-      "name": "soul / R&B",
-      "share": 34.9,
-      "hue": 18,
-      "chroma": 0.16,
-      "artists": [
-        "Common Saints",
-        "Rhye",
-        "Dojo Cuts",
-        "Tom Misch"
-      ]
-    },
-    {
       "name": "indie / folk",
-      "share": 33.8,
+      "share": 34.3,
       "hue": 140,
       "chroma": 0.15,
       "artists": [
@@ -4485,6 +4479,18 @@ export const SPOTIFY_DATA = {
         "Martin Luke Brown",
         "LEISURE",
         "The Smile"
+      ]
+    },
+    {
+      "name": "soul / R&B",
+      "share": 34.1,
+      "hue": 18,
+      "chroma": 0.16,
+      "artists": [
+        "Common Saints",
+        "Rhye",
+        "Tom Misch",
+        "Olive Jones"
       ]
     },
     {
@@ -4501,7 +4507,7 @@ export const SPOTIFY_DATA = {
     },
     {
       "name": "electronic",
-      "share": 9.6,
+      "share": 9.5,
       "hue": 265,
       "chroma": 0.15,
       "artists": [
@@ -4513,7 +4519,7 @@ export const SPOTIFY_DATA = {
     },
     {
       "name": "jazz",
-      "share": 5.0,
+      "share": 5.2,
       "hue": 210,
       "chroma": 0.15,
       "artists": [
@@ -4525,7 +4531,7 @@ export const SPOTIFY_DATA = {
     },
     {
       "name": "funk / psychedelic",
-      "share": 2.6,
+      "share": 2.7,
       "hue": 58,
       "chroma": 0.15,
       "artists": [
@@ -4537,7 +4543,7 @@ export const SPOTIFY_DATA = {
     },
     {
       "name": "hip-hop",
-      "share": 1.1,
+      "share": 1.2,
       "hue": 320,
       "chroma": 0.15,
       "artists": [
@@ -4635,6 +4641,14 @@ export const SPOTIFY_DATA = {
       "hue": 185
     },
     {
+      "name": "Ensemble Contraste",
+      "x": 0.263,
+      "y": 0.721,
+      "size": 6,
+      "era": "recent obsession",
+      "hue": 340
+    },
+    {
       "name": "Hania Rani",
       "x": 0.714,
       "y": 0.334,
@@ -4699,14 +4713,6 @@ export const SPOTIFY_DATA = {
       "hue": 340
     },
     {
-      "name": "Pale Jay",
-      "x": 0.726,
-      "y": 0.259,
-      "size": 6,
-      "era": "recent obsession",
-      "hue": 340
-    },
-    {
       "name": "RIO KOSTA",
       "x": 0.607,
       "y": 0.351,
@@ -4725,8 +4731,8 @@ export const SPOTIFY_DATA = {
   ],
   "currently_playing": null,
   "stats": {
-    "uniqueArtists": 112,
-    "uniqueTracks": 129,
+    "uniqueArtists": 113,
+    "uniqueTracks": 127,
     "avgTrackLength": "3:46",
     "longestTrack": "13:53",
     "longestTrackName": "Ein deutsches Requiem, Op. 45: II. Denn alles Fleisch es ist wie Gras",
@@ -4736,7 +4742,7 @@ export const SPOTIFY_DATA = {
     "releaseYearOldest": 1954,
     "releaseYearNewest": 2026,
     "releaseYearPeak": 2026,
-    "fetched_at": "2026-09-08T10:18:26.873805+00:00",
+    "fetched_at": "2026-09-09T10:26:06.610482+00:00",
     "hoursChart": [
       130,
       102,
@@ -4746,20 +4752,20 @@ export const SPOTIFY_DATA = {
       12,
       11,
       38,
-      87,
+      93,
       84,
       64,
-      165,
+      168,
       243,
-      228,
+      229,
       249,
-      276,
-      242,
+      277,
+      247,
       223,
-      291,
-      242,
+      294,
+      246,
       182,
-      154,
+      159,
       237,
       221
     ],
