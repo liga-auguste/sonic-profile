@@ -1,5 +1,36 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 118,
+    "fetched_at": "2026-09-10T10:16:57.591683+00:00",
+    "new_artists": 2,
+    "new_tracks": 0,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260910_101653.json",
+    "artists": [
+      {
+        "id": "077jd0crcXmExS5nOSDhQw",
+        "name": "Laurent Bardainne",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb115a993ecd1553cad523988a",
+        "genres": [
+          "french",
+          "jazz",
+          "saxophone"
+        ]
+      },
+      {
+        "id": "1V1TVU82iVw065XEKFS6z4",
+        "name": "I Am An Instrument",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb074df8236dc2436b42a63b23",
+        "genres": [
+          "jazz",
+          "improv",
+          "copenhagen"
+        ]
+      }
+    ],
+    "tracks": []
+  },
+  {
     "id": 117,
     "fetched_at": "2026-09-09T10:26:10.030309+00:00",
     "new_artists": 0,
