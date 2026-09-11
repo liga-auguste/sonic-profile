@@ -230,7 +230,7 @@ export const SPOTIFY_DATA = {
         ],
         "artist": "Rhye",
         "album": "JOY",
-        "album_image": "https://i.scdn.co/image/ab67616d00001e02091373fc7c444d2b405566b3",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e026f988b9571ce361c04fd974a",
         "duration_ms": 223479,
         "explicit": false,
         "release_date": "2026-06-12",
@@ -2399,21 +2399,6 @@ export const SPOTIFY_DATA = {
       },
       {
         "rank": 5,
-        "id": "4oCcCzMjKNCjQTzxtVlOJT",
-        "name": "Loma",
-        "image": "https://i.scdn.co/image/ab6761610000e5eb158a526ebbf80361d2872616",
-        "genres": [
-          "indie",
-          "female vocalists",
-          "ambient",
-          "rock",
-          "indie pop"
-        ],
-        "followers": 0,
-        "url": "https://open.spotify.com/artist/4oCcCzMjKNCjQTzxtVlOJT"
-      },
-      {
-        "rank": 6,
         "id": "2AcUPzkVWo81vumdzeLLRN",
         "name": "Rhye",
         "image": "https://i.scdn.co/image/ab6761610000e5eb8e2b3c095f8a891f4dd86a7b",
@@ -2428,7 +2413,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/2AcUPzkVWo81vumdzeLLRN"
       },
       {
-        "rank": 7,
+        "rank": 6,
         "id": "17BdLN9q8RRQQqyklLwac1",
         "name": "Collegium Vocale Gent",
         "image": "https://i.scdn.co/image/ab6761610000e5eb6e895483075f6e493f491476",
@@ -2442,7 +2427,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/artist/17BdLN9q8RRQQqyklLwac1"
       },
       {
-        "rank": 8,
+        "rank": 7,
         "id": "3qnGvpP8Yth1AqSBMqON5x",
         "name": "Leon Bridges",
         "image": "https://i.scdn.co/image/ab6761610000e5eb180ad25ea84456fc0dcb7e50",
@@ -2455,6 +2440,21 @@ export const SPOTIFY_DATA = {
         ],
         "followers": 0,
         "url": "https://open.spotify.com/artist/3qnGvpP8Yth1AqSBMqON5x"
+      },
+      {
+        "rank": 8,
+        "id": "4oCcCzMjKNCjQTzxtVlOJT",
+        "name": "Loma",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb158a526ebbf80361d2872616",
+        "genres": [
+          "indie",
+          "female vocalists",
+          "ambient",
+          "rock",
+          "indie pop"
+        ],
+        "followers": 0,
+        "url": "https://open.spotify.com/artist/4oCcCzMjKNCjQTzxtVlOJT"
       },
       {
         "rank": 9,
@@ -3876,7 +3876,7 @@ export const SPOTIFY_DATA = {
         "rank": 11,
         "id": "2Udd2jgFaz8tXG1w3PyMtN",
         "name": "Dekker",
-        "image": "https://i.scdn.co/image/ab6761610000e5eb8e0768de5c003b1345cb8e82",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebd778b3eadfa63f7c51557de9",
         "genres": [
           "singer-songwriter",
           "folk",
@@ -3932,20 +3932,6 @@ export const SPOTIFY_DATA = {
       },
       {
         "rank": 15,
-        "id": "3x8rZy1i6FwWOWKwfRT1Ab",
-        "name": "The Choir Of Trinity College, Cambridge",
-        "image": "https://i.scdn.co/image/ab6761610000e5eb594d92a2e3e15d398d4e64ef",
-        "genres": [
-          "classical",
-          "choral",
-          "choir",
-          "hark the herald angel sing"
-        ],
-        "followers": 0,
-        "url": "https://open.spotify.com/artist/3x8rZy1i6FwWOWKwfRT1Ab"
-      },
-      {
-        "rank": 16,
         "id": "14YzutUdMwS9yTnI0IFBaD",
         "name": "Hania Rani",
         "image": "https://i.scdn.co/image/ab6761610000e5eb401c85eb539cb31c5af4d537",
@@ -3958,6 +3944,20 @@ export const SPOTIFY_DATA = {
         ],
         "followers": 0,
         "url": "https://open.spotify.com/artist/14YzutUdMwS9yTnI0IFBaD"
+      },
+      {
+        "rank": 16,
+        "id": "3x8rZy1i6FwWOWKwfRT1Ab",
+        "name": "The Choir Of Trinity College, Cambridge",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb594d92a2e3e15d398d4e64ef",
+        "genres": [
+          "classical",
+          "choral",
+          "choir",
+          "hark the herald angel sing"
+        ],
+        "followers": 0,
+        "url": "https://open.spotify.com/artist/3x8rZy1i6FwWOWKwfRT1Ab"
       },
       {
         "rank": 17,
@@ -4451,7 +4451,7 @@ export const SPOTIFY_DATA = {
   "genres": [
     {
       "name": "indie / folk",
-      "share": 34.6,
+      "share": 34.5,
       "hue": 140,
       "chroma": 0.15,
       "artists": [
@@ -4463,7 +4463,7 @@ export const SPOTIFY_DATA = {
     },
     {
       "name": "soul / R&B",
-      "share": 34.0,
+      "share": 34.1,
       "hue": 18,
       "chroma": 0.16,
       "artists": [
@@ -4722,7 +4722,7 @@ export const SPOTIFY_DATA = {
     "releaseYearOldest": 1954,
     "releaseYearNewest": 2026,
     "releaseYearPeak": 2026,
-    "fetched_at": "2026-09-10T10:16:53.245136+00:00",
+    "fetched_at": "2026-09-11T10:15:25.089079+00:00",
     "hoursChart": [
       130,
       102,
@@ -4738,12 +4738,12 @@ export const SPOTIFY_DATA = {
       168,
       243,
       229,
-      249,
+      251,
       277,
       247,
       223,
-      295,
-      250,
+      300,
+      253,
       182,
       169,
       251,
