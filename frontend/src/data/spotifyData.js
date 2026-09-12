@@ -642,6 +642,23 @@ export const SPOTIFY_DATA = {
       },
       {
         "rank": 42,
+        "id": "5RGxbYzrPTSTY3hn8EdNyO",
+        "name": "Jou en nou rivé",
+        "artists": [
+          "Laurent Bardainne",
+          "Tigre d'Eau Douce",
+          "Celia Wa"
+        ],
+        "artist": "Laurent Bardainne, Tigre d'Eau Douce, Celia Wa",
+        "album": "Hymne au soleil",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e026b5ae962903762aea414b355",
+        "duration_ms": 229586,
+        "explicit": false,
+        "release_date": "2022-01-28",
+        "url": "https://open.spotify.com/track/5RGxbYzrPTSTY3hn8EdNyO"
+      },
+      {
+        "rank": 43,
         "id": "5RnlUyTKgmd7V6tXdQcKVK",
         "name": "Ready or Not Here I Come (Can't Hide from Love)",
         "artists": [
@@ -656,7 +673,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/5RnlUyTKgmd7V6tXdQcKVK"
       },
       {
-        "rank": 43,
+        "rank": 44,
         "id": "5vlT3j7ey6KTOmsFkesiKX",
         "name": "Roads",
         "artists": [
@@ -671,7 +688,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/5vlT3j7ey6KTOmsFkesiKX"
       },
       {
-        "rank": 44,
+        "rank": 45,
         "id": "1O7hEOyUXyf1kgHjsoMGwm",
         "name": "Suit of Armour",
         "artists": [
@@ -686,7 +703,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/1O7hEOyUXyf1kgHjsoMGwm"
       },
       {
-        "rank": 45,
+        "rank": 46,
         "id": "3e0mTdrvtD4jlzwlSGUBXB",
         "name": "Sweet Release",
         "artists": [
@@ -701,7 +718,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/3e0mTdrvtD4jlzwlSGUBXB"
       },
       {
-        "rank": 46,
+        "rank": 47,
         "id": "0y04zEcbrvldIwm37ditaQ",
         "name": "Thanks for Saving My Life",
         "artists": [
@@ -716,7 +733,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/0y04zEcbrvldIwm37ditaQ"
       },
       {
-        "rank": 47,
+        "rank": 48,
         "id": "1EpKDxe1SIFZBg2tQ2CRao",
         "name": "Mambo italiano (Arr. for Voice & Chamber Ensemble by Johan Farjot)",
         "artists": [
@@ -735,7 +752,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/1EpKDxe1SIFZBg2tQ2CRao"
       },
       {
-        "rank": 48,
+        "rank": 49,
         "id": "1LJ2yoyBD4aQJYVDj5dlNF",
         "name": "Sh-Boom",
         "artists": [
@@ -750,7 +767,7 @@ export const SPOTIFY_DATA = {
         "url": "https://open.spotify.com/track/1LJ2yoyBD4aQJYVDj5dlNF"
       },
       {
-        "rank": 49,
+        "rank": 50,
         "id": "1uJYDmg5ajhba6GXZKZNd8",
         "name": "Dry Your Tears",
         "artists": [
@@ -763,21 +780,6 @@ export const SPOTIFY_DATA = {
         "explicit": false,
         "release_date": "2021-08-13",
         "url": "https://open.spotify.com/track/1uJYDmg5ajhba6GXZKZNd8"
-      },
-      {
-        "rank": 50,
-        "id": "29MM2oLWsQFJoID6XDFStY",
-        "name": "Colour On The Wall",
-        "artists": [
-          "Olive Jones"
-        ],
-        "artist": "Olive Jones",
-        "album": "For Mary",
-        "album_image": "https://i.scdn.co/image/ab67616d00001e02e395f1ea180fe7359fa2cdd1",
-        "duration_ms": 198189,
-        "explicit": false,
-        "release_date": "2026-03-13",
-        "url": "https://open.spotify.com/track/29MM2oLWsQFJoID6XDFStY"
       }
     ],
     "half": [
@@ -3117,7 +3119,7 @@ export const SPOTIFY_DATA = {
         "rank": 7,
         "id": "1kExWfjjFzo8vNlmtBjCdj",
         "name": "Ava Joe",
-        "image": "https://i.scdn.co/image/ab6761610000e5eb8771061b091b1812b2a0f3c9",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebacfabe69a9564e48613759cd",
         "genres": [],
         "followers": 0,
         "url": "https://open.spotify.com/artist/1kExWfjjFzo8vNlmtBjCdj"
@@ -4722,7 +4724,7 @@ export const SPOTIFY_DATA = {
     "releaseYearOldest": 1954,
     "releaseYearNewest": 2026,
     "releaseYearPeak": 2026,
-    "fetched_at": "2026-09-11T10:15:25.089079+00:00",
+    "fetched_at": "2026-09-12T09:49:15.000395+00:00",
     "hoursChart": [
       130,
       102,
@@ -4738,9 +4740,9 @@ export const SPOTIFY_DATA = {
       168,
       243,
       229,
-      251,
-      277,
-      247,
+      252,
+      279,
+      248,
       223,
       300,
       253,
@@ -4750,6 +4752,6 @@ export const SPOTIFY_DATA = {
       233
     ],
     "cumulativeArtists": 290,
-    "cumulativeTracks": 314
+    "cumulativeTracks": 315
   }
 };

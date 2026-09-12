@@ -1,5 +1,22 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 120,
+    "fetched_at": "2026-09-12T09:49:18.627500+00:00",
+    "new_artists": 0,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260912_094915.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "5RGxbYzrPTSTY3hn8EdNyO",
+        "name": "Jou en nou rivé",
+        "artist": "Laurent Bardainne, Tigre d'Eau Douce, Celia Wa",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e026b5ae962903762aea414b355"
+      }
+    ]
+  },
+  {
     "id": 119,
     "fetched_at": "2026-09-11T10:15:28.510067+00:00",
     "new_artists": 0,
