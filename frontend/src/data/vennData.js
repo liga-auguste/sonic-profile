@@ -2,6 +2,8 @@
 export const VENN_DATA = {
   "S_only": [
     "Aaron Taylor",
+    "Alexander IV",
+    "Alice Russell",
     "Anna Ash",
     "Bodalla",
     "Bonobo",
@@ -9,7 +11,6 @@ export const VENN_DATA = {
     "Cleo Sol",
     "Curtis Harding",
     "Danika",
-    "Eleni Drake",
     "Free Whenever",
     "I Am An Instrument",
     "Izo FitzRoy",
@@ -107,6 +108,7 @@ export const VENN_DATA = {
   "ML": [
     "Coldplay",
     "Hania Rani",
+    "Loma",
     "Nick Mulvey",
     "Olivia Dean",
     "Parcels",
@@ -121,18 +123,17 @@ export const VENN_DATA = {
     "Dojo Cuts",
     "Jungle",
     "LEISURE",
-    "Loma",
     "Martin Luke Brown",
     "NEIL FRANCES",
     "Rhye"
   ],
   "counts": {
-    "S_only": 30,
+    "S_only": 31,
     "M_only": 21,
     "L_only": 31,
     "SM": 11,
     "SL": 1,
-    "ML": 10,
-    "ALL": 8
+    "ML": 11,
+    "ALL": 7
   }
 };
