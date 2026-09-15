@@ -1,5 +1,22 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 123,
+    "fetched_at": "2026-09-15T10:42:41.585268+00:00",
+    "new_artists": 0,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260915_104238.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "4mof5ngP3xrhxN4Lw386o6",
+        "name": "Kaleidoscope",
+        "artist": "JONES",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02cfe630e067d88b9cd9fe3618"
+      }
+    ]
+  },
+  {
     "id": 122,
     "fetched_at": "2026-09-14T11:16:53.245316+00:00",
     "new_artists": 0,
