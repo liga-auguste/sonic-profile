@@ -1,5 +1,35 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 124,
+    "fetched_at": "2026-09-16T10:30:51.564755+00:00",
+    "new_artists": 1,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260916_103047.json",
+    "artists": [
+      {
+        "id": "21h8E3aA7a9mjcUHbLpjxf",
+        "name": "Emil Gilels",
+        "image": "https://i.scdn.co/image/ab6772690000c46c34a8228a742bc2018f664d71",
+        "genres": [
+          "piano",
+          "classical",
+          "pianist",
+          "classical piano",
+          "russian"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "2Q6G8PZaOctikQFuqXG7Vr",
+        "name": "Piano Sonata No. 8 in C minor, Op. 13 -\"Pathétique\": 1. Grave - Allegro di molto e con brio",
+        "artist": "Ludwig van Beethoven, YUNDI",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0272b081b35ecbaa5d030650f2"
+      }
+    ]
+  },
+  {
     "id": 123,
     "fetched_at": "2026-09-15T10:42:41.585268+00:00",
     "new_artists": 0,
