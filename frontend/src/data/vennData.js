@@ -1,23 +1,23 @@
 // Where artists live in time — Venn-style overlap data
 export const VENN_DATA = {
   "S_only": [
-    "Aaron Taylor",
-    "Alexander IV",
     "Alice Russell",
     "Anna Ash",
-    "BALTHVS",
     "Bodalla",
-    "Bonobo",
+    "Boozoo Bajou",
     "Buttered",
     "Cleo Sol",
-    "Collect 200",
     "Curtis Harding",
     "Danika",
+    "Eleni Drake",
     "Emil Gilels",
     "Free Whenever",
     "FÄM",
     "Izo FitzRoy",
+    "Jack Page",
     "Jacob Slade",
+    "Johanna Samuels",
+    "Jonathan Jeremiah",
     "KATZROAR",
     "Laurent Bardainne",
     "Lords of Lounge",
@@ -25,6 +25,7 @@ export const VENN_DATA = {
     "Mop Mop",
     "No Suits",
     "Otis Junior",
+    "Pete Josef",
     "Rowena Wise",
     "The Bahama Soul Club",
     "The Meltdown",
@@ -38,7 +39,6 @@ export const VENN_DATA = {
     "DON WEST",
     "Ensemble Contraste",
     "Hermanos Gutiérrez",
-    "Honahlei",
     "Jan Garbarek",
     "José González",
     "Kraak & Smaak",
@@ -50,7 +50,9 @@ export const VENN_DATA = {
     "RAYE",
     "SAULT",
     "Sir Simon Rattle",
+    "Snazzy",
     "Svaneborg Kardyb",
+    "Thomas Rückert",
     "Two Another",
     "Σtella"
   ],
@@ -88,6 +90,7 @@ export const VENN_DATA = {
     "Víkingur Ólafsson"
   ],
   "SM": [
+    "Collect 200",
     "GeeJay",
     "Golf Trip",
     "JONES",
@@ -96,9 +99,7 @@ export const VENN_DATA = {
     "Lou Ella",
     "Louis Baker",
     "Olive Jones",
-    "Pete Josef",
     "Richard Cejer",
-    "Snazzy",
     "Vicky Sometani"
   ],
   "SL": [
@@ -127,10 +128,10 @@ export const VENN_DATA = {
     "Rhye"
   ],
   "counts": {
-    "S_only": 30,
-    "M_only": 20,
+    "S_only": 31,
+    "M_only": 21,
     "L_only": 31,
-    "SM": 12,
+    "SM": 11,
     "SL": 1,
     "ML": 11,
     "ALL": 7

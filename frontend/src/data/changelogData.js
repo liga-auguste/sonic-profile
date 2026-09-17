@@ -1,5 +1,28 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 125,
+    "fetched_at": "2026-09-17T10:40:54.868158+00:00",
+    "new_artists": 1,
+    "new_tracks": 0,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260917_104051.json",
+    "artists": [
+      {
+        "id": "2TdWlAJcUHu32O3Yld3rsU",
+        "name": "Jonathan Jeremiah",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb64d5bb4b822cd54fed90d4c9",
+        "genres": [
+          "soul",
+          "folk",
+          "singer-songwriter",
+          "acoustic",
+          "british"
+        ]
+      }
+    ],
+    "tracks": []
+  },
+  {
     "id": 124,
     "fetched_at": "2026-09-16T10:30:51.564755+00:00",
     "new_artists": 1,
