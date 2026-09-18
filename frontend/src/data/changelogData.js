@@ -1,5 +1,56 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 126,
+    "fetched_at": "2026-09-18T10:16:31.254809+00:00",
+    "new_artists": 3,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260918_101626.json",
+    "artists": [
+      {
+        "id": "3iKatcdLBE1YxiAyvcow4w",
+        "name": "Ephemerals",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb3655011c95cb38d7c2960734",
+        "genres": [
+          "soul",
+          "blues"
+        ]
+      },
+      {
+        "id": "3ycxRkcZ67ALN3GQJ57Vig",
+        "name": "Masego",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb9da1e8b32a425c09f433abbc",
+        "genres": [
+          "jazz",
+          "rnb",
+          "soul",
+          "electronic",
+          "jamaica"
+        ]
+      },
+      {
+        "id": "4nJPiUgLhO1HcK13jBkAqX",
+        "name": "fika",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebd5d29b6e189993578b662ca5",
+        "genres": [
+          "neo-soul",
+          "rnb",
+          "pop",
+          "soul",
+          "uk"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "57pJSGLwQaorYm1UgoRXfJ",
+        "name": "Ein deutsches Requiem, Op. 45: I. Selig sind, die da Leid tragen",
+        "artist": "Johannes Brahms, Collegium Vocale Gent, La Chapelle Royale, Orchestre des Champs-Élysées, Philippe Herreweghe",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e020cc67815fa265a3ff359d85e"
+      }
+    ]
+  },
+  {
     "id": 125,
     "fetched_at": "2026-09-17T10:40:54.868158+00:00",
     "new_artists": 1,

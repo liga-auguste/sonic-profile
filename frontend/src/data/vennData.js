@@ -9,28 +9,27 @@ export const VENN_DATA = {
     "Cleo Sol",
     "Curtis Harding",
     "Danika",
-    "Eleni Drake",
     "Emil Gilels",
+    "Ephemerals",
     "Free Whenever",
     "FÄM",
     "Izo FitzRoy",
     "Jack Page",
-    "Jacob Slade",
-    "Johanna Samuels",
     "Jonathan Jeremiah",
     "KATZROAR",
     "Laurent Bardainne",
     "Lords of Lounge",
+    "Masego",
     "Matt Storm",
     "Mop Mop",
     "No Suits",
+    "Nostalgia 77",
     "Otis Junior",
     "Pete Josef",
-    "Rowena Wise",
     "The Bahama Soul Club",
     "The Meltdown",
     "This Is The Kit",
-    "mou",
+    "fika",
     "sir Was"
   ],
   "M_only": [
@@ -52,7 +51,6 @@ export const VENN_DATA = {
     "Sir Simon Rattle",
     "Snazzy",
     "Svaneborg Kardyb",
-    "Thomas Rückert",
     "Two Another",
     "Σtella"
   ],
@@ -63,7 +61,6 @@ export const VENN_DATA = {
     "Antonia Bourvé",
     "Bill Laurance",
     "Billie Eilish",
-    "Choir of King's College, Cambridge",
     "Chris Staples",
     "Deichkind",
     "Dekker",
@@ -83,6 +80,7 @@ export const VENN_DATA = {
     "Ola Gjeilo",
     "Orchestra of the Age of Enlightenment",
     "Ottorino Respighi",
+    "Radiohead",
     "Sufjan Stevens",
     "The Choir Of Trinity College, Cambridge",
     "Tom Odell",
@@ -102,13 +100,10 @@ export const VENN_DATA = {
     "Richard Cejer",
     "Vicky Sometani"
   ],
-  "SL": [
-    "Collegium Vocale Gent"
-  ],
+  "SL": [],
   "ML": [
     "Coldplay",
     "Hania Rani",
-    "Loma",
     "Nick Mulvey",
     "Olivia Dean",
     "Parcels",
@@ -119,21 +114,23 @@ export const VENN_DATA = {
     "Tom Misch"
   ],
   "ALL": [
+    "Collegium Vocale Gent",
     "Common Saints",
     "Dojo Cuts",
     "Jungle",
     "LEISURE",
+    "Loma",
     "Martin Luke Brown",
     "NEIL FRANCES",
     "Rhye"
   ],
   "counts": {
-    "S_only": 31,
-    "M_only": 21,
+    "S_only": 30,
+    "M_only": 20,
     "L_only": 31,
     "SM": 11,
-    "SL": 1,
-    "ML": 11,
-    "ALL": 7
+    "SL": 0,
+    "ML": 10,
+    "ALL": 9
   }
 };
