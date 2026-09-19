@@ -1,5 +1,34 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 127,
+    "fetched_at": "2026-09-19T09:59:02.904490+00:00",
+    "new_artists": 1,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260919_095859.json",
+    "artists": [
+      {
+        "id": "4tRZRfhgfLEIUI9mw9Njy2",
+        "name": "Sunni Colón",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebb13ebe598b8f66ecc7ec1725",
+        "genres": [
+          "soul",
+          "rnb",
+          "funk",
+          "electronic"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "1kdThLcYxdmu6tyqteP8rS",
+        "name": "Ein deutsches Requiem, Op. 45: VII. Selig sind die Toten, die in dem Herren sterben",
+        "artist": "Johannes Brahms, Collegium Vocale Gent, La Chapelle Royale, Orchestre des Champs-Élysées, Philippe Herreweghe",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e020cc67815fa265a3ff359d85e"
+      }
+    ]
+  },
+  {
     "id": 126,
     "fetched_at": "2026-09-18T10:16:31.254809+00:00",
     "new_artists": 3,

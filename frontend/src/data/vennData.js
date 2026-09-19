@@ -26,6 +26,7 @@ export const VENN_DATA = {
     "Nostalgia 77",
     "Otis Junior",
     "Pete Josef",
+    "Sunni Colón",
     "The Bahama Soul Club",
     "The Meltdown",
     "This Is The Kit",
@@ -104,6 +105,7 @@ export const VENN_DATA = {
   "ML": [
     "Coldplay",
     "Hania Rani",
+    "Martin Luke Brown",
     "Nick Mulvey",
     "Olivia Dean",
     "Parcels",
@@ -120,17 +122,16 @@ export const VENN_DATA = {
     "Jungle",
     "LEISURE",
     "Loma",
-    "Martin Luke Brown",
     "NEIL FRANCES",
     "Rhye"
   ],
   "counts": {
-    "S_only": 30,
+    "S_only": 31,
     "M_only": 20,
     "L_only": 31,
     "SM": 11,
     "SL": 0,
-    "ML": 10,
-    "ALL": 9
+    "ML": 11,
+    "ALL": 8
   }
 };
