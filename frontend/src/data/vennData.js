@@ -2,13 +2,12 @@
 export const VENN_DATA = {
   "S_only": [
     "Alice Russell",
-    "Anna Ash",
     "Bodalla",
     "Boozoo Bajou",
     "Buttered",
     "Cleo Sol",
+    "Collect 200",
     "Curtis Harding",
-    "Danika",
     "Emil Gilels",
     "Ephemerals",
     "Free Whenever",
@@ -17,6 +16,7 @@ export const VENN_DATA = {
     "Jack Page",
     "Jonathan Jeremiah",
     "KATZROAR",
+    "KOLA",
     "Laurent Bardainne",
     "Lords of Lounge",
     "Masego",
@@ -24,12 +24,13 @@ export const VENN_DATA = {
     "Mop Mop",
     "No Suits",
     "Nostalgia 77",
+    "Offthewally",
+    "Oly Sherman",
     "Otis Junior",
     "Pete Josef",
     "Sunni Colón",
     "The Bahama Soul Club",
     "The Meltdown",
-    "This Is The Kit",
     "fika",
     "sir Was"
   ],
@@ -89,7 +90,7 @@ export const VENN_DATA = {
     "Víkingur Ólafsson"
   ],
   "SM": [
-    "Collect 200",
+    "Arleen Auger",
     "GeeJay",
     "Golf Trip",
     "JONES",
@@ -105,6 +106,7 @@ export const VENN_DATA = {
   "ML": [
     "Coldplay",
     "Hania Rani",
+    "Loma",
     "Martin Luke Brown",
     "Nick Mulvey",
     "Olivia Dean",
@@ -121,17 +123,16 @@ export const VENN_DATA = {
     "Dojo Cuts",
     "Jungle",
     "LEISURE",
-    "Loma",
     "NEIL FRANCES",
     "Rhye"
   ],
   "counts": {
-    "S_only": 31,
+    "S_only": 32,
     "M_only": 20,
     "L_only": 31,
     "SM": 11,
     "SL": 0,
-    "ML": 11,
-    "ALL": 8
+    "ML": 12,
+    "ALL": 7
   }
 };

@@ -1,5 +1,37 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 128,
+    "fetched_at": "2026-09-20T10:18:54.643945+00:00",
+    "new_artists": 2,
+    "new_tracks": 0,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260920_101850.json",
+    "artists": [
+      {
+        "id": "39gp1NxfhmLEyvNggMH4xg",
+        "name": "Arleen Auger",
+        "image": "https://i.scdn.co/image/d970a512bf71726b2856f6dffe5766c1cbdd659a",
+        "genres": [
+          "soprano",
+          "classical",
+          "opera"
+        ]
+      },
+      {
+        "id": "5f5JnmJLC6Wmi8FMXbJzsq",
+        "name": "KOLA",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb568ebdf1e9a8a159a266c2a2",
+        "genres": [
+          "ukrainian",
+          "pop",
+          "ukraine",
+          "canadian"
+        ]
+      }
+    ],
+    "tracks": []
+  },
+  {
     "id": 127,
     "fetched_at": "2026-09-19T09:59:02.904490+00:00",
     "new_artists": 1,
