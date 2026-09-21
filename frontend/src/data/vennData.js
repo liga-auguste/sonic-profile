@@ -1,7 +1,9 @@
 // Where artists live in time — Venn-style overlap data
 export const VENN_DATA = {
   "S_only": [
+    "Alexander IV",
     "Alice Russell",
+    "Astels",
     "Bodalla",
     "Boozoo Bajou",
     "Buttered",
@@ -24,8 +26,6 @@ export const VENN_DATA = {
     "Mop Mop",
     "No Suits",
     "Nostalgia 77",
-    "Offthewally",
-    "Oly Sherman",
     "Otis Junior",
     "Pete Josef",
     "Sunni Colón",

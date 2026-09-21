@@ -1,5 +1,28 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 129,
+    "fetched_at": "2026-09-21T11:29:37.260714+00:00",
+    "new_artists": 1,
+    "new_tracks": 0,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260921_112933.json",
+    "artists": [
+      {
+        "id": "4azViUTvRLgNwb3GmtZvii",
+        "name": "Astels",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb2b12b1c80b43a12b696095b2",
+        "genres": [
+          "soul",
+          "funk",
+          "rnb",
+          "electronic",
+          "yandex music"
+        ]
+      }
+    ],
+    "tracks": []
+  },
+  {
     "id": 128,
     "fetched_at": "2026-09-20T10:18:54.643945+00:00",
     "new_artists": 2,
