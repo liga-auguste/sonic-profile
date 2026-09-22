@@ -1,5 +1,47 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 130,
+    "fetched_at": "2026-09-22T10:36:45.722381+00:00",
+    "new_artists": 2,
+    "new_tracks": 2,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260922_103641.json",
+    "artists": [
+      {
+        "id": "63iNYBnrXorH2RsjM1KOfv",
+        "name": "Stefan Sands",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb0d2e1fcd5e0bc51333bb2cbb",
+        "genres": []
+      },
+      {
+        "id": "6bukZqzHUL1BdEXfa1wLz9",
+        "name": "Noa Lauryn",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebc08ebb77be07c5590469a1c1",
+        "genres": [
+          "rnb",
+          "soul",
+          "indie soul",
+          "dutch",
+          "dutch female soul vocalists"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "323NKzCrGNELs5MVmWPZ7M",
+        "name": "Ein deutsches Requiem, Op. 45: III. Herr, lehre doch mich, daß ein Ende mit mir haben muß",
+        "artist": "Johannes Brahms, Gerald Finley, Collegium Vocale Gent, La Chapelle Royale, Orchestre des Champs-Élysées, Philippe Herreweghe",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e020cc67815fa265a3ff359d85e"
+      },
+      {
+        "id": "3R9RSIkgkZXrIgmBHGemlV",
+        "name": "Boys",
+        "artist": "Lizzo",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e024ff1186d123c83ac46758d88"
+      }
+    ]
+  },
+  {
     "id": 129,
     "fetched_at": "2026-09-21T11:29:37.260714+00:00",
     "new_artists": 1,

@@ -3,12 +3,10 @@ export const VENN_DATA = {
   "S_only": [
     "Alexander IV",
     "Alice Russell",
-    "Astels",
     "Bodalla",
     "Boozoo Bajou",
     "Buttered",
     "Cleo Sol",
-    "Collect 200",
     "Curtis Harding",
     "Emil Gilels",
     "Ephemerals",
@@ -21,17 +19,19 @@ export const VENN_DATA = {
     "KOLA",
     "Laurent Bardainne",
     "Lords of Lounge",
-    "Masego",
     "Matt Storm",
     "Mop Mop",
-    "No Suits",
+    "Noa Lauryn",
     "Nostalgia 77",
+    "Offthewally",
+    "Oly Sherman",
     "Otis Junior",
     "Pete Josef",
+    "Stefan Sands",
     "Sunni Colón",
     "The Bahama Soul Club",
     "The Meltdown",
-    "fika",
+    "Tutankhamun",
     "sir Was"
   ],
   "M_only": [
@@ -49,6 +49,7 @@ export const VENN_DATA = {
     "Pale Jay",
     "Procol Harum",
     "RAYE",
+    "Richard Cejer",
     "SAULT",
     "Sir Simon Rattle",
     "Snazzy",
@@ -99,14 +100,12 @@ export const VENN_DATA = {
     "Lou Ella",
     "Louis Baker",
     "Olive Jones",
-    "Richard Cejer",
     "Vicky Sometani"
   ],
   "SL": [],
   "ML": [
     "Coldplay",
     "Hania Rani",
-    "Loma",
     "Martin Luke Brown",
     "Nick Mulvey",
     "Olivia Dean",
@@ -123,16 +122,17 @@ export const VENN_DATA = {
     "Dojo Cuts",
     "Jungle",
     "LEISURE",
+    "Loma",
     "NEIL FRANCES",
     "Rhye"
   ],
   "counts": {
     "S_only": 32,
-    "M_only": 20,
+    "M_only": 21,
     "L_only": 31,
-    "SM": 11,
+    "SM": 10,
     "SL": 0,
-    "ML": 12,
-    "ALL": 7
+    "ML": 11,
+    "ALL": 8
   }
 };
