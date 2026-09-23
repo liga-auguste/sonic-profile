@@ -1,5 +1,22 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 131,
+    "fetched_at": "2026-09-23T10:29:39.644096+00:00",
+    "new_artists": 0,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260923_102935.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "4QiubLQNBKYcTSX7m8oa5t",
+        "name": "Ein deutsches Requiem, Op. 45: IV. Wie lieblich sind deine Wohnungen, Herr Zebaoth",
+        "artist": "Johannes Brahms, Collegium Vocale Gent, La Chapelle Royale, Orchestre des Champs-Élysées, Philippe Herreweghe",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e020cc67815fa265a3ff359d85e"
+      }
+    ]
+  },
+  {
     "id": 130,
     "fetched_at": "2026-09-22T10:36:45.722381+00:00",
     "new_artists": 2,

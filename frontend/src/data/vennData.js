@@ -5,7 +5,6 @@ export const VENN_DATA = {
     "Alice Russell",
     "Bodalla",
     "Boozoo Bajou",
-    "Buttered",
     "Cleo Sol",
     "Curtis Harding",
     "Emil Gilels",
@@ -36,26 +35,25 @@ export const VENN_DATA = {
   ],
   "M_only": [
     "Ava Joe",
-    "Chet Faker",
+    "Collect 200",
     "DON WEST",
     "Ensemble Contraste",
     "Hermanos Gutiérrez",
     "Jan Garbarek",
-    "José González",
-    "Kraak & Smaak",
+    "Klaus Mertens",
     "Little Simz",
     "Malia",
+    "Michael Kiwanuka",
     "Mynolia",
-    "Pale Jay",
     "Procol Harum",
     "RAYE",
     "Richard Cejer",
     "SAULT",
+    "Serebii",
     "Sir Simon Rattle",
     "Snazzy",
     "Svaneborg Kardyb",
-    "Two Another",
-    "Σtella"
+    "Thomas Rückert"
   ],
   "L_only": [
     "AURORA",
@@ -100,6 +98,7 @@ export const VENN_DATA = {
     "Lou Ella",
     "Louis Baker",
     "Olive Jones",
+    "Pale Jay",
     "Vicky Sometani"
   ],
   "SL": [],
@@ -127,10 +126,10 @@ export const VENN_DATA = {
     "Rhye"
   ],
   "counts": {
-    "S_only": 32,
-    "M_only": 21,
+    "S_only": 31,
+    "M_only": 20,
     "L_only": 31,
-    "SM": 10,
+    "SM": 11,
     "SL": 0,
     "ML": 11,
     "ALL": 8
