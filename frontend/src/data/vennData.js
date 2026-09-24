@@ -45,6 +45,7 @@ export const VENN_DATA = {
     "Malia",
     "Michael Kiwanuka",
     "Mynolia",
+    "Pale Jay",
     "Procol Harum",
     "RAYE",
     "Richard Cejer",
@@ -98,14 +99,12 @@ export const VENN_DATA = {
     "Lou Ella",
     "Louis Baker",
     "Olive Jones",
-    "Pale Jay",
     "Vicky Sometani"
   ],
   "SL": [],
   "ML": [
     "Coldplay",
     "Hania Rani",
-    "Martin Luke Brown",
     "Nick Mulvey",
     "Olivia Dean",
     "Parcels",
@@ -122,16 +121,17 @@ export const VENN_DATA = {
     "Jungle",
     "LEISURE",
     "Loma",
+    "Martin Luke Brown",
     "NEIL FRANCES",
     "Rhye"
   ],
   "counts": {
     "S_only": 31,
-    "M_only": 20,
+    "M_only": 21,
     "L_only": 31,
-    "SM": 11,
+    "SM": 10,
     "SL": 0,
-    "ML": 11,
-    "ALL": 8
+    "ML": 10,
+    "ALL": 9
   }
 };
