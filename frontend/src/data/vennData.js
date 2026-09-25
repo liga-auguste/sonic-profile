@@ -21,7 +21,6 @@ export const VENN_DATA = {
     "Matt Storm",
     "Mop Mop",
     "Noa Lauryn",
-    "Nostalgia 77",
     "Offthewally",
     "Oly Sherman",
     "Otis Junior",
@@ -45,7 +44,6 @@ export const VENN_DATA = {
     "Malia",
     "Michael Kiwanuka",
     "Mynolia",
-    "Pale Jay",
     "Procol Harum",
     "RAYE",
     "Richard Cejer",
@@ -99,6 +97,7 @@ export const VENN_DATA = {
     "Lou Ella",
     "Louis Baker",
     "Olive Jones",
+    "Pale Jay",
     "Vicky Sometani"
   ],
   "SL": [],
@@ -126,10 +125,10 @@ export const VENN_DATA = {
     "Rhye"
   ],
   "counts": {
-    "S_only": 31,
-    "M_only": 21,
+    "S_only": 30,
+    "M_only": 20,
     "L_only": 31,
-    "SM": 10,
+    "SM": 11,
     "SL": 0,
     "ML": 10,
     "ALL": 9

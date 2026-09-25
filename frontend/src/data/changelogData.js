@@ -1,5 +1,52 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 133,
+    "fetched_at": "2026-09-25T10:51:17.457256+00:00",
+    "new_artists": 0,
+    "new_tracks": 6,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260925_105114.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "2ojVBeQ5Zv3xTB0TYciwbU",
+        "name": "Misty Shore",
+        "artist": "Sven Wunder",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02feeca1f6869ecdf8e61bb972"
+      },
+      {
+        "id": "12aIDIafC0XoPDFMVo50Lh",
+        "name": "Parfum Piégé",
+        "artist": "Maluni",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02a1eaf59cca1846c59ea295ab"
+      },
+      {
+        "id": "1W14FFFgsM0m6DUt3Tf6NP",
+        "name": "Bella Napoli",
+        "artist": "Roy Bianco & Die Abbrunzati Boys",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e020df83fcf9459f26c2e43e171"
+      },
+      {
+        "id": "2RA4dMEantJ6P4YdWD1k2x",
+        "name": "Piano Sonata No. 17 in D Minor, Op. 31, No. 2 \"Tempest\": I. Largo - Allegro",
+        "artist": "Ludwig van Beethoven, Emil Gilels",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e024d51a037d91e1fa179448a78"
+      },
+      {
+        "id": "2ianSyNGHQn8wxe5pfHMO8",
+        "name": "it's all gonna be fine !",
+        "artist": "Martin Luke Brown",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e021ba10323b509c9863dde15f0"
+      },
+      {
+        "id": "3KH5zrkctCXBqJizqUy2lY",
+        "name": "Dixit Dominus, HWV 232: 1. Dixit Dominus",
+        "artist": "George Frideric Handel, Isobel Buchanan, Michael Chance, William Kendall, Choir of King's College, Cambridge, English Chamber Orchestra, Stephen Cleobury",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02e793aae540adf237ea415255"
+      }
+    ]
+  },
+  {
     "id": 132,
     "fetched_at": "2026-09-24T10:46:23.960297+00:00",
     "new_artists": 0,
