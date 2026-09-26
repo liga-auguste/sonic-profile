@@ -1,7 +1,6 @@
 // Where artists live in time — Venn-style overlap data
 export const VENN_DATA = {
   "S_only": [
-    "Alexander IV",
     "Alice Russell",
     "Bodalla",
     "Boozoo Bajou",
@@ -16,6 +15,7 @@ export const VENN_DATA = {
     "Jonathan Jeremiah",
     "KATZROAR",
     "KOLA",
+    "Kraak & Smaak",
     "Laurent Bardainne",
     "Lords of Lounge",
     "Matt Storm",
