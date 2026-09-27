@@ -1,5 +1,28 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 135,
+    "fetched_at": "2026-09-27T11:03:30.538796+00:00",
+    "new_artists": 0,
+    "new_tracks": 2,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260927_110327.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "1Gj0yG0w1fqMKgmORygoAS",
+        "name": "Changes",
+        "artist": "Rikas",
+        "album_image": "https://i.scdn.co/image/ab6742d3000053b72f5d6770cbe4f40bf078804b"
+      },
+      {
+        "id": "2P344qrwmOOStzfHbYdRS6",
+        "name": "The Decline - Live at Red Rocks",
+        "artist": "NOFX, Baz and His Orchestra",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02576744d8ce1fc6ca7477183c"
+      }
+    ]
+  },
+  {
     "id": 134,
     "fetched_at": "2026-09-26T10:31:58.107089+00:00",
     "new_artists": 0,
