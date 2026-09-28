@@ -1,5 +1,33 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 136,
+    "fetched_at": "2026-09-28T12:24:10.624384+00:00",
+    "new_artists": 1,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260928_122406.json",
+    "artists": [
+      {
+        "id": "7dwVih1QdpLWuZ0OeslLcg",
+        "name": "Nicholas Cangiano",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb57bcfb56ac57ef852fdd5335",
+        "genres": [
+          "indie",
+          "singer-songwriter",
+          "canadian"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "4XPCZ9kqAO38vWXCUfkMAn",
+        "name": "Your Love Is Electric",
+        "artist": "Leon Bridges",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02bb0c51f02a25bef0a34f3dd1"
+      }
+    ]
+  },
+  {
     "id": 135,
     "fetched_at": "2026-09-27T11:03:30.538796+00:00",
     "new_artists": 0,
