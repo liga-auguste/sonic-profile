@@ -1,5 +1,41 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 137,
+    "fetched_at": "2026-09-29T11:50:00.966550+00:00",
+    "new_artists": 1,
+    "new_tracks": 2,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260929_114957.json",
+    "artists": [
+      {
+        "id": "11kBu957KTYoAltZHDm8gW",
+        "name": "Buena Vista Social Club",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebe35db4d5803c5a4c77dd44db",
+        "genres": [
+          "latin",
+          "cuban",
+          "jazz",
+          "latin jazz",
+          "world"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "3bxZhauuIU4ubctdRZwPYW",
+        "name": "Chan Chan",
+        "artist": "Buena Vista Social Club",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02dc784c3f0767e576a0848b81"
+      },
+      {
+        "id": "3ImQZwQNYBYvoN4B8rgEUJ",
+        "name": "¿Y Tú Qué Has Hecho?",
+        "artist": "Buena Vista Social Club",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02dc784c3f0767e576a0848b81"
+      }
+    ]
+  },
+  {
     "id": 136,
     "fetched_at": "2026-09-28T12:24:10.624384+00:00",
     "new_artists": 1,
