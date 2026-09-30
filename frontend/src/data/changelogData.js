@@ -1,5 +1,47 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 138,
+    "fetched_at": "2026-09-30T11:36:32.203497+00:00",
+    "new_artists": 1,
+    "new_tracks": 3,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20260930_113627.json",
+    "artists": [
+      {
+        "id": "2fQf2M7SkTwCv2MOEIP2Ly",
+        "name": "Sven Wunder",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb872a1d7df186ca7c113e91d6",
+        "genres": [
+          "sweden",
+          "jazz",
+          "instrumental",
+          "folk",
+          "swedish"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "3PkmVYQMogOp2JRgJXVRwj",
+        "name": "Berlin",
+        "artist": "Kool Savas, Kaiserbase",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02a5f08c6bc863bfc50b8f0a7a"
+      },
+      {
+        "id": "5UjaOsrdoI4shw9gM2eNPC",
+        "name": "El Cuarto de Tula",
+        "artist": "Buena Vista Social Club",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02dc784c3f0767e576a0848b81"
+      },
+      {
+        "id": "5dRqrTyQEboHABmpxTvFNY",
+        "name": "I Fix My Gaze",
+        "artist": "Loma",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02d69dc50c534c5b36f93f0c0d"
+      }
+    ]
+  },
+  {
     "id": 137,
     "fetched_at": "2026-09-29T11:50:00.966550+00:00",
     "new_artists": 1,
