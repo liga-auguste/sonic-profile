@@ -3,6 +3,7 @@ export const VENN_DATA = {
   "S_only": [
     "Bodalla",
     "Caoilfhionn Rose",
+    "Chloé Antoniotti",
     "Curtis Harding",
     "Emil Gilels",
     "Ephemerals",
@@ -11,35 +12,33 @@ export const VENN_DATA = {
     "Gotts Street Park",
     "Izo FitzRoy",
     "Jonathan Jeremiah",
-    "KOLA",
     "Khruangbin",
     "Kraak & Smaak",
     "Laurent Bardainne",
     "Lords of Lounge",
     "Matt Storm",
+    "Mop Mop",
     "Nicholas Cangiano",
     "Noa Lauryn",
-    "Offthewally",
     "Pete Josef",
     "Serebii",
     "Stefan Sands",
     "Sunda Arc",
     "Sunni Colón",
     "Sven Wunder",
-    "The Bahama Soul Club",
     "The Meltdown",
     "Vega Trails",
     "sir Was"
   ],
   "M_only": [
     "Ava Joe",
-    "Cleo Sol",
     "Collect 200",
     "DON WEST",
     "Ensemble Contraste",
     "Hermanos Gutiérrez",
     "Jan Garbarek",
     "Jordan Rakei",
+    "Karine Deshayes",
     "Klaus Mertens",
     "Little Simz",
     "Malia",
@@ -51,8 +50,7 @@ export const VENN_DATA = {
     "Sir Simon Rattle",
     "Snazzy",
     "Svaneborg Kardyb",
-    "Thomas Rückert",
-    "Σtella"
+    "Thomas Rückert"
   ],
   "L_only": [
     "AURORA",
@@ -97,6 +95,7 @@ export const VENN_DATA = {
     "Louis Baker",
     "Matthew Halsall",
     "Olive Jones",
+    "Paris Pick",
     "Vicky Sometani"
   ],
   "SL": [
@@ -126,10 +125,10 @@ export const VENN_DATA = {
     "Rhye"
   ],
   "counts": {
-    "S_only": 29,
-    "M_only": 21,
+    "S_only": 28,
+    "M_only": 20,
     "L_only": 30,
-    "SM": 11,
+    "SM": 12,
     "SL": 2,
     "ML": 10,
     "ALL": 8

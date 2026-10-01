@@ -1,5 +1,81 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 139,
+    "fetched_at": "2026-10-01T12:05:28.130383+00:00",
+    "new_artists": 2,
+    "new_tracks": 8,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20261001_120523.json",
+    "artists": [
+      {
+        "id": "4T47F7fGuwZThyqrAEpa6R",
+        "name": "Paris Pick",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb95ebcf786173607d1a6ad6a1",
+        "genres": []
+      },
+      {
+        "id": "4vDyelI0fvbfPTtaaRBe9B",
+        "name": "Chloé Antoniotti",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebd132aefcbe3cb8a7873cf423",
+        "genres": [
+          "french",
+          "ambient",
+          "piano"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "0mmTonrYPRkCOAiEabsDZd",
+        "name": "Anémone",
+        "artist": "Chloé Antoniotti",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02ce98a827db3988f3c22467b1"
+      },
+      {
+        "id": "3zK9ONByAQbGekejVhQUyD",
+        "name": "Got Me Good",
+        "artist": "Paris Pick",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02f50b9380476b0ce55cd1d8a4"
+      },
+      {
+        "id": "0EKn3ZX0r2BRpzRnExHKZJ",
+        "name": "No Expectations",
+        "artist": "Paris Pick",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02f50b9380476b0ce55cd1d8a4"
+      },
+      {
+        "id": "4jTWwSwRA34s79Big0bVea",
+        "name": "Running",
+        "artist": "Felix Rösch",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02d7c362d5d2199c7ee81b022b"
+      },
+      {
+        "id": "6DkrFXlk6izC2ly1xSjHJd",
+        "name": "I'll see you in 21 days",
+        "artist": "Felix Rösch",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e023dd481b12f505c8ba4f3406f"
+      },
+      {
+        "id": "768QnTZVvJ4DUDeouU98fk",
+        "name": "F Major",
+        "artist": "Hania Rani",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e027b1ca6253d803e147e32c68c"
+      },
+      {
+        "id": "0VdNpdk1BMDWuFJq6Tvc47",
+        "name": "A Love That’s Magic",
+        "artist": "Paris Pick",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02f50b9380476b0ce55cd1d8a4"
+      },
+      {
+        "id": "0xcOFWSGqTHAashkdf3j1Y",
+        "name": "Third Time’s a Charm",
+        "artist": "Paris Pick",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02f50b9380476b0ce55cd1d8a4"
+      }
+    ]
+  },
+  {
     "id": 138,
     "fetched_at": "2026-09-30T11:36:32.203497+00:00",
     "new_artists": 1,
@@ -4872,7 +4948,10 @@ export const CHANGELOG_DATA = [
         "id": "6z3juX3wLgnMpAF6VvqcUS",
         "name": "Karine Deshayes",
         "image": "https://i.scdn.co/image/ab6772690000c46cc9e3a299208561725ae070dc",
-        "genres": []
+        "genres": [
+          "mezzo-soprano",
+          "mezzo"
+        ]
       },
       {
         "id": "4xU7M9wEvpnvkNOyPdVi5y",
