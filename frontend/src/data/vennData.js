@@ -1,34 +1,35 @@
 // Where artists live in time — Venn-style overlap data
 export const VENN_DATA = {
   "S_only": [
-    "Bodalla",
     "Caoilfhionn Rose",
-    "Chloé Antoniotti",
     "Curtis Harding",
     "Emil Gilels",
     "Ephemerals",
     "Free Whenever",
     "FÄM",
     "Gotts Street Park",
+    "Huw Marc Bennett",
     "Izo FitzRoy",
-    "Jonathan Jeremiah",
     "Khruangbin",
-    "Kraak & Smaak",
+    "Lady Wray",
     "Laurent Bardainne",
     "Lords of Lounge",
     "Matt Storm",
+    "Meshell Ndegeocello",
     "Mop Mop",
     "Nicholas Cangiano",
     "Noa Lauryn",
+    "Okvsho",
+    "Olympia Vitalis",
     "Pete Josef",
+    "Phi-Psonics",
     "Serebii",
     "Stefan Sands",
     "Sunda Arc",
-    "Sunni Colón",
     "Sven Wunder",
     "The Meltdown",
     "Vega Trails",
-    "sir Was"
+    "daoud"
   ],
   "M_only": [
     "Ava Joe",
@@ -46,7 +47,6 @@ export const VENN_DATA = {
     "Mynolia",
     "Pale Jay",
     "Procol Harum",
-    "Richard Cejer",
     "Sir Simon Rattle",
     "Snazzy",
     "Svaneborg Kardyb",
@@ -57,7 +57,6 @@ export const VENN_DATA = {
     "Amsterdam Baroque Orchestra",
     "Angelo De Augustine",
     "Antonia Bourvé",
-    "Bill Laurance",
     "Billie Eilish",
     "Chris Staples",
     "Deichkind",
@@ -87,6 +86,7 @@ export const VENN_DATA = {
   "SM": [
     "Arleen Auger",
     "Buena Vista Social Club",
+    "Chloé Antoniotti",
     "GeeJay",
     "Golf Trip",
     "JONES",
@@ -99,12 +99,16 @@ export const VENN_DATA = {
     "Vicky Sometani"
   ],
   "SL": [
+    "Bill Laurance",
     "Hania Rani",
     "Jasmine Myra"
   ],
   "ML": [
     "Coldplay",
+    "Dojo Cuts",
     "Jungle",
+    "LEISURE",
+    "NEIL FRANCES",
     "Nick Mulvey",
     "Olivia Dean",
     "Parcels",
@@ -117,20 +121,17 @@ export const VENN_DATA = {
   "ALL": [
     "Collegium Vocale Gent",
     "Common Saints",
-    "Dojo Cuts",
-    "LEISURE",
     "Loma",
     "Martin Luke Brown",
-    "NEIL FRANCES",
     "Rhye"
   ],
   "counts": {
-    "S_only": 28,
-    "M_only": 20,
-    "L_only": 30,
-    "SM": 12,
-    "SL": 2,
-    "ML": 10,
-    "ALL": 8
+    "S_only": 29,
+    "M_only": 19,
+    "L_only": 29,
+    "SM": 13,
+    "SL": 3,
+    "ML": 13,
+    "ALL": 5
   }
 };

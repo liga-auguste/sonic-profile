@@ -1,5 +1,67 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 140,
+    "fetched_at": "2026-10-02T11:36:30.479906+00:00",
+    "new_artists": 4,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20261002_113625.json",
+    "artists": [
+      {
+        "id": "6uYq0k8pis5LPGzdFRM5FJ",
+        "name": "Huw Marc Bennett",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb1be7eefe7899f754ec91872a",
+        "genres": [
+          "jazz",
+          "british",
+          "psychedelic",
+          "dub"
+        ]
+      },
+      {
+        "id": "3e76yvk1gLZQhKZiUHkMsP",
+        "name": "daoud",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb9c019f389c347bca47e6828e",
+        "genres": [
+          "french",
+          "jazz",
+          "trumpet",
+          "instrumental"
+        ]
+      },
+      {
+        "id": "0uZRjholJ0fVC2J9EvnYnj",
+        "name": "Meshell Ndegeocello",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb142ea9464e3279895cb91a3c",
+        "genres": [
+          "soul",
+          "funk",
+          "neo-soul",
+          "jazz",
+          "female vocalists"
+        ]
+      },
+      {
+        "id": "1plioVQ0mcgAO7uhvWkJJy",
+        "name": "Lady Wray",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebd187a91ef96c7a9f3f4afb29",
+        "genres": [
+          "soul",
+          "rnb",
+          "singer-songwriter"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "6GhXHDb0PcuNGSaqaLkweE",
+        "name": "Phoenix",
+        "artist": "JIM",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02b83f0a05fc2b9b5066e0b1e1"
+      }
+    ]
+  },
+  {
     "id": 139,
     "fetched_at": "2026-10-01T12:05:28.130383+00:00",
     "new_artists": 2,
