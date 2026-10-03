@@ -11,11 +11,9 @@ export const VENN_DATA = {
     "Huw Marc Bennett",
     "Izo FitzRoy",
     "Khruangbin",
-    "Lady Wray",
     "Laurent Bardainne",
     "Lords of Lounge",
     "Matt Storm",
-    "Meshell Ndegeocello",
     "Mop Mop",
     "Nicholas Cangiano",
     "Noa Lauryn",
@@ -23,12 +21,12 @@ export const VENN_DATA = {
     "Olympia Vitalis",
     "Pete Josef",
     "Phi-Psonics",
-    "Serebii",
     "Stefan Sands",
     "Sunda Arc",
     "Sven Wunder",
     "The Meltdown",
     "Vega Trails",
+    "Young Franco",
     "daoud"
   ],
   "M_only": [
@@ -43,7 +41,6 @@ export const VENN_DATA = {
     "Klaus Mertens",
     "Little Simz",
     "Malia",
-    "Michael Kiwanuka",
     "Mynolia",
     "Pale Jay",
     "Procol Harum",
@@ -87,6 +84,7 @@ export const VENN_DATA = {
     "Arleen Auger",
     "Buena Vista Social Club",
     "Chloé Antoniotti",
+    "Felix Rösch",
     "GeeJay",
     "Golf Trip",
     "JONES",
@@ -112,7 +110,6 @@ export const VENN_DATA = {
     "Nick Mulvey",
     "Olivia Dean",
     "Parcels",
-    "RIO KOSTA",
     "Rikas",
     "Tal Arditi",
     "The Smile",
@@ -123,15 +120,16 @@ export const VENN_DATA = {
     "Common Saints",
     "Loma",
     "Martin Luke Brown",
+    "RIO KOSTA",
     "Rhye"
   ],
   "counts": {
-    "S_only": 29,
-    "M_only": 19,
+    "S_only": 27,
+    "M_only": 18,
     "L_only": 29,
-    "SM": 13,
+    "SM": 14,
     "SL": 3,
-    "ML": 13,
-    "ALL": 5
+    "ML": 12,
+    "ALL": 6
   }
 };

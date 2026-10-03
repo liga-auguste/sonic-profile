@@ -1,5 +1,52 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 141,
+    "fetched_at": "2026-10-03T10:50:04.221088+00:00",
+    "new_artists": 2,
+    "new_tracks": 2,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20261003_105000.json",
+    "artists": [
+      {
+        "id": "5DN6qP3OzoKVYXF3o2KCXp",
+        "name": "Felix Rösch",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebfb9c218865111629bb866acc",
+        "genres": [
+          "german",
+          "contemporary classical",
+          "composer",
+          "classical"
+        ]
+      },
+      {
+        "id": "6mK0vAO13gT8jWYANyoXAl",
+        "name": "Young Franco",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb68b87ec85a7189af8b447ecf",
+        "genres": [
+          "electronic",
+          "funk",
+          "hip-hop",
+          "australian",
+          "hip hop"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "2YxQkpag9yIn4Zk0qJkWyI",
+        "name": "Sometimes",
+        "artist": "Rhye",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02ca5b93d038e9480c5ee8b398"
+      },
+      {
+        "id": "0lpW4h6sPXvSVgH7tVgo4j",
+        "name": "Humming Bird Rework",
+        "artist": "Felix Rösch, mondëna quartet",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0262beaf6f74664dd7c72df45b"
+      }
+    ]
+  },
+  {
     "id": 140,
     "fetched_at": "2026-10-02T11:36:30.479906+00:00",
     "new_artists": 4,
