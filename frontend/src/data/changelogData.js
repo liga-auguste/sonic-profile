@@ -1,5 +1,22 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 142,
+    "fetched_at": "2026-10-04T11:32:36.024483+00:00",
+    "new_artists": 0,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20261004_113232.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "4gwjMTkKAAV7qJzOIBolQl",
+        "name": "Driven",
+        "artist": "Felix Rösch",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0262beaf6f74664dd7c72df45b"
+      }
+    ]
+  },
+  {
     "id": 141,
     "fetched_at": "2026-10-03T10:50:04.221088+00:00",
     "new_artists": 2,
