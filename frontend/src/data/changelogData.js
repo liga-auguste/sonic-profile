@@ -1,5 +1,24 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 143,
+    "fetched_at": "2026-10-05T13:04:20.946538+00:00",
+    "new_artists": 1,
+    "new_tracks": 0,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20261005_130416.json",
+    "artists": [
+      {
+        "id": "3w1wNgMXNtM48xdYNCXWgC",
+        "name": "CARTFISH",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb2222b29d2bc819e39eacf0d6",
+        "genres": [
+          "electronic"
+        ]
+      }
+    ],
+    "tracks": []
+  },
+  {
     "id": 142,
     "fetched_at": "2026-10-04T11:32:36.024483+00:00",
     "new_artists": 0,

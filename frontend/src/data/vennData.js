@@ -1,6 +1,8 @@
 // Where artists live in time — Venn-style overlap data
 export const VENN_DATA = {
   "S_only": [
+    "Bodalla",
+    "CARTFISH",
     "Caoilfhionn Rose",
     "Cleo Sol",
     "Curtis Harding",
@@ -9,7 +11,6 @@ export const VENN_DATA = {
     "Gotts Street Park",
     "Huw Marc Bennett",
     "Khruangbin",
-    "Lady Wray",
     "Laurent Bardainne",
     "Meshell Ndegeocello",
     "Mop Mop",
@@ -18,7 +19,6 @@ export const VENN_DATA = {
     "Olympia Vitalis",
     "Phi-Psonics",
     "Portico Quartet",
-    "SAULT",
     "Stefan Sands",
     "Sunda Arc",
     "Sven Wunder",
