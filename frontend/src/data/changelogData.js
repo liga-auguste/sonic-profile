@@ -1,5 +1,38 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 144,
+    "fetched_at": "2026-10-06T12:27:15.902139+00:00",
+    "new_artists": 2,
+    "new_tracks": 0,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20261006_122711.json",
+    "artists": [
+      {
+        "id": "1CsZ0ihKPWBDUERlQt8ekr",
+        "name": "Richard Houghten",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb5b6c79c6a75fabd108ed907b",
+        "genres": [
+          "experimental",
+          "electronic",
+          "american"
+        ]
+      },
+      {
+        "id": "693ocQRzJ0o8wL3ySRPuUB",
+        "name": "Assaf Spector",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebd8798379a0deb1ba9244c7f9",
+        "genres": [
+          "blues",
+          "electronic",
+          "usa",
+          "experimental",
+          "united states"
+        ]
+      }
+    ],
+    "tracks": []
+  },
+  {
     "id": 143,
     "fetched_at": "2026-10-05T13:04:20.946538+00:00",
     "new_artists": 1,
@@ -6130,7 +6163,12 @@ export const CHANGELOG_DATA = [
         "id": "72udTJKu1pGovvS9aCYGMI",
         "name": "Marc Rebillet",
         "image": "https://i.scdn.co/image/ab6761610000e5ebac6f689a8d398c34d3d8a412",
-        "genres": []
+        "genres": [
+          "funk",
+          "jazz",
+          "electronic",
+          "rap"
+        ]
       },
       {
         "id": "0f3PsS9IQ6whvNMFFKnpjl",
