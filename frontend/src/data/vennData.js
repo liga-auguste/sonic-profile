@@ -1,7 +1,7 @@
 // Where artists live in time — Venn-style overlap data
 export const VENN_DATA = {
   "S_only": [
-    "Assaf Spector",
+    "Bodalla",
     "CARTFISH",
     "Caoilfhionn Rose",
     "Cleo Sol",
@@ -19,6 +19,7 @@ export const VENN_DATA = {
     "Phi-Psonics",
     "Radiohead",
     "Richard Houghten",
+    "SAULT",
     "Stefan Sands",
     "Sven Wunder",
     "The Meltdown",
@@ -38,6 +39,7 @@ export const VENN_DATA = {
     "Jordan Rakei",
     "Karine Deshayes",
     "Little Simz",
+    "Lou Ella",
     "Malia",
     "Mynolia",
     "Pale Jay",
@@ -84,7 +86,6 @@ export const VENN_DATA = {
     "GeeJay",
     "JONES",
     "Leon Bridges",
-    "Lou Ella",
     "Louis Baker",
     "Marc Rebillet",
     "Matthew Halsall",
@@ -121,10 +122,10 @@ export const VENN_DATA = {
     "Rhye"
   ],
   "counts": {
-    "S_only": 25,
-    "M_only": 18,
+    "S_only": 26,
+    "M_only": 19,
     "L_only": 28,
-    "SM": 13,
+    "SM": 12,
     "SL": 3,
     "ML": 10,
     "ALL": 9
