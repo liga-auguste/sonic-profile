@@ -1,5 +1,38 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 146,
+    "fetched_at": "2026-10-08T12:29:57.909782+00:00",
+    "new_artists": 2,
+    "new_tracks": 0,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20261008_122953.json",
+    "artists": [
+      {
+        "id": "0oC6aXGEJhraxWOKGBm9NZ",
+        "name": "Theodor",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebe64fac6f3a3b796606f3a9df",
+        "genres": [
+          "chillout",
+          "psychedelic",
+          "soul",
+          "canadian",
+          "indie"
+        ]
+      },
+      {
+        "id": "0UyhOIzQ8yAuLmVlEw1Lo5",
+        "name": "Okonski",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb9a08cd5d8997331acc191e7d",
+        "genres": [
+          "jazz",
+          "instrumental",
+          "piano"
+        ]
+      }
+    ],
+    "tracks": []
+  },
+  {
     "id": 145,
     "fetched_at": "2026-10-07T12:20:36.664238+00:00",
     "new_artists": 0,

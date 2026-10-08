@@ -2,6 +2,7 @@
 export const VENN_DATA = {
   "S_only": [
     "Bodalla",
+    "Bonobo",
     "CARTFISH",
     "Caoilfhionn Rose",
     "Cleo Sol",
@@ -9,20 +10,18 @@ export const VENN_DATA = {
     "FÄM",
     "Gotts Street Park",
     "Huw Marc Bennett",
-    "I Am An Instrument",
     "Khruangbin",
-    "Laurent Bardainne",
     "Meshell Ndegeocello",
-    "Noa Lauryn",
+    "Okonski",
     "Okvsho",
     "Olympia Vitalis",
     "Phi-Psonics",
-    "Radiohead",
+    "Portico Quartet",
     "Richard Houghten",
     "SAULT",
-    "Stefan Sands",
+    "Sunda Arc",
     "Sven Wunder",
-    "The Meltdown",
+    "Theodor",
     "Vega Trails",
     "Young Franco",
     "daoud",
@@ -45,9 +44,7 @@ export const VENN_DATA = {
     "Pale Jay",
     "Procol Harum",
     "Sir Simon Rattle",
-    "Snazzy",
-    "Svaneborg Kardyb",
-    "Thomas Rückert"
+    "Snazzy"
   ],
   "L_only": [
     "AURORA",
@@ -91,6 +88,8 @@ export const VENN_DATA = {
     "Matthew Halsall",
     "Olive Jones",
     "Paris Pick",
+    "Radiohead",
+    "Svaneborg Kardyb",
     "Vicky Sometani"
   ],
   "SL": [
@@ -100,6 +99,7 @@ export const VENN_DATA = {
   ],
   "ML": [
     "Coldplay",
+    "Common Saints",
     "Dojo Cuts",
     "NEIL FRANCES",
     "Nick Mulvey",
@@ -112,7 +112,6 @@ export const VENN_DATA = {
   ],
   "ALL": [
     "Collegium Vocale Gent",
-    "Common Saints",
     "Felix Rösch",
     "Jungle",
     "LEISURE",
@@ -122,12 +121,12 @@ export const VENN_DATA = {
     "Rhye"
   ],
   "counts": {
-    "S_only": 26,
-    "M_only": 19,
+    "S_only": 25,
+    "M_only": 17,
     "L_only": 28,
-    "SM": 12,
+    "SM": 14,
     "SL": 3,
-    "ML": 10,
-    "ALL": 9
+    "ML": 11,
+    "ALL": 8
   }
 };
