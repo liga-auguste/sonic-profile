@@ -1,5 +1,47 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 147,
+    "fetched_at": "2026-10-09T12:18:34.682962+00:00",
+    "new_artists": 3,
+    "new_tracks": 0,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20261009_121830.json",
+    "artists": [
+      {
+        "id": "3h9jrx2NF7x7EkNDZAn2De",
+        "name": "Charlie Jeer",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebd2a1d6d80e7e8af0f9fed73c",
+        "genres": [
+          "house"
+        ]
+      },
+      {
+        "id": "5XMyhVhi5ZN2pi0Qwi1zXS",
+        "name": "Joy Crookes",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb5570e9e974a40c5c1191cc04",
+        "genres": [
+          "soul",
+          "female vocalists",
+          "rnb",
+          "indie",
+          "british"
+        ]
+      },
+      {
+        "id": "0oK5D6uPhGu4Jk2dbZfodU",
+        "name": "Thee Sacred Souls",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb1a99219498d5119b0e742b19",
+        "genres": [
+          "soul",
+          "funk",
+          "rnb",
+          "united states"
+        ]
+      }
+    ],
+    "tracks": []
+  },
+  {
     "id": 146,
     "fetched_at": "2026-10-08T12:29:57.909782+00:00",
     "new_artists": 2,
