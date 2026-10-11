@@ -1,7 +1,6 @@
 // Where artists live in time — Venn-style overlap data
 export const VENN_DATA = {
   "S_only": [
-    "Bodalla",
     "CARTFISH",
     "Caoilfhionn Rose",
     "Charlie Jeer",
@@ -9,6 +8,7 @@ export const VENN_DATA = {
     "Emil Gilels",
     "FKJ",
     "FÄM",
+    "Gotts Street Park",
     "Huw Marc Bennett",
     "Joy Crookes",
     "Khruangbin",
