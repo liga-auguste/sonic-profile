@@ -6,9 +6,10 @@ export const VENN_DATA = {
     "Charlie Jeer",
     "Cleo Sol",
     "Emil Gilels",
+    "Ethan French",
+    "Ezra Collective",
     "FKJ",
     "FÄM",
-    "Gotts Street Park",
     "Huw Marc Bennett",
     "Joy Crookes",
     "Khruangbin",
@@ -20,7 +21,6 @@ export const VENN_DATA = {
     "SAULT",
     "Sven Wunder",
     "Thee Sacred Souls",
-    "Theodor",
     "Vega Trails",
     "Young Franco",
     "daoud",
@@ -28,7 +28,6 @@ export const VENN_DATA = {
   ],
   "M_only": [
     "Ava Joe",
-    "Collect 200",
     "DON WEST",
     "Ensemble Contraste",
     "Golf Trip",
@@ -43,7 +42,8 @@ export const VENN_DATA = {
     "Pale Jay",
     "Procol Harum",
     "Sir Simon Rattle",
-    "Snazzy"
+    "Snazzy",
+    "Svaneborg Kardyb"
   ],
   "L_only": [
     "AURORA",
@@ -72,7 +72,6 @@ export const VENN_DATA = {
     "Rikas",
     "Sufjan Stevens",
     "The Choir Of Trinity College, Cambridge",
-    "Tom Odell",
     "Ton Koopman",
     "Víkingur Ólafsson"
   ],
@@ -90,7 +89,6 @@ export const VENN_DATA = {
     "Olive Jones",
     "Paris Pick",
     "Radiohead",
-    "Svaneborg Kardyb",
     "Vicky Sometani"
   ],
   "SL": [
@@ -118,15 +116,16 @@ export const VENN_DATA = {
     "Loma",
     "Martin Luke Brown",
     "RIO KOSTA",
-    "Rhye"
+    "Rhye",
+    "Tom Odell"
   ],
   "counts": {
     "S_only": 24,
     "M_only": 17,
-    "L_only": 29,
-    "SM": 15,
+    "L_only": 28,
+    "SM": 14,
     "SL": 3,
     "ML": 10,
-    "ALL": 8
+    "ALL": 9
   }
 };

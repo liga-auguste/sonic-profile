@@ -1,5 +1,34 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 150,
+    "fetched_at": "2026-10-12T13:55:54.274405+00:00",
+    "new_artists": 1,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20261012_135551.json",
+    "artists": [
+      {
+        "id": "5BRAUN0yN8557PLRZIr02W",
+        "name": "Ezra Collective",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb74f17b856692fa4d1ed38a06",
+        "genres": [
+          "jazz",
+          "london",
+          "british",
+          "jazz fusion"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "7BzAs4BQqVjb0QhMoFSUyu",
+        "name": "Bigger Picture",
+        "artist": "Sarah Julia",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02d4c76995201453c6de0b46aa"
+      }
+    ]
+  },
+  {
     "id": 149,
     "fetched_at": "2026-10-11T11:50:16.321683+00:00",
     "new_artists": 0,
