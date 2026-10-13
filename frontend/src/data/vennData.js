@@ -1,18 +1,18 @@
 // Where artists live in time — Venn-style overlap data
 export const VENN_DATA = {
   "S_only": [
+    "Alexander IV",
+    "Bodalla",
     "CARTFISH",
     "Caoilfhionn Rose",
     "Charlie Jeer",
-    "Cleo Sol",
     "Emil Gilels",
     "Ethan French",
     "Ezra Collective",
     "FKJ",
-    "FÄM",
+    "Gotts Street Park",
     "Huw Marc Bennett",
     "Joy Crookes",
-    "Khruangbin",
     "Meshell Ndegeocello",
     "Okvsho",
     "Olympia Vitalis",
@@ -21,29 +21,30 @@ export const VENN_DATA = {
     "SAULT",
     "Sven Wunder",
     "Thee Sacred Souls",
+    "Theodor",
     "Vega Trails",
     "Young Franco",
-    "daoud",
     "Σtella"
   ],
   "M_only": [
     "Ava Joe",
     "DON WEST",
     "Ensemble Contraste",
+    "GeeJay",
     "Golf Trip",
     "Hermanos Gutiérrez",
+    "JONES",
     "Jalen Ngonda",
     "Jan Garbarek",
     "Karine Deshayes",
     "Little Simz",
     "Lou Ella",
+    "Louis Baker",
     "Malia",
     "Mynolia",
     "Pale Jay",
     "Procol Harum",
-    "Sir Simon Rattle",
-    "Snazzy",
-    "Svaneborg Kardyb"
+    "Sir Simon Rattle"
   ],
   "L_only": [
     "AURORA",
@@ -79,16 +80,15 @@ export const VENN_DATA = {
     "Arleen Auger",
     "Buena Vista Social Club",
     "Chloé Antoniotti",
-    "GeeJay",
-    "JONES",
     "Jordan Rakei",
     "Leon Bridges",
-    "Louis Baker",
     "Marc Rebillet",
     "Matthew Halsall",
     "Olive Jones",
     "Paris Pick",
     "Radiohead",
+    "Snazzy",
+    "Svaneborg Kardyb",
     "Vicky Sometani"
   ],
   "SL": [
@@ -100,7 +100,6 @@ export const VENN_DATA = {
     "Coldplay",
     "Common Saints",
     "Dojo Cuts",
-    "NEIL FRANCES",
     "Nick Mulvey",
     "Olivia Dean",
     "Parcels",
@@ -115,17 +114,18 @@ export const VENN_DATA = {
     "LEISURE",
     "Loma",
     "Martin Luke Brown",
+    "NEIL FRANCES",
     "RIO KOSTA",
     "Rhye",
     "Tom Odell"
   ],
   "counts": {
     "S_only": 24,
-    "M_only": 17,
+    "M_only": 18,
     "L_only": 28,
-    "SM": 14,
+    "SM": 13,
     "SL": 3,
-    "ML": 10,
-    "ALL": 9
+    "ML": 9,
+    "ALL": 10
   }
 };
