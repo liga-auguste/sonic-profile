@@ -2,17 +2,15 @@
 export const VENN_DATA = {
   "S_only": [
     "Alexander IV",
-    "Bodalla",
     "CARTFISH",
     "Caoilfhionn Rose",
     "Charlie Jeer",
-    "Emil Gilels",
     "Ethan French",
     "Ezra Collective",
     "FKJ",
-    "Gotts Street Park",
     "Huw Marc Bennett",
     "Joy Crookes",
+    "Karate Boogaloo",
     "Meshell Ndegeocello",
     "Okvsho",
     "Olympia Vitalis",
@@ -24,6 +22,7 @@ export const VENN_DATA = {
     "Theodor",
     "Vega Trails",
     "Young Franco",
+    "anaiis",
     "Σtella"
   ],
   "M_only": [
@@ -34,7 +33,6 @@ export const VENN_DATA = {
     "Golf Trip",
     "Hermanos Gutiérrez",
     "JONES",
-    "Jalen Ngonda",
     "Jan Garbarek",
     "Karine Deshayes",
     "Little Simz",
@@ -44,7 +42,8 @@ export const VENN_DATA = {
     "Mynolia",
     "Pale Jay",
     "Procol Harum",
-    "Sir Simon Rattle"
+    "Sir Simon Rattle",
+    "Svaneborg Kardyb"
   ],
   "L_only": [
     "AURORA",
@@ -73,8 +72,7 @@ export const VENN_DATA = {
     "Rikas",
     "Sufjan Stevens",
     "The Choir Of Trinity College, Cambridge",
-    "Ton Koopman",
-    "Víkingur Ólafsson"
+    "Ton Koopman"
   ],
   "SM": [
     "Arleen Auger",
@@ -88,7 +86,6 @@ export const VENN_DATA = {
     "Paris Pick",
     "Radiohead",
     "Snazzy",
-    "Svaneborg Kardyb",
     "Vicky Sometani"
   ],
   "SL": [
@@ -98,7 +95,6 @@ export const VENN_DATA = {
   ],
   "ML": [
     "Coldplay",
-    "Common Saints",
     "Dojo Cuts",
     "Nick Mulvey",
     "Olivia Dean",
@@ -109,6 +105,7 @@ export const VENN_DATA = {
   ],
   "ALL": [
     "Collegium Vocale Gent",
+    "Common Saints",
     "Felix Rösch",
     "Jungle",
     "LEISURE",
@@ -117,15 +114,16 @@ export const VENN_DATA = {
     "NEIL FRANCES",
     "RIO KOSTA",
     "Rhye",
-    "Tom Odell"
+    "Tom Odell",
+    "Víkingur Ólafsson"
   ],
   "counts": {
-    "S_only": 24,
+    "S_only": 23,
     "M_only": 18,
-    "L_only": 28,
-    "SM": 13,
+    "L_only": 27,
+    "SM": 12,
     "SL": 3,
-    "ML": 9,
-    "ALL": 10
+    "ML": 8,
+    "ALL": 12
   }
 };

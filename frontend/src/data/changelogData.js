@@ -1,5 +1,40 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 152,
+    "fetched_at": "2026-10-14T10:52:30.811330+00:00",
+    "new_artists": 1,
+    "new_tracks": 2,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20261014_105228.json",
+    "artists": [
+      {
+        "id": "6D1VqVFh9yM5oARLleWNpQ",
+        "name": "Karate Boogaloo",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb488ecf0205a2830584627f73",
+        "genres": [
+          "funk",
+          "deep funk",
+          "soul",
+          "instrumental"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "2nvKJylXIc5qUTOkCCILPp",
+        "name": "Summer Song",
+        "artist": "Rhye",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02ebdb1903907c78c9fc85cb9d"
+      },
+      {
+        "id": "6xrHbGl4LgaMtF1E9N6MaR",
+        "name": "Snack",
+        "artist": "Ivan Ooze",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02a613d610859afc637434b01d"
+      }
+    ]
+  },
+  {
     "id": 151,
     "fetched_at": "2026-10-13T13:12:39.851182+00:00",
     "new_artists": 0,
@@ -333,7 +368,13 @@ export const CHANGELOG_DATA = [
         "id": "4T47F7fGuwZThyqrAEpa6R",
         "name": "Paris Pick",
         "image": "https://i.scdn.co/image/ab6761610000e5eb95ebcf786173607d1a6ad6a1",
-        "genres": []
+        "genres": [
+          "alt-country",
+          "folk",
+          "indie pop",
+          "indie",
+          "yacht rock"
+        ]
       },
       {
         "id": "4vDyelI0fvbfPTtaaRBe9B",
