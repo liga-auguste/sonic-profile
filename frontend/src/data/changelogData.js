@@ -1,5 +1,77 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 153,
+    "fetched_at": "2026-10-15T10:35:03.285727+00:00",
+    "new_artists": 3,
+    "new_tracks": 4,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20261015_103459.json",
+    "artists": [
+      {
+        "id": "24ibCRKLtfIZcfrixiBAsm",
+        "name": "Gidon Kremer",
+        "image": "https://i.scdn.co/image/ab6772690000c46c620b17fed3980cf59bc3ec55",
+        "genres": [
+          "violin",
+          "classical",
+          "tango",
+          "contemporary classical",
+          "tango nuevo"
+        ]
+      },
+      {
+        "id": "5gqhueRUZEa7VDnQt4HODp",
+        "name": "Nils Frahm",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb0378b1542b9661dfa8b676f4",
+        "genres": [
+          "piano",
+          "ambient",
+          "contemporary classical",
+          "modern classical",
+          "instrumental"
+        ]
+      },
+      {
+        "id": "1vYrIm6O7VtBGszIWe75mB",
+        "name": "Gabríel Ólafs",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb078b77503f0709b9c69b010e",
+        "genres": [
+          "piano",
+          "classical",
+          "modern classical",
+          "instrumental",
+          "neoclassical"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "60nYU5mvv5mOlYELcnQ4xF",
+        "name": "For Jóhann",
+        "artist": "Víkingur Ólafsson",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02d44c0854b85f8067746c276e"
+      },
+      {
+        "id": "20IV0HQIMs88pYQm8Widos",
+        "name": "Scene with Cranes",
+        "artist": "Gidon Kremer",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e023127d53fbe67a6bc80dc0392"
+      },
+      {
+        "id": "31dmZxdggcpukWS3Hh0uHj",
+        "name": "Go Out and Give it All",
+        "artist": "Paris Pick",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02f50b9380476b0ce55cd1d8a4"
+      },
+      {
+        "id": "34kzZyRcTKCDql0or0qKLS",
+        "name": "Someone Like You",
+        "artist": "Skin On Skin",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0270b1be85608b742c7546bb71"
+      }
+    ]
+  },
+  {
     "id": 152,
     "fetched_at": "2026-10-14T10:52:30.811330+00:00",
     "new_artists": 1,
