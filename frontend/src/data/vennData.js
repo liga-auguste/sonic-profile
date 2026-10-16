@@ -5,6 +5,7 @@ export const VENN_DATA = {
     "CARTFISH",
     "Caoilfhionn Rose",
     "Charlie Jeer",
+    "Chip Wickham",
     "Ethan French",
     "Ezra Collective",
     "FKJ",
@@ -18,10 +19,10 @@ export const VENN_DATA = {
     "Olympia Vitalis",
     "Richard Houghten",
     "SAULT",
+    "Shob",
     "Sven Wunder",
     "Thee Sacred Souls",
     "Vega Trails",
-    "Young Franco",
     "anaiis",
     "Σtella"
   ],
@@ -43,7 +44,8 @@ export const VENN_DATA = {
     "Pale Jay",
     "Procol Harum",
     "Sir Simon Rattle",
-    "Svaneborg Kardyb"
+    "Svaneborg Kardyb",
+    "Vicky Sometani"
   ],
   "L_only": [
     "AURORA",
@@ -87,8 +89,7 @@ export const VENN_DATA = {
     "Olive Jones",
     "Paris Pick",
     "Radiohead",
-    "Snazzy",
-    "Vicky Sometani"
+    "Snazzy"
   ],
   "SL": [
     "Bill Laurance",
@@ -119,10 +120,10 @@ export const VENN_DATA = {
     "Víkingur Ólafsson"
   ],
   "counts": {
-    "S_only": 23,
-    "M_only": 18,
+    "S_only": 24,
+    "M_only": 19,
     "L_only": 28,
-    "SM": 13,
+    "SM": 12,
     "SL": 3,
     "ML": 8,
     "ALL": 11

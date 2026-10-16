@@ -1,5 +1,45 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 154,
+    "fetched_at": "2026-10-16T10:21:46.315426+00:00",
+    "new_artists": 1,
+    "new_tracks": 3,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20261016_102144.json",
+    "artists": [
+      {
+        "id": "57ctSg1QFiILyEGFAUmflE",
+        "name": "Shob",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb7ab36a56417f18112ee203a1",
+        "genres": [
+          "funk",
+          "fusion",
+          "jazz"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "3qUxJr5yaLCnWXDspeV23c",
+        "name": "Trysting Fields",
+        "artist": "Gidon Kremer",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e023127d53fbe67a6bc80dc0392"
+      },
+      {
+        "id": "0M3Y6gjHEF0qcLzEIPlDyy",
+        "name": "Drifting",
+        "artist": "Chip Wickham",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02a51bbedb6872aaa84077fead"
+      },
+      {
+        "id": "3n0sNxynTBds6fE7A0nUmI",
+        "name": "Voraces",
+        "artist": "Shob",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02881275fca5646a9bcf41ea0a"
+      }
+    ]
+  },
+  {
     "id": 153,
     "fetched_at": "2026-10-15T10:35:03.285727+00:00",
     "new_artists": 3,
