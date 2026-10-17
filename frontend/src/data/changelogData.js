@@ -1,5 +1,22 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 155,
+    "fetched_at": "2026-10-17T09:55:03.937541+00:00",
+    "new_artists": 0,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20261017_095501.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "0Kg5R4totCHGVckE8U62sG",
+        "name": "Up",
+        "artist": "Bear Garden",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0251ece0cd3a425ddf3cbc2213"
+      }
+    ]
+  },
+  {
     "id": 154,
     "fetched_at": "2026-10-16T10:21:46.315426+00:00",
     "new_artists": 1,

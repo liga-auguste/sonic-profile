@@ -5,7 +5,6 @@ export const VENN_DATA = {
     "CARTFISH",
     "Caoilfhionn Rose",
     "Charlie Jeer",
-    "Chip Wickham",
     "Ethan French",
     "Ezra Collective",
     "FKJ",
@@ -19,7 +18,6 @@ export const VENN_DATA = {
     "Olympia Vitalis",
     "Richard Houghten",
     "SAULT",
-    "Shob",
     "Sven Wunder",
     "Thee Sacred Souls",
     "Vega Trails",
@@ -35,7 +33,6 @@ export const VENN_DATA = {
     "Hermanos Gutiérrez",
     "JONES",
     "Jan Garbarek",
-    "Karine Deshayes",
     "Little Simz",
     "Lou Ella",
     "Louis Baker",
@@ -75,11 +72,13 @@ export const VENN_DATA = {
     "Rikas",
     "Sufjan Stevens",
     "The Choir Of Trinity College, Cambridge",
+    "The Smile",
     "Ton Koopman"
   ],
   "SM": [
     "Arleen Auger",
     "Buena Vista Social Club",
+    "Chip Wickham",
     "Chloé Antoniotti",
     "Gidon Kremer",
     "Jordan Rakei",
@@ -89,6 +88,7 @@ export const VENN_DATA = {
     "Olive Jones",
     "Paris Pick",
     "Radiohead",
+    "Shob",
     "Snazzy"
   ],
   "SL": [
@@ -103,7 +103,6 @@ export const VENN_DATA = {
     "Nick Mulvey",
     "Olivia Dean",
     "Tal Arditi",
-    "The Smile",
     "Tom Misch"
   ],
   "ALL": [
@@ -120,12 +119,12 @@ export const VENN_DATA = {
     "Víkingur Ólafsson"
   ],
   "counts": {
-    "S_only": 24,
-    "M_only": 19,
-    "L_only": 28,
-    "SM": 12,
+    "S_only": 22,
+    "M_only": 18,
+    "L_only": 29,
+    "SM": 14,
     "SL": 3,
-    "ML": 8,
+    "ML": 7,
     "ALL": 11
   }
 };
