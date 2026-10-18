@@ -1,5 +1,64 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 156,
+    "fetched_at": "2026-10-18T10:07:02.315847+00:00",
+    "new_artists": 0,
+    "new_tracks": 8,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20261018_100700.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "32D8wD2ARy8mKr5kgxvozM",
+        "name": "Did It My Own Way",
+        "artist": "Rhye",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02a28b3e01d566ac60e6a97613"
+      },
+      {
+        "id": "7qimqq0qw5k6C2QSmMnUAl",
+        "name": "Summer Song",
+        "artist": "Rhye",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02a28b3e01d566ac60e6a97613"
+      },
+      {
+        "id": "2H5VlwkJtIhxlQMq913HOl",
+        "name": "Sometimes",
+        "artist": "Rhye",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02a28b3e01d566ac60e6a97613"
+      },
+      {
+        "id": "0xQ0tXpHOSXd3baWClzDc0",
+        "name": "Hold On",
+        "artist": "Rhye",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02a28b3e01d566ac60e6a97613"
+      },
+      {
+        "id": "3uRhv6SlvNO190xv4iOZa4",
+        "name": "Go to Sleep",
+        "artist": "Rhye",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02a28b3e01d566ac60e6a97613"
+      },
+      {
+        "id": "5QchjXqnAgRe41uTXhrwUj",
+        "name": "Close Your Mouth",
+        "artist": "Rhye",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02a28b3e01d566ac60e6a97613"
+      },
+      {
+        "id": "7xVKofrlY2Z2zWqw5is1uZ",
+        "name": "Fatal",
+        "artist": "Rhye",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02a28b3e01d566ac60e6a97613"
+      },
+      {
+        "id": "0HZm3MKVd4dzVOnz2O2ixl",
+        "name": "Dance This Way",
+        "artist": "Rhye",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02a28b3e01d566ac60e6a97613"
+      }
+    ]
+  },
+  {
     "id": 155,
     "fetched_at": "2026-10-17T09:55:03.937541+00:00",
     "new_artists": 0,

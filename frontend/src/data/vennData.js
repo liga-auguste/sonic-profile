@@ -16,6 +16,7 @@ export const VENN_DATA = {
     "Nils Frahm",
     "Okvsho",
     "Olympia Vitalis",
+    "Phi-Psonics",
     "Richard Houghten",
     "SAULT",
     "Sven Wunder",
@@ -25,6 +26,7 @@ export const VENN_DATA = {
     "Σtella"
   ],
   "M_only": [
+    "Arleen Auger",
     "Ava Joe",
     "DON WEST",
     "Ensemble Contraste",
@@ -41,8 +43,7 @@ export const VENN_DATA = {
     "Pale Jay",
     "Procol Harum",
     "Sir Simon Rattle",
-    "Svaneborg Kardyb",
-    "Vicky Sometani"
+    "Svaneborg Kardyb"
   ],
   "L_only": [
     "AURORA",
@@ -76,7 +77,6 @@ export const VENN_DATA = {
     "Ton Koopman"
   ],
   "SM": [
-    "Arleen Auger",
     "Buena Vista Social Club",
     "Chip Wickham",
     "Chloé Antoniotti",
@@ -89,7 +89,8 @@ export const VENN_DATA = {
     "Paris Pick",
     "Radiohead",
     "Shob",
-    "Snazzy"
+    "Snazzy",
+    "Vicky Sometani"
   ],
   "SL": [
     "Bill Laurance",
@@ -98,6 +99,7 @@ export const VENN_DATA = {
   ],
   "ML": [
     "Coldplay",
+    "Collegium Vocale Gent",
     "Dojo Cuts",
     "NEIL FRANCES",
     "Nick Mulvey",
@@ -106,7 +108,6 @@ export const VENN_DATA = {
     "Tom Misch"
   ],
   "ALL": [
-    "Collegium Vocale Gent",
     "Common Saints",
     "Felix Rösch",
     "Jungle",
@@ -119,12 +120,12 @@ export const VENN_DATA = {
     "Víkingur Ólafsson"
   ],
   "counts": {
-    "S_only": 22,
+    "S_only": 23,
     "M_only": 18,
     "L_only": 29,
     "SM": 14,
     "SL": 3,
-    "ML": 7,
-    "ALL": 11
+    "ML": 8,
+    "ALL": 10
   }
 };
