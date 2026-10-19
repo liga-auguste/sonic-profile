@@ -1,5 +1,52 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 157,
+    "fetched_at": "2026-10-19T11:36:43.836468+00:00",
+    "new_artists": 0,
+    "new_tracks": 6,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20261019_113641.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "4CZpqRpYjFTriKCvZBwYUA",
+        "name": "Hands on Me",
+        "artist": "Rhye",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02a28b3e01d566ac60e6a97613"
+      },
+      {
+        "id": "42yFErprYYtoYtzVdkNNAg",
+        "name": "Those Days",
+        "artist": "Dal, Leah Yeger",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02c040dcaf30d92021548d9566"
+      },
+      {
+        "id": "3aCCk9cTShh4y3EArCvwQU",
+        "name": "You're My People",
+        "artist": "Rhye",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02a28b3e01d566ac60e6a97613"
+      },
+      {
+        "id": "4YsiZMtzwZLhRq7xZILYYp",
+        "name": "Standing Here",
+        "artist": "Rhye",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02a28b3e01d566ac60e6a97613"
+      },
+      {
+        "id": "5Z2d6i6eUWU2KhnQS7E2ca",
+        "name": "Merida",
+        "artist": "Rhye",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02a28b3e01d566ac60e6a97613"
+      },
+      {
+        "id": "5h6ynaqFmv696sBbLpln8U",
+        "name": "A Visit to Reality",
+        "artist": "Emil Brandqvist Trio",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e027905a32352ee7b509716dbd8"
+      }
+    ]
+  },
+  {
     "id": 156,
     "fetched_at": "2026-10-18T10:07:02.315847+00:00",
     "new_artists": 0,
