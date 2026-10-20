@@ -1,5 +1,54 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 158,
+    "fetched_at": "2026-10-20T10:40:45.823708+00:00",
+    "new_artists": 4,
+    "new_tracks": 0,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20261020_104042.json",
+    "artists": [
+      {
+        "id": "3NF4EmZKXeCmMKLOAWzYjt",
+        "name": "Dal",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebec2dbc3e59f2b1045bec92ea",
+        "genres": [
+          "dubstep",
+          "jazz",
+          "psychedelic",
+          "trance"
+        ]
+      },
+      {
+        "id": "0jq1z5MQSlFtvpbnLzeEul",
+        "name": "Jazzbois",
+        "image": "https://i.scdn.co/image/ab6761610000e5eba7049bc9d9c087a415cb7fd3",
+        "genres": [
+          "nu jazz",
+          "jazz",
+          "jazz fusion"
+        ]
+      },
+      {
+        "id": "2rspptKP0lPBdlJJAJHqht",
+        "name": "Yussef Dayes",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb30c9e2fb48c800af589de019",
+        "genres": [
+          "jazz",
+          "jazz fusion",
+          "funk",
+          "soul"
+        ]
+      },
+      {
+        "id": "45IMVcKtPxEQpiIOooChbg",
+        "name": "VEEKO",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb4217206185d64e0c641da4cb",
+        "genres": []
+      }
+    ],
+    "tracks": []
+  },
+  {
     "id": 157,
     "fetched_at": "2026-10-19T11:36:43.836468+00:00",
     "new_artists": 0,

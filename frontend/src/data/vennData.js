@@ -1,16 +1,16 @@
 // Where artists live in time — Venn-style overlap data
 export const VENN_DATA = {
   "S_only": [
-    "Alexander IV",
     "CARTFISH",
     "Caoilfhionn Rose",
     "Charlie Jeer",
+    "Dal",
     "Ethan French",
     "Ezra Collective",
     "FKJ",
     "Gabríel Ólafs",
     "Huw Marc Bennett",
-    "Joy Crookes",
+    "Jazzbois",
     "Karate Boogaloo",
     "Leifur James",
     "Meshell Ndegeocello",
@@ -21,7 +21,9 @@ export const VENN_DATA = {
     "SAULT",
     "Sven Wunder",
     "Thee Sacred Souls",
+    "VEEKO",
     "Vega Trails",
+    "Yussef Dayes",
     "anaiis",
     "daoud",
     "Σtella"
@@ -45,7 +47,8 @@ export const VENN_DATA = {
     "Pale Jay",
     "Procol Harum",
     "Sir Simon Rattle",
-    "Svaneborg Kardyb"
+    "Svaneborg Kardyb",
+    "Vicky Sometani"
   ],
   "L_only": [
     "AURORA",
@@ -90,8 +93,7 @@ export const VENN_DATA = {
     "Paris Pick",
     "Radiohead",
     "Shob",
-    "Snazzy",
-    "Vicky Sometani"
+    "Snazzy"
   ],
   "SL": [
     "Bill Laurance",
@@ -102,6 +104,7 @@ export const VENN_DATA = {
     "Coldplay",
     "Collegium Vocale Gent",
     "Dojo Cuts",
+    "LEISURE",
     "NEIL FRANCES",
     "Nick Mulvey",
     "Olivia Dean",
@@ -112,7 +115,6 @@ export const VENN_DATA = {
     "Common Saints",
     "Felix Rösch",
     "Jungle",
-    "LEISURE",
     "Loma",
     "Martin Luke Brown",
     "RIO KOSTA",
@@ -121,12 +123,12 @@ export const VENN_DATA = {
     "Víkingur Ólafsson"
   ],
   "counts": {
-    "S_only": 24,
-    "M_only": 19,
+    "S_only": 26,
+    "M_only": 20,
     "L_only": 29,
-    "SM": 13,
+    "SM": 12,
     "SL": 3,
-    "ML": 8,
-    "ALL": 10
+    "ML": 9,
+    "ALL": 9
   }
 };
