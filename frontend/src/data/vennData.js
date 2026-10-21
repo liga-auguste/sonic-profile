@@ -1,12 +1,12 @@
 // Where artists live in time — Venn-style overlap data
 export const VENN_DATA = {
   "S_only": [
+    "Bonobo",
     "CARTFISH",
     "Caoilfhionn Rose",
     "Charlie Jeer",
     "Dal",
     "Ethan French",
-    "Ezra Collective",
     "FKJ",
     "Gabríel Ólafs",
     "Huw Marc Bennett",
