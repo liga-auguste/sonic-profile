@@ -1,5 +1,28 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 160,
+    "fetched_at": "2026-10-22T10:52:41.416786+00:00",
+    "new_artists": 1,
+    "new_tracks": 0,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20261022_105238.json",
+    "artists": [
+      {
+        "id": "4tNxq9NGKTKaX8OkZBLgf0",
+        "name": "Nightmares On Wax",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb574ca230c274dff576c580b0",
+        "genres": [
+          "trip-hop",
+          "chillout",
+          "downtempo",
+          "electronic",
+          "lounge"
+        ]
+      }
+    ],
+    "tracks": []
+  },
+  {
     "id": 159,
     "fetched_at": "2026-10-21T10:51:11.484765+00:00",
     "new_artists": 0,

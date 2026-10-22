@@ -3,7 +3,6 @@ export const VENN_DATA = {
   "S_only": [
     "Bonobo",
     "CARTFISH",
-    "Caoilfhionn Rose",
     "Charlie Jeer",
     "Dal",
     "Ethan French",
@@ -14,14 +13,15 @@ export const VENN_DATA = {
     "Karate Boogaloo",
     "Leifur James",
     "Meshell Ndegeocello",
+    "Nightmares On Wax",
     "Nils Frahm",
     "Okvsho",
     "Olympia Vitalis",
+    "Phi-Psonics",
     "Richard Houghten",
     "SAULT",
     "Sven Wunder",
     "Thee Sacred Souls",
-    "VEEKO",
     "Vega Trails",
     "Yussef Dayes",
     "anaiis",
@@ -38,7 +38,6 @@ export const VENN_DATA = {
     "Hermanos Gutiérrez",
     "JONES",
     "Jan Garbarek",
-    "Jordan Rakei",
     "Little Simz",
     "Lou Ella",
     "Louis Baker",
@@ -83,6 +82,7 @@ export const VENN_DATA = {
   ],
   "SM": [
     "Buena Vista Social Club",
+    "Caoilfhionn Rose",
     "Chip Wickham",
     "Chloé Antoniotti",
     "Gidon Kremer",
@@ -105,6 +105,7 @@ export const VENN_DATA = {
     "Collegium Vocale Gent",
     "Dojo Cuts",
     "LEISURE",
+    "Martin Luke Brown",
     "NEIL FRANCES",
     "Nick Mulvey",
     "Olivia Dean",
@@ -116,7 +117,6 @@ export const VENN_DATA = {
     "Felix Rösch",
     "Jungle",
     "Loma",
-    "Martin Luke Brown",
     "RIO KOSTA",
     "Rhye",
     "Tom Odell",
@@ -124,11 +124,11 @@ export const VENN_DATA = {
   ],
   "counts": {
     "S_only": 26,
-    "M_only": 20,
+    "M_only": 19,
     "L_only": 29,
-    "SM": 12,
+    "SM": 13,
     "SL": 3,
-    "ML": 9,
-    "ALL": 9
+    "ML": 10,
+    "ALL": 8
   }
 };
