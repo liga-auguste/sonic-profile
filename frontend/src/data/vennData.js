@@ -13,7 +13,7 @@ export const VENN_DATA = {
     "Karate Boogaloo",
     "Leifur James",
     "Meshell Ndegeocello",
-    "Nightmares On Wax",
+    "Michael Kiwanuka",
     "Nils Frahm",
     "Okvsho",
     "Olympia Vitalis",
@@ -32,21 +32,20 @@ export const VENN_DATA = {
     "Arleen Auger",
     "Ava Joe",
     "DON WEST",
-    "Ensemble Contraste",
     "GeeJay",
     "Golf Trip",
     "Hermanos Gutiérrez",
     "JONES",
+    "Jalen Ngonda",
     "Jan Garbarek",
+    "Jordan Rakei",
     "Little Simz",
     "Lou Ella",
     "Louis Baker",
     "Malia",
-    "Mynolia",
     "Pale Jay",
     "Procol Harum",
     "Sir Simon Rattle",
-    "Svaneborg Kardyb",
     "Vicky Sometani"
   ],
   "L_only": [
@@ -77,7 +76,6 @@ export const VENN_DATA = {
     "Rikas",
     "Sufjan Stevens",
     "The Choir Of Trinity College, Cambridge",
-    "The Smile",
     "Ton Koopman"
   ],
   "SM": [
@@ -110,6 +108,7 @@ export const VENN_DATA = {
     "Nick Mulvey",
     "Olivia Dean",
     "Tal Arditi",
+    "The Smile",
     "Tom Misch"
   ],
   "ALL": [
@@ -124,11 +123,11 @@ export const VENN_DATA = {
   ],
   "counts": {
     "S_only": 26,
-    "M_only": 19,
-    "L_only": 29,
+    "M_only": 18,
+    "L_only": 28,
     "SM": 13,
     "SL": 3,
-    "ML": 10,
+    "ML": 11,
     "ALL": 8
   }
 };

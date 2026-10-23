@@ -1,5 +1,34 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 161,
+    "fetched_at": "2026-10-23T10:43:54.298065+00:00",
+    "new_artists": 0,
+    "new_tracks": 3,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20261023_104352.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "0rTrnBbRcNit3MzQ7llOeU",
+        "name": "Everything In Its Right Place",
+        "artist": "Roy Markson",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02a0eff180128a1151d774ca07"
+      },
+      {
+        "id": "2CTsQXk6n4enBsGU1VGo5g",
+        "name": "In the Treetops",
+        "artist": "Mammal Hands",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02ea956f65d832c5e0196ff4f0"
+      },
+      {
+        "id": "52JNz2JSYdRVDQwGb2KKPd",
+        "name": "December Sunshine",
+        "artist": "Olympia Vitalis, Common Saints",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e023c5a7d251663a4e3d6f4aecd"
+      }
+    ]
+  },
+  {
     "id": 160,
     "fetched_at": "2026-10-22T10:52:41.416786+00:00",
     "new_artists": 1,
