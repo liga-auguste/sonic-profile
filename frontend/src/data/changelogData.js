@@ -1,5 +1,22 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 162,
+    "fetched_at": "2026-10-24T10:00:23.875465+00:00",
+    "new_artists": 0,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20261024_100021.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "3UIdWpxI7zXGVItoRQ3FFI",
+        "name": "eau miroir",
+        "artist": "Ambre Ciel",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02881fe2c66ccb4dfc587494ac"
+      }
+    ]
+  },
+  {
     "id": 161,
     "fetched_at": "2026-10-23T10:43:54.298065+00:00",
     "new_artists": 0,

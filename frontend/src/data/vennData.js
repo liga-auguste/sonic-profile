@@ -2,9 +2,9 @@
 export const VENN_DATA = {
   "S_only": [
     "Bonobo",
-    "CARTFISH",
     "Charlie Jeer",
     "Dal",
+    "Elder Island",
     "Ethan French",
     "FKJ",
     "Gabríel Ólafs",
@@ -61,7 +61,6 @@ export const VENN_DATA = {
     "Gester Martin",
     "Gizmo Varillas",
     "John Rutter",
-    "Kings of Convenience",
     "Lambert",
     "Leif Vollebekk",
     "London Grammar",
@@ -89,7 +88,6 @@ export const VENN_DATA = {
     "Matthew Halsall",
     "Olive Jones",
     "Paris Pick",
-    "Radiohead",
     "Shob",
     "Snazzy"
   ],
@@ -117,6 +115,7 @@ export const VENN_DATA = {
     "Jungle",
     "Loma",
     "RIO KOSTA",
+    "Radiohead",
     "Rhye",
     "Tom Odell",
     "Víkingur Ólafsson"
@@ -124,10 +123,10 @@ export const VENN_DATA = {
   "counts": {
     "S_only": 26,
     "M_only": 18,
-    "L_only": 28,
-    "SM": 13,
+    "L_only": 27,
+    "SM": 12,
     "SL": 3,
     "ML": 11,
-    "ALL": 8
+    "ALL": 9
   }
 };
