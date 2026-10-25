@@ -1,6 +1,7 @@
 // Where artists live in time — Venn-style overlap data
 export const VENN_DATA = {
   "S_only": [
+    "Abby Sage",
     "Bonobo",
     "Charlie Jeer",
     "Dal",
@@ -12,18 +13,15 @@ export const VENN_DATA = {
     "Jazzbois",
     "Karate Boogaloo",
     "Leifur James",
-    "Meshell Ndegeocello",
     "Michael Kiwanuka",
     "Nils Frahm",
     "Okvsho",
     "Olympia Vitalis",
-    "Phi-Psonics",
     "Richard Houghten",
     "SAULT",
     "Sven Wunder",
     "Thee Sacred Souls",
     "Vega Trails",
-    "Yussef Dayes",
     "anaiis",
     "daoud",
     "Σtella"
@@ -38,7 +36,6 @@ export const VENN_DATA = {
     "JONES",
     "Jalen Ngonda",
     "Jan Garbarek",
-    "Jordan Rakei",
     "Little Simz",
     "Lou Ella",
     "Louis Baker",
@@ -53,6 +50,7 @@ export const VENN_DATA = {
     "Amsterdam Baroque Orchestra",
     "Angelo De Augustine",
     "Antonia Bourvé",
+    "Bill Laurance",
     "Billie Eilish",
     "Chris Staples",
     "Deichkind",
@@ -83,6 +81,7 @@ export const VENN_DATA = {
     "Chip Wickham",
     "Chloé Antoniotti",
     "Gidon Kremer",
+    "Jordan Rakei",
     "Leon Bridges",
     "Marc Rebillet",
     "Matthew Halsall",
@@ -92,7 +91,6 @@ export const VENN_DATA = {
     "Snazzy"
   ],
   "SL": [
-    "Bill Laurance",
     "Hania Rani",
     "Jasmine Myra"
   ],
@@ -100,8 +98,6 @@ export const VENN_DATA = {
     "Coldplay",
     "Collegium Vocale Gent",
     "Dojo Cuts",
-    "LEISURE",
-    "Martin Luke Brown",
     "NEIL FRANCES",
     "Nick Mulvey",
     "Olivia Dean",
@@ -113,7 +109,9 @@ export const VENN_DATA = {
     "Common Saints",
     "Felix Rösch",
     "Jungle",
+    "LEISURE",
     "Loma",
+    "Martin Luke Brown",
     "RIO KOSTA",
     "Radiohead",
     "Rhye",
@@ -121,12 +119,12 @@ export const VENN_DATA = {
     "Víkingur Ólafsson"
   ],
   "counts": {
-    "S_only": 26,
-    "M_only": 18,
-    "L_only": 27,
-    "SM": 12,
-    "SL": 3,
-    "ML": 11,
-    "ALL": 9
+    "S_only": 24,
+    "M_only": 17,
+    "L_only": 28,
+    "SM": 13,
+    "SL": 2,
+    "ML": 9,
+    "ALL": 11
   }
 };
