@@ -1,5 +1,41 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 164,
+    "fetched_at": "2026-10-26T11:54:13.295639+00:00",
+    "new_artists": 1,
+    "new_tracks": 2,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20261026_115411.json",
+    "artists": [
+      {
+        "id": "4uSftVc3FPWe6RJuMZNEe9",
+        "name": "Andrew Bird",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb8e222369fdfd1cda64bf76b6",
+        "genres": [
+          "folk",
+          "singer-songwriter",
+          "indie",
+          "indie pop",
+          "alternative"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "1BBrvOIWaf6NNA5eDMkZs0",
+        "name": "Can’t Pretend (Live at Union Chapel)",
+        "artist": "Tom Odell",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e025ba7a2d7f21078ac0d82f69e"
+      },
+      {
+        "id": "4oWTjrKiPdrgYefpcUuGwT",
+        "name": "Enemy (Live at Union Chapel)",
+        "artist": "Tom Odell",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e025ba7a2d7f21078ac0d82f69e"
+      }
+    ]
+  },
+  {
     "id": 163,
     "fetched_at": "2026-10-25T10:25:13.436989+00:00",
     "new_artists": 0,
