@@ -1,5 +1,28 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 165,
+    "fetched_at": "2026-10-27T11:17:29.277910+00:00",
+    "new_artists": 0,
+    "new_tracks": 2,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20261027_111727.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "6XS98Vri8sJPVtcaZTXvqd",
+        "name": "/=/",
+        "artist": "Andrew Bird",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e026699433059365ffd3c7b62a2"
+      },
+      {
+        "id": "2izgcKoozmaERvG8Tfizfv",
+        "name": "To See You Again",
+        "artist": "Jono McCleery",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0220525168d1123a2d9c256ad5"
+      }
+    ]
+  },
+  {
     "id": 164,
     "fetched_at": "2026-10-26T11:54:13.295639+00:00",
     "new_artists": 1,

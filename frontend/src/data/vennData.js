@@ -2,7 +2,7 @@
 export const VENN_DATA = {
   "S_only": [
     "Abby Sage",
-    "Andrew Bird",
+    "Blanco White",
     "Bonobo",
     "Charlie Jeer",
     "Dal",
@@ -71,9 +71,11 @@ export const VENN_DATA = {
     "Rikas",
     "Sufjan Stevens",
     "The Choir Of Trinity College, Cambridge",
+    "The Smile",
     "Ton Koopman"
   ],
   "SM": [
+    "Andrew Bird",
     "Buena Vista Social Club",
     "Caoilfhionn Rose",
     "Chip Wickham",
@@ -97,11 +99,11 @@ export const VENN_DATA = {
     "Coldplay",
     "Collegium Vocale Gent",
     "Dojo Cuts",
+    "Martin Luke Brown",
     "NEIL FRANCES",
     "Nick Mulvey",
     "Olivia Dean",
     "Tal Arditi",
-    "The Smile",
     "Tom Misch"
   ],
   "ALL": [
@@ -110,7 +112,6 @@ export const VENN_DATA = {
     "Jungle",
     "LEISURE",
     "Loma",
-    "Martin Luke Brown",
     "RIO KOSTA",
     "Radiohead",
     "Rhye",
@@ -120,10 +121,10 @@ export const VENN_DATA = {
   "counts": {
     "S_only": 23,
     "M_only": 16,
-    "L_only": 28,
-    "SM": 14,
+    "L_only": 29,
+    "SM": 15,
     "SL": 2,
     "ML": 9,
-    "ALL": 11
+    "ALL": 10
   }
 };
