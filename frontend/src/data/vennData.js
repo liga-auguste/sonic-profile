@@ -7,18 +7,19 @@ export const VENN_DATA = {
     "Charlie Jeer",
     "Dal",
     "Elder Island",
+    "Ethan French",
     "FKJ",
     "Fink",
     "Gabríel Ólafs",
     "Gotts Street Park",
-    "Huw Marc Bennett",
     "Karate Boogaloo",
+    "Leifur James",
+    "Maribou State",
     "Nils Frahm",
     "Okvsho",
     "Olympia Vitalis",
     "Richard Houghten",
     "SAULT",
-    "Sven Wunder",
     "Thee Sacred Souls",
     "Vega Trails",
     "anaiis",
@@ -28,6 +29,7 @@ export const VENN_DATA = {
   "M_only": [
     "Arleen Auger",
     "Ava Joe",
+    "Buena Vista Social Club",
     "DON WEST",
     "GeeJay",
     "Golf Trip",
@@ -38,10 +40,10 @@ export const VENN_DATA = {
     "Lou Ella",
     "Louis Baker",
     "Malia",
+    "Matthew Halsall",
     "Pale Jay",
     "Procol Harum",
-    "Sir Simon Rattle",
-    "Vicky Sometani"
+    "Sir Simon Rattle"
   ],
   "L_only": [
     "AURORA",
@@ -76,7 +78,6 @@ export const VENN_DATA = {
   ],
   "SM": [
     "Andrew Bird",
-    "Buena Vista Social Club",
     "Caoilfhionn Rose",
     "Chip Wickham",
     "Chloé Antoniotti",
@@ -84,12 +85,12 @@ export const VENN_DATA = {
     "Jordan Rakei",
     "Leon Bridges",
     "Marc Rebillet",
-    "Matthew Halsall",
     "Michael Kiwanuka",
     "Olive Jones",
     "Paris Pick",
     "Shob",
-    "Snazzy"
+    "Snazzy",
+    "Vicky Sometani"
   ],
   "SL": [
     "Hania Rani",
@@ -119,10 +120,10 @@ export const VENN_DATA = {
     "Víkingur Ólafsson"
   ],
   "counts": {
-    "S_only": 23,
-    "M_only": 16,
+    "S_only": 24,
+    "M_only": 17,
     "L_only": 29,
-    "SM": 15,
+    "SM": 14,
     "SL": 2,
     "ML": 9,
     "ALL": 10

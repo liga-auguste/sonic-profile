@@ -1,5 +1,28 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 166,
+    "fetched_at": "2026-10-28T11:51:16.895486+00:00",
+    "new_artists": 1,
+    "new_tracks": 0,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20261028_115114.json",
+    "artists": [
+      {
+        "id": "7zrkALJ9ayRjzysp4QYoEg",
+        "name": "Maribou State",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb68398569d96f20bb6ba6ac0d",
+        "genres": [
+          "electronic",
+          "ambient",
+          "future garage",
+          "dubstep",
+          "downtempo"
+        ]
+      }
+    ],
+    "tracks": []
+  },
+  {
     "id": 165,
     "fetched_at": "2026-10-27T11:17:29.277910+00:00",
     "new_artists": 0,
