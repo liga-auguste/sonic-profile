@@ -1,5 +1,36 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 167,
+    "fetched_at": "2026-10-29T11:59:20.844026+00:00",
+    "new_artists": 2,
+    "new_tracks": 0,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20261029_115918.json",
+    "artists": [
+      {
+        "id": "4zAOqBfNLyWFvj1e3yvypJ",
+        "name": "Catching Flies",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb52489313435c3d1bdb618518",
+        "genres": [
+          "dream pop",
+          "ambient",
+          "trip-hop",
+          "downtempo",
+          "electronic"
+        ]
+      },
+      {
+        "id": "5EHMIshG4dQaW4MrIj9cHa",
+        "name": "coulou's cafe",
+        "image": "https://i.scdn.co/image/ab6761610000e5eba88960035f7d7297b9ae3b58",
+        "genres": [
+          "jazz"
+        ]
+      }
+    ],
+    "tracks": []
+  },
+  {
     "id": 166,
     "fetched_at": "2026-10-28T11:51:16.895486+00:00",
     "new_artists": 1,
