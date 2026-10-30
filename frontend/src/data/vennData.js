@@ -15,15 +15,15 @@ export const VENN_DATA = {
     "Gotts Street Park",
     "I Am An Instrument",
     "Karate Boogaloo",
+    "Leifur James",
     "Maribou State",
     "Nils Frahm",
-    "Okonski",
     "Okvsho",
     "Olympia Vitalis",
     "Richard Houghten",
     "SAULT",
-    "Sven Wunder",
     "Thee Sacred Souls",
+    "Yussef Dayes",
     "anaiis",
     "coulou's cafe",
     "daoud",
@@ -45,11 +45,11 @@ export const VENN_DATA = {
     "Louis Baker",
     "Malia",
     "Matthew Halsall",
+    "Olive Jones",
     "Pale Jay",
     "Paris Pick",
     "Procol Harum",
-    "Sir Simon Rattle",
-    "Vicky Sometani"
+    "Sir Simon Rattle"
   ],
   "L_only": [
     "AURORA",
@@ -91,9 +91,9 @@ export const VENN_DATA = {
     "Leon Bridges",
     "Marc Rebillet",
     "Michael Kiwanuka",
-    "Olive Jones",
     "Shob",
-    "Snazzy"
+    "Snazzy",
+    "Vicky Sometani"
   ],
   "SL": [
     "Hania Rani",

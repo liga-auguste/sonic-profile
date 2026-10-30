@@ -1,5 +1,28 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 168,
+    "fetched_at": "2026-10-30T11:53:12.912961+00:00",
+    "new_artists": 0,
+    "new_tracks": 2,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20261030_115310.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "4WT24yFgsd57SXMlesxUk3",
+        "name": "I Buried All The Answers",
+        "artist": "Fink",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02f3f20d30a7583824a2c0a6a0"
+      },
+      {
+        "id": "7qibVDw4PzCYOQOxxcAG1h",
+        "name": "Smiling All The Way Back Home (Live at Union Chapel)",
+        "artist": "Tom Odell",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e025ba7a2d7f21078ac0d82f69e"
+      }
+    ]
+  },
+  {
     "id": 167,
     "fetched_at": "2026-10-29T11:59:20.844026+00:00",
     "new_artists": 2,
