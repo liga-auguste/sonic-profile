@@ -1,5 +1,46 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 169,
+    "fetched_at": "2026-10-31T11:26:41.568190+00:00",
+    "new_artists": 2,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20261031_112638.json",
+    "artists": [
+      {
+        "id": "3JJR0ExBP5G8uyhcViM14W",
+        "name": "Gianni Brezzo",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebe97f777e854173df1a81da85",
+        "genres": [
+          "jazz",
+          "guitar",
+          "ambient",
+          "instrumental"
+        ]
+      },
+      {
+        "id": "3gmX5TSkgW4iu2dm71QzWr",
+        "name": "Move 78",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb47ab94c89d2a753efe249ea9",
+        "genres": [
+          "jazz",
+          "instrumental",
+          "berlin",
+          "hip hop",
+          "germany"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "0Zp1Jm25q26iyKag3rtZRp",
+        "name": "Big Ideas",
+        "artist": "Matt Corby",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e023d05d38664acb1e8578773f9"
+      }
+    ]
+  },
+  {
     "id": 168,
     "fetched_at": "2026-10-30T11:53:12.912961+00:00",
     "new_artists": 0,
