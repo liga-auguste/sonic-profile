@@ -10,6 +10,7 @@ export const VENN_DATA = {
     "Elder Island",
     "Ethan French",
     "FKJ",
+    "Fabiano do Nascimento",
     "Fink",
     "Gabríel Ólafs",
     "Gianni Brezzo",
@@ -17,6 +18,7 @@ export const VENN_DATA = {
     "Karate Boogaloo",
     "Leifur James",
     "Maribou State",
+    "Milan93",
     "Move 78",
     "Nightmares On Wax",
     "Nils Frahm",
@@ -105,10 +107,12 @@ export const VENN_DATA = {
   "ML": [
     "Collegium Vocale Gent",
     "Dojo Cuts",
+    "LEISURE",
     "Martin Luke Brown",
     "NEIL FRANCES",
     "Nick Mulvey",
     "Olivia Dean",
+    "RIO KOSTA",
     "Tal Arditi",
     "Tom Misch"
   ],
@@ -116,21 +120,19 @@ export const VENN_DATA = {
     "Common Saints",
     "Felix Rösch",
     "Jungle",
-    "LEISURE",
     "Loma",
-    "RIO KOSTA",
     "Radiohead",
     "Rhye",
     "Tom Odell",
     "Víkingur Ólafsson"
   ],
   "counts": {
-    "S_only": 28,
+    "S_only": 30,
     "M_only": 22,
     "L_only": 30,
     "SM": 10,
     "SL": 2,
-    "ML": 8,
-    "ALL": 10
+    "ML": 10,
+    "ALL": 8
   }
 };

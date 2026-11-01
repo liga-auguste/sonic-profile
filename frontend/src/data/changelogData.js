@@ -1,5 +1,36 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 170,
+    "fetched_at": "2026-11-01T12:20:57.823565+00:00",
+    "new_artists": 2,
+    "new_tracks": 0,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20261101_122054.json",
+    "artists": [
+      {
+        "id": "5FPtZ4IXvHYp8MsjAevEWg",
+        "name": "Milan93",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb6a171e05cec347a86c9f8b90",
+        "genres": [
+          "jazz house",
+          "house"
+        ]
+      },
+      {
+        "id": "5GNLaaEOwaEaXJfK7XnD8j",
+        "name": "Fabiano do Nascimento",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebe9a1b9cb16b0707bcd07a1d8",
+        "genres": [
+          "jazz",
+          "guitar",
+          "brazilian",
+          "brazil"
+        ]
+      }
+    ],
+    "tracks": []
+  },
+  {
     "id": 169,
     "fetched_at": "2026-10-31T11:26:41.568190+00:00",
     "new_artists": 2,
