@@ -1,5 +1,40 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 171,
+    "fetched_at": "2026-11-02T14:15:54.712877+00:00",
+    "new_artists": 2,
+    "new_tracks": 0,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20261102_141552.json",
+    "artists": [
+      {
+        "id": "78CiW0UJbHspFaVuVexOK6",
+        "name": "Charlie Cunningham",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb01086a00a1090a97c1b9507e",
+        "genres": [
+          "singer-songwriter",
+          "folk",
+          "british",
+          "acoustic",
+          "indie"
+        ]
+      },
+      {
+        "id": "1v5bOzXbhrQ57qSvRwGA6s",
+        "name": "The Irrepressibles",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb7e92417d3577eba56f8520ba",
+        "genres": [
+          "chamber pop",
+          "cabaret",
+          "british",
+          "piano",
+          "violin"
+        ]
+      }
+    ],
+    "tracks": []
+  },
+  {
     "id": 170,
     "fetched_at": "2026-11-01T12:20:57.823565+00:00",
     "new_artists": 2,

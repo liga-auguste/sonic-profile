@@ -5,12 +5,12 @@ export const VENN_DATA = {
     "Blanco White",
     "Bonobo",
     "Catching Flies",
+    "Charlie Cunningham",
     "Charlie Jeer",
     "Dal",
     "Elder Island",
     "Ethan French",
     "FKJ",
-    "Fabiano do Nascimento",
     "Fink",
     "Gabríel Ólafs",
     "Gianni Brezzo",
@@ -18,17 +18,15 @@ export const VENN_DATA = {
     "Karate Boogaloo",
     "Leifur James",
     "Maribou State",
-    "Milan93",
     "Move 78",
     "Nightmares On Wax",
     "Nils Frahm",
     "Okvsho",
     "Olympia Vitalis",
-    "Richard Houghten",
     "SAULT",
+    "The Irrepressibles",
     "Thee Sacred Souls",
     "Yussef Dayes",
-    "anaiis",
     "coulou's cafe",
     "daoud"
   ],
@@ -48,7 +46,6 @@ export const VENN_DATA = {
     "Louis Baker",
     "Malia",
     "Matthew Halsall",
-    "Olive Jones",
     "Pale Jay",
     "Paris Pick",
     "Procol Harum",
@@ -97,6 +94,7 @@ export const VENN_DATA = {
     "Leon Bridges",
     "Marc Rebillet",
     "Michael Kiwanuka",
+    "Olive Jones",
     "Shob",
     "Snazzy"
   ],
@@ -107,7 +105,6 @@ export const VENN_DATA = {
   "ML": [
     "Collegium Vocale Gent",
     "Dojo Cuts",
-    "LEISURE",
     "Martin Luke Brown",
     "NEIL FRANCES",
     "Nick Mulvey",
@@ -120,6 +117,7 @@ export const VENN_DATA = {
     "Common Saints",
     "Felix Rösch",
     "Jungle",
+    "LEISURE",
     "Loma",
     "Radiohead",
     "Rhye",
@@ -127,12 +125,12 @@ export const VENN_DATA = {
     "Víkingur Ólafsson"
   ],
   "counts": {
-    "S_only": 30,
-    "M_only": 22,
+    "S_only": 28,
+    "M_only": 21,
     "L_only": 30,
-    "SM": 10,
+    "SM": 11,
     "SL": 2,
-    "ML": 10,
-    "ALL": 8
+    "ML": 9,
+    "ALL": 9
   }
 };
