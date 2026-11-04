@@ -1,5 +1,40 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 173,
+    "fetched_at": "2026-11-04T13:29:55.640036+00:00",
+    "new_artists": 2,
+    "new_tracks": 0,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20261104_132951.json",
+    "artists": [
+      {
+        "id": "1itM5tXaK5THggpXA7ovAe",
+        "name": "Skinshape",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb7512ef2d888281365c73efb0",
+        "genres": [
+          "trip-hop",
+          "downtempo",
+          "chillout",
+          "electronic",
+          "trip hop"
+        ]
+      },
+      {
+        "id": "1Be39C5Cm8pOzpDP5bDokO",
+        "name": "Vraell",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb0991d5c3680290eba0d836a9",
+        "genres": [
+          "folk",
+          "guitar",
+          "acoustic",
+          "ambient",
+          "london"
+        ]
+      }
+    ],
+    "tracks": []
+  },
+  {
     "id": 172,
     "fetched_at": "2026-11-03T13:17:10.083567+00:00",
     "new_artists": 0,
