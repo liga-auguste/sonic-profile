@@ -1,5 +1,40 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 175,
+    "fetched_at": "2026-11-06T13:28:28.692665+00:00",
+    "new_artists": 2,
+    "new_tracks": 0,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20261106_132825.json",
+    "artists": [
+      {
+        "id": "2sYcO2wGoXqERSAEI0EcxD",
+        "name": "Robert Simpson",
+        "image": "https://i.scdn.co/image/01b36631ec2ab6cc1ee6c4750f6ba6f92bb0dcd0",
+        "genres": [
+          "classical",
+          "british",
+          "composer",
+          "contemporary classical",
+          "20th century classical"
+        ]
+      },
+      {
+        "id": "4LoSbPey3kklzX5f2KEks1",
+        "name": "Martin Roth",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb45a9f926f1f8ad9b024e1de1",
+        "genres": [
+          "trance",
+          "electronica",
+          "progressive house",
+          "hard trance",
+          "uplifting trance"
+        ]
+      }
+    ],
+    "tracks": []
+  },
+  {
     "id": 174,
     "fetched_at": "2026-11-05T13:44:08.733762+00:00",
     "new_artists": 0,
