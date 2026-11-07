@@ -18,9 +18,9 @@ export const VENN_DATA = {
     "Move 78",
     "Nightmares On Wax",
     "Nils Frahm",
-    "Okvsho",
     "Olympia Vitalis",
     "SAULT",
+    "Session Victim",
     "Skinshape",
     "Svaneborg Kardyb",
     "The Irrepressibles",
@@ -39,19 +39,18 @@ export const VENN_DATA = {
     "GeeJay",
     "Golf Trip",
     "Gotts Street Park",
-    "Hermanos Gutiérrez",
     "JONES",
     "Little Simz",
     "Lou Ella",
     "Louis Baker",
-    "Malia",
     "Marc Rebillet",
     "Matthew Halsall",
     "Pale Jay",
     "Paris Pick",
     "Procol Harum",
     "Sir Simon Rattle",
-    "Vicky Sometani"
+    "Vicky Sometani",
+    "Σtella"
   ],
   "L_only": [
     "AURORA",
@@ -93,6 +92,7 @@ export const VENN_DATA = {
     "Jordan Rakei",
     "Leon Bridges",
     "Michael Kiwanuka",
+    "Okvsho",
     "Olive Jones",
     "Robert Simpson",
     "Shob",
@@ -110,6 +110,7 @@ export const VENN_DATA = {
     "Nick Mulvey",
     "Olivia Dean",
     "RIO KOSTA",
+    "Radiohead",
     "Tal Arditi",
     "Tom Misch"
   ],
@@ -119,18 +120,17 @@ export const VENN_DATA = {
     "Jungle",
     "LEISURE",
     "Loma",
-    "Radiohead",
     "Rhye",
     "Tom Odell",
     "Víkingur Ólafsson"
   ],
   "counts": {
     "S_only": 28,
-    "M_only": 21,
+    "M_only": 20,
     "L_only": 30,
-    "SM": 11,
+    "SM": 12,
     "SL": 2,
-    "ML": 9,
-    "ALL": 9
+    "ML": 10,
+    "ALL": 8
   }
 };

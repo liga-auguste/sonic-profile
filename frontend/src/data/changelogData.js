@@ -1,5 +1,46 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 176,
+    "fetched_at": "2026-11-07T12:07:41.460324+00:00",
+    "new_artists": 1,
+    "new_tracks": 3,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20261107_120736.json",
+    "artists": [
+      {
+        "id": "4Hl6TEQAFgH0XrZq4f8okX",
+        "name": "Session Victim",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb472418002e32f94038207fd4",
+        "genres": [
+          "house",
+          "deep house",
+          "electronic",
+          "german"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "4xdrtCje1i19lLgS3mBEXp",
+        "name": "Mass of the Eternal Flame: Kyrie",
+        "artist": "Robert Simpson, Christ Church Cathedral, Houston",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02c9acdc2f28ae34acf6e37baa"
+      },
+      {
+        "id": "4AsWuHb2CGHVlDyG1bKnN0",
+        "name": "Mass of the Eternal Flame: Sanctus and Benedictus",
+        "artist": "Robert Simpson, Christ Church Cathedral, Houston",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02c9acdc2f28ae34acf6e37baa"
+      },
+      {
+        "id": "5VBOyOIGTbgqurvpKXF3Up",
+        "name": "Mass of the Eternal Flame: Agnus Dei",
+        "artist": "Robert Simpson, Christ Church Cathedral, Houston",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02c9acdc2f28ae34acf6e37baa"
+      }
+    ]
+  },
+  {
     "id": 175,
     "fetched_at": "2026-11-06T13:28:28.692665+00:00",
     "new_artists": 2,
