@@ -37,7 +37,6 @@ export const VENN_DATA = {
     "Chloé Antoniotti",
     "DON WEST",
     "GeeJay",
-    "Golf Trip",
     "Gotts Street Park",
     "JONES",
     "Little Simz",
@@ -99,7 +98,6 @@ export const VENN_DATA = {
     "Snazzy"
   ],
   "SL": [
-    "Hania Rani",
     "Jasmine Myra"
   ],
   "ML": [
@@ -117,6 +115,7 @@ export const VENN_DATA = {
   "ALL": [
     "Common Saints",
     "Felix Rösch",
+    "Hania Rani",
     "Jungle",
     "LEISURE",
     "Loma",
@@ -126,11 +125,11 @@ export const VENN_DATA = {
   ],
   "counts": {
     "S_only": 28,
-    "M_only": 20,
+    "M_only": 19,
     "L_only": 30,
     "SM": 12,
-    "SL": 2,
+    "SL": 1,
     "ML": 10,
-    "ALL": 8
+    "ALL": 9
   }
 };
