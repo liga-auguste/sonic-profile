@@ -16,10 +16,8 @@ export const VENN_DATA = {
     "Leifur James",
     "Martin Roth",
     "Move 78",
-    "Nightmares On Wax",
     "Nils Frahm",
     "Olympia Vitalis",
-    "SAULT",
     "Session Victim",
     "Skinshape",
     "Svaneborg Kardyb",
@@ -37,7 +35,6 @@ export const VENN_DATA = {
     "Chloé Antoniotti",
     "DON WEST",
     "GeeJay",
-    "Gotts Street Park",
     "JONES",
     "Little Simz",
     "Lou Ella",
@@ -70,7 +67,6 @@ export const VENN_DATA = {
     "Leif Vollebekk",
     "London Grammar",
     "London Symphony Orchestra",
-    "Max Richter",
     "Monteverdi Choir",
     "Octave Lissner",
     "Ola Gjeilo",
@@ -88,6 +84,7 @@ export const VENN_DATA = {
     "Caoilfhionn Rose",
     "Chip Wickham",
     "Gidon Kremer",
+    "Gotts Street Park",
     "Jordan Rakei",
     "Leon Bridges",
     "Michael Kiwanuka",
@@ -98,7 +95,8 @@ export const VENN_DATA = {
     "Snazzy"
   ],
   "SL": [
-    "Jasmine Myra"
+    "Jasmine Myra",
+    "Max Richter"
   ],
   "ML": [
     "Collegium Vocale Gent",
@@ -124,11 +122,11 @@ export const VENN_DATA = {
     "Víkingur Ólafsson"
   ],
   "counts": {
-    "S_only": 28,
-    "M_only": 19,
-    "L_only": 30,
-    "SM": 12,
-    "SL": 1,
+    "S_only": 26,
+    "M_only": 18,
+    "L_only": 29,
+    "SM": 13,
+    "SL": 2,
     "ML": 10,
     "ALL": 9
   }

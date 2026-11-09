@@ -1,5 +1,28 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 178,
+    "fetched_at": "2026-11-09T14:43:56.198130+00:00",
+    "new_artists": 0,
+    "new_tracks": 2,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20261109_144354.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "4lXjz5k4Rij3LTj6O0mgOO",
+        "name": "Thinkin Bout You",
+        "artist": "Flea",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02017eb062be58097ec134eeb6"
+      },
+      {
+        "id": "1j4AsHcFSF1cs8bnoCaGNE",
+        "name": "Love Your Grace",
+        "artist": "Vega Trails",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e0203c6fc1303e40be3e048bb97"
+      }
+    ]
+  },
+  {
     "id": 177,
     "fetched_at": "2026-11-08T12:28:27.995838+00:00",
     "new_artists": 0,
