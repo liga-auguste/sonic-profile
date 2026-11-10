@@ -1,5 +1,34 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 179,
+    "fetched_at": "2026-11-10T13:58:51.706328+00:00",
+    "new_artists": 0,
+    "new_tracks": 3,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20261110_135846.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "0qjmAbrNGiYXE6T0jHeDns",
+        "name": "Mass of the Eternal Flame: Gloria",
+        "artist": "Robert Simpson, Christ Church Cathedral, Houston",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02c9acdc2f28ae34acf6e37baa"
+      },
+      {
+        "id": "1L02tvlJquo3nNtIy7TPPV",
+        "name": "Who can sail without the wind",
+        "artist": "Ēriks Ešenvalds, Robert Simpson, Christ Church Cathedral, Houston, Marianna Parnas-Simpson",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02d2e1ae9d74de3b080228c311"
+      },
+      {
+        "id": "2Uz6pLGwRTU8FM2j7mnCtI",
+        "name": "Stars",
+        "artist": "Ēriks Ešenvalds, The Choir Of Trinity College, Cambridge, Stephen Layton",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e029029e9117edd83b0330ae66c"
+      }
+    ]
+  },
+  {
     "id": 178,
     "fetched_at": "2026-11-09T14:43:56.198130+00:00",
     "new_artists": 0,
