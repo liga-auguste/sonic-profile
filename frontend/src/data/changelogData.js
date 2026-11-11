@@ -1,5 +1,27 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 180,
+    "fetched_at": "2026-11-11T13:14:22.011425+00:00",
+    "new_artists": 1,
+    "new_tracks": 0,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20261111_131419.json",
+    "artists": [
+      {
+        "id": "5Lhxlge1CR1DrgDAje8Qaw",
+        "name": "NoMBe",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb002997086315d7ca609b7f71",
+        "genres": [
+          "electronic",
+          "indie",
+          "pop",
+          "indie pop"
+        ]
+      }
+    ],
+    "tracks": []
+  },
+  {
     "id": 179,
     "fetched_at": "2026-11-10T13:58:51.706328+00:00",
     "new_artists": 0,
@@ -6276,7 +6298,11 @@ export const CHANGELOG_DATA = [
         "id": "29uVFPS7wo6RBGzewIc6pt",
         "name": "Vicky Sometani",
         "image": "https://i.scdn.co/image/ab6761610000e5eb60992f56d0d465f65da0fe12",
-        "genres": []
+        "genres": [
+          "lounge",
+          "soul",
+          "indie"
+        ]
       },
       {
         "id": "2AcUPzkVWo81vumdzeLLRN",
