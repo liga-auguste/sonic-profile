@@ -1,5 +1,46 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 181,
+    "fetched_at": "2026-11-12T14:17:20.935647+00:00",
+    "new_artists": 2,
+    "new_tracks": 2,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20261112_141718.json",
+    "artists": [
+      {
+        "id": "5EsOykkQdFXxSfUvV6uGyW",
+        "name": "Junger Kammerchor Rhein-Neckar",
+        "image": "https://i.scdn.co/image/ab67616d00001e02271e6325209747c047839262",
+        "genres": []
+      },
+      {
+        "id": "0vTVU0KH0CVzijsoKGsTPl",
+        "name": "Barry Can't Swim",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebef1983b696cf87738bee1ba0",
+        "genres": [
+          "electronic",
+          "house",
+          "breakbeat",
+          "dance"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "5YBve8uJGwfhTctl6wAyiL",
+        "name": "Lux aeterna",
+        "artist": "Ēriks Ešenvalds, Robert Simpson, Christ Church Cathedral, Houston",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02d2e1ae9d74de3b080228c311"
+      },
+      {
+        "id": "0bak6sBbZCXotPtL5f9KNW",
+        "name": "Berceuse",
+        "artist": "Felix Rösch",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e023dd481b12f505c8ba4f3406f"
+      }
+    ]
+  },
+  {
     "id": 180,
     "fetched_at": "2026-11-11T13:14:22.011425+00:00",
     "new_artists": 1,

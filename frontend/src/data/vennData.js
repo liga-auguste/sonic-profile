@@ -2,6 +2,7 @@
 export const VENN_DATA = {
   "S_only": [
     "Abby Sage",
+    "Barry Can't Swim",
     "Blanco White",
     "Bonobo",
     "Catching Flies",
@@ -11,12 +12,10 @@ export const VENN_DATA = {
     "FKJ",
     "Fabiano do Nascimento",
     "Fink",
-    "Gabríel Ólafs",
     "Gianni Brezzo",
     "Martin Roth",
     "Milan93",
     "Move 78",
-    "Nils Frahm",
     "NoMBe",
     "Olympia Vitalis",
     "Session Victim",
@@ -46,6 +45,7 @@ export const VENN_DATA = {
     "Pale Jay",
     "Paris Pick",
     "Procol Harum",
+    "Radiohead",
     "Sir Simon Rattle",
     "Vicky Sometani",
     "Σtella"
@@ -58,7 +58,6 @@ export const VENN_DATA = {
     "Bill Laurance",
     "Billie Eilish",
     "Chris Staples",
-    "Coldplay",
     "Deichkind",
     "Dekker",
     "Flyte",
@@ -70,6 +69,7 @@ export const VENN_DATA = {
     "London Grammar",
     "London Symphony Orchestra",
     "Monteverdi Choir",
+    "NEIL FRANCES",
     "Octave Lissner",
     "Ola Gjeilo",
     "Orchestra of the Age of Enlightenment",
@@ -87,15 +87,16 @@ export const VENN_DATA = {
     "Chip Wickham",
     "Gidon Kremer",
     "Gotts Street Park",
+    "Junger Kammerchor Rhein-Neckar",
     "Leon Bridges",
     "Michael Kiwanuka",
     "Okvsho",
     "Olive Jones",
-    "Robert Simpson",
     "Shob",
     "Snazzy"
   ],
   "SL": [
+    "Coldplay",
     "Jasmine Myra",
     "Max Richter"
   ],
@@ -103,13 +104,12 @@ export const VENN_DATA = {
     "Collegium Vocale Gent",
     "Dojo Cuts",
     "Martin Luke Brown",
-    "NEIL FRANCES",
     "Nick Mulvey",
     "Olivia Dean",
     "RIO KOSTA",
-    "Radiohead",
     "Tal Arditi",
-    "Tom Misch"
+    "Tom Misch",
+    "Víkingur Ólafsson"
   ],
   "ALL": [
     "Common Saints",
@@ -119,16 +119,16 @@ export const VENN_DATA = {
     "LEISURE",
     "Loma",
     "Rhye",
-    "Tom Odell",
-    "Víkingur Ólafsson"
+    "Robert Simpson",
+    "Tom Odell"
   ],
   "counts": {
-    "S_only": 27,
-    "M_only": 19,
+    "S_only": 26,
+    "M_only": 20,
     "L_only": 29,
     "SM": 12,
-    "SL": 2,
-    "ML": 10,
+    "SL": 3,
+    "ML": 9,
     "ALL": 9
   }
 };
