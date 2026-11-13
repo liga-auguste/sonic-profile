@@ -7,12 +7,14 @@ export const VENN_DATA = {
     "Bonobo",
     "Catching Flies",
     "Charlie Cunningham",
+    "Collect 200",
     "Dal",
     "Elder Island",
     "FKJ",
     "Fabiano do Nascimento",
     "Fink",
     "Gianni Brezzo",
+    "Hermanos Gutiérrez",
     "Martin Roth",
     "Milan93",
     "Move 78",
@@ -32,9 +34,11 @@ export const VENN_DATA = {
     "Arleen Auger",
     "Ava Joe",
     "Buena Vista Social Club",
+    "Chip Wickham",
     "Chloé Antoniotti",
     "DON WEST",
     "GeeJay",
+    "Gidon Kremer",
     "JONES",
     "Jordan Rakei",
     "Little Simz",
@@ -46,9 +50,9 @@ export const VENN_DATA = {
     "Paris Pick",
     "Procol Harum",
     "Radiohead",
+    "Shob",
     "Sir Simon Rattle",
-    "Vicky Sometani",
-    "Σtella"
+    "Vicky Sometani"
   ],
   "L_only": [
     "AURORA",
@@ -84,25 +88,20 @@ export const VENN_DATA = {
   "SM": [
     "Andrew Bird",
     "Caoilfhionn Rose",
-    "Chip Wickham",
-    "Gidon Kremer",
     "Gotts Street Park",
     "Junger Kammerchor Rhein-Neckar",
     "Leon Bridges",
     "Michael Kiwanuka",
     "Okvsho",
     "Olive Jones",
-    "Shob",
     "Snazzy"
   ],
   "SL": [
-    "Coldplay",
     "Jasmine Myra",
     "Max Richter"
   ],
   "ML": [
     "Collegium Vocale Gent",
-    "Dojo Cuts",
     "Martin Luke Brown",
     "Nick Mulvey",
     "Olivia Dean",
@@ -112,7 +111,9 @@ export const VENN_DATA = {
     "Víkingur Ólafsson"
   ],
   "ALL": [
+    "Coldplay",
     "Common Saints",
+    "Dojo Cuts",
     "Felix Rösch",
     "Hania Rani",
     "Jungle",
@@ -123,12 +124,12 @@ export const VENN_DATA = {
     "Tom Odell"
   ],
   "counts": {
-    "S_only": 26,
-    "M_only": 20,
+    "S_only": 28,
+    "M_only": 22,
     "L_only": 29,
-    "SM": 12,
-    "SL": 3,
-    "ML": 9,
-    "ALL": 9
+    "SM": 9,
+    "SL": 2,
+    "ML": 8,
+    "ALL": 11
   }
 };

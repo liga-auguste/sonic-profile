@@ -1,5 +1,28 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 182,
+    "fetched_at": "2026-11-13T13:39:54.563306+00:00",
+    "new_artists": 0,
+    "new_tracks": 2,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20261113_133952.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "0mCGEVIa6aljBrDkriVyVm",
+        "name": "The Heavens' Flock",
+        "artist": "Ēriks Ešenvalds, Robert Simpson, Christ Church Cathedral, Houston",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02d2e1ae9d74de3b080228c311"
+      },
+      {
+        "id": "3Tj1DQb3346o5ywPnw1edp",
+        "name": "O salutaris hostia",
+        "artist": "Ēriks Ešenvalds, Robert Simpson, Christ Church Cathedral, Houston, Marianna Parnas-Simpson",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02d2e1ae9d74de3b080228c311"
+      }
+    ]
+  },
+  {
     "id": 181,
     "fetched_at": "2026-11-12T14:17:20.935647+00:00",
     "new_artists": 2,
