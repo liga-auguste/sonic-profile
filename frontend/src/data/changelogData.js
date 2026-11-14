@@ -1,5 +1,35 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 183,
+    "fetched_at": "2026-11-14T12:44:06.521146+00:00",
+    "new_artists": 1,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20261114_124404.json",
+    "artists": [
+      {
+        "id": "4f44GWlEQdXaWl8gQ9sPBC",
+        "name": "WAYNE SNOW",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb1a9c44ce5b156c6775e6fc68",
+        "genres": [
+          "soul",
+          "funk",
+          "house",
+          "electronic",
+          "neo-soul"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "2947kMDXHiWej96f6qcqSA",
+        "name": "Ein deutsches Requiem, Op. 45: III. Herr, lehre doch mich - Allegro moderato",
+        "artist": "Johannes Brahms, Junger Kammerchor Rhein-Neckar, Jan-Ole Lingsch, Junge Kammerphilharmonie Rhein-Neckar, Thomas Kalb",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02271e6325209747c047839262"
+      }
+    ]
+  },
+  {
     "id": 182,
     "fetched_at": "2026-11-13T13:39:54.563306+00:00",
     "new_artists": 0,

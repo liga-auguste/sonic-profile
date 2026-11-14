@@ -2,19 +2,18 @@
 export const VENN_DATA = {
   "S_only": [
     "Abby Sage",
-    "Barry Can't Swim",
     "Blanco White",
     "Bonobo",
     "Catching Flies",
     "Charlie Cunningham",
-    "Collect 200",
     "Dal",
     "Elder Island",
     "FKJ",
     "Fabiano do Nascimento",
     "Fink",
     "Gianni Brezzo",
-    "Hermanos Gutiérrez",
+    "Gotts Street Park",
+    "Kraak & Smaak",
     "Martin Roth",
     "Milan93",
     "Move 78",
@@ -26,6 +25,7 @@ export const VENN_DATA = {
     "The Irrepressibles",
     "Vega Trails",
     "Vraell",
+    "WAYNE SNOW",
     "Yussef Dayes",
     "coulou's cafe",
     "daoud"
@@ -46,19 +46,15 @@ export const VENN_DATA = {
     "Louis Baker",
     "Marc Rebillet",
     "Matthew Halsall",
-    "Pale Jay",
     "Paris Pick",
     "Procol Harum",
-    "Radiohead",
     "Shob",
-    "Sir Simon Rattle",
-    "Vicky Sometani"
+    "Sir Simon Rattle"
   ],
   "L_only": [
     "AURORA",
     "Amsterdam Baroque Orchestra",
     "Angelo De Augustine",
-    "Antonia Bourvé",
     "Bill Laurance",
     "Billie Eilish",
     "Chris Staples",
@@ -73,7 +69,6 @@ export const VENN_DATA = {
     "London Grammar",
     "London Symphony Orchestra",
     "Monteverdi Choir",
-    "NEIL FRANCES",
     "Octave Lissner",
     "Ola Gjeilo",
     "Orchestra of the Age of Enlightenment",
@@ -88,13 +83,14 @@ export const VENN_DATA = {
   "SM": [
     "Andrew Bird",
     "Caoilfhionn Rose",
-    "Gotts Street Park",
     "Junger Kammerchor Rhein-Neckar",
     "Leon Bridges",
     "Michael Kiwanuka",
     "Okvsho",
     "Olive Jones",
-    "Snazzy"
+    "Pale Jay",
+    "Snazzy",
+    "Vicky Sometani"
   ],
   "SL": [
     "Jasmine Myra",
@@ -102,10 +98,13 @@ export const VENN_DATA = {
   ],
   "ML": [
     "Collegium Vocale Gent",
+    "Dojo Cuts",
     "Martin Luke Brown",
+    "NEIL FRANCES",
     "Nick Mulvey",
     "Olivia Dean",
     "RIO KOSTA",
+    "Radiohead",
     "Tal Arditi",
     "Tom Misch",
     "Víkingur Ólafsson"
@@ -113,7 +112,6 @@ export const VENN_DATA = {
   "ALL": [
     "Coldplay",
     "Common Saints",
-    "Dojo Cuts",
     "Felix Rösch",
     "Hania Rani",
     "Jungle",
@@ -125,11 +123,11 @@ export const VENN_DATA = {
   ],
   "counts": {
     "S_only": 28,
-    "M_only": 22,
-    "L_only": 29,
-    "SM": 9,
+    "M_only": 19,
+    "L_only": 27,
+    "SM": 10,
     "SL": 2,
-    "ML": 8,
-    "ALL": 11
+    "ML": 11,
+    "ALL": 10
   }
 };
