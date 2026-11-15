@@ -1,5 +1,40 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 184,
+    "fetched_at": "2026-11-15T13:11:11.735724+00:00",
+    "new_artists": 0,
+    "new_tracks": 4,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20261115_131109.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "0YgU9E7YB8oe8UOTtemFNp",
+        "name": "Running",
+        "artist": "Felix Rösch",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e023ed385984f09e12241edf8e8"
+      },
+      {
+        "id": "1Fdf3AD6tIKK4XZiq8OkxX",
+        "name": "Dedisti Domine, Op. 85",
+        "artist": "Robert Simpson, Christ Church Cathedral, Houston",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02c9acdc2f28ae34acf6e37baa"
+      },
+      {
+        "id": "3w4pyYzozYrDC0tI1ujlMK",
+        "name": "Ein deutsches Requiem, Op. 45: II. Denn alles Fleisch, es ist wie Gras - Langsam, marschmäßig",
+        "artist": "Johannes Brahms, Junger Kammerchor Rhein-Neckar, Junge Kammerphilharmonie Rhein-Neckar, Thomas Kalb",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02271e6325209747c047839262"
+      },
+      {
+        "id": "4O2vmdmZlmBitzo5adyUrZ",
+        "name": "Fix You",
+        "artist": "Coldplay",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e020aabef737943149c4c092482"
+      }
+    ]
+  },
+  {
     "id": 183,
     "fetched_at": "2026-11-14T12:44:06.521146+00:00",
     "new_artists": 1,

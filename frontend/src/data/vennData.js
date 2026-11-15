@@ -12,7 +12,6 @@ export const VENN_DATA = {
     "Fabiano do Nascimento",
     "Fink",
     "Gianni Brezzo",
-    "Gotts Street Park",
     "Kraak & Smaak",
     "Martin Roth",
     "Milan93",
@@ -41,7 +40,6 @@ export const VENN_DATA = {
     "Gidon Kremer",
     "JONES",
     "Jordan Rakei",
-    "Little Simz",
     "Lou Ella",
     "Louis Baker",
     "Marc Rebillet",
@@ -83,6 +81,7 @@ export const VENN_DATA = {
   "SM": [
     "Andrew Bird",
     "Caoilfhionn Rose",
+    "Gotts Street Park",
     "Junger Kammerchor Rhein-Neckar",
     "Leon Bridges",
     "Michael Kiwanuka",
@@ -122,10 +121,10 @@ export const VENN_DATA = {
     "Tom Odell"
   ],
   "counts": {
-    "S_only": 28,
-    "M_only": 19,
+    "S_only": 27,
+    "M_only": 18,
     "L_only": 27,
-    "SM": 10,
+    "SM": 11,
     "SL": 2,
     "ML": 11,
     "ALL": 10
