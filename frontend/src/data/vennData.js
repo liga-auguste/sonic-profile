@@ -8,13 +8,12 @@ export const VENN_DATA = {
     "Charlie Cunningham",
     "Dal",
     "Elder Island",
-    "FKJ",
-    "Fabiano do Nascimento",
     "Fink",
     "Gianni Brezzo",
+    "Golf Trip",
+    "Jalen Ngonda",
     "Kraak & Smaak",
     "Martin Roth",
-    "Milan93",
     "Move 78",
     "NoMBe",
     "Olympia Vitalis",
@@ -25,7 +24,6 @@ export const VENN_DATA = {
     "Vega Trails",
     "Vraell",
     "WAYNE SNOW",
-    "Yussef Dayes",
     "coulou's cafe",
     "daoud"
   ],
@@ -39,7 +37,6 @@ export const VENN_DATA = {
     "GeeJay",
     "Gidon Kremer",
     "JONES",
-    "Jordan Rakei",
     "Lou Ella",
     "Louis Baker",
     "Marc Rebillet",
@@ -82,6 +79,7 @@ export const VENN_DATA = {
     "Andrew Bird",
     "Caoilfhionn Rose",
     "Gotts Street Park",
+    "Jordan Rakei",
     "Junger Kammerchor Rhein-Neckar",
     "Leon Bridges",
     "Michael Kiwanuka",
@@ -105,7 +103,6 @@ export const VENN_DATA = {
     "RIO KOSTA",
     "Radiohead",
     "Tal Arditi",
-    "Tom Misch",
     "Víkingur Ólafsson"
   ],
   "ALL": [
@@ -118,15 +115,16 @@ export const VENN_DATA = {
     "Loma",
     "Rhye",
     "Robert Simpson",
+    "Tom Misch",
     "Tom Odell"
   ],
   "counts": {
-    "S_only": 27,
-    "M_only": 18,
+    "S_only": 25,
+    "M_only": 17,
     "L_only": 27,
-    "SM": 11,
+    "SM": 12,
     "SL": 2,
-    "ML": 11,
-    "ALL": 10
+    "ML": 10,
+    "ALL": 11
   }
 };
