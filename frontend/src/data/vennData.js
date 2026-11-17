@@ -2,30 +2,28 @@
 export const VENN_DATA = {
   "S_only": [
     "Abby Sage",
+    "Barry Can't Swim",
     "Blanco White",
     "Bonobo",
     "Catching Flies",
     "Charlie Cunningham",
+    "Collect 200",
     "Dal",
     "Elder Island",
     "Fink",
-    "Gianni Brezzo",
     "Golf Trip",
     "Jalen Ngonda",
     "Kraak & Smaak",
     "Martin Roth",
     "Move 78",
-    "NoMBe",
     "Olympia Vitalis",
+    "Serebii",
     "Session Victim",
-    "Skinshape",
     "Svaneborg Kardyb",
     "The Irrepressibles",
     "Vega Trails",
     "Vraell",
-    "WAYNE SNOW",
-    "coulou's cafe",
-    "daoud"
+    "coulou's cafe"
   ],
   "M_only": [
     "Arleen Auger",
@@ -96,8 +94,6 @@ export const VENN_DATA = {
   "ML": [
     "Collegium Vocale Gent",
     "Dojo Cuts",
-    "Martin Luke Brown",
-    "NEIL FRANCES",
     "Nick Mulvey",
     "Olivia Dean",
     "RIO KOSTA",
@@ -113,18 +109,20 @@ export const VENN_DATA = {
     "Jungle",
     "LEISURE",
     "Loma",
+    "Martin Luke Brown",
+    "NEIL FRANCES",
     "Rhye",
     "Robert Simpson",
     "Tom Misch",
     "Tom Odell"
   ],
   "counts": {
-    "S_only": 25,
+    "S_only": 23,
     "M_only": 17,
     "L_only": 27,
     "SM": 12,
     "SL": 2,
-    "ML": 10,
-    "ALL": 11
+    "ML": 8,
+    "ALL": 13
   }
 };
