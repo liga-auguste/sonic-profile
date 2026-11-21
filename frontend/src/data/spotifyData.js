@@ -3016,18 +3016,18 @@ export const SPOTIFY_DATA = {
       },
       {
         "rank": 50,
-        "id": "14YzutUdMwS9yTnI0IFBaD",
-        "name": "Hania Rani",
-        "image": "https://i.scdn.co/image/ab6761610000e5eb401c85eb539cb31c5af4d537",
+        "id": "7zrkALJ9ayRjzysp4QYoEg",
+        "name": "Maribou State",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb68398569d96f20bb6ba6ac0d",
         "genres": [
-          "piano",
+          "electronic",
           "ambient",
-          "modern classical",
-          "contemporary classical",
-          "polish"
+          "future garage",
+          "dubstep",
+          "downtempo"
         ],
         "followers": 0,
-        "url": "https://open.spotify.com/artist/14YzutUdMwS9yTnI0IFBaD"
+        "url": "https://open.spotify.com/artist/7zrkALJ9ayRjzysp4QYoEg"
       }
     ],
     "half": [
@@ -4460,7 +4460,7 @@ export const SPOTIFY_DATA = {
   "genres": [
     {
       "name": "indie / folk",
-      "share": 34.6,
+      "share": 34.9,
       "hue": 140,
       "chroma": 0.15,
       "artists": [
@@ -4472,7 +4472,7 @@ export const SPOTIFY_DATA = {
     },
     {
       "name": "soul / R&B",
-      "share": 26.0,
+      "share": 26.2,
       "hue": 18,
       "chroma": 0.16,
       "artists": [
@@ -4484,19 +4484,19 @@ export const SPOTIFY_DATA = {
     },
     {
       "name": "classical / baroque",
-      "share": 22.6,
+      "share": 21.9,
       "hue": 280,
       "chroma": 0.03,
       "artists": [
         "Robert Simpson",
         "Felix Rösch",
-        "Hania Rani",
-        "Max Richter"
+        "Max Richter",
+        "Víkingur Ólafsson"
       ]
     },
     {
       "name": "jazz",
-      "share": 8.7,
+      "share": 8.8,
       "hue": 210,
       "chroma": 0.15,
       "artists": [
@@ -4508,7 +4508,7 @@ export const SPOTIFY_DATA = {
     },
     {
       "name": "electronic",
-      "share": 6.8,
+      "share": 6.9,
       "hue": 265,
       "chroma": 0.15,
       "artists": [
@@ -4611,14 +4611,6 @@ export const SPOTIFY_DATA = {
       "hue": 185
     },
     {
-      "name": "Hania Rani",
-      "x": 0.95,
-      "y": 0.334,
-      "size": 9,
-      "era": "long-time favorite",
-      "hue": 185
-    },
-    {
       "name": "LEISURE",
       "x": 0.95,
       "y": 0.296,
@@ -4654,6 +4646,14 @@ export const SPOTIFY_DATA = {
       "name": "Collegium Vocale Gent",
       "x": 0.639,
       "y": 0.392,
+      "size": 6,
+      "era": "long-time favorite",
+      "hue": 185
+    },
+    {
+      "name": "Hania Rani",
+      "x": 0.714,
+      "y": 0.334,
       "size": 6,
       "era": "long-time favorite",
       "hue": 185
@@ -4715,19 +4715,9 @@ export const SPOTIFY_DATA = {
       "hue": 185
     }
   ],
-  "currently_playing": {
-    "is_playing": true,
-    "progress_ms": 198588,
-    "duration_ms": 231266,
-    "name": "Black Rain",
-    "artist": "Rhye",
-    "album": "Home",
-    "album_image": "https://i.scdn.co/image/ab67616d00001e020f400695d64aa8a244f89728",
-    "url": "https://open.spotify.com/track/5WiBOUfizLpHt0NY2V7XCn",
-    "context_type": "playlist"
-  },
+  "currently_playing": null,
   "stats": {
-    "uniqueArtists": 103,
+    "uniqueArtists": 104,
     "uniqueTracks": 103,
     "avgTrackLength": "3:58",
     "longestTrack": "12:46",
@@ -4738,7 +4728,7 @@ export const SPOTIFY_DATA = {
     "releaseYearOldest": 1962,
     "releaseYearNewest": 2026,
     "releaseYearPeak": 2026,
-    "fetched_at": "2026-11-21T10:25:42.058174+00:00",
+    "fetched_at": "2026-11-21T13:55:11.315909+00:00",
     "hoursChart": [
       251,
       150,
@@ -4751,8 +4741,8 @@ export const SPOTIFY_DATA = {
       312,
       283,
       231,
-      380,
-      403,
+      388,
+      407,
       424,
       395,
       408,

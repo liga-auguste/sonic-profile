@@ -13,6 +13,7 @@ export const VENN_DATA = {
     "Golf Trip",
     "Jalen Ngonda",
     "Kraak & Smaak",
+    "Maribou State",
     "Martin Kohlstedt",
     "Martin Roth",
     "Momoko Gill",
@@ -95,6 +96,7 @@ export const VENN_DATA = {
   "ML": [
     "Collegium Vocale Gent",
     "Dojo Cuts",
+    "Hania Rani",
     "Nick Mulvey",
     "Olivia Dean",
     "RIO KOSTA",
@@ -106,7 +108,6 @@ export const VENN_DATA = {
     "Coldplay",
     "Common Saints",
     "Felix Rösch",
-    "Hania Rani",
     "Jungle",
     "LEISURE",
     "Loma",
@@ -118,12 +119,12 @@ export const VENN_DATA = {
     "Tom Odell"
   ],
   "counts": {
-    "S_only": 24,
+    "S_only": 25,
     "M_only": 18,
     "L_only": 27,
     "SM": 11,
     "SL": 2,
-    "ML": 8,
-    "ALL": 13
+    "ML": 9,
+    "ALL": 12
   }
 };
