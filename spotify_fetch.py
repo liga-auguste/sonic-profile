@@ -109,8 +109,23 @@ def refresh_access_token(refresh_token):
             "Content-Type":  "application/x-www-form-urlencoded",
         },
     )
-    with urllib.request.urlopen(req) as resp:
-        return json.loads(resp.read())["access_token"]
+    try:
+        with urllib.request.urlopen(req) as resp:
+            return json.loads(resp.read())["access_token"]
+    except urllib.error.HTTPError as e:
+        # Spotify explains the failure in the response body, e.g.
+        # {"error": "invalid_grant", "error_description": "Refresh token revoked"}
+        body = e.read().decode(errors="replace")
+        hint = ""
+        if "invalid_grant" in body:
+            hint = (
+                "\nThe refresh token is no longer valid. Run this script locally "
+                "with SPOTIFY_REFRESH_TOKEN unset to get a new one, then update "
+                "the GitHub secret and .env."
+            )
+        elif "invalid_client" in body:
+            hint = "\nCheck SPOTIFY_CLIENT_ID and SPOTIFY_CLIENT_SECRET."
+        sys.exit(f"❌ Token refresh failed: HTTP {e.code} {body}{hint}")
 
 
 # ── Spotify API helper ────────────────────────────────────────
