@@ -1,5 +1,52 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 187,
+    "fetched_at": "2026-11-21T10:25:44.362661+00:00",
+    "new_artists": 2,
+    "new_tracks": 2,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20261121_102542.json",
+    "artists": [
+      {
+        "id": "5odNYb0R6MGVmindrMrYyk",
+        "name": "Martin Kohlstedt",
+        "image": "https://i.scdn.co/image/ab6761610000e5eba3abb882d443093735904e69",
+        "genres": [
+          "piano",
+          "ambient",
+          "contemporary classical",
+          "german"
+        ]
+      },
+      {
+        "id": "1j3dtntfKtyjvsyr7TpzoF",
+        "name": "Momoko Gill",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb922fc2287a144da0a8ae3e32",
+        "genres": [
+          "jazz",
+          "japanese",
+          "american",
+          "experimental",
+          "british"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "7AmK6eLFBv2xyFuC9JL2i8",
+        "name": "Diptych, Op. 107",
+        "artist": "Robert Simpson, Christ Church Cathedral, Houston",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02c9acdc2f28ae34acf6e37baa"
+      },
+      {
+        "id": "2AS0D8bjZ1zWFX8X0XX7RM",
+        "name": "Low Tide",
+        "artist": "Yanna, Mewhy",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02224e85d4b3129726b2abc581"
+      }
+    ]
+  },
+  {
     "id": 186,
     "fetched_at": "2026-11-17T15:12:34.781107+00:00",
     "new_artists": 0,
