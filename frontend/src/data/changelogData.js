@@ -1,5 +1,28 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 189,
+    "fetched_at": "2026-11-22T13:48:19.831741+00:00",
+    "new_artists": 0,
+    "new_tracks": 2,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20261122_134817.json",
+    "artists": [],
+    "tracks": [
+      {
+        "id": "41ZnjS2sDhqf9qg4noqz0M",
+        "name": "Salutation",
+        "artist": "Ēriks Ešenvalds, Robert Simpson, Christ Church Cathedral, Houston",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02d2e1ae9d74de3b080228c311"
+      },
+      {
+        "id": "5QpC9Lm9XxHVjON4bHU8av",
+        "name": "Ein deutsches Requiem, Op. 45: I. Selig sind, die da Leid tragen - Ziemlich langsam und mit Ausdruck",
+        "artist": "Johannes Brahms, Junger Kammerchor Rhein-Neckar, Junge Kammerphilharmonie Rhein-Neckar, Thomas Kalb",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e02271e6325209747c047839262"
+      }
+    ]
+  },
+  {
     "id": 188,
     "fetched_at": "2026-11-21T13:55:12.732551+00:00",
     "new_artists": 0,
