@@ -1,5 +1,63 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 190,
+    "fetched_at": "2026-11-23T16:53:16.414156+00:00",
+    "new_artists": 4,
+    "new_tracks": 0,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20261123_165313.json",
+    "artists": [
+      {
+        "id": "2lolQgalUvZDfp5vvVtTYV",
+        "name": "Tony Bennett",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebcd9641c8b449440a77ee19cc",
+        "genres": [
+          "jazz",
+          "swing",
+          "oldies",
+          "male vocalists",
+          "easy listening"
+        ]
+      },
+      {
+        "id": "6FXMGgJwohJLUSr5nVlf9X",
+        "name": "Massive Attack",
+        "image": "https://i.scdn.co/image/c8bbeedb05f38ae5cb982a7daf4bf7129cca892c",
+        "genres": [
+          "trip-hop",
+          "electronic",
+          "chillout",
+          "downtempo",
+          "electronica"
+        ]
+      },
+      {
+        "id": "1PTEiCpkzNkLNgMi1LL8JR",
+        "name": "Laurence Guy",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb2a91b569b31c09e8588fe96e",
+        "genres": [
+          "deep house",
+          "house",
+          "electronic",
+          "outsider house"
+        ]
+      },
+      {
+        "id": "3BcSXip92N0HwJRA9sVmP6",
+        "name": "Marlon Funaki",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb712c7cd98ae745930f1e86a6",
+        "genres": [
+          "neo-psychedelia",
+          "psychedelic rock",
+          "psychedelic",
+          "indie",
+          "singer-songwriter"
+        ]
+      }
+    ],
+    "tracks": []
+  },
+  {
     "id": 189,
     "fetched_at": "2026-11-22T13:48:19.831741+00:00",
     "new_artists": 0,
