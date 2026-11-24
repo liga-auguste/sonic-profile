@@ -1,5 +1,28 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 191,
+    "fetched_at": "2026-11-24T16:43:49.945855+00:00",
+    "new_artists": 1,
+    "new_tracks": 0,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20261124_164348.json",
+    "artists": [
+      {
+        "id": "4VQqGf7U3RUspgTsprypWE",
+        "name": "Kowloon",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb8fe2a2cbf4caa54df02cbf02",
+        "genres": [
+          "japanese",
+          "nu jazz",
+          "math rock",
+          "instrumental",
+          "electronic"
+        ]
+      }
+    ],
+    "tracks": []
+  },
+  {
     "id": 190,
     "fetched_at": "2026-11-23T16:53:16.414156+00:00",
     "new_artists": 4,
