@@ -7,19 +7,17 @@ export const VENN_DATA = {
     "Catching Flies",
     "Charlie Cunningham",
     "Dal",
+    "Daniel Stark",
     "Fink",
     "Golf Trip",
-    "Jalen Ngonda",
     "Kowloon",
     "Kraak & Smaak",
     "Marlon Funaki",
     "Martin Roth",
-    "Matt Storm",
     "Momoko Gill",
     "Moon Soul",
     "Move 78",
     "Mynolia",
-    "NoMBe",
     "Olympia Vitalis",
     "SAULT",
     "Serebii",
@@ -30,7 +28,6 @@ export const VENN_DATA = {
   "M_only": [
     "Andrew Bird",
     "Arleen Auger",
-    "Ava Joe",
     "Buena Vista Social Club",
     "Caoilfhionn Rose",
     "Chip Wickham",
@@ -42,19 +39,18 @@ export const VENN_DATA = {
     "Leon Bridges",
     "Lou Ella",
     "Marc Rebillet",
-    "Matthew Halsall",
     "Paris Pick",
     "Procol Harum",
     "Shob",
     "Sir Simon Rattle"
   ],
   "L_only": [
+    "AMANZI",
     "AURORA",
     "Amsterdam Baroque Orchestra",
     "Angelo De Augustine",
     "Bill Laurance",
     "Billie Eilish",
-    "Choir of King's College, Cambridge",
     "Chris Staples",
     "Deichkind",
     "Dekker",
@@ -75,11 +71,11 @@ export const VENN_DATA = {
     "Ottorino Respighi",
     "Rikas",
     "Sufjan Stevens",
-    "The Smile",
-    "Ton Koopman"
+    "The Smile"
   ],
   "SM": [
     "Gotts Street Park",
+    "Jalen Ngonda",
     "Junger Kammerchor Rhein-Neckar",
     "Martin Kohlstedt",
     "Massive Attack",
@@ -96,11 +92,11 @@ export const VENN_DATA = {
     "Parcels"
   ],
   "ML": [
+    "Ava Joe",
     "Collegium Vocale Gent",
     "Dojo Cuts",
     "Martin Luke Brown",
     "Nick Mulvey",
-    "RIO KOSTA",
     "Radiohead",
     "Tal Arditi",
     "Víkingur Ólafsson"
@@ -114,18 +110,19 @@ export const VENN_DATA = {
     "LEISURE",
     "Loma",
     "NEIL FRANCES",
+    "RIO KOSTA",
     "Rhye",
     "Robert Simpson",
     "Tom Misch",
     "Tom Odell"
   ],
   "counts": {
-    "S_only": 25,
-    "M_only": 19,
-    "L_only": 28,
-    "SM": 11,
+    "S_only": 23,
+    "M_only": 17,
+    "L_only": 27,
+    "SM": 12,
     "SL": 2,
     "ML": 8,
-    "ALL": 12
+    "ALL": 13
   }
 };
