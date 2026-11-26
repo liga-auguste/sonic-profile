@@ -4,23 +4,22 @@ export const VENN_DATA = {
     "Arc De Soleil",
     "Blanco White",
     "Bonobo",
-    "Catching Flies",
-    "Charlie Cunningham",
-    "Dal",
+    "DOPE LEMON",
     "Daniel Stark",
     "Fink",
     "Golf Trip",
     "Kowloon",
     "Kraak & Smaak",
+    "Laura Misch",
+    "Maribou State",
     "Marlon Funaki",
     "Martin Roth",
+    "Matt Storm",
     "Momoko Gill",
-    "Moon Soul",
-    "Move 78",
     "Mynolia",
+    "NoMBe",
     "Olympia Vitalis",
     "SAULT",
-    "Serebii",
     "Session Victim",
     "Vega Trails",
     "Vraell"
@@ -94,7 +93,6 @@ export const VENN_DATA = {
   "ML": [
     "Ava Joe",
     "Collegium Vocale Gent",
-    "Dojo Cuts",
     "Martin Luke Brown",
     "Nick Mulvey",
     "Radiohead",
@@ -104,6 +102,7 @@ export const VENN_DATA = {
   "ALL": [
     "Coldplay",
     "Common Saints",
+    "Dojo Cuts",
     "Felix Rösch",
     "Hania Rani",
     "Jungle",
@@ -117,12 +116,12 @@ export const VENN_DATA = {
     "Tom Odell"
   ],
   "counts": {
-    "S_only": 23,
+    "S_only": 22,
     "M_only": 17,
     "L_only": 27,
     "SM": 12,
     "SL": 2,
-    "ML": 8,
-    "ALL": 13
+    "ML": 7,
+    "ALL": 14
   }
 };

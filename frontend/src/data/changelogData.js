@@ -1,5 +1,46 @@
 export const CHANGELOG_DATA = [
   {
+    "id": 193,
+    "fetched_at": "2026-11-26T16:02:10.093146+00:00",
+    "new_artists": 2,
+    "new_tracks": 1,
+    "new_plays": 0,
+    "snapshot_file": "spotify_data_20261126_160206.json",
+    "artists": [
+      {
+        "id": "0NrVrf231eji48nhNUJTXe",
+        "name": "Laura Misch",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebae20f5900cb03804b1a0566f",
+        "genres": [
+          "soul",
+          "jazz",
+          "electronic",
+          "experimental",
+          "saxophone"
+        ]
+      },
+      {
+        "id": "7oZLKL1GjYiaAgssXsLmW8",
+        "name": "DOPE LEMON",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb08d96270687870e07c667bdd",
+        "genres": [
+          "australian",
+          "indie",
+          "folk",
+          "alternative"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "5Tt0oFkdpdDWLXt5n0HP8g",
+        "name": "Do It",
+        "artist": "Zola Blood",
+        "album_image": "https://i.scdn.co/image/ab67616d00001e027d377e1d4faaadd613645719"
+      }
+    ]
+  },
+  {
     "id": 192,
     "fetched_at": "2026-11-25T16:29:33.852741+00:00",
     "new_artists": 0,
