@@ -6,6 +6,7 @@ export const VENN_DATA = {
     "Bonobo",
     "DOPE LEMON",
     "Daniel Stark",
+    "Elder Island",
     "Fink",
     "Golf Trip",
     "Kowloon",
@@ -93,6 +94,7 @@ export const VENN_DATA = {
   "ML": [
     "Ava Joe",
     "Collegium Vocale Gent",
+    "Dojo Cuts",
     "Martin Luke Brown",
     "Nick Mulvey",
     "Radiohead",
@@ -102,7 +104,6 @@ export const VENN_DATA = {
   "ALL": [
     "Coldplay",
     "Common Saints",
-    "Dojo Cuts",
     "Felix Rösch",
     "Hania Rani",
     "Jungle",
@@ -116,12 +117,12 @@ export const VENN_DATA = {
     "Tom Odell"
   ],
   "counts": {
-    "S_only": 22,
+    "S_only": 23,
     "M_only": 17,
     "L_only": 27,
     "SM": 12,
     "SL": 2,
-    "ML": 7,
-    "ALL": 14
+    "ML": 8,
+    "ALL": 13
   }
 };
